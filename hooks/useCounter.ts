@@ -60,7 +60,7 @@ export function useCounter({
       if (rafRef.current) cancelAnimationFrame(rafRef.current)
       startTimeRef.current = null
     }
-  }, [start, end, duration, delay, easing, prefersReducedMotion])
+  }, [start, end, duration, delay, prefersReducedMotion])
 
   return count
 }
