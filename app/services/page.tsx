@@ -20,7 +20,7 @@ const serviceDetails = [
   {
     title: 'Wedding Events',
     tagline: 'Your Dream Wedding, Flawlessly Executed',
-    description: 'From the first consultation to the final farewell, SS Event manages every aspect of your wedding journey. Our wedding specialists combine deep cultural knowledge with modern design sensibilities to create celebrations that honor your traditions while reflecting your unique story.',
+    description: 'From the first consultation to the final farewell, Anchor Shubham Khandelwal  manages every aspect of your wedding journey. Our wedding specialists combine deep cultural knowledge with modern design sensibilities to create celebrations that honor your traditions while reflecting your unique story.',
     image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop&q=80',
     href: '/services/wedding-events',
     features: ['Wedding Planning', 'Destination Weddings', 'Haldi & Mehendi', 'Sangeet Night', 'Grand Reception', 'Guest Management', 'Wedding Décor', 'Floral Design'],
@@ -44,7 +44,7 @@ const serviceDetails = [
   {
     title: 'Entertainment Services',
     tagline: 'Performances That Steal the Show',
-    description: 'Entertainment is the soul of any event. SS Event\'s entertainment division manages the full spectrum — from sourcing and booking top-tier performers to on-site coordination. Our industry relationships mean we can book artists others simply can\'t access.',
+    description: 'Entertainment is the soul of any event. Anchor Shubham Khandelwal \'s entertainment division manages the full spectrum — from sourcing and booking top-tier performers to on-site coordination. Our industry relationships mean we can book artists others simply can\'t access.',
     image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop&q=80',
     href: '/services/entertainment-services',
     features: ['Professional Anchors', 'DJ Services', 'Live Bands', 'Celebrity Management', 'Artist Booking', 'Dance Performances'],
@@ -52,7 +52,7 @@ const serviceDetails = [
   {
     title: 'Production Setup',
     tagline: 'World-Class Production, Executed to Perfection',
-    description: 'Behind every spectacular event is a world-class production team. SS Event\'s in-house production division handles everything from stage design and LED walls to professional photography and cinematic videography — ensuring your event looks as magnificent as it feels.',
+    description: 'Behind every spectacular event is a world-class production team. Anchor Shubham Khandelwal \'s in-house production division handles everything from stage design and LED walls to professional photography and cinematic videography — ensuring your event looks as magnificent as it feels.',
     image: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800&h=600&fit=crop&q=80',
     href: '/services/production-setup',
     features: ['Stage Design', 'LED Walls', 'Sound Systems', 'Lighting Setup', 'Photography', 'Videography', 'Drone Coverage'],

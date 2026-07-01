@@ -37,7 +37,7 @@ export function AboutSnapshot() {
             <div className="absolute inset-0 rounded-2xl overflow-hidden">
               <Image
                 src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=700&h=800&fit=crop&q=80"
-                alt="SS Event luxury wedding setup"
+                alt="Anchor Shubham Khandelwal  luxury wedding setup"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -106,7 +106,7 @@ export function AboutSnapshot() {
               variants={fadeInUp}
               className="text-white/65 font-sans leading-relaxed text-base md:text-lg mb-4"
             >
-              Founded in 2014, SS Event has grown from a small Jaipur-based team into one of India&apos;s
+              Founded in 2014, Anchor Shubham Khandelwal  has grown from a small Jaipur-based team into one of India&apos;s
               most sought-after full-service event management companies — trusted by families,
               Fortune 500 corporations, and celebrities alike.
             </motion.p>

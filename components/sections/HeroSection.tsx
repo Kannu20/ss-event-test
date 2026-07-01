@@ -70,7 +70,7 @@ export function HeroSection() {
       <motion.div className="absolute inset-0" style={{ y: imgY }}>
         <Image
           src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&h=1080&fit=crop&q=80"
-          alt="Luxury wedding event by SS Event"
+          alt="Luxury wedding event by Anchor Shubham Khandelwal "
           fill
           priority
           className="object-cover object-center scale-110"
@@ -107,7 +107,7 @@ export function HeroSection() {
         {/* Eyebrow */}
         <motion.div variants={item} className="flex items-center justify-center gap-3 mb-6">
           <GoldLine className="w-12 hidden sm:block" />
-          <span className="eyebrow">SS Event — India&apos;s Premier Event Management</span>
+          <span className="eyebrow">Anchor Shubham Khandelwal  — India&apos;s Premier Event Management</span>
           <GoldLine className="w-12 hidden sm:block" />
         </motion.div>
 

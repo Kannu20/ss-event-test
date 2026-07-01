@@ -23,7 +23,7 @@ export default function CorporateEventsPage() {
         titleHighlight: 'Meets Brilliance',
         description: [
           'Corporate events are high-stakes affairs that reflect directly on your brand. A flawless conference, a memorable product launch, or an inspiring annual gala — these are not just events, they\'re statements about who you are as an organization.',
-          'SS Event\'s corporate division combines the precision of a project management firm with the creativity of an event design house. We\'ve managed events for Fortune 500 companies, government organizations, and India\'s fastest-growing startups — always delivering on time, on budget, and beyond expectation.',
+          'Anchor Shubham Khandelwal \'s corporate division combines the precision of a project management firm with the creativity of an event design house. We\'ve managed events for Fortune 500 companies, government organizations, and India\'s fastest-growing startups — always delivering on time, on budget, and beyond expectation.',
         ],
       }}
       subServices={[

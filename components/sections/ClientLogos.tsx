@@ -38,7 +38,7 @@ export function ClientLogos() {
             <SectionLabel>Trusted By</SectionLabel>
           </motion.div>
           <motion.p variants={fadeInUp} className="text-white/40 font-sans text-sm mt-2">
-            Some of India&apos;s most respected names trust SS Event for their most important celebrations
+            Some of India&apos;s most respected names trust Anchor Shubham Khandelwal  for their most important celebrations
           </motion.p>
         </motion.div>
 

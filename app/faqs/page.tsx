@@ -18,7 +18,7 @@ export default function FAQsPage() {
 
       <PageHero
         title="Frequently Asked Questions"
-        subtitle="Everything you need to know about planning your event with SS Event. Can't find your answer? Contact us directly."
+        subtitle="Everything you need to know about planning your event with Anchor Shubham Khandelwal . Can't find your answer? Contact us directly."
         tag="FAQs"
         image="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1920&h=800&fit=crop&q=80"
         breadcrumbs={[{ label: 'FAQs' }]}

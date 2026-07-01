@@ -17,18 +17,18 @@ import type { NavItem, NavDropdownGroup } from '@/types'
    ───────────────────────────────────────────── */
 function Logo({ className }: { className?: string }) {
   return (
-    <Link href="/" className={cn('flex items-center gap-2 group', className)} aria-label="SS Event Home">
+    <Link href="/" className={cn('flex items-center gap-2 group', className)} aria-label="Anchor Shubham Khandelwal  Home">
       <div className="relative">
         <span className="font-display text-2xl font-bold text-white leading-none tracking-tight group-hover:text-gold transition-colors duration-300">
-          SS
+          Anchor
         </span>
       </div>
       <div className="flex flex-col leading-none">
         <span className="font-display text-xl font-semibold text-gold-gradient leading-none">
-          Event
+          Shubham
         </span>
         <span className="font-accent text-[0.5rem] tracking-[0.25em] text-gray-400 uppercase mt-0.5">
-          Premium Events
+          Khandelwal
         </span>
       </div>
     </Link>

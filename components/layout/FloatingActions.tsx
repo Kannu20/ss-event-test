@@ -32,7 +32,7 @@ export function FloatingActions() {
         </a>
         <div className="w-px bg-black-light" />
         <a
-          href={`https://wa.me/${whatsappNumber}?text=Hi! I'm interested in SS Event services.`}
+          href={`https://wa.me/${whatsappNumber}?text=Hi! I'm interested in Anchor Shubham Khandelwal  services.`}
           target="_blank"
           rel="noopener noreferrer"
           className="flex flex-1 items-center justify-center gap-2 bg-[#25D366]/10 font-sans text-sm font-medium text-[#25D366] hover:bg-[#25D366]/20 transition-all duration-200"
@@ -80,7 +80,7 @@ export function FloatingActions() {
             <span className="absolute inset-1 rounded-full bg-[#25D366]/20 animate-pulse" />
 
             <motion.a
-              href={`https://wa.me/${whatsappNumber}?text=Hi! I'm interested in SS Event services.`}
+              href={`https://wa.me/${whatsappNumber}?text=Hi! I'm interested in Anchor Shubham Khandelwal  services.`}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp us"

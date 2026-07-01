@@ -22,7 +22,7 @@ export default function WeddingEventsPage() {
         title: 'Your Dream Wedding,',
         titleHighlight: 'Flawlessly Executed',
         description: [
-          'Your wedding is the most important celebration of your life. At SS Event, we understand the weight of that responsibility — and we\'ve spent a decade perfecting the art of creating weddings that exceed every expectation.',
+          'Your wedding is the most important celebration of your life. At Anchor Shubham Khandelwal , we understand the weight of that responsibility — and we\'ve spent a decade perfecting the art of creating weddings that exceed every expectation.',
           'From the first planning meeting to the final farewell, our dedicated wedding team handles every detail with care, creativity, and complete professionalism. You get to be completely present in your own love story while we manage everything else.',
         ],
       }}

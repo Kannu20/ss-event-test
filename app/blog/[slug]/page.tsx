@@ -20,9 +20,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const post = blogPosts.find((p) => p.slug === slug)
-  if (!post) return { title: 'Post Not Found | SS Event Blog' }
+  if (!post) return { title: 'Post Not Found | Anchor Shubham Khandelwal  Blog' }
   return {
-    title: `${post.title} | SS Event Blog`,
+    title: `${post.title} | Anchor Shubham Khandelwal  Blog`,
     description: post.excerpt,
     openGraph: {
       title: post.title,
@@ -149,7 +149,7 @@ export default async function BlogPostPage({ params }: Props) {
 
               {/* Share / CTA */}
               <div className="mt-12 p-6 bg-black-mid/50 border border-gold/20 rounded-2xl text-center">
-                <p className="font-sans text-white/70 mb-4">Ready to plan your event with SS Event?</p>
+                <p className="font-sans text-white/70 mb-4">Ready to plan your event with Anchor Shubham Khandelwal ?</p>
                 <Link
                   href="/book-consultation"
                   className="inline-flex items-center gap-2 bg-gold text-black font-sans font-semibold px-6 py-3 rounded-full hover:bg-gold-light transition-colors"

@@ -67,13 +67,13 @@ export function WhyChooseUs() {
           animate={isInView ? 'visible' : 'hidden'}
         >
           <motion.div variants={fadeInUp} className="flex justify-center">
-            <SectionLabel className="text-gold mr-1 text-sm">Why SS Event</SectionLabel>
+            <SectionLabel className="text-gold mr-1 text-sm">Why Anchor Shubham Khandelwal </SectionLabel>
           </motion.div>
           <motion.h2
             variants={fadeInUp}
             className="font-display font-bold text-4xl md:text-5xl leading-tight mt-4 mb-4"
           >
-            The SS Event{' '}
+            The Anchor Shubham Khandelwal {' '}
             <GradientText>Difference</GradientText>
           </motion.h2>
           <motion.div variants={fadeInUp}>

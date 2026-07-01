@@ -146,7 +146,7 @@ export default function ContactPage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="SS Event office location in Jaipur"
+              title="Anchor Shubham Khandelwal  office location in Jaipur"
             />
           </div>
         </div>

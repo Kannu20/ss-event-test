@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import { PageHero } from '@/components/common/PageHero'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | SS Event',
-  description: 'Terms and conditions for using SS Event services and website.',
+  title: 'Terms of Service | Anchor Shubham Khandelwal ',
+  description: 'Terms and conditions for using Anchor Shubham Khandelwal  services and website.',
 }
 
 export default function TermsPage() {
@@ -28,20 +28,20 @@ export default function TermsPage() {
 
             <h2>1. Agreement to Terms</h2>
             <p>
-              By accessing or using SS Event&apos;s website and services, you agree to be bound by these Terms of Service.
+              By accessing or using Anchor Shubham Khandelwal &apos;s website and services, you agree to be bound by these Terms of Service.
               If you disagree with any part of these terms, you may not access our services.
             </p>
 
             <h2>2. Services</h2>
             <p>
-              SS Event provides professional event management services including wedding planning, corporate events,
+              Anchor Shubham Khandelwal  provides professional event management services including wedding planning, corporate events,
               social events, entertainment services, and production setup. The specific services, pricing, and scope
               for each engagement will be outlined in a separate service agreement.
             </p>
 
             <h2>3. Bookings and Payments</h2>
             <p>
-              All bookings are subject to availability and confirmation by SS Event. A booking is confirmed only upon
+              All bookings are subject to availability and confirmation by Anchor Shubham Khandelwal . A booking is confirmed only upon
               receipt of the agreed deposit. Payment terms, refund policies, and cancellation terms will be detailed
               in your individual service agreement.
             </p>
@@ -59,21 +59,21 @@ export default function TermsPage() {
 
             <h2>5. Limitation of Liability</h2>
             <p>
-              SS Event shall not be liable for any indirect, incidental, or consequential damages arising from the use
-              of our services. In the event of circumstances beyond our control (force majeure), SS Event will work with
+              Anchor Shubham Khandelwal  shall not be liable for any indirect, incidental, or consequential damages arising from the use
+              of our services. In the event of circumstances beyond our control (force majeure), Anchor Shubham Khandelwal  will work with
               clients to reschedule or find alternative solutions.
             </p>
 
             <h2>6. Intellectual Property</h2>
             <p>
-              All content on this website — including images, text, logos, and designs — is the property of SS Event
+              All content on this website — including images, text, logos, and designs — is the property of Anchor Shubham Khandelwal 
               and protected by applicable intellectual property laws. You may not reproduce or distribute any content
               without prior written permission.
             </p>
 
             <h2>7. Changes to Terms</h2>
             <p>
-              SS Event reserves the right to modify these terms at any time. Continued use of our services after
+              Anchor Shubham Khandelwal  reserves the right to modify these terms at any time. Continued use of our services after
               changes constitutes acceptance of the revised terms.
             </p>
 

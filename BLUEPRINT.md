@@ -1,4 +1,4 @@
-# SS Event — Complete Project Blueprint
+# Anchor Shubham Khandelwal  — Complete Project Blueprint
 > Premium Event Management Company Website
 > Status: Pre-Development Architecture Document
 
@@ -14,8 +14,8 @@
 - Client logo social proof strip
 - Gallery grid with lightbox
 
-### Critical Gaps (Where SS Event Wins)
-| Gap | SS Event Solution |
+### Critical Gaps (Where Anchor Shubham Khandelwal  Wins)
+| Gap | Anchor Shubham Khandelwal  Solution |
 |-----|------------------|
 | WordPress/Elementor (slow, generic) | Next.js 15 App Router (fast, custom) |
 | No luxury design language | Black & Gold premium design system |
@@ -403,7 +403,7 @@ ss-event/
 
 ```
 /                           Home
-├── /about                  About SS Event
+├── /about                  About Anchor Shubham Khandelwal 
 ├── /services               Services Overview (hub page)
 │   ├── /wedding-events     Wedding Services (detail page)
 │   ├── /corporate-events   Corporate Services
@@ -830,7 +830,7 @@ ServiceTemplate  = InnerPageTemplate + service-specific sections
 Page                    Target Keyword (Primary)
 ────────────────────────────────────────────────
 /                       "Event management company [City]"
-/about                  "SS Event about us"
+/about                  "Anchor Shubham Khandelwal  about us"
 /services               "Event management services"
 /services/wedding-events "Wedding event planner [City]"
 /services/corporate-events "Corporate event management"

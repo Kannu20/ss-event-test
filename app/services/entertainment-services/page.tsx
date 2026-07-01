@@ -22,7 +22,7 @@ export default function EntertainmentServicesPage() {
         title: 'Performances That',
         titleHighlight: 'Steal the Show',
         description: [
-          'Entertainment is the heartbeat of any great event. A brilliant performer can transform a good event into a legendary one. At SS Event, our entertainment division manages everything — from finding the perfect anchor who matches your event\'s tone to booking that celebrity performer your guests will talk about for years.',
+          'Entertainment is the heartbeat of any great event. A brilliant performer can transform a good event into a legendary one. At Anchor Shubham Khandelwal , our entertainment division manages everything — from finding the perfect anchor who matches your event\'s tone to booking that celebrity performer your guests will talk about for years.',
           "With over a decade of industry relationships, we have access to performers, artists, and entertainers that other agencies simply can't reach. And more importantly, we know how to manage them professionally — ensuring they deliver their absolute best for your event.",
         ],
       }}

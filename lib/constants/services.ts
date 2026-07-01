@@ -65,7 +65,7 @@ export const serviceCategories: ServiceCategoryConfig[] = [
     label: 'Production Setup',
     href: '/services/production-setup',
     icon: '🎬',
-    shortDesc: 'Cutting-edge production and AV technology for flawless event execution.',
+    shortDesc: 'Cutting-edge production and AV technology for flawleAnchor Shubham Khandelwal  execution.',
     items: [
       { label: 'Stage Design', href: '/services/production-setup#stage' },
       { label: 'LED Walls', href: '/services/production-setup#led' },

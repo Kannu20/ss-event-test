@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import { PageHero } from '@/components/common/PageHero'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | SS Event',
-  description: 'Privacy policy for SS Event — how we collect, use, and protect your personal information.',
+  title: 'Privacy Policy | Anchor Shubham Khandelwal ',
+  description: 'Privacy policy for Anchor Shubham Khandelwal  — how we collect, use, and protect your personal information.',
 }
 
 export default function PrivacyPolicyPage() {
@@ -28,7 +28,7 @@ export default function PrivacyPolicyPage() {
 
             <h2>1. Information We Collect</h2>
             <p>
-              SS Event collects personal information that you voluntarily provide to us when you fill out our contact forms,
+              Anchor Shubham Khandelwal  collects personal information that you voluntarily provide to us when you fill out our contact forms,
               book a consultation, or interact with our website. This may include your name, phone number, email address,
               event details, and any other information you choose to share.
             </p>

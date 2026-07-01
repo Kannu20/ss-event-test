@@ -1,5 +1,5 @@
 /* ─────────────────────────────────────────────
-   SS Event — Global TypeScript Types
+   Anchor Shubham Khandelwal  — Global TypeScript Types
    ───────────────────────────────────────────── */
 
 // ─── Service Types ───────────────────────────

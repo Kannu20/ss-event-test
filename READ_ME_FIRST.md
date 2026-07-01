@@ -1,4 +1,4 @@
-# SS Event — Phase 1 Setup Instructions
+# Anchor Shubham Khandelwal  — Phase 1 Setup Instructions
 
 ## Quick Start
 

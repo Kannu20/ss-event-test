@@ -23,7 +23,7 @@ export default function SocialEventsPage() {
         titleHighlight: 'Perfectly Celebrated',
         description: [
           "Life's greatest joy is sharing its milestones with the people you love. Whether it's a child's first big birthday party, a grandparent's golden anniversary, a cultural festival, or a family reunion — these moments deserve to be celebrated in a way that creates lasting memories.",
-          'SS Event brings the same passion and attention to detail to social events that we bring to weddings and corporate galas. No event is too small for our best effort — and no dream is too big for our creative team.',
+          'Anchor Shubham Khandelwal  brings the same passion and attention to detail to social events that we bring to weddings and corporate galas. No event is too small for our best effort — and no dream is too big for our creative team.',
         ],
       }}
       subServices={[

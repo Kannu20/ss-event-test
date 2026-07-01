@@ -7,8 +7,8 @@ import { BookingCTAStrip } from '@/components/sections/BookingCTAStrip'
 import { VideosGrid } from '@/components/common/VideosGrid'
 
 export const metadata: Metadata = generatePageMetadata(pageSEO.videos ?? {
-  title: 'Event Videos | SS Event',
-  description: 'Watch highlight reels and event showcases from SS Event.',
+  title: 'Event Videos | Anchor Shubham Khandelwal ',
+  description: 'Watch highlight reels and event showcases from Anchor Shubham Khandelwal .',
   keywords: ['event videos', 'wedding highlights', 'corporate event video'],
   canonical: '/videos',
 })
