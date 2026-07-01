@@ -14,7 +14,7 @@ const services = [
   {
     title: 'Wedding Events',
     description: 'From intimate ceremonies to grand destination weddings — Haldi, Mehendi, Sangeet, Reception and everything in between.',
-    image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=700&fit=crop&q=80',
+    image: '/images/wedding.jpeg',
     href: '/services/wedding-events',
     tags: ['Weddings', 'Destination', 'Décor'],
     accent: 'text-rose-300',
@@ -22,7 +22,7 @@ const services = [
   {
     title: 'Corporate Events',
     description: 'Conferences, product launches, award functions, and dealer meets executed with precision and professionalism.',
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=700&fit=crop&q=80',
+    image: '/images/corparate.jpeg',
     href: '/services/corporate-events',
     tags: ['Conferences', 'Launches', 'Gala'],
     accent: 'text-blue-300',
@@ -30,7 +30,7 @@ const services = [
   {
     title: 'Social Events',
     description: 'Birthdays, anniversaries, cultural programs, and family celebrations crafted to reflect your unique story.',
-    image: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&h=700&fit=crop&q=80',
+    image: '/images/social.jpeg',
     href: '/services/social-events',
     tags: ['Birthdays', 'Anniversaries', 'Cultural'],
     accent: 'text-purple-300',
@@ -38,7 +38,7 @@ const services = [
   {
     title: 'Entertainment Services',
     description: 'Professional anchors, DJ services, live bands, celebrity management, and artist booking for unforgettable performances.',
-    image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&h=700&fit=crop&q=80',
+    image: '/images/entertainment.jpeg',
     href: '/services/entertainment-services',
     tags: ['Live Music', 'Anchors', 'Celebrities'],
     accent: 'text-amber-300',
@@ -46,7 +46,7 @@ const services = [
   {
     title: 'Production Setup',
     description: 'Stage design, LED walls, professional sound systems, lighting setups, photography, videography and drone coverage.',
-    image: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&h=700&fit=crop&q=80',
+    image: '/images/setup.jpeg',
     href: '/services/production-setup',
     tags: ['Stage', 'AV', 'Photography'],
     accent: 'text-cyan-300',

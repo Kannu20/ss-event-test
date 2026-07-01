@@ -15,7 +15,7 @@ export default function PortfolioPage() {
 
       <PageHero
         title="Our Portfolio"
-        subtitle="500+ events across India. Here's a glimpse at our finest work — from royal palace weddings to landmark corporate events."
+        subtitle="5K+ events across India. Here's a glimpse at our finest work — from royal palace weddings to landmark corporate events."
         tag="Our Work"
         image="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1920&h=800&fit=crop&q=80"
         breadcrumbs={[{ label: 'Portfolio' }]}

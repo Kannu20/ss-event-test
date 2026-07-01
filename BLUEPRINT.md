@@ -497,7 +497,7 @@ Home → /about → /services → /faqs → /contact
 
 03. MARQUEE STRIP
     - Horizontal scrolling logos/stats
-    - "500+ Events · 10 Years Experience · 100% Client Satisfaction · ..."
+    - "5K+ Events · 10 Years Experience · 100% Client Satisfaction · ..."
 
 04. ABOUT SNAPSHOT
     - Split layout: large image (left) + text (right)

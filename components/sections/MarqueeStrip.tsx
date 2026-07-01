@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils/cn'
 import { Star } from 'lucide-react'
 
 const items = [
-  '500+ Events Delivered',
+  '5K+ Events Delivered',
   '10+ Years of Excellence',
   'Weddings · Corporate · Social',
   'Pan-India Operations',

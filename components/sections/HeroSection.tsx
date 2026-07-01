@@ -156,7 +156,7 @@ export function HeroSection() {
           variants={item}
           className="flex flex-wrap items-center justify-center gap-6 mt-12 text-white/40 text-sm font-sans"
         >
-          {['500+ Events Delivered', '10+ Years Experience', '25+ Cities', '100% Client Satisfaction'].map((t) => (
+          {['5K+ Events Delivered', '10+ Years Experience', '25+ Cities', '100% Client Satisfaction'].map((t) => (
             <span key={t} className="flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-gold" />
               {t}

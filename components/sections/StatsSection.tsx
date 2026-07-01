@@ -9,7 +9,7 @@ import { GoldLine } from '@/components/ui/GoldLine'
 const stats = [
   {
     icon: Calendar,
-    end: 500,
+    end: 5000,
     suffix: '+',
     label: 'Events Delivered',
     description: 'Weddings, corporate galas, social celebrations',

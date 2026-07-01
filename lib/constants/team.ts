@@ -87,7 +87,7 @@ export const companyMilestones = [
   },
   {
     year: '2024',
-    title: '500+ Events Milestone',
+    title: '5K+ Events Milestone',
     description: 'Celebrated 500th event. Featured in Vogue India, The Wedding Brigade, and Harper\'s Bazaar.',
   },
 ]

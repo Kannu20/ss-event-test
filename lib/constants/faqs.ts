@@ -55,7 +55,7 @@ export const faqs: FAQItem[] = [
   },
   {
     id: 'faq-008',
-    question: 'Can you manage large-scale conferences with 500+ attendees?',
+    question: 'Can you manage large-scale conferences with 5K+ attendees?',
     answer: 'Yes, we regularly manage large-scale corporate events with 500–5000+ attendees. We provide end-to-end management including venue selection, AV setup (LED walls, sound systems, lighting), registration management, speaker coordination, catering, and live streaming capabilities.',
     category: 'corporate',
     featured: false,

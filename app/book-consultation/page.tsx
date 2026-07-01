@@ -13,7 +13,7 @@ const trustSignals = [
   { icon: Shield, text: 'Free, no-obligation consultation' },
   { icon: Clock, text: 'Response within 24 hours' },
   { icon: Phone, text: 'Followed by a personal call from our team' },
-  { icon: Star, text: '500+ successful events and counting' },
+  { icon: Star, text: '5K+ successful events and counting' },
 ]
 
 export default function BookConsultationPage() {

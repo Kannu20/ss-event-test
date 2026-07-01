@@ -29,7 +29,7 @@ const serviceDetails = [
     title: 'Corporate Events',
     tagline: 'Where Business Meets Brilliance',
     description: 'Corporate events demand a different skill set — precision logistics, professional execution, and the ability to impress stakeholders at the highest level. Our corporate division has managed events for India\'s most respected companies, delivering experiences that reflect your brand\'s values.',
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop&q=80',
+    image: '/images/corparate.jpeg',
     href: '/services/corporate-events',
     features: ['Conferences & Summits', 'Product Launches', 'Award Functions', 'Dealer Meets', 'Annual Meetings', 'Team Building'],
   },

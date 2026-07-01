@@ -12,7 +12,7 @@ import { GoldOrnament } from '@/components/ui/GoldLine'
 import { fadeInUp, fadeInLeft, fadeInRight, staggerContainer } from '@/lib/animations/variants'
 
 const highlights = [
-  { icon: Award, value: '500+', label: 'Events Delivered' },
+  { icon: Award, value: '5K+', label: 'Events Delivered' },
   { icon: Users, value: '10+', label: 'Years of Excellence' },
   { icon: MapPin, value: '25+', label: 'Cities Covered' },
   { icon: Star, value: '4.9★', label: 'Average Rating' },
@@ -106,9 +106,7 @@ export function AboutSnapshot() {
               variants={fadeInUp}
               className="text-white/65 font-sans leading-relaxed text-base md:text-lg mb-4"
             >
-              Founded in 2014, Anchor Shubham Khandelwal  has grown from a small Jaipur-based team into one of India&apos;s
-              most sought-after full-service event management companies — trusted by families,
-              Fortune 500 corporations, and celebrities alike.
+            Shubham Khandelwal (often stylized as Anchor Shuubham Khandelwal) is a prominent live event anchor, singer, and stage performer based in Jaipur, Rajasthan. Known widely as the "Voice of the Pink City," he specializes in hosting high-energy wedding functions, sangeet nights, corporate shows, and cultural festivals. He was also recognized as the "Best Actor in Jaipur" at the Forever Star India Awards.
             </motion.p>
             <motion.p
               variants={fadeInUp}

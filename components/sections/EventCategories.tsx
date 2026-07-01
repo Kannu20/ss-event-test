@@ -36,7 +36,7 @@ const categories = [
   },
   {
     title: 'Production & Stage',
-    count: '500+ setups',
+    count: '5K+ setups',
     image: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=300&fit=crop&q=80',
     href: '/services/production-setup',
     className: '',
