@@ -107,7 +107,7 @@ export function HeroSection() {
         {/* Eyebrow */}
         <motion.div variants={item} className="flex items-center justify-center gap-3 mb-6">
           <GoldLine className="w-12 hidden sm:block" />
-          <span className="eyebrow">Anchor Shubham Khandelwal  — India&apos;s Premier Event Management</span>
+          <span className="eyebrow">Anchor Shubham Khandelwal  — Rajasthan&apos;s Premier Anchor</span>
           <GoldLine className="w-12 hidden sm:block" />
         </motion.div>
 

@@ -33,9 +33,9 @@ export default function AboutPage() {
       <PageHero
         title="Crafting Extraordinary Experiences Since 2014"
         subtitle="We started with a dream — to redefine what event management means in India. A decade later, we've touched over 500 lives and counting."
-        tag="Our Story"
+        tag="My Story"
         size="lg"
-        image="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1920&h=800&fit=crop&q=80"
+        image="/images/social.jpeg"
         breadcrumbs={[{ label: 'About Us' }]}
       />
 
@@ -51,15 +51,15 @@ export default function AboutPage() {
               </h2>
               <GoldOrnament className="mb-6" />
               <p className="text-white/65 font-sans leading-relaxed mb-5">
-                Anchor Shubham Khandelwal  was born in 2014 from a simple but powerful belief: that every celebration —
+                Anchor Shubham Khandelwal  was born in 2000 from a simple but powerful belief: that every celebration —
                 no matter the size or budget — deserves to be extraordinary. Founders Sanjay and
                 Shreya Sharma started the company with three team members and a vision that every
                 couple, every family, and every organization should have access to world-claAnchor Shubham Khandelwal 
                 management.
               </p>
               <p className="text-white/65 font-sans leading-relaxed mb-5">
-                Today, Anchor Shubham Khandelwal  is one of India&apos;s most respected full-service event management
-                companies, operating across 25+ cities with a team of 65+ dedicated professionals.
+                Today, Anchor Shubham Khandelwal  is one of India&apos;s most respected anchor
+                operating across 25+ cities with a team of 65+ dedicated professionals.
                 We&apos;ve managed royal weddings in Udaipur, corporate summits for Fortune 500
                 companies, birthday galas for Bollywood celebrities, and intimate family gatherings
                 that meant the world to the people who mattered.
