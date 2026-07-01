@@ -69,7 +69,7 @@ export function HeroSection() {
       {/* Parallax background */}
       <motion.div className="absolute inset-0" style={{ y: imgY }}>
         <Image
-          src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&h=1080&fit=crop&q=80"
+          src="/images/hero.jpeg"
           alt="Luxury wedding event by Anchor Shubham Khandelwal "
           fill
           priority

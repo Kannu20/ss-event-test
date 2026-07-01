@@ -36,7 +36,7 @@ export function AboutSnapshot() {
             {/* Main image */}
             <div className="absolute inset-0 rounded-2xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=700&h=800&fit=crop&q=80"
+                src="/images/banner.jpeg"
                 alt="Anchor Shubham Khandelwal  luxury wedding setup"
                 fill
                 className="object-cover"
