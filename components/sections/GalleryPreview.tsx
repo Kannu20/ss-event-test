@@ -36,7 +36,7 @@ const previewImages = [
     className: '',
   },
   {
-    src: '/images/sangeet.jpeg',
+    src: '/images/pic.jpeg',
     alt: 'Stage production setup',
     className: '',
   },

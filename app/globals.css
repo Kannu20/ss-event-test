@@ -320,27 +320,13 @@
 }
 
 /* ─────────────────────────────────────────────
-   CUSTOM CURSOR (desktop only)
+   CURSOR
    ─────────────────────────────────────────────
-   cursor: none is set so the JS custom cursor
-   (CustomCursor.tsx) renders instead.
-   The JS component only mounts when pointer:fine
-   matches, so this media query mirrors that check.
-   On touch / coarse pointer devices the default
-   cursor remains untouched.
+   The native system cursor is used everywhere.
+   (The previous JS custom cursor and its
+   `cursor: none` override have been removed so the
+   default browser cursor works reliably on desktop.)
    ───────────────────────────────────────────── */
-@media (pointer: fine) {
-  body,
-  a,
-  button,
-  [role="button"],
-  input,
-  select,
-  textarea,
-  label {
-    cursor: none !important;
-  }
-}
 
 /* ─────────────────────────────────────────────
    PAGE TRANSITION

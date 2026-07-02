@@ -5,7 +5,6 @@ import { Navbar } from '@/components/layout/Navbar'
 import { Footer } from '@/components/layout/Footer'
 import { FloatingActions } from '@/components/layout/FloatingActions'
 import { ScrollProgress } from '@/components/common/ScrollProgress'
-import { CustomCursor } from '@/components/common/CustomCursor'
 import { PageWrapper } from '@/components/layout/PageWrapper'
 import './globals.css'
 
@@ -117,7 +116,6 @@ export default function RootLayout({
     >
       <body className="bg-black text-white antialiased overflow-x-hidden">
         <Providers>
-          <CustomCursor />
           <ScrollProgress />
           <Navbar />
           <PageWrapper>

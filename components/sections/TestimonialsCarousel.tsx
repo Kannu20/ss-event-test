@@ -56,7 +56,7 @@ export function TestimonialsCarousel() {
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
         <motion.div
-          className="text-center max-w-2xl mx-auto mb-14"
+          className="text-center max-w-2xl mx-auto mb-10 md:mb-14"
           variants={staggerContainer}
           initial="hidden"
           animate={isInView ? 'visible' : 'hidden'}
@@ -83,7 +83,7 @@ export function TestimonialsCarousel() {
           animate={isInView ? 'visible' : 'hidden'}
           className="max-w-3xl mx-auto"
         >
-          <div className="relative min-h-[320px]">
+          <div className="relative min-h-[420px] md:min-h-[320px]">
             <AnimatePresence mode="wait" custom={direction}>
               <motion.div
                 key={current}
@@ -94,35 +94,37 @@ export function TestimonialsCarousel() {
                 exit="exit"
                 className="absolute inset-0"
               >
-                <div className="bg-black-mid/50 border border-white/5 rounded-2xl p-8 md:p-10 h-full flex flex-col">
+                <div className="bg-black-mid/50 border border-white/5 rounded-2xl p-5 md:p-8 lg:p-10 h-full flex flex-col">
                   {/* Quote icon */}
-                  <Quote className="w-10 h-10 text-gold/30 mb-6 flex-shrink-0" />
+                  <Quote className="w-8 h-8 md:w-10 md:h-10 text-gold/30 mb-4 md:mb-6 flex-shrink-0" />
 
                   {/* Stars */}
-                  <div className="flex gap-1 mb-5">
+                  <div className="flex gap-1 mb-4 md:mb-5">
                     {Array.from({ length: t.rating }).map((_, i) => (
                       <Star key={i} className="w-4 h-4 text-gold fill-gold" />
                     ))}
                   </div>
 
                   {/* Quote text */}
-                  <p className="font-sans text-white/80 text-lg md:text-xl leading-relaxed flex-1 italic mb-8">
+                  <p className="font-sans text-white/80 text-base md:text-xl leading-8 md:leading-relaxed flex-1 italic mb-6 md:mb-8 break-words">
                     &ldquo;{t.quote}&rdquo;
                   </p>
 
                   {/* Author */}
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-full overflow-hidden bg-black-light flex-shrink-0">
-                      <div className="w-full h-full bg-gradient-to-br from-gold/30 to-gold/10 flex items-center justify-center text-gold font-display font-bold text-xl">
-                        {t.name.charAt(0)}
+                  <div className="flex flex-col items-start gap-3 md:flex-row md:items-center md:gap-4">
+                    <div className="flex items-center gap-4 w-full md:w-auto">
+                      <div className="w-12 h-12 rounded-full overflow-hidden bg-black-light flex-shrink-0">
+                        <div className="w-full h-full bg-gradient-to-br from-gold/30 to-gold/10 flex items-center justify-center text-gold font-display font-bold text-xl">
+                          {t.name.charAt(0)}
+                        </div>
+                      </div>
+                      <div className="min-w-0">
+                        <div className="font-sans font-semibold text-white break-words">{t.name}</div>
+                        <div className="text-white/50 text-sm font-sans break-words">{t.role} · {t.location}</div>
                       </div>
                     </div>
-                    <div>
-                      <div className="font-sans font-semibold text-white">{t.name}</div>
-                      <div className="text-white/50 text-sm font-sans">{t.role} · {t.location}</div>
-                    </div>
-                    <div className="ml-auto">
-                      <span className="text-xs font-accent font-semibold tracking-wider uppercase text-gold/60 border border-gold/20 rounded-full px-3 py-1">
+                    <div className="md:ml-auto">
+                      <span className="inline-block text-xs font-accent font-semibold tracking-wider uppercase text-gold/60 border border-gold/20 rounded-full px-3 py-1">
                         {t.eventType}
                       </span>
                     </div>
@@ -133,7 +135,7 @@ export function TestimonialsCarousel() {
           </div>
 
           {/* Controls */}
-          <div className="flex items-center justify-between mt-8">
+          <div className="flex flex-col items-center gap-5 mt-6 md:flex-row md:items-center md:justify-between md:gap-0 md:mt-8">
             {/* Dots */}
             <div className="flex gap-2">
               {featured.map((_, i) => (
@@ -152,14 +154,14 @@ export function TestimonialsCarousel() {
             <div className="flex gap-2">
               <button
                 onClick={() => reset(-1)}
-                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/50 hover:border-gold/50 hover:text-gold transition-all duration-300"
+                className="w-11 h-11 md:w-10 md:h-10 rounded-full border border-white/10 flex items-center justify-center text-white/50 hover:border-gold/50 hover:text-gold transition-all duration-300"
                 aria-label="Previous testimonial"
               >
                 <ChevronLeft className="w-4 h-4" />
               </button>
               <button
                 onClick={() => reset(1)}
-                className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/50 hover:border-gold/50 hover:text-gold transition-all duration-300"
+                className="w-11 h-11 md:w-10 md:h-10 rounded-full border border-white/10 flex items-center justify-center text-white/50 hover:border-gold/50 hover:text-gold transition-all duration-300"
                 aria-label="Next testimonial"
               >
                 <ChevronRight className="w-4 h-4" />
@@ -170,7 +172,7 @@ export function TestimonialsCarousel() {
 
         {/* CTA */}
         <motion.div
-          className="text-center mt-12"
+          className="text-center mt-8 md:mt-12"
           variants={fadeInUp}
           initial="hidden"
           animate={isInView ? 'visible' : 'hidden'}

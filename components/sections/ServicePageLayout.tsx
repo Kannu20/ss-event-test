@@ -123,7 +123,9 @@ export function ServicePageLayout({
       <section className="section-padding bg-black">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-xl mx-auto mb-14">
-            <SectionLabel>What&apos;s Included</SectionLabel>
+            <div className="flex justify-center mb-4">
+              <SectionLabel>What&apos;s Included</SectionLabel>
+            </div>
             <h2 className="font-display font-bold text-4xl md:text-5xl leading-tight mt-4">
               Our <GradientText>Specializations</GradientText>
             </h2>
@@ -144,7 +146,9 @@ export function ServicePageLayout({
       <section className="section-padding bg-black-soft">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-xl mx-auto mb-14">
+            <div className="flex justify-center mb-4">
             <SectionLabel>How It Works</SectionLabel>
+            </div>
             <h2 className="font-display font-bold text-4xl md:text-5xl leading-tight mt-4">
               Our <GradientText>Process</GradientText>
             </h2>

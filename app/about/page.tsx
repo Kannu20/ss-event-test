@@ -138,7 +138,10 @@ export default function AboutPage() {
       <section className="section-padding bg-black">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <SectionLabel>On Stage</SectionLabel>
+            <div className="flex justify-center">
+              <SectionLabel>On Stage</SectionLabel>
+            </div>
+
             <h2 className="font-display font-bold text-4xl md:text-5xl leading-tight mt-4">
               What Shubham <GradientText>Brings</GradientText>
             </h2>
@@ -165,9 +168,12 @@ export default function AboutPage() {
       {/* Journey */}
       <section className="section-padding bg-black">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-14">
-            <SectionLabel>His Journey</SectionLabel>
-            <h2 className="font-display font-bold text-4xl md:text-5xl leading-tight mt-4">
+          <div className="text-center mb-12">
+            <div className="flex justify-center mb-4">
+              <SectionLabel>His Journey</SectionLabel>
+            </div>
+
+            <h2 className="text-center font-display font-bold text-4xl md:text-5xl leading-tight">
               From Family Stages to <GradientText>Center Stage</GradientText>
             </h2>
           </div>
@@ -198,7 +204,10 @@ export default function AboutPage() {
       <section className="section-padding bg-black-soft">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
+            <div className="flex justify-center mb-4">
+
             <SectionLabel>Recognition</SectionLabel>
+            </div>
             <h2 className="font-display font-bold text-4xl md:text-5xl leading-tight mt-4">
               Awards & <GradientText>Credentials</GradientText>
             </h2>
@@ -222,7 +231,9 @@ export default function AboutPage() {
       <section className="section-padding bg-black">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-xl mx-auto mb-12">
+            <div className="flex justify-center mb-4">
             <SectionLabel>Why Book Shubham</SectionLabel>
+            </div>
             <h2 className="font-display font-bold text-4xl md:text-5xl leading-tight mt-4">
               Why Families &amp; Brands <GradientText>Trust Him</GradientText>
             </h2>
