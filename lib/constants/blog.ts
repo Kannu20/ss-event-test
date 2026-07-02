@@ -35,7 +35,7 @@ export const blogPosts: BlogPost[] = [
     content: `
 # Top 10 Wedding Trends Dominating 2025
 
-Indian weddings have always been grand celebrations of love, culture, and family. But 2025 has brought in a wave of fresh ideas that blend tradition with modern sensibilities. At Anchor Shubham Khandelwal , we've been at the forefront of these trends, and we're excited to share what we're seeing across our most celebrated weddings this year.
+Indian weddings have always been grand celebrations of love, culture, and family. But 2025 has brought in a wave of fresh ideas that blend tradition with modern sensibilities. At Artist Shubham Khandelwal , we've been at the forefront of these trends, and we're excited to share what we're seeing across our most celebrated weddings this year.
 
 ## 1. Micro-Luxury Weddings
 
@@ -43,7 +43,7 @@ Gone are the days when weddings were measured by headcount. Today's couples are 
 
 ## 2. Sustainable & Eco-Conscious Décor
 
-Couples are increasingly conscious of their environmental footprint. We're seeing a surge in biodegradable florals, seed-paper invitations, locally sourced flowers, and compostable tableware. At Anchor Shubham Khandelwal , our sustainable décor packages have become some of our most-requested offerings.
+Couples are increasingly conscious of their environmental footprint. We're seeing a surge in biodegradable florals, seed-paper invitations, locally sourced flowers, and compostable tableware. At Artist Shubham Khandelwal , our sustainable décor packages have become some of our most-requested offerings.
 
 ## 3. Immersive Wedding Weekends
 
@@ -79,7 +79,7 @@ The wellness movement has reached weddings. Pre-wedding yoga retreats, ayurvedic
 
 ---
 
-Ready to incorporate these trends into your wedding? [Book a free consultation](/book-consultation) with the Anchor Shubham Khandelwal  team and let's create something extraordinary together.
+Ready to incorporate these trends into your wedding? [Book a free consultation](/book-consultation) with the Artist Shubham Khandelwal  team and let's create something extraordinary together.
     `.trim(),
     author: {
       name: 'Shreya Sharma',
@@ -101,7 +101,7 @@ Ready to incorporate these trends into your wedding? [Book a free consultation](
     content: `
 # The Ultimate Corporate Event Planning Checklist
 
-Whether you're organizing a 50-person team offsite or a 1,000-person annual conference, corporate event planning requires meticulous attention to detail. After managing hundreds of corporate events across India, the Anchor Shubham Khandelwal  team has distilled everything into this comprehensive checklist.
+Whether you're organizing a 50-person team offsite or a 1,000-person annual conference, corporate event planning requires meticulous attention to detail. After managing hundreds of corporate events across India, the Artist Shubham Khandelwal  team has distilled everything into this comprehensive checklist.
 
 ## 6 Months Before the Event
 
@@ -155,7 +155,7 @@ Whether you're organizing a 50-person team offsite or a 1,000-person annual conf
 
 ---
 
-Need an expert team to handle all of this for you? [Contact Anchor Shubham Khandelwal ](/contact) today.
+Need an expert team to handle all of this for you? [Contact Artist Shubham Khandelwal ](/contact) today.
     `.trim(),
     author: {
       name: 'Rahul Mehta',
@@ -207,7 +207,7 @@ Manali, Kasauli, and Dharamshala offer stunning mountain backdrops for couples w
 
 ## Working with a Destination Wedding Planner
 
-Managing a wedding remotely requires a trusted local expert who knows the vendors, the venues, and the logistics on the ground. Anchor Shubham Khandelwal  has organized destination weddings in every major Indian wedding destination — we're the on-the-ground team you need.
+Managing a wedding remotely requires a trusted local expert who knows the vendors, the venues, and the logistics on the ground. Artist Shubham Khandelwal  has organized destination weddings in every major Indian wedding destination — we're the on-the-ground team you need.
     `.trim(),
     author: {
       name: 'Sanjay Sharma',
@@ -228,7 +228,7 @@ Managing a wedding remotely requires a trusted local expert who knows the vendor
     content: `
 # How to Plan the Perfect Sangeet Ceremony
 
-The Sangeet is the beating heart of an Indian wedding celebration — a night of music, dance, and unbridled joy that brings both families together for the first time. After organizing hundreds of Sangeet ceremonies, the Anchor Shubham Khandelwal  team shares everything you need to know to make yours legendary.
+The Sangeet is the beating heart of an Indian wedding celebration — a night of music, dance, and unbridled joy that brings both families together for the first time. After organizing hundreds of Sangeet ceremonies, the Artist Shubham Khandelwal  team shares everything you need to know to make yours legendary.
 
 ## Setting the Stage
 
@@ -254,7 +254,7 @@ A typical Sangeet runs 4–5 hours and should be carefully programmed to maintai
 - Couple's dance together
 
 **Hour 4: Professional Entertainment**
-- Professional anchor hosts games and competitions
+- Professional Artist hosts games and competitions
 - Live band or DJ takes over
 - Open dance floor
 
@@ -265,7 +265,7 @@ A typical Sangeet runs 4–5 hours and should be carefully programmed to maintai
 
 ## Key Vendor Team
 
-- **Professional Anchor**: The MC who holds the evening together
+- **Professional Artist**: The MC who holds the evening together
 - **DJ/Live Band**: Music that keeps energy high throughout
 - **Choreographer**: For family dance rehearsals (book 3 months in advance)
 - **Sound & Lighting Team**: Critical for atmosphere
@@ -275,7 +275,7 @@ A typical Sangeet runs 4–5 hours and should be carefully programmed to maintai
 
 Sangeet décor should be vibrant, colorful, and festive — a contrast to the more formal wedding décor. Think bright florals, colorful drapery, fun neon signs, and a well-lit dance floor.
 
-Book your Sangeet planning consultation with Anchor Shubham Khandelwal  today and let's create a night everyone will be talking about for years.
+Book your Sangeet planning consultation with Artist Shubham Khandelwal  today and let's create a night everyone will be talking about for years.
     `.trim(),
     author: {
       name: 'Priya Nair',
@@ -326,7 +326,7 @@ Get every element in writing. Setup fees, transportation of décor, installation
 
 Social media is filled with beautiful inspiration images — some decorators present these as their own work. Always ask specifically: "Is this a photo from an event you decorated?"
 
-At Anchor Shubham Khandelwal , our in-house décor team executes every project we quote. You get to work with the same creative minds who designed your vision throughout the entire process. [Schedule a consultation](/book-consultation) to see our portfolio in person.
+At Artist Shubham Khandelwal , our in-house décor team executes every project we quote. You get to work with the same creative minds who designed your vision throughout the entire process. [Schedule a consultation](/book-consultation) to see our portfolio in person.
     `.trim(),
     author: {
       name: 'Shreya Sharma',
@@ -342,10 +342,10 @@ At Anchor Shubham Khandelwal , our in-house décor team executes every project w
   {
     id: 'b6',
     slug: 'ss-event-2024-annual-review',
-    title: 'Anchor Shubham Khandelwal  2024: A Year of Milestones',
+    title: 'Artist Shubham Khandelwal  2024: A Year of Milestones',
     excerpt: 'From palace weddings in Rajasthan to 1000-person corporate summits, 2024 was our biggest year yet. Here\'s a look back at the highlights.',
     content: `
-# Anchor Shubham Khandelwal  2024: A Year of Milestones
+# Artist Shubham Khandelwal  2024: A Year of Milestones
 
 As we close the chapter on 2024, we're filled with gratitude for the incredible clients, dedicated team members, and unforgettable events that made this our most remarkable year to date.
 
@@ -384,7 +384,7 @@ To every client who trusted us with the most important celebrations of their liv
     },
     coverImage: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200&h=630&fit=crop&q=80',
     category: 'Behind the Scenes',
-    tags: ['2024 Review', 'Milestones', 'Anchor Shubham Khandelwal ', 'Behind the Scenes'],
+    tags: ['2024 Review', 'Milestones', 'Artist Shubham Khandelwal ', 'Behind the Scenes'],
     publishedAt: '2024-12-31',
     readTime: '5 min read',
   },

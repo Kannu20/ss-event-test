@@ -37,7 +37,7 @@ export function AboutSnapshot() {
             <div className="absolute inset-0 rounded-2xl overflow-hidden">
               <Image
                 src="/images/banner.jpeg"
-                alt="Anchor Shubham Khandelwal  luxury wedding setup"
+                alt="Artist Shubham Khandelwal  luxury wedding setup"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -106,7 +106,7 @@ export function AboutSnapshot() {
               variants={fadeInUp}
               className="text-white/65 font-sans leading-relaxed text-base md:text-lg mb-4"
             >
-            Shubham Khandelwal (often stylized as Anchor Shuubham Khandelwal) is a prominent live event anchor, singer, and stage performer based in Jaipur, Rajasthan. Known widely as the "Voice of the Pink City," he specializes in hosting high-energy wedding functions, sangeet nights, corporate shows, and cultural festivals. He was also recognized as the "Best Actor in Jaipur" at the Forever Star India Awards.
+            Shubham Khandelwal (often stylized as Artist Shuubham Khandelwal) is a prominent live event Artist, singer, and stage performer based in Jaipur, Rajasthan. Known widely as the "Voice of the Pink City," he specializes in hosting high-energy wedding functions, sangeet nights, corporate shows, and cultural festivals. He was also recognized as the "Best Actor in Jaipur" at the Forever Star India Awards.
             </motion.p>
             <motion.p
               variants={fadeInUp}

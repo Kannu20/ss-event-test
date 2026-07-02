@@ -11,7 +11,7 @@ export default function CorporateEventsPage() {
         title: 'Corporate Events',
         subtitle: 'Professional events that elevate your brand, inspire your team, and impress your stakeholders — executed with military precision.',
         tag: 'Corporate Services',
-        image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1920&h=800&fit=crop&q=80',
+        image: '/images/corparate.jpeg',
       }}
       breadcrumbs={[{ label: 'Corporate Events' }]}
       schemaName="Corporate Event Management"
@@ -23,7 +23,7 @@ export default function CorporateEventsPage() {
         titleHighlight: 'Meets Brilliance',
         description: [
           'Corporate events are high-stakes affairs that reflect directly on your brand. A flawless conference, a memorable product launch, or an inspiring annual gala — these are not just events, they\'re statements about who you are as an organization.',
-          'Anchor Shubham Khandelwal \'s corporate division combines the precision of a project management firm with the creativity of an event design house. We\'ve managed events for Fortune 500 companies, government organizations, and India\'s fastest-growing startups — always delivering on time, on budget, and beyond expectation.',
+          'Artist Shubham Khandelwal \'s corporate division combines the precision of a project management firm with the creativity of an event design house. We\'ve managed events for Fortune 500 companies, government organizations, and India\'s fastest-growing startups — always delivering on time, on budget, and beyond expectation.',
         ],
       }}
       subServices={[

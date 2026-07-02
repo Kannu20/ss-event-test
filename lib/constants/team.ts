@@ -16,7 +16,7 @@ export const teamMembers: TeamMember[] = [
     id: 'sanjay-sharma',
     name: 'Sanjay Sharma',
     role: 'Founder & Creative Director',
-    bio: 'With over 12 years of experience in luxury event management, Sanjay has orchestrated more than 300 weddings and corporate events across India. His vision for Anchor Shubham Khandelwal  has always been about creating timeless experiences that exceed expectations.',
+    bio: 'With over 12 years of experience in luxury event management, Sanjay has orchestrated more than 300 weddings and corporate events across India. His vision for Artist Shubham Khandelwal  has always been about creating timeless experiences that exceed expectations.',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=700&fit=crop&q=80',
     social: {
       instagram: 'https://instagram.com/ssevent',
@@ -28,7 +28,7 @@ export const teamMembers: TeamMember[] = [
     id: 'shreya-sharma',
     name: 'Shreya Sharma',
     role: 'Co-Founder & Décor Lead',
-    bio: 'Shreya\'s artistic eye and passion for floral design have become Anchor Shubham Khandelwal \'s signature. Having trained under celebrated decorators in Mumbai and Dubai, she brings a global aesthetic to every event while honoring Indian traditions.',
+    bio: 'Shreya\'s artistic eye and passion for floral design have become Artist Shubham Khandelwal \'s signature. Having trained under celebrated decorators in Mumbai and Dubai, she brings a global aesthetic to every event while honoring Indian traditions.',
     image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=600&h=700&fit=crop&q=80',
     social: {
       instagram: 'https://instagram.com/ssevent',
@@ -50,7 +50,7 @@ export const teamMembers: TeamMember[] = [
     id: 'priya-nair',
     name: 'Priya Nair',
     role: 'Entertainment & Production Head',
-    bio: 'Priya manages Anchor Shubham Khandelwal \'s entertainment division with an insider knowledge of the industry. From booking celebrity performers to coordinating live bands, she ensures the entertainment at every event is utterly unforgettable.',
+    bio: 'Priya manages Artist Shubham Khandelwal \'s entertainment division with an insider knowledge of the industry. From booking celebrity performers to coordinating live bands, she ensures the entertainment at every event is utterly unforgettable.',
     image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&h=700&fit=crop&q=80',
     social: {
       instagram: 'https://instagram.com/ssevent',
@@ -62,7 +62,7 @@ export const teamMembers: TeamMember[] = [
 export const companyMilestones = [
   {
     year: '2014',
-    title: 'Anchor Shubham Khandelwal  Founded',
+    title: 'Artist Shubham Khandelwal  Founded',
     description: 'Started with a dream to redefine event management in India. First office in Jaipur with a team of 3.',
   },
   {

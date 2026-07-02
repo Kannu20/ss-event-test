@@ -17,7 +17,7 @@ export default function GalleryPage() {
         title="Event Gallery"
         subtitle="Hundreds of moments captured from our finest events. Browse our gallery and imagine what we can create for you."
         tag="Gallery"
-        image="https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&h=800&fit=crop&q=80"
+        image="/images/dark.jpeg"
         breadcrumbs={[{ label: 'Gallery' }]}
       />
 

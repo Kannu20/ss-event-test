@@ -29,7 +29,7 @@ const EVENT_TYPES = [
   { id: 'wedding', label: 'Wedding Events', emoji: '💍', description: 'Full wedding planning & ceremonies' },
   { id: 'corporate', label: 'Corporate Events', emoji: '🏢', description: 'Conferences, launches & galas' },
   { id: 'social', label: 'Social Events', emoji: '🎉', description: 'Birthdays, anniversaries & more' },
-  { id: 'entertainment', label: 'Entertainment', emoji: '🎭', description: 'Artists, anchors & live performances' },
+  { id: 'entertainment', label: 'Entertainment', emoji: '🎭', description: 'Artists, Artists & live performances' },
   { id: 'production', label: 'Production Setup', emoji: '🎬', description: 'Stage, AV, photography & video' },
 ]
 

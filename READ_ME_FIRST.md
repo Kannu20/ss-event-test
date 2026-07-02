@@ -1,4 +1,4 @@
-# Anchor Shubham Khandelwal  — Phase 1 Setup Instructions
+# Artist Shubham Khandelwal  — Phase 1 Setup Instructions
 
 ## Quick Start
 

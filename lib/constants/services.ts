@@ -53,7 +53,7 @@ export const serviceCategories: ServiceCategoryConfig[] = [
     icon: '🎤',
     shortDesc: 'World-class entertainment that transforms events into unforgettable experiences.',
     items: [
-      { label: 'Professional Anchors', href: '/services/entertainment-services#anchors' },
+      { label: 'Professional Artists', href: '/services/entertainment-services#Artists' },
       { label: 'DJ Services', href: '/services/entertainment-services#dj' },
       { label: 'Live Bands', href: '/services/entertainment-services#bands' },
       { label: 'Celebrity Management', href: '/services/entertainment-services#celebrity' },
@@ -65,7 +65,7 @@ export const serviceCategories: ServiceCategoryConfig[] = [
     label: 'Production Setup',
     href: '/services/production-setup',
     icon: '🎬',
-    shortDesc: 'Cutting-edge production and AV technology for flawleAnchor Shubham Khandelwal  execution.',
+    shortDesc: 'Cutting-edge production and AV technology for flawleArtist Shubham Khandelwal  execution.',
     items: [
       { label: 'Stage Design', href: '/services/production-setup#stage' },
       { label: 'LED Walls', href: '/services/production-setup#led' },

@@ -69,8 +69,8 @@ export function HeroSection() {
       {/* Parallax background */}
       <motion.div className="absolute inset-0" style={{ y: imgY }}>
         <Image
-          src="/images/hero.jpeg"
-          alt="Luxury wedding event by Anchor Shubham Khandelwal "
+          src="/images/main.jpeg"
+          alt="Luxury wedding event by Artist Shubham Khandelwal "
           fill
           priority
           className="object-cover object-center scale-110"
@@ -107,7 +107,7 @@ export function HeroSection() {
         {/* Eyebrow */}
         <motion.div variants={item} className="flex items-center justify-center gap-3 mb-6">
           <GoldLine className="w-12 hidden sm:block" />
-          <span className="eyebrow">Anchor Shubham Khandelwal  — Rajasthan&apos;s Premier Anchor</span>
+          <span className="eyebrow">Artist Shubham Khandelwal  — Rajasthan&apos;s Premier Artist</span>
           <GoldLine className="w-12 hidden sm:block" />
         </motion.div>
 

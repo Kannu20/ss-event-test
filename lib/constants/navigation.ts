@@ -58,7 +58,7 @@ export const navItems: NavItem[] = [
         href: '/services/entertainment-services',
         icon: '🎤',
         items: [
-          { label: 'Professional Anchors', href: '/services/entertainment-services#anchors' },
+          { label: 'Professional Artists', href: '/services/entertainment-services#Artists' },
           { label: 'DJ Services', href: '/services/entertainment-services#dj' },
           { label: 'Live Bands', href: '/services/entertainment-services#bands' },
           { label: 'Celebrity Management', href: '/services/entertainment-services#celebrity' },

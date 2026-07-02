@@ -30,7 +30,7 @@ export const stats: StatItem[] = [
     value: 1000,
     suffix: '+',
     label: 'Happy Clients',
-    description: 'Families and organizations who trust Anchor Shubham Khandelwal ',
+    description: 'Families and organizations who trust Artist Shubham Khandelwal ',
     icon: 'Heart',
   },
 ]

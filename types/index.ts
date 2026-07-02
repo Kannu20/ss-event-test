@@ -1,5 +1,5 @@
 /* ─────────────────────────────────────────────
-   Anchor Shubham Khandelwal  — Global TypeScript Types
+   Artist Shubham Khandelwal  — Global TypeScript Types
    ───────────────────────────────────────────── */
 
 // ─── Service Types ───────────────────────────

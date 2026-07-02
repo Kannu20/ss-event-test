@@ -5,7 +5,7 @@ export default function Loading() {
         {/* Animated SS logo */}
         <div className="relative">
           <span className="font-display text-4xl font-bold text-gold-gradient">
-            Anchor Shubham Khandelwal 
+            Artist Shubham Khandelwal 
           </span>
           <div className="absolute -bottom-2 left-0 right-0 h-px bg-gold/30 overflow-hidden">
             <div className="h-full w-1/2 bg-gold shimmer-bg animate-shimmer" />

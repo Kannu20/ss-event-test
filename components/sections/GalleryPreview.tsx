@@ -11,32 +11,32 @@ import { staggerContainer, fadeInUp } from '@/lib/animations/variants'
 
 const previewImages = [
   {
-    src: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=800&fit=crop&q=80',
+    src: '/images/wedding.jpeg',
     alt: 'Luxury wedding mandap',
     className: 'row-span-2',
   },
   {
-    src: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop&q=80',
+    src: '/images/corparate.jpeg',
     alt: 'Corporate conference setup',
     className: '',
   },
   {
-    src: 'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&h=400&fit=crop&q=80',
+    src: '/images/birthday.jpeg',
     alt: 'Outdoor wedding ceremony',
     className: '',
   },
   {
-    src: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=800&fit=crop&q=80',
+    src: '/images/hero.jpeg',
     alt: 'Elegant reception hall',
     className: 'row-span-2',
   },
   {
-    src: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&h=400&fit=crop&q=80',
+    src: '/images/setup.jpeg',
     alt: 'Birthday party decoration',
     className: '',
   },
   {
-    src: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&h=400&fit=crop&q=80',
+    src: '/images/sangeet.jpeg',
     alt: 'Stage production setup',
     className: '',
   },

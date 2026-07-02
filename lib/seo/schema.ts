@@ -1,5 +1,5 @@
 /**
- * JSON-LD Schema Markup helpers for Anchor Shubham Khandelwal 
+ * JSON-LD Schema Markup helpers for Artist Shubham Khandelwal 
  * Improves Google rich results and SEO signals
  */
 
@@ -10,7 +10,7 @@ export function localBusinessSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: 'Anchor Shubham Khandelwal ',
+    name: 'Artist Shubham Khandelwal ',
     description:
       'Full-service premium event management company specializing in weddings, corporate events, social celebrations, entertainment services and production setup.',
     url: baseUrl,
@@ -53,7 +53,7 @@ export function serviceSchema(name: string, description: string, url: string) {
     url: `${baseUrl}${url}`,
     provider: {
       '@type': 'LocalBusiness',
-      name: 'Anchor Shubham Khandelwal ',
+      name: 'Artist Shubham Khandelwal ',
       url: baseUrl,
     },
     areaServed: {
@@ -98,7 +98,7 @@ export function aggregateRatingSchema(ratingValue: number, reviewCount: number) 
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Anchor Shubham Khandelwal ',
+    name: 'Artist Shubham Khandelwal ',
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue,

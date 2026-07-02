@@ -14,8 +14,8 @@ export interface VideoItem {
 export const videos: VideoItem[] = [
   {
     id: 'v1',
-    title: 'Anchor Shubham Khandelwal  — 2024 Showreel',
-    description: 'A cinematic showcase of our finest events from 2024. From royal weddings to grand corporate galas, this is the Anchor Shubham Khandelwal  experience.',
+    title: 'Artist Shubham Khandelwal  — 2024 Showreel',
+    description: 'A cinematic showcase of our finest events from 2024. From royal weddings to grand corporate galas, this is the Artist Shubham Khandelwal  experience.',
     thumbnail: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200&h=675&fit=crop&q=80',
     youtubeId: 'dQw4w9WgXcQ',
     category: 'highlights',
@@ -26,7 +26,7 @@ export const videos: VideoItem[] = [
   {
     id: 'v2',
     title: 'Rohan & Ananya — Dream Destination Wedding, Udaipur',
-    description: 'A three-day wedding extravaganza at a palace resort in Udaipur. Every detail crafted to perfection by the Anchor Shubham Khandelwal  team.',
+    description: 'A three-day wedding extravaganza at a palace resort in Udaipur. Every detail crafted to perfection by the Artist Shubham Khandelwal  team.',
     thumbnail: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=450&fit=crop&q=80',
     youtubeId: 'dQw4w9WgXcQ',
     category: 'wedding',
@@ -56,7 +56,7 @@ export const videos: VideoItem[] = [
   {
     id: 'v5',
     title: 'Arjun & Meera — Sangeet Night Highlights',
-    description: 'A vibrant Sangeet ceremony filled with music, dance and laughter. Professional anchoring, live band, and spectacular lighting.',
+    description: 'A vibrant Sangeet ceremony filled with music, dance and laughter. Professional Artisting, live band, and spectacular lighting.',
     thumbnail: 'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&h=450&fit=crop&q=80',
     youtubeId: 'dQw4w9WgXcQ',
     category: 'wedding',
@@ -85,8 +85,8 @@ export const videos: VideoItem[] = [
   },
   {
     id: 'v8',
-    title: 'Anchor Shubham Khandelwal  — Behind the Scenes: Wedding Planning',
-    description: 'Go behind the scenes with the Anchor Shubham Khandelwal  team as we transform a blank canvas into a dream wedding venue.',
+    title: 'Artist Shubham Khandelwal  — Behind the Scenes: Wedding Planning',
+    description: 'Go behind the scenes with the Artist Shubham Khandelwal  team as we transform a blank canvas into a dream wedding venue.',
     thumbnail: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&h=450&fit=crop&q=80',
     youtubeId: 'dQw4w9WgXcQ',
     category: 'highlights',

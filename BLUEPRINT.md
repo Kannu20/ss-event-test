@@ -1,10 +1,10 @@
-# Anchor Shubham Khandelwal  — Complete Project Blueprint
+# Artist Shubham Khandelwal  — Complete Project Blueprint
 > Premium Event Management Company Website
 > Status: Pre-Development Architecture Document
 
 ---
 
-## 1. REFERENCE ANALYSIS — anchorankit.com
+## 1. REFERENCE ANALYSIS — Artistankit.com
 
 ### What They Did Well
 - Clean service categorization with named sub-services
@@ -14,8 +14,8 @@
 - Client logo social proof strip
 - Gallery grid with lightbox
 
-### Critical Gaps (Where Anchor Shubham Khandelwal  Wins)
-| Gap | Anchor Shubham Khandelwal  Solution |
+### Critical Gaps (Where Artist Shubham Khandelwal  Wins)
+| Gap | Artist Shubham Khandelwal  Solution |
 |-----|------------------|
 | WordPress/Elementor (slow, generic) | Next.js 15 App Router (fast, custom) |
 | No luxury design language | Black & Gold premium design system |
@@ -403,7 +403,7 @@ ss-event/
 
 ```
 /                           Home
-├── /about                  About Anchor Shubham Khandelwal 
+├── /about                  About Artist Shubham Khandelwal 
 ├── /services               Services Overview (hub page)
 │   ├── /wedding-events     Wedding Services (detail page)
 │   ├── /corporate-events   Corporate Services
@@ -436,7 +436,7 @@ Services Mega-Dropdown
 │  • Sangeet         │  • Dealer Meets           │
 │  • Reception       ├────────────────────────── │
 │                    │ Entertainment Services     │
-│ Social Events      │  • Professional Anchors   │
+│ Social Events      │  • Professional Artists   │
 │  • Birthday Parties│  • DJ Services            │
 │  • Anniversary     │  • Live Bands             │
 │  • Cultural Programs│  • Celebrity Management  │
@@ -830,7 +830,7 @@ ServiceTemplate  = InnerPageTemplate + service-specific sections
 Page                    Target Keyword (Primary)
 ────────────────────────────────────────────────
 /                       "Event management company [City]"
-/about                  "Anchor Shubham Khandelwal  about us"
+/about                  "Artist Shubham Khandelwal  about us"
 /services               "Event management services"
 /services/wedding-events "Wedding event planner [City]"
 /services/corporate-events "Corporate event management"

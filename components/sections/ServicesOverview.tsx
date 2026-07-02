@@ -37,10 +37,10 @@ const services = [
   },
   {
     title: 'Entertainment Services',
-    description: 'Professional anchors, DJ services, live bands, celebrity management, and artist booking for unforgettable performances.',
+    description: 'Professional Artists, DJ services, live bands, celebrity management, and artist booking for unforgettable performances.',
     image: '/images/entertainment.jpeg',
     href: '/services/entertainment-services',
-    tags: ['Live Music', 'Anchors', 'Celebrities'],
+    tags: ['Live Music', 'Artists', 'Celebrities'],
     accent: 'text-amber-300',
   },
   {

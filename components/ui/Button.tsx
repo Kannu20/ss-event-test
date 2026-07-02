@@ -1,4 +1,4 @@
-import { forwardRef, type ButtonHTMLAttributes, type AnchorHTMLAttributes } from 'react'
+import { forwardRef, type ButtonHTMLAttributes, type ArtistHTMLAttributes } from 'react'
 import Link from 'next/link'
 import { Slot } from '@radix-ui/react-slot'
 import { cva, type VariantProps } from 'class-variance-authority'
@@ -77,12 +77,12 @@ type ButtonAsButton = BaseProps &
   ButtonHTMLAttributes<HTMLButtonElement> & { href?: undefined; onClick?: () => void }
 
 type ButtonAsLink = BaseProps &
-  AnchorHTMLAttributes<HTMLAnchorElement> & { href: string }
+  ArtistHTMLAttributes<HTMLArtistElement> & { href: string }
 
 type ButtonProps = ButtonAsButton | ButtonAsLink
 
 /* ─── Button Component ──────────────────────── */
-export const Button = forwardRef<HTMLButtonElement | HTMLAnchorElement, ButtonProps>(
+export const Button = forwardRef<HTMLButtonElement | HTMLArtistElement, ButtonProps>(
   (props, ref) => {
     const {
       variant,
@@ -115,12 +115,12 @@ export const Button = forwardRef<HTMLButtonElement | HTMLAnchorElement, ButtonPr
       if (isExternal) {
         return (
           <a
-            ref={ref as React.Ref<HTMLAnchorElement>}
+            ref={ref as React.Ref<HTMLArtistElement>}
             href={href}
             target="_blank"
             rel="noopener noreferrer"
             className={classes}
-            {...(rest as AnchorHTMLAttributes<HTMLAnchorElement>)}
+            {...(rest as ArtistHTMLAttributes<HTMLArtistElement>)}
           >
             {content}
           </a>
@@ -129,10 +129,10 @@ export const Button = forwardRef<HTMLButtonElement | HTMLAnchorElement, ButtonPr
 
       return (
         <Link
-          ref={ref as React.Ref<HTMLAnchorElement>}
+          ref={ref as React.Ref<HTMLArtistElement>}
           href={href}
           className={classes}
-          {...(rest as AnchorHTMLAttributes<HTMLAnchorElement>)}
+          {...(rest as ArtistHTMLAttributes<HTMLArtistElement>)}
         >
           {content}
         </Link>

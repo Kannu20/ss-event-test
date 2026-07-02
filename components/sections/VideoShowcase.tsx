@@ -65,7 +65,7 @@ export function VideoShowcase() {
               <div className="relative aspect-video">
                 <Image
                   src={THUMBNAIL}
-                  alt="Anchor Shubham Khandelwal  2024 Showreel"
+                  alt="Artist Shubham Khandelwal  2024 Showreel"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 896px"
@@ -77,7 +77,7 @@ export function VideoShowcase() {
                   <div className="text-center mb-6">
                     <p className="eyebrow mb-2">Showreel 2024</p>
                     <h3 className="font-display font-bold text-white text-2xl md:text-3xl">
-                      Anchor Shubham Khandelwal  — A Year of Extraordinary Moments
+                      Artist Shubham Khandelwal  — A Year of Extraordinary Moments
                     </h3>
                   </div>
 
@@ -100,7 +100,7 @@ export function VideoShowcase() {
             <div className="aspect-video">
               <iframe
                 src={`https://www.youtube.com/embed/${YOUTUBE_ID}?autoplay=1&rel=0`}
-                title="Anchor Shubham Khandelwal  Showreel 2024"
+                title="Artist Shubham Khandelwal  Showreel 2024"
                 className="w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

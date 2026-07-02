@@ -11,7 +11,7 @@ export default function WeddingEventsPage() {
         title: 'Wedding Events',
         subtitle: 'From intimate ceremonies to grand destination weddings — every ritual, every detail, every emotion crafted to perfection.',
         tag: 'Wedding Services',
-        image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&h=800&fit=crop&q=80',
+        image: '/images/mehandi.jpeg',
       }}
       breadcrumbs={[{ label: 'Wedding Events' }]}
       schemaName="Wedding Event Management"
@@ -22,7 +22,7 @@ export default function WeddingEventsPage() {
         title: 'Your Dream Wedding,',
         titleHighlight: 'Flawlessly Executed',
         description: [
-          'Your wedding is the most important celebration of your life. At Anchor Shubham Khandelwal , we understand the weight of that responsibility — and we\'ve spent a decade perfecting the art of creating weddings that exceed every expectation.',
+          'Your wedding is the most important celebration of your life. At Artist Shubham Khandelwal , we understand the weight of that responsibility — and we\'ve spent a decade perfecting the art of creating weddings that exceed every expectation.',
           'From the first planning meeting to the final farewell, our dedicated wedding team handles every detail with care, creativity, and complete professionalism. You get to be completely present in your own love story while we manage everything else.',
         ],
       }}
@@ -31,7 +31,7 @@ export default function WeddingEventsPage() {
         { icon: '✈️', title: 'Destination Weddings', description: 'Dream weddings at palaces in Rajasthan, beaches in Goa, mountains in Himachal — we manage all logistics wherever you dream of celebrating.' },
         { icon: '💛', title: 'Haldi Ceremony', description: 'Vibrant, joyful Haldi ceremonies with marigold décor, folk music, and all the traditional elements that make this ritual special.' },
         { icon: '🌺', title: 'Mehendi Night', description: 'Beautiful Mehendi evenings with professional artists, floral décor, music, and a relaxed atmosphere perfect for pre-wedding bonding.' },
-        { icon: '🎶', title: 'Sangeet Night', description: 'High-energy Sangeet ceremonies with professional anchors, choreography assistance, live bands and DJ, and spectacular lighting.' },
+        { icon: '🎶', title: 'Sangeet Night', description: 'High-energy Sangeet ceremonies with professional Artists, choreography assistance, live bands and DJ, and spectacular lighting.' },
         { icon: '🥂', title: 'Grand Reception', description: 'Magnificent receptions that make a statement — from dramatic entrances to stunning décor, flawless catering and entertainment.' },
         { icon: '🏨', title: 'Guest Management', description: 'Comprehensive guest management including RSVP tracking, accommodation coordination, transportation, and hospitality for all guests.' },
         { icon: '🌸', title: 'Wedding Décor', description: 'In-house décor team creating stunning florals, thematic installations, lighting designs, and stage setups for every ceremony.' },

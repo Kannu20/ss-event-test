@@ -9,25 +9,25 @@ export default function EntertainmentServicesPage() {
     <ServicePageLayout
       hero={{
         title: 'Entertainment Services',
-        subtitle: 'Professional anchors, live bands, DJs, and celebrity performers — we source and manage world-class entertainment that makes your event unforgettable.',
+        subtitle: 'Professional Artists, live bands, DJs, and celebrity performers — we source and manage world-class entertainment that makes your event unforgettable.',
         tag: 'Entertainment',
-        image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1920&h=800&fit=crop&q=80',
+        image: '/images/entertainment.jpeg',
       }}
       breadcrumbs={[{ label: 'Entertainment Services' }]}
       schemaName="Entertainment Services"
-      schemaDescription="Professional entertainment management including anchors, DJ services, live bands, celebrity management and artist booking for events."
+      schemaDescription="Professional entertainment management including Artists, DJ services, live bands, celebrity management and artist booking for events."
       schemaUrl="/services/entertainment-services"
       intro={{
         label: 'Entertainment Division',
         title: 'Performances That',
         titleHighlight: 'Steal the Show',
         description: [
-          'Entertainment is the heartbeat of any great event. A brilliant performer can transform a good event into a legendary one. At Anchor Shubham Khandelwal , our entertainment division manages everything — from finding the perfect anchor who matches your event\'s tone to booking that celebrity performer your guests will talk about for years.',
+          'Entertainment is the heartbeat of any great event. A brilliant performer can transform a good event into a legendary one. At Artist Shubham Khandelwal , our entertainment division manages everything — from finding the perfect Artist who matches your event\'s tone to booking that celebrity performer your guests will talk about for years.',
           "With over a decade of industry relationships, we have access to performers, artists, and entertainers that other agencies simply can't reach. And more importantly, we know how to manage them professionally — ensuring they deliver their absolute best for your event.",
         ],
       }}
       subServices={[
-        { icon: '🎙️', title: 'Professional Anchors', description: 'Bilingual anchors who match your event\'s tone — from warm family hosts to high-energy corporate emcees. Vetted, trained, reliable.' },
+        { icon: '🎙️', title: 'Professional Artists', description: 'Bilingual Artists who match your event\'s tone — from warm family hosts to high-energy corporate emcees. Vetted, trained, reliable.' },
         { icon: '🎧', title: 'DJ Services', description: 'Top DJs with premium equipment reading the crowd perfectly — Bollywood, commercial, EDM, fusion. For weddings and corporate events alike.' },
         { icon: '🎸', title: 'Live Bands', description: 'Versatile live bands for any occasion — Bollywood cover bands, jazz ensembles, folk performers, international acts and everything in between.' },
         { icon: '⭐', title: 'Celebrity Management', description: 'Access to Bollywood artists, musicians, comedians and regional celebrities. Full celebrity management from booking to performance.' },

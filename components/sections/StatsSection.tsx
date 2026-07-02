@@ -33,7 +33,7 @@ const stats = [
     end: 1000,
     suffix: '+',
     label: 'Happy Clients',
-    description: 'Families and businesses who trust Anchor Shubham Khandelwal ',
+    description: 'Families and businesses who trust Artist Shubham Khandelwal ',
   },
 ]
 

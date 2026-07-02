@@ -4,14 +4,14 @@ export const faqs: FAQItem[] = [
   // General
   {
     id: 'faq-001',
-    question: 'What is Anchor Shubham Khandelwal  and what services do you offer?',
-    answer: 'Anchor Shubham Khandelwal  is a full-service premium event management company. We specialize in weddings (planning, destination weddings, Haldi, Mehendi, Sangeet, Reception), corporate events (conferences, product launches, award functions), social events (birthdays, anniversaries, cultural programs), entertainment services (anchors, DJs, live bands, celebrity management), and production setup (stage design, LED walls, sound, lighting, photography, videography).',
+    question: 'What is Artist Shubham Khandelwal  and what services do you offer?',
+    answer: 'Artist Shubham Khandelwal  is a full-service premium event management company. We specialize in weddings (planning, destination weddings, Haldi, Mehendi, Sangeet, Reception), corporate events (conferences, product launches, award functions), social events (birthdays, anniversaries, cultural programs), entertainment services (Artists, DJs, live bands, celebrity management), and production setup (stage design, LED walls, sound, lighting, photography, videography).',
     category: 'general',
     featured: true,
   },
   {
     id: 'faq-002',
-    question: 'How early should I book Anchor Shubham Khandelwal  for my event?',
+    question: 'How early should I book Artist Shubham Khandelwal  for my event?',
     answer: 'For weddings, we recommend booking at least 6–12 months in advance to ensure availability and adequate planning time. For corporate events, 3–6 months ahead is ideal. For smaller social events, 1–3 months is usually sufficient. That said, we always try to accommodate last-minute requests based on availability.',
     category: 'general',
     featured: true,
@@ -19,7 +19,7 @@ export const faqs: FAQItem[] = [
   {
     id: 'faq-003',
     question: 'Do you work across India or only in specific cities?',
-    answer: 'Anchor Shubham Khandelwal  operates across major cities in India including Mumbai, Delhi, Jaipur, Udaipur, Bangalore, Chennai, Hyderabad, and more. We also manage destination weddings and events internationally. Our team travels to wherever your dream event needs to happen.',
+    answer: 'Artist Shubham Khandelwal  operates across major cities in India including Mumbai, Delhi, Jaipur, Udaipur, Bangalore, Chennai, Hyderabad, and more. We also manage destination weddings and events internationally. Our team travels to wherever your dream event needs to happen.',
     category: 'general',
     featured: false,
   },
@@ -63,7 +63,7 @@ export const faqs: FAQItem[] = [
   // Booking
   {
     id: 'faq-009',
-    question: 'How do I book a consultation with Anchor Shubham Khandelwal ?',
+    question: 'How do I book a consultation with Artist Shubham Khandelwal ?',
     answer: 'You can book a free consultation through our website\'s Book Consultation page, by calling us directly, or by sending us a WhatsApp message. During the consultation, we\'ll understand your event vision, timeline, budget range, and specific requirements to provide you with a customized proposal.',
     category: 'booking',
     featured: true,

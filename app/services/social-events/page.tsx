@@ -11,7 +11,7 @@ export default function SocialEventsPage() {
         title: 'Social Events',
         subtitle: "Birthdays, anniversaries, cultural programs — life's most joyful chapters deserve celebrations as extraordinary as the moments themselves.",
         tag: 'Social Celebrations',
-        image: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=1920&h=800&fit=crop&q=80',
+        image: '/images/social1.jpeg',
       }}
       breadcrumbs={[{ label: 'Social Events' }]}
       schemaName="Social Event Management"
@@ -23,7 +23,7 @@ export default function SocialEventsPage() {
         titleHighlight: 'Perfectly Celebrated',
         description: [
           "Life's greatest joy is sharing its milestones with the people you love. Whether it's a child's first big birthday party, a grandparent's golden anniversary, a cultural festival, or a family reunion — these moments deserve to be celebrated in a way that creates lasting memories.",
-          'Anchor Shubham Khandelwal  brings the same passion and attention to detail to social events that we bring to weddings and corporate galas. No event is too small for our best effort — and no dream is too big for our creative team.',
+          'Artist Shubham Khandelwal  brings the same passion and attention to detail to social events that we bring to weddings and corporate galas. No event is too small for our best effort — and no dream is too big for our creative team.',
         ],
       }}
       subServices={[

@@ -4,7 +4,7 @@ export const galleryImages: GalleryImage[] = [
   // Weddings
   {
     id: 'g1',
-    src: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80',
+    src: '/images/social1.jpeg',
     alt: 'Grand wedding mandap with floral decorations',
     category: 'wedding',
     width: 800,
@@ -12,7 +12,7 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     id: 'g2',
-    src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80',
+    src: '/images/light.jpeg',
     alt: 'Sangeet ceremony with dazzling lights',
     category: 'wedding',
     width: 800,
@@ -20,7 +20,7 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     id: 'g3',
-    src: 'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&q=80',
+    src: '/images/birthday.jpeg',
     alt: 'Outdoor destination wedding setup',
     category: 'wedding',
     width: 800,
@@ -28,7 +28,7 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     id: 'g4',
-    src: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&q=80',
+    src: '/images/hero.jpeg',
     alt: 'Elegant reception hall decoration',
     category: 'wedding',
     width: 800,
@@ -36,7 +36,7 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     id: 'g5',
-    src: 'https://images.unsplash.com/photo-1606800052052-a08af7148866?w=800&q=80',
+    src: '/images/mehandi.jpeg',
     alt: 'Mehendi ceremony decor with rose arrangements',
     category: 'wedding',
     width: 800,
@@ -44,7 +44,7 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     id: 'g6',
-    src: 'https://images.unsplash.com/photo-1532712938310-34cb3982ef74?w=800&q=80',
+    src: '/images/social.jpeg',
     alt: 'Haldi ceremony with marigold decorations',
     category: 'wedding',
     width: 800,
@@ -53,7 +53,7 @@ export const galleryImages: GalleryImage[] = [
   // Corporate
   {
     id: 'g7',
-    src: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80',
+    src: '/images/corparate.jpeg',
     alt: 'Corporate conference setup with LED backdrop',
     category: 'corporate',
     width: 800,
@@ -61,7 +61,7 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     id: 'g8',
-    src: 'https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=800&q=80',
+    src: '/images/entertainment.jpeg',
     alt: 'Product launch event with light show',
     category: 'corporate',
     width: 800,
@@ -69,7 +69,7 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     id: 'g9',
-    src: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80',
+    src: '/images/portfolio.jpg',
     alt: 'Corporate award function gala night',
     category: 'corporate',
     width: 800,
@@ -77,7 +77,7 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     id: 'g10',
-    src: 'https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&q=80',
+    src: '/images/sangeet.jpeg',
     alt: 'Dealer meet event with stage production',
     category: 'corporate',
     width: 800,
@@ -86,7 +86,7 @@ export const galleryImages: GalleryImage[] = [
   // Social
   {
     id: 'g11',
-    src: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80',
+    src: '/images/setup.jpeg',
     alt: 'Luxury birthday party with balloon setup',
     category: 'social',
     width: 800,
@@ -94,7 +94,7 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     id: 'g12',
-    src: 'https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=800&q=80',
+    src: '/images/aboutme.jpeg',
     alt: 'Anniversary celebration with rose arch',
     category: 'social',
     width: 800,
@@ -102,7 +102,7 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     id: 'g13',
-    src: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80',
+    src: '/images/banner.jpeg',
     alt: 'Cultural program with traditional performances',
     category: 'social',
     width: 800,
@@ -111,7 +111,7 @@ export const galleryImages: GalleryImage[] = [
   // Production
   {
     id: 'g14',
-    src: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800&q=80',
+    src: '/images/about.jpeg',
     alt: 'Large stage setup with LED walls and truss',
     category: 'production',
     width: 800,
@@ -119,7 +119,7 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     id: 'g15',
-    src: 'https://images.unsplash.com/photo-1429514513361-8a632ff5f3a1?w=800&q=80',
+    src: '/images/production.jpeg',
     alt: 'Professional sound system installation',
     category: 'production',
     width: 800,
@@ -127,7 +127,7 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     id: 'g16',
-    src: 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800&q=80',
+    src: '/images/event.jpeg',
     alt: 'Drone photography of outdoor event venue',
     category: 'production',
     width: 800,

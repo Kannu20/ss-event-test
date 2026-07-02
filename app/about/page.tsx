@@ -51,14 +51,14 @@ export default function AboutPage() {
               </h2>
               <GoldOrnament className="mb-6" />
               <p className="text-white/65 font-sans leading-relaxed mb-5">
-                Anchor Shubham Khandelwal  was born in 2000 from a simple but powerful belief: that every celebration —
+                Artist Shubham Khandelwal  was born in 2000 from a simple but powerful belief: that every celebration —
                 no matter the size or budget — deserves to be extraordinary. Founders Sanjay and
                 Shreya Sharma started the company with three team members and a vision that every
-                couple, every family, and every organization should have access to world-claAnchor Shubham Khandelwal 
+                couple, every family, and every organization should have access to world-claArtist Shubham Khandelwal 
                 management.
               </p>
               <p className="text-white/65 font-sans leading-relaxed mb-5">
-                Today, Anchor Shubham Khandelwal  is one of India&apos;s most respected anchor
+                Today, Artist Shubham Khandelwal  is one of India&apos;s most respected Artist
                 operating across 25+ cities with a team of 65+ dedicated professionals.
                 We&apos;ve managed royal weddings in Udaipur, corporate summits for Fortune 500
                 companies, birthday galas for Bollywood celebrities, and intimate family gatherings
@@ -76,7 +76,7 @@ export default function AboutPage() {
             <div className="relative h-[500px] rounded-2xl overflow-hidden">
               <Image
                 src="https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=1000&fit=crop&q=80"
-                alt="Anchor Shubham Khandelwal  at a luxury wedding"
+                alt="Artist Shubham Khandelwal  at a luxury wedding"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

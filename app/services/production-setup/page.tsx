@@ -11,7 +11,7 @@ export default function ProductionSetupPage() {
         title: 'Production Setup',
         subtitle: 'Cutting-edge stage design, LED walls, professional sound and lighting, photography, videography and drone coverage — all under one roof.',
         tag: 'Production Division',
-        image: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=1920&h=800&fit=crop&q=80',
+        image: '/images/prod.jpeg',
       }}
       breadcrumbs={[{ label: 'Production Setup' }]}
       schemaName="Event Production Setup"
@@ -23,7 +23,7 @@ export default function ProductionSetupPage() {
         titleHighlight: 'Every Time',
         description: [
           'Behind every breathtaking event is a world-class production team. The stage, the lights, the sound — these elements don\'t just support your event, they define the emotional experience of every person in the room.',
-          "Anchor Shubham Khandelwal 's in-house production division owns and operates a comprehensive inventory of professional event production equipment — from massive LED walls and concert-grade sound systems to cinematic camera rigs and a professional drone fleet. We don't subcontract your production — we own it.",
+          "Artist Shubham Khandelwal 's in-house production division owns and operates a comprehensive inventory of professional event production equipment — from massive LED walls and concert-grade sound systems to cinematic camera rigs and a professional drone fleet. We don't subcontract your production — we own it.",
         ],
       }}
       subServices={[
