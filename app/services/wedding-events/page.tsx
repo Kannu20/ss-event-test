@@ -8,41 +8,41 @@ export default function WeddingEventsPage() {
   return (
     <ServicePageLayout
       hero={{
-        title: 'Wedding Events',
-        subtitle: 'From intimate ceremonies to grand destination weddings — every ritual, every detail, every emotion crafted to perfection.',
-        tag: 'Wedding Services',
+        title: 'Wedding & Sangeet Anchoring',
+        subtitle: 'Shubham takes the mic and turns every ritual into a moment — reading the room, warming the crowd, and keeping your celebration flowing from the first entrance to the last dance.',
+        tag: 'Wedding Hosting',
         image: '/images/mehandi.jpeg',
       }}
-      breadcrumbs={[{ label: 'Wedding Events' }]}
-      schemaName="Wedding Event Management"
-      schemaDescription="Full-service wedding event management including destination weddings, Haldi, Mehendi, Sangeet, Reception, guest management and wedding décor."
+      breadcrumbs={[{ label: 'Wedding & Sangeet Anchoring' }]}
+      schemaName="Wedding & Sangeet Anchoring"
+      schemaDescription="Professional wedding and sangeet anchoring by Artist Shubham Khandelwal — ceremony hosting, sangeet night anchoring, cocktail and reception compering, varmala hosting, live singing sets and interactive crowd games."
       schemaUrl="/services/wedding-events"
       intro={{
-        label: 'Wedding Specialists',
-        title: 'Your Dream Wedding,',
-        titleHighlight: 'Flawlessly Executed',
+        label: 'Your Wedding Host',
+        title: 'The Voice That Holds',
+        titleHighlight: 'Your Big Day Together',
         description: [
-          'Your wedding is the most important celebration of your life. At Artist Shubham Khandelwal , we understand the weight of that responsibility — and we\'ve spent a decade perfecting the art of creating weddings that exceed every expectation.',
-          'From the first planning meeting to the final farewell, our dedicated wedding team handles every detail with care, creativity, and complete professionalism. You get to be completely present in your own love story while we manage everything else.',
+          'Your wedding is the most important celebration of your life, and the person on the mic sets its energy. For 8+ years Shubham has hosted weddings and sangeet nights across Rajasthan and beyond, reading every crowd and giving each ritual the emotion it deserves.',
+          'He hosts fluently in Hindi, English and Rajasthani, blends live singing with interactive games, and works to a custom script so no cue is missed. You stay present in your own love story while Shubham keeps every moment moving with warmth, timing and stage presence.',
         ],
       }}
       subServices={[
-        { icon: '💍', title: 'Complete Wedding Planning', description: 'End-to-end management from venue selection to day-of coordination. Your personal wedding manager guides you through every decision.' },
-        { icon: '✈️', title: 'Destination Weddings', description: 'Dream weddings at palaces in Rajasthan, beaches in Goa, mountains in Himachal — we manage all logistics wherever you dream of celebrating.' },
-        { icon: '💛', title: 'Haldi Ceremony', description: 'Vibrant, joyful Haldi ceremonies with marigold décor, folk music, and all the traditional elements that make this ritual special.' },
-        { icon: '🌺', title: 'Mehendi Night', description: 'Beautiful Mehendi evenings with professional artists, floral décor, music, and a relaxed atmosphere perfect for pre-wedding bonding.' },
-        { icon: '🎶', title: 'Sangeet Night', description: 'High-energy Sangeet ceremonies with professional Artists, choreography assistance, live bands and DJ, and spectacular lighting.' },
-        { icon: '🥂', title: 'Grand Reception', description: 'Magnificent receptions that make a statement — from dramatic entrances to stunning décor, flawless catering and entertainment.' },
-        { icon: '🏨', title: 'Guest Management', description: 'Comprehensive guest management including RSVP tracking, accommodation coordination, transportation, and hospitality for all guests.' },
-        { icon: '🌸', title: 'Wedding Décor', description: 'In-house décor team creating stunning florals, thematic installations, lighting designs, and stage setups for every ceremony.' },
+        { icon: '💍', title: 'Wedding Ceremony Hosting', description: 'Shubham anchors your ceremony with poise — announcing entrances, guiding guests through each ritual, and holding the emotion of every moment.' },
+        { icon: '🎶', title: 'Sangeet Night Anchoring', description: 'High-energy sangeet hosting — introducing performances, running the dance-off, and keeping both families on their feet all night.' },
+        { icon: '🥂', title: 'Cocktail & Reception Hosting', description: 'Polished reception compering — from the grand entrance to toasts and felicitations, delivered with charm and impeccable timing.' },
+        { icon: '🌸', title: 'Varmala & Jaimala Compering', description: 'Shubham builds the drama of the jaimala moment, cueing the music and crowd so the couple gets the entrance they dreamed of.' },
+        { icon: '💛', title: 'Haldi & Mehendi Hosting', description: 'Relaxed, playful hosting for the daytime functions — folk sing-alongs, family games and light-hearted banter that gets everyone involved.' },
+        { icon: '🎤', title: 'Live Singing Sets', description: 'Live vocals woven into the celebration — romantic numbers for the couple and crowd favourites that turn guests into a chorus.' },
+        { icon: '🎉', title: 'Interactive Crowd Games', description: 'Custom games and couple challenges that break the ice between families and keep the energy climbing between rituals.' },
+        { icon: '📜', title: 'Custom Script & Run-of-Show', description: 'Every function scripted to your family, culture and timeline — names, cues and flow rehearsed so the day runs seamlessly.' },
       ]}
       processSteps={[
-        { step: '01', title: 'Vision Discovery', description: 'Deep consultation to understand your dream, preferences, budget and family requirements.' },
-        { step: '02', title: 'Concept & Proposal', description: 'Customized wedding concept with mood boards, vendor recommendations and detailed quote.' },
-        { step: '03', title: 'Planning & Coordination', description: 'Full-service planning over months — venue, vendors, timeline, rehearsals and family briefings.' },
-        { step: '04', title: 'Flawless Execution', description: 'Dedicated on-site team for every ceremony, ensuring every moment unfolds as planned.' },
+        { step: '01', title: 'Discovery Call', description: 'Shubham learns your story, families, rituals, languages and vibe so the hosting feels personal, not templated.' },
+        { step: '02', title: 'Custom Script', description: 'A tailored run-of-show and script — entrances, cues, song moments and games — built around your ceremony timeline.' },
+        { step: '03', title: 'Rehearsal & Coordination', description: 'Shubham aligns with your planner, DJ and family, rehearsing key cues so every announcement lands perfectly.' },
+        { step: '04', title: 'Show Night', description: 'On the day, Shubham owns the mic — reading the room, adapting live, and keeping every moment flowing with energy.' },
       ]}
-      ctaTitle="Start Planning Your Perfect Wedding"
+      ctaTitle="Check Shubham's Availability for Your Wedding"
     />
   )
 }

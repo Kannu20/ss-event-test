@@ -3,7 +3,7 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import {
-  Shield, Clock, Award, Users, Sparkles, HeartHandshake
+  Mic2, Users, Music, Languages, Sparkles, PenLine
 } from 'lucide-react'
 import { SectionLabel } from '@/components/ui/SectionLabel'
 import { GradientText } from '@/components/ui/GradientText'
@@ -13,34 +13,34 @@ import { staggerContainer, fadeInUp } from '@/lib/animations/variants'
 
 const reasons = [
   {
-    icon: Award,
-    title: '10+ Years of Expertise',
-    description: 'A decade of crafting extraordinary events has given us an unrivaled understanding of what makes celebrations truly unforgettable.',
+    icon: Mic2,
+    title: 'Commanding Stage Presence',
+    description: 'The moment Shubham takes the mic, the room settles and every eye turns to the stage. Eight years of performing have made confidence his default setting.',
   },
   {
     icon: Users,
-    title: 'Dedicated Event Team',
-    description: 'Your event gets a dedicated team — a project manager, décor lead, production head, and on-site coordinators — all focused solely on you.',
+    title: 'Real Audience Engagement',
+    description: 'He reads the crowd in real time — pulling shy guests in, keeping the energy high, and making sure grandparents and cousins alike feel part of the moment.',
   },
   {
-    icon: Clock,
-    title: 'On-Time Delivery',
-    description: 'We take timelines seriously. Every milestone, every setup, every moment is meticulously scheduled and delivered on time — every time.',
+    icon: Music,
+    title: 'Live Singing',
+    description: 'A host who can also sing. When the moment deserves goosebumps, Shubham puts down the script and delivers a live performance guests never expect.',
   },
   {
-    icon: Shield,
-    title: 'Trusted Vendor Network',
-    description: 'Over 10 years, we\'ve curated a network of India\'s finest vendors — photographers, florists, caterers — all vetted to our exacting standards.',
+    icon: Languages,
+    title: 'Multilingual Hosting',
+    description: 'Fluent hosting in Hindi, English and Rajasthani — switching effortlessly so every guest, from close family to corporate delegates, feels spoken to.',
+  },
+  {
+    icon: PenLine,
+    title: 'Custom-Written Scripts',
+    description: 'No recycled one-liners. Every wedding, sangeet and corporate show gets a script built around your story, your people and your run-of-show.',
   },
   {
     icon: Sparkles,
-    title: 'Customized to Perfection',
-    description: 'No templates. No copy-paste events. Every celebration is designed from scratch to reflect your personality, your culture, and your vision.',
-  },
-  {
-    icon: HeartHandshake,
-    title: 'End-to-End Management',
-    description: 'From the first consultation to the final goodbye, we handle everything. You get to be a guest at your own event.',
+    title: 'Interactive Entertainment',
+    description: 'Games, banter, crowd interaction and surprise moments — Shubham designs the flow so the celebration never dips and never drags.',
   },
 ]
 
@@ -67,21 +67,21 @@ export function WhyChooseUs() {
           animate={isInView ? 'visible' : 'hidden'}
         >
           <motion.div variants={fadeInUp} className="flex justify-center">
-            <SectionLabel className="text-gold mr-1 text-sm">Why Artist Shubham Khandelwal </SectionLabel>
+            <SectionLabel className="text-gold mr-1 text-sm">Why Book Shubham</SectionLabel>
           </motion.div>
           <motion.h2
             variants={fadeInUp}
             className="font-display font-bold text-4xl md:text-5xl leading-tight mt-4 mb-4"
           >
-            The Artist Shubham Khandelwal {' '}
-            <GradientText>Difference</GradientText>
+            What Sets Him{' '}
+            <GradientText>Apart</GradientText>
           </motion.h2>
           <motion.div variants={fadeInUp}>
             <GoldOrnament className="justify-center mb-4" />
           </motion.div>
           <motion.p variants={fadeInUp} className="text-white/60 font-sans text-lg">
-            What separates a good event from an extraordinary one? It&apos;s the team behind it.
-            Here&apos;s what you can expect when you work with us.
+            Anyone can read announcements off a card. Booking Shubham means booking a performer
+            who turns your event into a show — and your guests into an audience that stays.
           </motion.p>
         </motion.div>
 
@@ -130,7 +130,7 @@ export function WhyChooseUs() {
           animate={isInView ? 'visible' : 'hidden'}
         >
           <Button href="/book-consultation" variant="primary" size="lg">
-            Start Planning Your Event
+            Check Shubham&apos;s Availability
           </Button>
         </motion.div>
       </div>

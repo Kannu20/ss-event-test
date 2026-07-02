@@ -2,16 +2,17 @@
 
 import { useEffect, useRef } from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import { motion, useScroll, useTransform } from 'framer-motion'
-import { ArrowDown, Phone, MessageCircle } from 'lucide-react'
+import { ArrowDown, Phone, MessageCircle, Play } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { GoldLine } from '@/components/ui/GoldLine'
+import { brand, heroBadges, brandLinks, whatsappMessage } from '@/lib/constants/brand'
 
-const PHONE = process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? '+91 98765 43210'
-const WHATSAPP = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '919876543210'
+const PHONE = brandLinks.phoneDisplay
+const WHATSAPP = brandLinks.whatsapp
 
-const words = ['Weddings', 'Galas', 'Conferences', 'Celebrations']
+// Rotating professional identities
+const identities = brand.identities
 
 export function HeroSection() {
   const containerRef = useRef<HTMLElement>(null)
@@ -23,20 +24,20 @@ export function HeroSection() {
     offset: ['start start', 'end start'],
   })
   const imgY = useTransform(scrollYProgress, [0, 1], ['0%', '30%'])
-  const overlayOpacity = useTransform(scrollYProgress, [0, 0.8], [0.65, 0.9])
+  const overlayOpacity = useTransform(scrollYProgress, [0, 0.8], [0.6, 0.9])
   const contentY = useTransform(scrollYProgress, [0, 1], ['0%', '20%'])
 
-  // Word cycling animation
+  // Identity cycling animation
   useEffect(() => {
     const el = wordRef.current
     if (!el) return
     const cycle = () => {
-      wordIndexRef.current = (wordIndexRef.current + 1) % words.length
+      wordIndexRef.current = (wordIndexRef.current + 1) % identities.length
       el.style.transition = 'opacity 0.4s ease, transform 0.4s ease'
       el.style.opacity = '0'
       el.style.transform = 'translateY(-12px)'
       setTimeout(() => {
-        el.textContent = words[wordIndexRef.current]
+        el.textContent = identities[wordIndexRef.current]
         el.style.transform = 'translateY(12px)'
         el.style.opacity = '0'
         requestAnimationFrame(() => {
@@ -46,8 +47,8 @@ export function HeroSection() {
         })
       }, 420)
     }
-    el.textContent = words[0]
-    const id = setInterval(cycle, 3000)
+    el.textContent = identities[0]
+    const id = setInterval(cycle, 2600)
     return () => clearInterval(id)
   }, [])
 
@@ -70,10 +71,10 @@ export function HeroSection() {
       <motion.div className="absolute inset-0" style={{ y: imgY }}>
         <Image
           src="/images/main.jpeg"
-          alt="Luxury wedding event by Artist Shubham Khandelwal "
+          alt="Artist Shubham Khandelwal hosting a live celebration on stage"
           fill
           priority
-          className="object-cover object-center scale-110"
+          className="object-cover object-center"
           sizes="100vw"
         />
       </motion.div>
@@ -83,9 +84,11 @@ export function HeroSection() {
         className="absolute inset-0 bg-black"
         style={{ opacity: overlayOpacity }}
       />
+      {/* Cinematic bottom-to-top gradient for text legibility */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-black/30" />
 
       {/* Gold radial glow */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_50%_100%,rgba(212,175,55,0.12),transparent)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_50%_100%,rgba(212,175,55,0.14),transparent)]" />
 
       {/* Grain texture */}
       <div
@@ -107,7 +110,7 @@ export function HeroSection() {
         {/* Eyebrow */}
         <motion.div variants={item} className="flex items-center justify-center gap-3 mb-6">
           <GoldLine className="w-12 hidden sm:block" />
-          <span className="eyebrow">Artist Shubham Khandelwal  — Rajasthan&apos;s Premier Artist</span>
+          <span className="eyebrow">{brand.role}</span>
           <GoldLine className="w-12 hidden sm:block" />
         </motion.div>
 
@@ -116,26 +119,29 @@ export function HeroSection() {
           variants={item}
           className="font-display font-bold leading-[1.05] tracking-tight mb-6"
         >
-          <span className="block text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
-            Extraordinary
+          <span className="block text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+            The Voice Behind Rajasthan&apos;s
           </span>
-          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
-            <span ref={wordRef} className="text-gold-gradient inline-block">
-              Weddings
+          <span className="block text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-3">
+            Most Memorable Celebrations
+          </span>
+          {/* Rotating identity */}
+          <span className="block text-2xl sm:text-3xl md:text-4xl font-sans font-light tracking-wide text-white/70">
+            <span className="text-white/50">Your </span>
+            <span ref={wordRef} className="text-gold-gradient font-display font-semibold inline-block">
+              Wedding Anchor
             </span>
-          </span>
-          <span className="block text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
-            Crafted for You
           </span>
         </motion.h1>
 
         {/* Subtitle */}
         <motion.p
           variants={item}
-          className="font-sans text-white/65 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
+          className="font-sans text-white/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          From intimate celebrations to grand destination weddings and corporate galas —
-          we turn your vision into moments that last a lifetime.
+          Award-winning anchor, live singer and master of ceremonies. From grand sangeet
+          nights to corporate stages, Shubham reads the room, works the crowd and turns
+          your event into a celebration people talk about for years.
         </motion.p>
 
         {/* CTAs */}
@@ -144,19 +150,20 @@ export function HeroSection() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <Button href="/book-consultation" variant="primary" size="lg">
-            Book Free Consultation
+            Book Consultation
           </Button>
-          <Button href="/portfolio" variant="ghost" size="lg">
-            View Our Work
+          <Button href="/videos" variant="ghost" size="lg">
+            <Play className="w-4 h-4 mr-2 inline fill-current" />
+            Watch Showreel
           </Button>
         </motion.div>
 
         {/* Trust badges */}
         <motion.div
           variants={item}
-          className="flex flex-wrap items-center justify-center gap-6 mt-12 text-white/40 text-sm font-sans"
+          className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 mt-12 text-white/45 text-sm font-sans"
         >
-          {['5K+ Events Delivered', '10+ Years Experience', '25+ Cities', '100% Client Satisfaction'].map((t) => (
+          {heroBadges.map((t) => (
             <span key={t} className="flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-gold" />
               {t}
@@ -180,13 +187,13 @@ export function HeroSection() {
           {PHONE}
         </a>
         <a
-          href={`https://wa.me/${WHATSAPP}?text=Hi, I'd like to enquire about your event services.`}
+          href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(whatsappMessage)}`}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 bg-black-soft/80 border border-white/10 rounded-full px-4 py-2.5 text-white/70 hover:text-green-400 hover:border-green-400/40 transition-all duration-300 text-sm font-sans backdrop-blur-sm"
         >
           <MessageCircle className="w-3.5 h-3.5" />
-          WhatsApp Us
+          Check Availability
         </a>
       </motion.div>
 

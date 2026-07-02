@@ -6,12 +6,7 @@ import { PageHero } from '@/components/common/PageHero'
 import { BookingCTAStrip } from '@/components/sections/BookingCTAStrip'
 import { VideosGrid } from '@/components/common/VideosGrid'
 
-export const metadata: Metadata = generatePageMetadata(pageSEO.videos ?? {
-  title: 'Event Videos | Artist Shubham Khandelwal ',
-  description: 'Watch highlight reels and event showcases from Artist Shubham Khandelwal .',
-  keywords: ['event videos', 'wedding highlights', 'corporate event video'],
-  canonical: '/videos',
-})
+export const metadata: Metadata = generatePageMetadata(pageSEO.videos)
 
 export default function VideosPage() {
   return (
@@ -19,10 +14,10 @@ export default function VideosPage() {
       <JsonLd data={breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Videos', url: '/videos' }])} />
 
       <PageHero
-        title="Event Videos & Highlights"
-        subtitle="From cinematic wedding films to corporate event showreels — watch the magic we create, in motion."
-        tag="Video Gallery"
-        image="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1920&h=800&fit=crop&q=80"
+        title="Showreel & Highlights"
+        subtitle="From wedding-stage anchoring to live singing sets — watch Shubham work the crowd, in motion."
+        tag="Watch Shubham"
+        image="/images/main.jpeg"
         breadcrumbs={[{ label: 'Videos' }]}
       />
 

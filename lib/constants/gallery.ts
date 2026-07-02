@@ -1,144 +1,35 @@
 import type { GalleryImage } from '@/types'
 
 export const galleryImages: GalleryImage[] = [
-  // Weddings
-  {
-    id: 'g1',
-    src: '/images/social1.jpeg',
-    alt: 'Grand wedding mandap with floral decorations',
-    category: 'wedding',
-    width: 800,
-    height: 600,
-  },
-  {
-    id: 'g2',
-    src: '/images/light.jpeg',
-    alt: 'Sangeet ceremony with dazzling lights',
-    category: 'wedding',
-    width: 800,
-    height: 1000,
-  },
-  {
-    id: 'g3',
-    src: '/images/birthday.jpeg',
-    alt: 'Outdoor destination wedding setup',
-    category: 'wedding',
-    width: 800,
-    height: 600,
-  },
-  {
-    id: 'g4',
-    src: '/images/hero.jpeg',
-    alt: 'Elegant reception hall decoration',
-    category: 'wedding',
-    width: 800,
-    height: 600,
-  },
-  {
-    id: 'g5',
-    src: '/images/mehandi.jpeg',
-    alt: 'Mehendi ceremony decor with rose arrangements',
-    category: 'wedding',
-    width: 800,
-    height: 1000,
-  },
-  {
-    id: 'g6',
-    src: '/images/social.jpeg',
-    alt: 'Haldi ceremony with marigold decorations',
-    category: 'wedding',
-    width: 800,
-    height: 600,
-  },
-  // Corporate
-  {
-    id: 'g7',
-    src: '/images/corparate.jpeg',
-    alt: 'Corporate conference setup with LED backdrop',
-    category: 'corporate',
-    width: 800,
-    height: 600,
-  },
-  {
-    id: 'g8',
-    src: '/images/entertainment.jpeg',
-    alt: 'Product launch event with light show',
-    category: 'corporate',
-    width: 800,
-    height: 600,
-  },
-  {
-    id: 'g9',
-    src: '/images/portfolio.jpg',
-    alt: 'Corporate award function gala night',
-    category: 'corporate',
-    width: 800,
-    height: 600,
-  },
-  {
-    id: 'g10',
-    src: '/images/sangeet.jpeg',
-    alt: 'Dealer meet event with stage production',
-    category: 'corporate',
-    width: 800,
-    height: 1000,
-  },
-  // Social
-  {
-    id: 'g11',
-    src: '/images/setup.jpeg',
-    alt: 'Luxury birthday party with balloon setup',
-    category: 'social',
-    width: 800,
-    height: 600,
-  },
-  {
-    id: 'g12',
-    src: '/images/aboutme.jpeg',
-    alt: 'Anniversary celebration with rose arch',
-    category: 'social',
-    width: 800,
-    height: 600,
-  },
-  {
-    id: 'g13',
-    src: '/images/banner.jpeg',
-    alt: 'Cultural program with traditional performances',
-    category: 'social',
-    width: 800,
-    height: 600,
-  },
-  // Production
-  {
-    id: 'g14',
-    src: '/images/about.jpeg',
-    alt: 'Large stage setup with LED walls and truss',
-    category: 'production',
-    width: 800,
-    height: 600,
-  },
-  {
-    id: 'g15',
-    src: '/images/production.jpeg',
-    alt: 'Professional sound system installation',
-    category: 'production',
-    width: 800,
-    height: 600,
-  },
-  {
-    id: 'g16',
-    src: '/images/event.jpeg',
-    alt: 'Drone photography of outdoor event venue',
-    category: 'production',
-    width: 800,
-    height: 600,
-  },
+  // Weddings & Sangeet
+  { id: 'g1', src: '/images/social1.jpeg', alt: 'Shubham anchoring a grand wedding stage', category: 'wedding', width: 800, height: 600 },
+  { id: 'g2', src: '/images/light.jpeg', alt: 'Sangeet night hosting under dazzling lights', category: 'wedding', width: 800, height: 1000 },
+  { id: 'g3', src: '/images/wedding.jpeg', alt: 'Shubham on the mic at a destination wedding', category: 'wedding', width: 800, height: 600 },
+  { id: 'g4', src: '/images/hero.jpeg', alt: 'Reception hosting in front of a full crowd', category: 'wedding', width: 800, height: 600 },
+  { id: 'g5', src: '/images/mehandi.jpeg', alt: 'Mehendi ceremony hosting and games', category: 'wedding', width: 800, height: 1000 },
+  { id: 'g6', src: '/images/sangeet.jpeg', alt: 'High-energy sangeet crowd interaction', category: 'wedding', width: 800, height: 600 },
+
+  // Corporate & Award Nights
+  { id: 'g7', src: '/images/corparate.jpeg', alt: 'Corporate conference emceeing on stage', category: 'corporate', width: 800, height: 600 },
+  { id: 'g8', src: '/images/event.jpeg', alt: 'Award night hosting with the audience', category: 'corporate', width: 800, height: 600 },
+  { id: 'g9', src: '/images/portfolio.jpg', alt: 'Corporate gala hosting moment', category: 'corporate', width: 800, height: 600 },
+
+  // Live Performance & Singing
+  { id: 'g10', src: '/images/entertainment.jpeg', alt: 'Shubham performing a live singing set', category: 'social', width: 800, height: 1000 },
+  { id: 'g11', src: '/images/setup.jpeg', alt: 'Working the crowd during a live show', category: 'social', width: 800, height: 600 },
+  { id: 'g12', src: '/images/social.jpeg', alt: 'Interactive games with the audience', category: 'social', width: 800, height: 600 },
+  { id: 'g13', src: '/images/banner.jpeg', alt: 'On stage engaging a packed hall', category: 'social', width: 800, height: 600 },
+
+  // Behind the Scenes & Stage Moments
+  { id: 'g14', src: '/images/aboutme.jpeg', alt: 'Shubham prepping backstage before a show', category: 'production', width: 800, height: 600 },
+  { id: 'g15', src: '/images/about.jpeg', alt: 'Sound check and script review before going live', category: 'production', width: 800, height: 600 },
+  { id: 'g16', src: '/images/production.jpeg', alt: 'Stage moment with the spotlight on the host', category: 'production', width: 800, height: 600 },
 ]
 
 export const galleryCategories = [
-  { id: 'all', label: 'All Events' },
-  { id: 'wedding', label: 'Weddings' },
-  { id: 'corporate', label: 'Corporate' },
-  { id: 'social', label: 'Social' },
-  { id: 'production', label: 'Production' },
+  { id: 'all', label: 'All' },
+  { id: 'wedding', label: 'Weddings & Sangeet' },
+  { id: 'corporate', label: 'Corporate & Awards' },
+  { id: 'social', label: 'Live Performance' },
+  { id: 'production', label: 'Behind the Scenes' },
 ]

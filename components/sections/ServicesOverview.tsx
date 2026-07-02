@@ -12,43 +12,43 @@ import { staggerContainer, fadeInUp } from '@/lib/animations/variants'
 
 const services = [
   {
-    title: 'Wedding Events',
-    description: 'From intimate ceremonies to grand destination weddings — Haldi, Mehendi, Sangeet, Reception and everything in between.',
+    title: 'Wedding & Sangeet Anchoring',
+    description: 'Ceremony hosting, high-energy sangeet nights, cocktail and reception compering — with live singing and crowd games woven in.',
     image: '/images/wedding.jpeg',
     href: '/services/wedding-events',
-    tags: ['Weddings', 'Destination', 'Décor'],
+    tags: ['Weddings', 'Sangeet', 'Reception'],
     accent: 'text-rose-300',
   },
   {
-    title: 'Corporate Events',
-    description: 'Conferences, product launches, award functions, and dealer meets executed with precision and professionalism.',
+    title: 'Corporate Hosting & Emceeing',
+    description: 'Conferences, award nights, product launches and annual days — kept sharp, on-time and engaging with polished bilingual hosting.',
     image: '/images/corparate.jpeg',
     href: '/services/corporate-events',
-    tags: ['Conferences', 'Launches', 'Gala'],
+    tags: ['Conferences', 'Award Nights', 'Launches'],
     accent: 'text-blue-300',
   },
   {
-    title: 'Social Events',
-    description: 'Birthdays, anniversaries, cultural programs, and family celebrations crafted to reflect your unique story.',
+    title: 'Private & Celebrity Events',
+    description: 'Birthdays, anniversaries, celebrity nights and cultural shows hosted with warmth, wit and genuine crowd connection.',
     image: '/images/social.jpeg',
     href: '/services/social-events',
-    tags: ['Birthdays', 'Anniversaries', 'Cultural'],
+    tags: ['Birthdays', 'Celebrity', 'Cultural'],
     accent: 'text-purple-300',
   },
   {
-    title: 'Entertainment Services',
-    description: 'Professional Artists, DJ services, live bands, celebrity management, and artist booking for unforgettable performances.',
+    title: 'Live Entertainment & Singing',
+    description: 'The front-man your event needs — live singing sets, interactive games and audience engagement that keep the energy soaring.',
     image: '/images/entertainment.jpeg',
     href: '/services/entertainment-services',
-    tags: ['Live Music', 'Artists', 'Celebrities'],
+    tags: ['Live Singing', 'Games', 'Energy'],
     accent: 'text-amber-300',
   },
   {
-    title: 'Production Setup',
-    description: 'Stage design, LED walls, professional sound systems, lighting setups, photography, videography and drone coverage.',
+    title: 'Show Design & Scripting',
+    description: 'A custom script and run-of-show for every event — so your celebration flows without a single dull or awkward moment.',
     image: '/images/setup.jpeg',
     href: '/services/production-setup',
-    tags: ['Stage', 'AV', 'Photography'],
+    tags: ['Scripts', 'Flow', 'Rehearsal'],
     accent: 'text-cyan-300',
   },
 ]
@@ -68,21 +68,21 @@ export function ServicesOverview() {
           animate={isInView ? 'visible' : 'hidden'}
         >
           <motion.div variants={fadeInUp} className="flex justify-center">
-            <SectionLabel className="text-gold ml-14 text-sm">What We Do</SectionLabel>
+            <SectionLabel className="text-gold ml-14 text-sm">What Shubham Hosts</SectionLabel>
           </motion.div>
           <motion.h2
             variants={fadeInUp}
             className="font-display font-bold text-4xl md:text-5xl leading-tight mt-4 mb-4"
           >
-            Full-Service{' '}
-            <GradientText>Event Management</GradientText>
+            One Artist,{' '}
+            <GradientText>Every Stage</GradientText>
           </motion.h2>
           <motion.div variants={fadeInUp}>
             <GoldOrnament className="justify-center mb-4" />
           </motion.div>
           <motion.p variants={fadeInUp} className="text-white/60 font-sans text-lg">
-            Five specialized divisions, one team. We handle every aspect of your event
-            so you can simply enjoy the celebration.
+            From the sangeet dance floor to the corporate podium, Shubham brings the same
+            energy, polish and presence — tailored to your crowd and your occasion.
           </motion.p>
         </motion.div>
 

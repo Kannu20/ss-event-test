@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { generatePageMetadata, pageSEO } from '@/lib/seo/metadata'
 import { JsonLd } from '@/components/common/JsonLd'
-import { breadcrumbSchema, aggregateRatingSchema } from '@/lib/seo/schema'
+import { breadcrumbSchema } from '@/lib/seo/schema'
 import { PageHero } from '@/components/common/PageHero'
 import { BookingCTAStrip } from '@/components/sections/BookingCTAStrip'
 import { TestimonialsFullGrid } from '@/components/common/TestimonialsFullGrid'
@@ -12,13 +12,12 @@ export default function TestimonialsPage() {
   return (
     <>
       <JsonLd data={breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Testimonials', url: '/testimonials' }])} />
-      <JsonLd data={aggregateRatingSchema(4.9, 312)} />
 
       <PageHero
-        title="What Our Clients Say"
-        subtitle="Over 5000 events, 1000+ satisfied clients. Here's what they have to say about the Artist Shubham Khandelwal  experience."
+        title="What Clients Say About Shubham"
+        subtitle="900+ shows and 5 Lakh+ guests entertained. Here's what couples, families and brands say about having Shubham on the mic."
         tag="Client Reviews"
-        image="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1920&h=800&fit=crop&q=80"
+        image="/images/social1.jpeg"
         breadcrumbs={[{ label: 'Testimonials' }]}
       />
 

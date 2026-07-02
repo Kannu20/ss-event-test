@@ -9,9 +9,9 @@ import { GoldOrnament } from '@/components/ui/GoldLine'
 import { ContactForm } from '@/components/forms/ContactForm'
 import { staggerContainer, fadeInUp, fadeInLeft, fadeInRight } from '@/lib/animations/variants'
 
-const PHONE = process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? '+91 98765 43210'
-const EMAIL = process.env.NEXT_PUBLIC_EMAIL ?? 'hello@ssevent.in'
-const WHATSAPP = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '919876543210'
+const PHONE = process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? '+91 90575 26202'
+const EMAIL = process.env.NEXT_PUBLIC_EMAIL ?? 'Khandelwalshubham79@gmail.com'
+const WHATSAPP = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '919057526202'
 
 const contactInfo = [
   {
@@ -24,7 +24,7 @@ const contactInfo = [
     icon: MessageCircle,
     label: 'WhatsApp',
     value: 'Chat with us',
-    href: `https://wa.me/${WHATSAPP}?text=Hi, I'd like to enquire about your event services.`,
+    href: `https://wa.me/${WHATSAPP}?text=Hi Shubham, I'd like to check your availability for my event.`,
   },
   {
     icon: Mail,
@@ -61,8 +61,8 @@ export function ContactSection() {
               variants={fadeInUp}
               className="font-display font-bold text-4xl md:text-5xl leading-tight mt-4 mb-4"
             >
-              Let&apos;s Create{' '}
-              <GradientText>Something</GradientText>
+              Let&apos;s Make Your{' '}
+              <GradientText>Celebration</GradientText>
               <br />Extraordinary
             </motion.h2>
             <motion.div variants={fadeInUp}>
@@ -72,8 +72,8 @@ export function ContactSection() {
               variants={fadeInUp}
               className="text-white/60 font-sans leading-relaxed text-lg mb-10"
             >
-              Ready to start planning your event? Tell us about your vision and we&apos;ll
-              get back to you within 24 hours with a customized proposal.
+              Tell Shubham about your event — the date, the city, the vibe you want. He personally
+              reviews every enquiry and replies within 24 hours to check availability.
             </motion.p>
 
             {/* Contact cards */}

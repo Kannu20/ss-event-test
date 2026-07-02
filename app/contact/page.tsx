@@ -10,7 +10,7 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react'
 export const metadata: Metadata = generatePageMetadata(pageSEO.contact)
 
 const PHONE = process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? '+91 98765 43210'
-const EMAIL = process.env.NEXT_PUBLIC_EMAIL ?? 'hello@ssevent.in'
+const EMAIL = process.env.NEXT_PUBLIC_EMAIL ?? 'Khandelwalshubham79@gmail.com'
 const WHATSAPP = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '919876543210'
 
 const contactDetails = [
@@ -19,14 +19,14 @@ const contactDetails = [
     label: 'Phone',
     value: PHONE,
     href: `tel:${PHONE}`,
-    description: 'Mon–Sun, 9am–8pm',
+    description: 'Call Shubham directly',
   },
   {
     icon: MessageCircle,
     label: 'WhatsApp',
-    value: 'Chat with us',
-    href: `https://wa.me/${WHATSAPP}?text=Hi, I'd like to enquire about your event services.`,
-    description: 'Quick responses',
+    value: 'Chat with Shubham',
+    href: `https://wa.me/${WHATSAPP}?text=Hi Shubham, I'd like to check your availability for my event.`,
+    description: 'Fastest way to check dates',
     external: true,
   },
   {
@@ -34,21 +34,21 @@ const contactDetails = [
     label: 'Email',
     value: EMAIL,
     href: `mailto:${EMAIL}`,
-    description: 'We reply within 24hrs',
+    description: 'Responds within 24 hours',
   },
   {
     icon: MapPin,
-    label: 'Office',
+    label: 'Based In',
     value: 'Jaipur',
     href: '#map',
-    description: 'Rajasthan, India',
+    description: 'Rajasthan · Available pan-India & destination',
   },
   {
     icon: Clock,
-    label: 'Business Hours',
-    value: 'Mon–Sun',
+    label: 'Availability',
+    value: 'Booking now',
     href: '#',
-    description: '9:00am – 8:00pm IST',
+    description: 'Secure your date early for peak season',
   },
 ]
 
@@ -59,10 +59,11 @@ export default function ContactPage() {
       <JsonLd data={breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Contact', url: '/contact' }])} />
 
       <PageHero
-        title="Get In Touch"
-        subtitle="Have a vision? We'd love to bring it to life. Reach out for a free consultation — no commitment required."
-        tag="Contact Us"
-        image="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1920&h=800&fit=crop&q=80"
+        title="Book Shubham"
+        subtitle="Planning an event? Check Shubham's availability and lock in your date. He personally responds within 24 hours."
+        tag="Get In Touch"
+        image="/images/dark.jpeg"
+        className="object-contain"
         breadcrumbs={[{ label: 'Contact' }]}
       />
 
@@ -73,7 +74,7 @@ export default function ContactPage() {
             {/* Left — contact info */}
             <div className="lg:col-span-2">
               <h2 className="font-display font-bold text-3xl text-white mb-8">
-                Let&apos;s Start a Conversation
+                Let&apos;s Check Your Date
               </h2>
 
 
@@ -101,12 +102,11 @@ export default function ContactPage() {
 
               {/* Social links */}
               <div className="border-t border-white/5 pt-8">
-                <p className="text-white/40 text-sm font-sans mb-4">Follow us on social media</p>
+                <p className="text-white/40 text-sm font-sans mb-4">Follow Shubham on social media</p>
                 <div className="flex gap-3">
                   {[
-                    { label: 'Instagram', href: 'https://instagram.com/ssevent' },
-                    { label: 'Facebook', href: 'https://facebook.com/ssevent' },
-                    { label: 'YouTube', href: 'https://youtube.com/@ssevent' },
+                    { label: 'Instagram', href: 'https://www.instagram.com/artistshubhamkhandelwal/' },
+                    { label: 'Facebook', href: 'https://www.facebook.com/shubham.khandelwal.9883' },
                   ].map((s) => (
                     <a
                       key={s.label}
@@ -125,8 +125,8 @@ export default function ContactPage() {
             {/* Right — form */}
             <div className="lg:col-span-3">
               <div className="bg-black-mid/50 border border-white/5 rounded-2xl p-6 md:p-8">
-                <h3 className="font-sans font-semibold text-white text-xl mb-1">Send Us a Message</h3>
-                <p className="text-white/40 font-sans text-sm mb-6">We respond within 24 hours, guaranteed.</p>
+                <h3 className="font-sans font-semibold text-white text-xl mb-1">Send Your Booking Enquiry</h3>
+                <p className="text-white/40 font-sans text-sm mb-6">Shubham responds within 24 hours.</p>
                 <ContactForm />
               </div>
             </div>
@@ -146,16 +146,16 @@ export default function ContactPage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Artist Shubham Khandelwal  office location in Jaipur"
+              title="Artist Shubham Khandelwal — based in Jaipur, Rajasthan"
             />
           </div>
         </div>
       </section>
 
-      {/* <BookingCTAStrip
-        title="Ready to Start Planning?"
-        subtitle="Book a free 30-minute consultation with our event specialists."
-      /> */}
+      <BookingCTAStrip
+        title="Let's Make Your Celebration Extraordinary"
+        subtitle="Tell Shubham your date and city — he replies within 24 hours to confirm availability."
+      />
     </>
   )
 }

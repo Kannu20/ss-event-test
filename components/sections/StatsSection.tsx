@@ -9,31 +9,31 @@ import { GoldLine } from '@/components/ui/GoldLine'
 const stats = [
   {
     icon: Calendar,
-    end: 5000,
+    end: 900,
     suffix: '+',
-    label: 'Events Delivered',
-    description: 'Weddings, corporate galas, social celebrations',
-  },
-  {
-    icon: Users,
-    end: 10,
-    suffix: '+',
-    label: 'Years of Excellence',
-    description: 'A decade of crafting extraordinary experiences',
-  },
-  {
-    icon: MapPin,
-    end: 25,
-    suffix: '+',
-    label: 'Cities Covered',
-    description: 'Pan-India operations with local expertise',
+    label: 'Shows Hosted',
+    description: 'Weddings, sangeets, corporate stages & live shows',
   },
   {
     icon: Star,
-    end: 1000,
+    end: 8,
     suffix: '+',
-    label: 'Happy Clients',
-    description: 'Families and businesses who trust Artist Shubham Khandelwal ',
+    label: 'Years on Stage',
+    description: 'A career built one unforgettable event at a time',
+  },
+  {
+    icon: MapPin,
+    end: 30,
+    suffix: '+',
+    label: 'Cities Performed',
+    description: 'Across Rajasthan, India & destination venues',
+  },
+  {
+    icon: Users,
+    end: 5,
+    suffix: 'L+',
+    label: 'Guests Entertained',
+    description: 'Audiences moved, engaged and left cheering',
   },
 ]
 

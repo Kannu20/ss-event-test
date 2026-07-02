@@ -10,10 +10,10 @@ import { Shield, Clock, Phone, Star } from 'lucide-react'
 export const metadata: Metadata = generatePageMetadata(pageSEO.booking)
 
 const trustSignals = [
-  { icon: Shield, text: 'Free, no-obligation consultation' },
-  { icon: Clock, text: 'Response within 24 hours' },
-  { icon: Phone, text: 'Followed by a personal call from our team' },
-  { icon: Star, text: '5K+ successful events and counting' },
+  { icon: Shield, text: 'Free, no-obligation availability check' },
+  { icon: Clock, text: 'Shubham responds within 24 hours' },
+  { icon: Phone, text: 'Followed by a personal call from Shubham' },
+  { icon: Star, text: '900+ shows hosted and counting' },
 ]
 
 export default function BookConsultationPage() {
@@ -29,12 +29,12 @@ export default function BookConsultationPage() {
               <div className="sticky top-32">
                 <SectionLabel>Get Started</SectionLabel>
                 <h1 className="font-display font-bold text-4xl leading-tight mt-4 mb-4">
-                  Book Your Free{' '}
+                  Book Your{' '}
                   <GradientText>Consultation</GradientText>
                 </h1>
                 <p className="text-white/60 font-sans leading-relaxed mb-8">
-                  Tell us about your event and we&apos;ll get back to you with a personalized proposal
-                  within 24 hours. Absolutely free, no commitment required.
+                  Tell Shubham about your event and he&apos;ll get back to you with availability and a
+                  personalized quote within 24 hours. Free, and no commitment required.
                 </p>
 
                 {/* Trust signals */}
@@ -57,9 +57,9 @@ export default function BookConsultationPage() {
                     ))}
                   </div>
                   <p className="text-white/65 font-sans text-sm leading-relaxed italic mb-3">
-                    &ldquo;Booking a consultation was the best first step. Within 24 hours we had a proposal and within a week we had our dream wedding planned.&rdquo;
+                    &ldquo;Booking Shubham was the best decision for our sangeet. He replied within a day, scripted everything to our family, and had the whole crowd on their feet.&rdquo;
                   </p>
-                  <div className="text-white/40 text-xs font-sans">— Priya & Arjun, Wedding 2024</div>
+                  <div className="text-white/40 text-xs font-sans">— Priya &amp; Arjun, Wedding 2024</div>
                 </div>
               </div>
             </div>

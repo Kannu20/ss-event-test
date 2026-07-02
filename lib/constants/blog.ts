@@ -79,7 +79,7 @@ The wellness movement has reached weddings. Pre-wedding yoga retreats, ayurvedic
 
 ---
 
-Ready to incorporate these trends into your wedding? [Book a free consultation](/book-consultation) with the Artist Shubham Khandelwal  team and let's create something extraordinary together.
+Ready to incorporate these trends into your wedding? [Book a free consultation](/book-consultation) with the Artist Shubham Khandelwal team and let's create something extraordinary together.
     `.trim(),
     author: {
       name: 'Shreya Sharma',
@@ -101,7 +101,7 @@ Ready to incorporate these trends into your wedding? [Book a free consultation](
     content: `
 # The Ultimate Corporate Event Planning Checklist
 
-Whether you're organizing a 50-person team offsite or a 1,000-person annual conference, corporate event planning requires meticulous attention to detail. After managing hundreds of corporate events across India, the Artist Shubham Khandelwal  team has distilled everything into this comprehensive checklist.
+Whether you're organizing a 50-person team offsite or a 1,000-person annual conference, corporate event planning requires meticulous attention to detail. After managing hundreds of corporate events across India, the Artist Shubham Khandelwal team has distilled everything into this comprehensive checklist.
 
 ## 6 Months Before the Event
 
@@ -207,7 +207,7 @@ Manali, Kasauli, and Dharamshala offer stunning mountain backdrops for couples w
 
 ## Working with a Destination Wedding Planner
 
-Managing a wedding remotely requires a trusted local expert who knows the vendors, the venues, and the logistics on the ground. Artist Shubham Khandelwal  has organized destination weddings in every major Indian wedding destination — we're the on-the-ground team you need.
+Managing a wedding remotely requires a trusted local expert who knows the vendors, the venues, and the logistics on the ground. Artist Shubham Khandelwal has organized destination weddings in every major Indian wedding destination — we're the on-the-ground team you need.
     `.trim(),
     author: {
       name: 'Sanjay Sharma',
@@ -228,7 +228,7 @@ Managing a wedding remotely requires a trusted local expert who knows the vendor
     content: `
 # How to Plan the Perfect Sangeet Ceremony
 
-The Sangeet is the beating heart of an Indian wedding celebration — a night of music, dance, and unbridled joy that brings both families together for the first time. After organizing hundreds of Sangeet ceremonies, the Artist Shubham Khandelwal  team shares everything you need to know to make yours legendary.
+The Sangeet is the beating heart of an Indian wedding celebration — a night of music, dance, and unbridled joy that brings both families together for the first time. After organizing hundreds of Sangeet ceremonies, the Artist Shubham Khandelwal team shares everything you need to know to make yours legendary.
 
 ## Setting the Stage
 
@@ -275,7 +275,7 @@ A typical Sangeet runs 4–5 hours and should be carefully programmed to maintai
 
 Sangeet décor should be vibrant, colorful, and festive — a contrast to the more formal wedding décor. Think bright florals, colorful drapery, fun neon signs, and a well-lit dance floor.
 
-Book your Sangeet planning consultation with Artist Shubham Khandelwal  today and let's create a night everyone will be talking about for years.
+Book your Sangeet planning consultation with Artist Shubham Khandelwal today and let's create a night everyone will be talking about for years.
     `.trim(),
     author: {
       name: 'Priya Nair',
@@ -342,10 +342,10 @@ At Artist Shubham Khandelwal , our in-house décor team executes every project w
   {
     id: 'b6',
     slug: 'ss-event-2024-annual-review',
-    title: 'Artist Shubham Khandelwal  2024: A Year of Milestones',
+    title: 'Artist Shubham Khandelwal 2024: A Year of Milestones',
     excerpt: 'From palace weddings in Rajasthan to 1000-person corporate summits, 2024 was our biggest year yet. Here\'s a look back at the highlights.',
     content: `
-# Artist Shubham Khandelwal  2024: A Year of Milestones
+# Artist Shubham Khandelwal 2024: A Year of Milestones
 
 As we close the chapter on 2024, we're filled with gratitude for the incredible clients, dedicated team members, and unforgettable events that made this our most remarkable year to date.
 

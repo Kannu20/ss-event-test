@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { generatePageMetadata, pageSEO } from '@/lib/seo/metadata'
 import { JsonLd } from '@/components/common/JsonLd'
-import { localBusinessSchema, aggregateRatingSchema } from '@/lib/seo/schema'
+import { personSchema, localBusinessSchema } from '@/lib/seo/schema'
 import { HeroSection } from '@/components/sections/HeroSection'
 import { MarqueeStrip } from '@/components/sections/MarqueeStrip'
 import { AboutSnapshot } from '@/components/sections/AboutSnapshot'
@@ -23,8 +23,8 @@ export const metadata: Metadata = generatePageMetadata(pageSEO.home)
 export default function HomePage() {
   return (
     <>
+      <JsonLd data={personSchema()} />
       <JsonLd data={localBusinessSchema()} />
-      <JsonLd data={aggregateRatingSchema(4.9, 312)} />
 
       <HeroSection />
       <MarqueeStrip variant="dark" />

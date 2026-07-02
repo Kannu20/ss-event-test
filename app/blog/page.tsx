@@ -10,10 +10,10 @@ import { Badge } from '@/components/ui/Badge'
 import { blogPosts, blogCategories } from '@/lib/constants/blog'
 
 export const metadata: Metadata = {
-  title: 'Event Planning Blog | Artist Shubham Khandelwal ',
-  description: 'Expert tips, trends and guides for weddings, corporate events, and celebrations. From India\'s leading event management company.',
+  title: 'Blog | Artist Shubham Khandelwal',
+  description: 'Insights on wedding anchoring, sangeet hosting, corporate emceeing and live entertainment — from Artist Shubham Khandelwal.',
   openGraph: {
-    title: 'Event Planning Blog | Artist Shubham Khandelwal ',
+    title: 'Blog | Artist Shubham Khandelwal',
     description: 'Expert tips, trends and guides for weddings, corporate events, and celebrations.',
   },
 }

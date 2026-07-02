@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import { PageHero } from '@/components/common/PageHero'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Artist Shubham Khandelwal ',
-  description: 'Terms and conditions for using Artist Shubham Khandelwal  services and website.',
+  title: 'Terms of Service | Artist Shubham Khandelwal',
+  description: 'Terms and conditions for using Artist Shubham Khandelwal services and website.',
 }
 
 export default function TermsPage() {
@@ -34,7 +34,7 @@ export default function TermsPage() {
 
             <h2>2. Services</h2>
             <p>
-              Artist Shubham Khandelwal  provides professional event management services including wedding planning, corporate events,
+              Artist Shubham Khandelwal provides professional event management services including wedding planning, corporate events,
               social events, entertainment services, and production setup. The specific services, pricing, and scope
               for each engagement will be outlined in a separate service agreement.
             </p>
@@ -59,8 +59,8 @@ export default function TermsPage() {
 
             <h2>5. Limitation of Liability</h2>
             <p>
-              Artist Shubham Khandelwal  shall not be liable for any indirect, incidental, or consequential damages arising from the use
-              of our services. In the event of circumstances beyond our control (force majeure), Artist Shubham Khandelwal  will work with
+              Artist Shubham Khandelwal shall not be liable for any indirect, incidental, or consequential damages arising from the use
+              of our services. In the event of circumstances beyond our control (force majeure), Artist Shubham Khandelwal will work with
               clients to reschedule or find alternative solutions.
             </p>
 
@@ -73,14 +73,14 @@ export default function TermsPage() {
 
             <h2>7. Changes to Terms</h2>
             <p>
-              Artist Shubham Khandelwal  reserves the right to modify these terms at any time. Continued use of our services after
+              Artist Shubham Khandelwal reserves the right to modify these terms at any time. Continued use of our services after
               changes constitutes acceptance of the revised terms.
             </p>
 
             <h2>8. Contact</h2>
             <p>
               For any questions regarding these terms, contact us at{' '}
-              <a href="mailto:legal@ssevent.in" className="text-gold">legal@ssevent.in</a>.
+              <a href="mailto:legal@artistshubhamkhandelwal.com" className="text-gold">legal@artistshubhamkhandelwal.com</a>.
             </p>
           </div>
         </div>

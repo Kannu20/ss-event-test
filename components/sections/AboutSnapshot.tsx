@@ -4,18 +4,18 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { Award, Users, MapPin, Star } from 'lucide-react'
+import { Award, Mic2, Music, Languages } from 'lucide-react'
 import { SectionLabel } from '@/components/ui/SectionLabel'
 import { GradientText } from '@/components/ui/GradientText'
 import { Button } from '@/components/ui/Button'
 import { GoldOrnament } from '@/components/ui/GoldLine'
-import { fadeInUp, fadeInLeft, fadeInRight, staggerContainer } from '@/lib/animations/variants'
+import { fadeInUp, fadeInLeft, staggerContainer } from '@/lib/animations/variants'
 
 const highlights = [
-  { icon: Award, value: '5K+', label: 'Events Delivered' },
-  { icon: Users, value: '10+', label: 'Years of Excellence' },
-  { icon: MapPin, value: '25+', label: 'Cities Covered' },
-  { icon: Star, value: '4.9★', label: 'Average Rating' },
+  { icon: Mic2, value: '900+', label: 'Shows Hosted' },
+  { icon: Award, value: 'Award', label: 'Best Actor, Jaipur' },
+  { icon: Music, value: 'Live', label: 'Singing & Hosting' },
+  { icon: Languages, value: '3', label: 'Languages On Stage' },
 ]
 
 export function AboutSnapshot() {
@@ -36,8 +36,8 @@ export function AboutSnapshot() {
             {/* Main image */}
             <div className="absolute inset-0 rounded-2xl overflow-hidden">
               <Image
-                src="/images/banner.jpeg"
-                alt="Artist Shubham Khandelwal  luxury wedding setup"
+                src="/images/aboutme.jpeg"
+                alt="Artist Shubham Khandelwal on stage engaging the crowd"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -52,27 +52,29 @@ export function AboutSnapshot() {
               animate={isInView ? { opacity: 1, scale: 1, y: 0 } : {}}
               transition={{ delay: 0.5, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
             >
-              <div className="text-4xl font-display font-bold text-gold leading-none">10+</div>
-              <div className="text-white/60 text-sm font-sans mt-1">Years of Excellence</div>
+              <div className="text-4xl font-display font-bold text-gold leading-none">8+</div>
+              <div className="text-white/60 text-sm font-sans mt-1">Years on Stage</div>
               <div className="w-8 h-0.5 bg-gold/40 mt-2" />
             </motion.div>
 
             {/* Floating card — award */}
             <motion.div
-              className="absolute top-8 -right-8 bg-gold rounded-xl p-4 shadow-gold-md"
+              className="absolute top-8 -right-8 bg-gold rounded-xl p-4 shadow-gold-md max-w-[180px]"
               initial={{ opacity: 0, scale: 0.8, x: 20 }}
               animate={isInView ? { opacity: 1, scale: 1, x: 0 } : {}}
               transition={{ delay: 0.7, duration: 0.6 }}
             >
               <Award className="w-6 h-6 text-black mb-1" />
-              <div className="text-black text-xs font-accent font-bold tracking-wider uppercase">Award Winning</div>
+              <div className="text-black text-xs font-accent font-bold tracking-wider uppercase leading-tight">
+                Best Actor in Jaipur — FSIA 2023
+              </div>
             </motion.div>
 
             {/* Small accent image */}
             <div className="absolute -bottom-4 left-8 w-36 h-36 rounded-xl overflow-hidden border-2 border-black-soft shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=300&h=300&fit=crop&q=80"
-                alt="Corporate event setup"
+                src="/images/entertainment.jpeg"
+                alt="Shubham Khandelwal performing live"
                 fill
                 className="object-cover"
                 sizes="144px"
@@ -87,15 +89,15 @@ export function AboutSnapshot() {
             animate={isInView ? 'visible' : 'hidden'}
           >
             <motion.div variants={fadeInUp}>
-              <SectionLabel>Our Story</SectionLabel>
+              <SectionLabel>Meet the Artist</SectionLabel>
             </motion.div>
 
             <motion.h2
               variants={fadeInUp}
               className="font-display font-bold text-4xl md:text-5xl leading-tight mt-4 mb-6"
             >
-              Where Every Detail{' '}
-              <GradientText>Tells a Story</GradientText>
+              Not Just a Host —{' '}
+              <GradientText>an Experience</GradientText>
             </motion.h2>
 
             <motion.div variants={fadeInUp}>
@@ -104,20 +106,25 @@ export function AboutSnapshot() {
 
             <motion.p
               variants={fadeInUp}
-              className="text-white/65 font-sans leading-relaxed text-base md:text-lg mb-4"
+              className="text-white/70 font-sans leading-relaxed text-base md:text-lg mb-4"
             >
-            Shubham Khandelwal (often stylized as Artist Shuubham Khandelwal) is a prominent live event Artist, singer, and stage performer based in Jaipur, Rajasthan. Known widely as the "Voice of the Pink City," he specializes in hosting high-energy wedding functions, sangeet nights, corporate shows, and cultural festivals. He was also recognized as the "Best Actor in Jaipur" at the Forever Star India Awards.
+              Shubham Khandelwal is a Jaipur-based wedding anchor, live singer and stage
+              performer who has spent the last eight years doing one thing better than almost
+              anyone in Rajasthan — making a room feel something. Recognised as
+              &ldquo;Best Actor in Jaipur&rdquo; at the Forever Star India Awards, he brings the
+              instincts of a performer and the polish of a professional emcee to every stage.
             </motion.p>
             <motion.p
               variants={fadeInUp}
-              className="text-white/65 font-sans leading-relaxed text-base md:text-lg mb-10"
+              className="text-white/60 font-sans leading-relaxed text-base md:text-lg mb-10"
             >
-              Our philosophy is simple: every event is unique, every client deserves our absolute best,
-              and no detail is too small to perfect. We don&apos;t just manage events — we craft
-              experiences that echo for generations.
+              He hosts in Hindi, English and Rajasthani, sings live when the moment calls for it,
+              and writes a custom script for every event — because no two celebrations, and no two
+              families, are ever the same. When Shubham holds the mic, guests stop checking their
+              phones and start looking at the stage.
             </motion.p>
 
-            {/* Stats grid */}
+            {/* Highlights grid */}
             <motion.div
               variants={fadeInUp}
               className="grid grid-cols-2 gap-4 mb-10"
@@ -140,10 +147,10 @@ export function AboutSnapshot() {
 
             <motion.div variants={fadeInUp} className="flex gap-4">
               <Button href="/about" variant="primary">
-                Our Story
+                His Story
               </Button>
-              <Button href="/portfolio" variant="ghost">
-                View Portfolio
+              <Button href="/videos" variant="ghost">
+                Watch Showreel
               </Button>
             </motion.div>
           </motion.div>

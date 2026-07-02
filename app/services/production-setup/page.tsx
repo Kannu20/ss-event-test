@@ -8,40 +8,39 @@ export default function ProductionSetupPage() {
   return (
     <ServicePageLayout
       hero={{
-        title: 'Production Setup',
-        subtitle: 'Cutting-edge stage design, LED walls, professional sound and lighting, photography, videography and drone coverage — all under one roof.',
-        tag: 'Production Division',
+        title: 'Show Design & Scripting',
+        subtitle: 'Behind a seamless event is a well-designed show. Shubham scripts your run-of-show, designs the flow, and rehearses every cue so the evening unfolds exactly as imagined.',
+        tag: 'Show Design',
         image: '/images/prod.jpeg',
       }}
-      breadcrumbs={[{ label: 'Production Setup' }]}
-      schemaName="Event Production Setup"
-      schemaDescription="Professional event production including stage design, LED walls, sound systems, lighting setup, photography, videography and drone coverage."
+      breadcrumbs={[{ label: 'Show Design & Scripting' }]}
+      schemaName="Show Design & Scripting"
+      schemaDescription="Event show design and scripting by Artist Shubham Khandelwal — custom event scripts, run-of-show and flow design, rehearsals and coordination with the couple, planner and DJ."
       schemaUrl="/services/production-setup"
       intro={{
-        label: 'Production Division',
-        title: 'World-Class Production,',
-        titleHighlight: 'Every Time',
+        label: 'The Script Behind the Show',
+        title: 'A Show That',
+        titleHighlight: 'Flows Effortlessly',
         description: [
-          'Behind every breathtaking event is a world-class production team. The stage, the lights, the sound — these elements don\'t just support your event, they define the emotional experience of every person in the room.',
-          "Artist Shubham Khandelwal 's in-house production division owns and operates a comprehensive inventory of professional event production equipment — from massive LED walls and concert-grade sound systems to cinematic camera rigs and a professional drone fleet. We don't subcontract your production — we own it.",
+          'The difference between a good event and an unforgettable one is often invisible — it lives in the script, the timing and the flow. Shubham designs the anchoring blueprint for your event so every entrance, performance and announcement lands at exactly the right beat.',
+          "Drawing on 900+ shows, he writes custom scripts, maps the run-of-show, and rehearses the key moments with everyone involved. It's not about stages or equipment — it's about crafting the sequence of moments that makes your guests feel every high point of the night.",
         ],
       }}
       subServices={[
-        { icon: '🏛️', title: 'Stage Design', description: 'Custom stage designs from intimate platforms to massive convention center stages. Modular, beautiful, structurally sound.' },
-        { icon: '📺', title: 'LED Walls', description: 'High-resolution LED wall installations in any configuration — perfect for stages, conference backdrops, and immersive environments.' },
-        { icon: '🔊', title: 'Sound Systems', description: 'Concert-grade line array sound systems for any venue size. Crystal clear audio for every seat in the house.' },
-        { icon: '💡', title: 'Lighting Setup', description: 'Intelligent LED lighting, wash lights, spotlights, gobo projections, and atmospheric effects that transform any venue.' },
-        { icon: '📸', title: 'Photography', description: 'Professional event photographers capturing candid moments, coverage shots, and portrait sessions for all types of events.' },
-        { icon: '🎬', title: 'Videography', description: 'Cinematic videography teams producing highlight reels, documentary-style event films, and live streaming setups.' },
-        { icon: '🚁', title: 'Drone Coverage', description: 'Licensed drone operators providing stunning aerial footage of outdoor events, venues and guest arrivals.' },
+        { icon: '📜', title: 'Custom Event Scripts', description: 'Shubham writes a bespoke script for your event — announcements, links, names and cues, tailored to your family, brand and culture.' },
+        { icon: '🗺️', title: 'Run-of-Show Design', description: 'A minute-by-minute run-of-show mapping every entrance, ritual, performance and speech into a smooth, logical flow.' },
+        { icon: '🎬', title: 'Flow & Segment Design', description: 'Thoughtful sequencing of the evening — where to place the energy peaks, the emotional moments and the natural breathers.' },
+        { icon: '🎯', title: 'Cue & Moment Planning', description: 'Every music cue, entrance and surprise planned and timed so the big moments hit exactly as you pictured them.' },
+        { icon: '🔁', title: 'Rehearsals', description: 'Shubham rehearses the critical cues and transitions with the family, hosts and performers so nothing feels improvised.' },
+        { icon: '🤝', title: 'Coordination', description: 'He coordinates closely with the couple, planner and DJ, aligning the script with everyone so the show runs as one.' },
       ]}
       processSteps={[
-        { step: '01', title: 'Technical Brief', description: 'Assessing venue, event type, audience size and technical requirements.' },
-        { step: '02', title: 'Production Design', description: 'Stage layout, equipment specification, lighting plot and crew planning.' },
-        { step: '03', title: 'Setup & Testing', description: 'Full rig and technical rehearsal completed before any guest arrives.' },
-        { step: '04', title: 'Live Operation', description: 'Professional technical team operating all systems throughout the event.' },
+        { step: '01', title: 'Discovery Call', description: 'Shubham learns your event, priorities, must-have moments and the people involved on stage.' },
+        { step: '02', title: 'Script & Flow', description: 'He drafts the custom script and run-of-show, refining the sequence and timing with you.' },
+        { step: '03', title: 'Rehearsal & Coordination', description: 'Key cues are rehearsed and aligned with the couple, planner and DJ so every handoff is smooth.' },
+        { step: '04', title: 'Show Night', description: 'The script comes alive on stage — Shubham drives the flow while staying ready to adapt in the moment.' },
       ]}
-      ctaTitle="Let's Build Something Spectacular"
+      ctaTitle="Let Shubham Script Your Show"
     />
   )
 }

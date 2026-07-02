@@ -18,52 +18,52 @@ export const metadata: Metadata = generatePageMetadata(pageSEO.services)
 
 const serviceDetails = [
   {
-    title: 'Wedding Events',
-    tagline: 'Your Dream Wedding, Flawlessly Executed',
-    description: 'From the first consultation to the final farewell, Artist Shubham Khandelwal  manages every aspect of your wedding journey. Our wedding specialists combine deep cultural knowledge with modern design sensibilities to create celebrations that honor your traditions while reflecting your unique story.',
+    title: 'Wedding & Sangeet Anchoring',
+    tagline: 'The Voice That Holds Your Big Day Together',
+    description: 'Shubham takes the mic and turns every ritual into a moment — hosting ceremonies, sangeet nights, cocktails and receptions across Rajasthan and beyond. Fluent in Hindi, English and Rajasthani, he reads the room, weaves in live singing, and keeps your celebration flowing from the first entrance to the last dance.',
     image: '/images/hero.jpeg',
     href: '/services/wedding-events',
-    features: ['Wedding Planning', 'Destination Weddings', 'Haldi & Mehendi', 'Sangeet Night', 'Grand Reception', 'Guest Management', 'Wedding Décor', 'Floral Design'],
+    features: ['Ceremony Hosting', 'Sangeet Anchoring', 'Cocktail & Reception', 'Varmala Compering', 'Haldi & Mehendi', 'Live Singing', 'Crowd Games', 'Custom Script'],
   },
   {
-    title: 'Corporate Events',
-    tagline: 'Where Business Meets Brilliance',
-    description: 'Corporate events demand a different skill set — precision logistics, professional execution, and the ability to impress stakeholders at the highest level. Our corporate division has managed events for India\'s most respected companies, delivering experiences that reflect your brand\'s values.',
+    title: 'Corporate Hosting & Emceeing',
+    tagline: 'The Host Who Keeps the Room With You',
+    description: 'Shubham hosts conferences, award nights, product launches, annual days and dealer meets with the composure your brand demands. As your emcee he keeps the agenda tight, briefs speakers, lands key messages and holds delegates engaged — hosting seamlessly in both Hindi and English.',
     image: '/images/corparate.jpeg',
     href: '/services/corporate-events',
-    features: ['Conferences & Summits', 'Product Launches', 'Award Functions', 'Dealer Meets', 'Annual Meetings', 'Team Building'],
+    features: ['Conferences & Summits', 'Product Launches', 'Award Nights', 'Dealer Meets', 'Annual Days', 'Bilingual Hosting'],
   },
   {
-    title: 'Social Events',
-    tagline: 'Celebrate Every Chapter of Your Story',
-    description: 'Life\'s most joyful moments deserve to be celebrated in style. Whether it\'s a milestone birthday, a silver anniversary, or a cultural program, our social events team brings the same level of creativity and dedication that we bring to weddings — tailored to your budget and vision.',
+    title: 'Private & Celebrity Events',
+    tagline: 'The Life of Every Celebration',
+    description: 'From milestone birthdays and anniversaries to celebrity nights, college festivals and cultural shows, Shubham hosts and performs — reading the crowd, running interactive games and weaving in live singing so hosts can relax and enjoy their own party.',
     image: '/images/social1.jpeg',
     href: '/services/social-events',
-    features: ['Birthday Parties', 'Anniversary Celebrations', 'Cultural Programs', 'Family Gatherings', 'Festive Events'],
+    features: ['Milestone Birthdays', 'Anniversaries', 'Celebrity Nights', 'College Festivals', 'Cultural Shows', 'Live Entertainment'],
   },
   {
-    title: 'Entertainment Services',
-    tagline: 'Performances That Steal the Show',
-    description: 'Entertainment is the soul of any event. Artist Shubham Khandelwal \'s entertainment division manages the full spectrum — from sourcing and booking top-tier performers to on-site coordination. Our industry relationships mean we can book artists others simply can\'t access.',
+    title: 'Live Entertainment & Singing',
+    tagline: 'The Performer Your Guests Remember',
+    description: 'Shubham is the artist on stage — live singing, interactive games and non-stop audience engagement. Fronting the band and DJ as your anchor and entertainer in one, he reads the crowd in real time and lifts the energy exactly when it is needed. You book the artist himself, not an agency.',
     image: '/images/entertainment.jpeg',
     href: '/services/entertainment-services',
-    features: ['Professional Artists', 'DJ Services', 'Live Bands', 'Celebrity Management', 'Artist Booking', 'Dance Performances'],
+    features: ['Live Singing Sets', 'Interactive Games', 'Audience Engagement', 'Front-Man Anchoring', 'Band & DJ Coordination', 'Energy & Flow'],
   },
   {
-    title: 'Production Setup',
-    tagline: 'World-Class Production, Executed to Perfection',
-    description: 'Behind every spectacular event is a world-class production team. Artist Shubham Khandelwal \'s in-house production division handles everything from stage design and LED walls to professional photography and cinematic videography — ensuring your event looks as magnificent as it feels.',
+    title: 'Show Design & Scripting',
+    tagline: 'A Show That Flows Effortlessly',
+    description: 'The difference between a good event and an unforgettable one lives in the script, the timing and the flow. Shubham writes custom event scripts, designs the run-of-show, and rehearses every cue — coordinating with the couple, planner and DJ so the evening unfolds exactly as imagined.',
     image: '/images/prod.jpeg',
     href: '/services/production-setup',
-    features: ['Stage Design', 'LED Walls', 'Sound Systems', 'Lighting Setup', 'Photography', 'Videography', 'Drone Coverage'],
+    features: ['Custom Scripts', 'Run-of-Show Design', 'Flow & Segments', 'Cue Planning', 'Rehearsals', 'Coordination'],
   },
 ]
 
 const processSteps = [
-  { step: '01', title: 'Consultation', description: 'Free discovery call to understand your vision, requirements and budget.' },
-  { step: '02', title: 'Proposal', description: 'Customized event proposal with concept, timeline and detailed quote within 48 hours.' },
-  { step: '03', title: 'Planning', description: 'End-to-end planning — venue, vendors, logistics, décor, entertainment and more.' },
-  { step: '04', title: 'Execution', description: 'Seamless on-site management by a dedicated team. You simply enjoy the event.' },
+  { step: '01', title: 'Discovery Call', description: 'A relaxed call where Shubham learns your event, families, languages and the vibe you want.' },
+  { step: '02', title: 'Custom Script', description: 'A tailored run-of-show and script — entrances, cues, song moments and games built around your event.' },
+  { step: '03', title: 'Rehearsal & Coordination', description: 'Shubham aligns with your planner, DJ and family, rehearsing the key cues so everything lands.' },
+  { step: '04', title: 'Show Night', description: 'On stage, Shubham owns the mic — reading the room, adapting live and keeping every moment flowing.' },
 ]
 
 export default function ServicesPage() {
@@ -72,10 +72,10 @@ export default function ServicesPage() {
       <JsonLd data={breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Services', url: '/services' }])} />
 
       <PageHero
-        title="Full-Service Event Management"
-        subtitle="Five specialized divisions. One seamless team. We handle every aspect of your event so you can simply be present."
-        tag="Our Services"
-        image="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1920&h=800&fit=crop&q=80"
+        title="What Shubham Hosts"
+        subtitle="Five ways Shubham takes the mic — from wedding anchoring to corporate emceeing and live singing. One artist, on stage, holding your room together."
+        tag="Services"
+        image="/images/entertainment.jpeg"
         breadcrumbs={[{ label: 'Services' }]}
       />
 
@@ -125,9 +125,9 @@ export default function ServicesPage() {
       <section className="section-padding bg-black-soft">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-xl mx-auto mb-14">
-            <SectionLabel>How We Work</SectionLabel>
+            <SectionLabel>How Shubham Works</SectionLabel>
             <h2 className="font-display font-bold text-4xl md:text-5xl leading-tight mt-4">
-              Our <GradientText>Process</GradientText>
+              From Brief to <GradientText>Standing Ovation</GradientText>
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -146,7 +146,7 @@ export default function ServicesPage() {
           </div>
           <div className="text-center mt-12">
             <Button href="/book-consultation" variant="primary" size="lg">
-              Start With a Free Consultation
+              Check Shubham's Availability
             </Button>
           </div>
         </div>

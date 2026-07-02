@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import { PageHero } from '@/components/common/PageHero'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Artist Shubham Khandelwal ',
-  description: 'Privacy policy for Artist Shubham Khandelwal  — how we collect, use, and protect your personal information.',
+  title: 'Privacy Policy | Artist Shubham Khandelwal',
+  description: 'Privacy policy for Artist Shubham Khandelwal — how we collect, use, and protect your personal information.',
 }
 
 export default function PrivacyPolicyPage() {
@@ -28,7 +28,7 @@ export default function PrivacyPolicyPage() {
 
             <h2>1. Information We Collect</h2>
             <p>
-              Artist Shubham Khandelwal  collects personal information that you voluntarily provide to us when you fill out our contact forms,
+              Artist Shubham Khandelwal collects personal information that you voluntarily provide to us when you fill out our contact forms,
               book a consultation, or interact with our website. This may include your name, phone number, email address,
               event details, and any other information you choose to share.
             </p>
@@ -63,7 +63,7 @@ export default function PrivacyPolicyPage() {
             <h2>6. Contact Us</h2>
             <p>
               If you have questions about this privacy policy or how we handle your data, please contact us at{' '}
-              <a href="mailto:privacy@ssevent.in" className="text-gold">privacy@ssevent.in</a>.
+              <a href="mailto:privacy@artistshubhamkhandelwal.com" className="text-gold">privacy@artistshubhamkhandelwal.com</a>.
             </p>
           </div>
         </div>

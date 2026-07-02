@@ -19,6 +19,7 @@ const socialIcons = {
 const socialLinks = [
   { label: 'Instagram', href: 'https://www.instagram.com/artistshubhamkhandelwal/', icon: 'Instagram' as const },
   { label: 'Facebook', href: 'https://www.facebook.com/shubham.khandelwal.9883', icon: 'Facebook' as const },
+  { label: 'YouTube', href: 'https://www.youtube.com/@artistshubhamkhandelwal', icon: 'Youtube' as const },
   { label: 'WhatsApp', href: `https://wa.me/${whatsappNumber}`, icon: 'MessageCircle' as const },
 ]
 
@@ -41,7 +42,7 @@ export function Footer() {
             <span className="text-gold-gradient">Extraordinary?</span>
           </h2>
           <p className="font-sans text-gray-400 max-w-xl mx-auto mb-10">
-            Let&apos;s bring your vision to life. Book a free consultation and discover how Artist Shubham Khandelwal  transforms your dream event into an unforgettable reality.
+            Let&apos;s bring your vision to life. Book a free consultation and discover how Artist Shubham Khandelwal transforms your dream event into an unforgettable reality.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
@@ -51,7 +52,7 @@ export function Footer() {
               Book Free Consultation
             </Link>
             <a
-              href={`https://wa.me/${whatsappNumber}?text=Hi! I'm interested in Artist Shubham Khandelwal  services.`}
+              href={`https://wa.me/${whatsappNumber}?text=Hi! I'm interested in Artist Shubham Khandelwal services.`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-3.5 border border-gold/30 text-gold font-sans font-medium text-sm rounded-md hover:bg-gold/10 hover:border-gold/60 transition-all duration-300"
@@ -70,16 +71,16 @@ export function Footer() {
           {/* Column 1: Brand */}
           <div className="lg:col-span-1">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2 group mb-5">
-              <span className="font-display text-2xl font-bold text-white group-hover:text-gold transition-colors">SS</span>
+            <Link href="/" className="flex items-center gap-3 group mb-5">
+              <span className="font-display text-2xl font-bold text-white group-hover:text-gold transition-colors">SK</span>
               <div className="flex flex-col leading-none">
-                <span className="font-display text-xl font-semibold text-gold-gradient">Event</span>
-                <span className="font-accent text-[0.5rem] tracking-[0.25em] text-gray-500 uppercase mt-0.5">Premium Events</span>
+                <span className="font-display text-lg font-semibold text-gold-gradient">Shubham Khandelwal</span>
+                <span className="font-accent text-[0.5rem] tracking-[0.25em] text-gray-500 uppercase mt-1">Anchor · Host · Live Artist</span>
               </div>
             </Link>
 
             <p className="font-sans text-sm text-gray-400 leading-relaxed mb-6 max-w-xs">
-              Full-service premium event management. Where moments become memories that last a lifetime.
+              Award-winning wedding anchor, live singer and master of ceremonies based in Jaipur — the voice behind Rajasthan&apos;s most memorable celebrations.
             </p>
 
             {/* Social links */}

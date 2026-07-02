@@ -1,45 +1,82 @@
 /**
- * JSON-LD Schema Markup helpers for Artist Shubham Khandelwal 
- * Improves Google rich results and SEO signals
+ * JSON-LD Schema Markup helpers for Artist Shubham Khandelwal
+ * Improves Google rich results and SEO signals.
  */
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ssevent.in'
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://artistshubhamkhandelwal.com'
 
-/** LocalBusiness schema — for /contact page */
+const socialProfiles = [
+  'https://www.instagram.com/artistshubhamkhandelwal/',
+  'https://www.facebook.com/shubham.khandelwal.9883',
+  'https://www.youtube.com/@artistshubhamkhandelwal',
+]
+
+/** Person schema — the primary entity for this personal-brand site */
+export function personSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Shubham Khandelwal',
+    alternateName: 'Artist Shubham Khandelwal',
+    url: baseUrl,
+    image: `${baseUrl}/images/aboutme.jpeg`,
+    jobTitle: 'Wedding Anchor, Live Entertainer & Event Host',
+    description:
+      'Jaipur-based professional wedding anchor, live singer and master of ceremonies. Award-winning host for weddings, sangeets, corporate events and celebrity celebrations across Rajasthan and India.',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Jaipur',
+      addressRegion: 'Rajasthan',
+      addressCountry: 'IN',
+    },
+    telephone: process.env.NEXT_PUBLIC_PHONE_NUMBER,
+    email: process.env.NEXT_PUBLIC_EMAIL,
+    knowsLanguage: ['Hindi', 'English', 'Rajasthani'],
+    award: 'Best Actor in Jaipur — Forever Star India Awards, 2023',
+    sameAs: socialProfiles,
+    knowsAbout: [
+      'Wedding Anchoring',
+      'Master of Ceremonies',
+      'Corporate Emceeing',
+      'Live Singing',
+      'Event Hosting',
+    ],
+  }
+}
+
+/** LocalBusiness / service-provider schema — used on the contact page */
 export function localBusinessSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: 'Artist Shubham Khandelwal ',
+    '@id': `${baseUrl}/#business`,
+    name: 'Artist Shubham Khandelwal',
     description:
-      'Full-service premium event management company specializing in weddings, corporate events, social celebrations, entertainment services and production setup.',
+      'Professional wedding anchor, live entertainer and event host based in Jaipur, Rajasthan — available for weddings, corporate events and private celebrations across India.',
     url: baseUrl,
-    logo: `${baseUrl}/images/logo.png`,
-    image: `${baseUrl}/og-image.jpg`,
+    image: `${baseUrl}/images/main.jpeg`,
     telephone: process.env.NEXT_PUBLIC_PHONE_NUMBER,
     email: process.env.NEXT_PUBLIC_EMAIL,
     address: {
       '@type': 'PostalAddress',
+      addressLocality: 'Jaipur',
+      addressRegion: 'Rajasthan',
       addressCountry: 'IN',
     },
-    priceRange: '₹₹₹₹',
-    openingHours: 'Mo-Su 09:00-20:00',
-    sameAs: [
-      'https://instagram.com/ssevent',
-      'https://facebook.com/ssevent',
-      'https://youtube.com/@ssevent',
+    areaServed: [
+      { '@type': 'State', name: 'Rajasthan' },
+      { '@type': 'Country', name: 'India' },
     ],
-    hasOfferCatalog: {
-      '@type': 'OfferCatalog',
-      name: 'Event Management Services',
-      itemListElement: [
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Wedding Event Management' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Corporate Event Management' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Social Event Management' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Entertainment Services' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Production Setup' } },
-      ],
-    },
+    priceRange: '₹₹₹',
+    openingHours: 'Mo-Su 09:00-21:00',
+    sameAs: socialProfiles,
+    makesOffer: [
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Wedding & Sangeet Anchoring' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Corporate Hosting & Emceeing' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Private & Celebrity Events' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Live Entertainment & Singing' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Show Design & Scripting' } },
+    ],
   }
 }
 
@@ -51,9 +88,10 @@ export function serviceSchema(name: string, description: string, url: string) {
     name,
     description,
     url: `${baseUrl}${url}`,
+    serviceType: name,
     provider: {
-      '@type': 'LocalBusiness',
-      name: 'Artist Shubham Khandelwal ',
+      '@type': 'Person',
+      name: 'Shubham Khandelwal',
       url: baseUrl,
     },
     areaServed: {
@@ -90,22 +128,6 @@ export function breadcrumbSchema(items: { name: string; url: string }[]) {
       name,
       item: `${baseUrl}${url}`,
     })),
-  }
-}
-
-/** AggregateRating schema — for testimonials page */
-export function aggregateRatingSchema(ratingValue: number, reviewCount: number) {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    name: 'Artist Shubham Khandelwal ',
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue,
-      reviewCount,
-      bestRating: 5,
-      worstRating: 1,
-    },
   }
 }
 

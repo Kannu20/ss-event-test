@@ -9,9 +9,10 @@ import { SectionLabel } from '@/components/ui/SectionLabel'
 import { GradientText } from '@/components/ui/GradientText'
 import { GoldOrnament } from '@/components/ui/GoldLine'
 import { staggerContainer, fadeInUp } from '@/lib/animations/variants'
+import { brandLinks } from '@/lib/constants/brand'
 
-const YOUTUBE_ID = 'dQw4w9WgXcQ'
-const THUMBNAIL = 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200&h=675&fit=crop&q=80'
+const YOUTUBE_ID = brandLinks.showreelId
+const THUMBNAIL = '/images/main.jpeg'
 
 export function VideoShowcase() {
   const [playing, setPlaying] = useState(false)
@@ -36,20 +37,21 @@ export function VideoShowcase() {
           animate={isInView ? 'visible' : 'hidden'}
         >
           <motion.div variants={fadeInUp} className="flex justify-center">
-            <SectionLabel className="text-gold ml-14 text-sm">Video Gallery</SectionLabel>
+            <SectionLabel className="text-gold ml-14 text-sm">The Showreel</SectionLabel>
           </motion.div>
           <motion.h2
             variants={fadeInUp}
             className="font-display font-bold text-4xl md:text-5xl leading-tight mt-4 mb-4"
           >
-            See the{' '}
-            <GradientText>Magic Unfold</GradientText>
+            Ninety Seconds of{' '}
+            <GradientText>Pure Energy</GradientText>
           </motion.h2>
           <motion.div variants={fadeInUp}>
             <GoldOrnament className="justify-center mb-4" />
           </motion.div>
           <motion.p variants={fadeInUp} className="text-white/60 font-sans">
-            Watch our highlight reels and get a feel for the extraordinary events we create.
+            Hit play and see what it looks like when Shubham takes the mic — the crowd, the
+            singing, the moments that make a celebration unforgettable.
           </motion.p>
         </motion.div>
 
@@ -65,7 +67,7 @@ export function VideoShowcase() {
               <div className="relative aspect-video">
                 <Image
                   src={THUMBNAIL}
-                  alt="Artist Shubham Khandelwal  2024 Showreel"
+                  alt="Artist Shubham Khandelwal official showreel"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 896px"
@@ -75,9 +77,9 @@ export function VideoShowcase() {
                 {/* Gold overlay text */}
                 <div className="absolute inset-0 flex flex-col items-center justify-center">
                   <div className="text-center mb-6">
-                    <p className="eyebrow mb-2">Showreel 2024</p>
+                    <p className="eyebrow mb-2">Official Showreel</p>
                     <h3 className="font-display font-bold text-white text-2xl md:text-3xl">
-                      Artist Shubham Khandelwal  — A Year of Extraordinary Moments
+                      Artist Shubham Khandelwal — Live &amp; Unfiltered
                     </h3>
                   </div>
 
@@ -100,7 +102,7 @@ export function VideoShowcase() {
             <div className="aspect-video">
               <iframe
                 src={`https://www.youtube.com/embed/${YOUTUBE_ID}?autoplay=1&rel=0`}
-                title="Artist Shubham Khandelwal  Showreel 2024"
+                title="Artist Shubham Khandelwal Showreel 2024"
                 className="w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

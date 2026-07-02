@@ -14,40 +14,40 @@ import { staggerContainer, fadeInUp } from '@/lib/animations/variants'
 const events = [
   {
     id: 1,
-    title: 'Rohan & Ananya — Palace Wedding',
+    title: 'Palace Sangeet — 800 guests on their feet',
     location: 'Udaipur, Rajasthan',
     date: 'November 2024',
-    category: 'Destination Wedding',
+    category: 'Sangeet Anchoring',
     image: '/images/wedding.jpeg',
     span: 'lg:col-span-2 lg:row-span-2',
     height: 'h-[500px]',
   },
   {
     id: 2,
-    title: 'TechVision Annual Summit',
-    location: 'Mumbai, Maharashtra',
+    title: 'Annual Awards Night — Emcee',
+    location: 'Jaipur, Rajasthan',
     date: 'October 2024',
-    category: 'Corporate Event',
+    category: 'Corporate Host',
     image: '/images/corparate.jpeg',
     span: '',
     height: 'h-[240px]',
   },
   {
     id: 3,
-    title: 'Priya\'s 30th Bollywood Night',
-    location: 'Jaipur, Maharashtra',
+    title: 'Milestone Birthday — Live Singing Set',
+    location: 'Jaipur, Rajasthan',
     date: 'September 2024',
-    category: 'Birthday Party',
+    category: 'Private Event',
     image: '/images/hero.jpeg',
     span: '',
     height: 'h-[240px]',
   },
   {
     id: 4,
-    title: 'Gupta-Mehta Silent Disco Sangeet',
+    title: 'Desert Wedding Reception — Bilingual Hosting',
     location: 'Jaisalmer, Rajasthan',
     date: 'August 2024',
-    category: 'Sangeet',
+    category: 'Reception Hosting',
     image: '/images/entertainment.jpeg',
     span: 'lg:col-span-2',
     height: 'h-[240px]',
@@ -83,7 +83,7 @@ export function FeaturedEvents() {
               <GoldOrnament className="mb-3" />
             </motion.div>
             <motion.p variants={fadeInUp} className="text-white/60 font-sans">
-              A glimpse into our most celebrated events across India.
+              A glimpse at some of the stages Shubham has recently lit up across Rajasthan.
             </motion.p>
           </div>
           <motion.div variants={fadeInUp}>

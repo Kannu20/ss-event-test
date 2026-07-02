@@ -8,39 +8,39 @@ export default function CorporateEventsPage() {
   return (
     <ServicePageLayout
       hero={{
-        title: 'Corporate Events',
-        subtitle: 'Professional events that elevate your brand, inspire your team, and impress your stakeholders — executed with military precision.',
-        tag: 'Corporate Services',
+        title: 'Corporate Hosting & Emceeing',
+        subtitle: 'Shubham hosts conferences, award nights and product launches with the composure and polish your brand demands — keeping the agenda tight and every delegate engaged.',
+        tag: 'Corporate Hosting',
         image: '/images/corparate.jpeg',
       }}
-      breadcrumbs={[{ label: 'Corporate Events' }]}
-      schemaName="Corporate Event Management"
-      schemaDescription="Professional corporate event management for conferences, product launches, award functions, dealer meets, annual meetings and team building events."
+      breadcrumbs={[{ label: 'Corporate Hosting & Emceeing' }]}
+      schemaName="Corporate Hosting & Emceeing"
+      schemaDescription="Professional corporate emcee and host Artist Shubham Khandelwal — conferences, award nights, product launches, annual days and dealer meets, with bilingual hosting and tight agenda flow."
       schemaUrl="/services/corporate-events"
       intro={{
-        label: 'Corporate Specialists',
-        title: 'Where Business',
-        titleHighlight: 'Meets Brilliance',
+        label: 'Your Corporate Emcee',
+        title: 'The Host Who Keeps',
+        titleHighlight: 'The Room With You',
         description: [
-          'Corporate events are high-stakes affairs that reflect directly on your brand. A flawless conference, a memorable product launch, or an inspiring annual gala — these are not just events, they\'re statements about who you are as an organization.',
-          'Artist Shubham Khandelwal \'s corporate division combines the precision of a project management firm with the creativity of an event design house. We\'ve managed events for Fortune 500 companies, government organizations, and India\'s fastest-growing startups — always delivering on time, on budget, and beyond expectation.',
+          'A corporate stage reflects directly on your brand, and the emcee holds it together. Shubham has hosted conferences, award nights, launches and dealer meets across 30+ cities, keeping agendas on time while the audience stays with him, not their phones.',
+          'An award-winning performer (Best Actor in Jaipur, FSIA 2023) with an MBA background, he hosts confidently in Hindi and English, briefs speakers, smooths over live hiccups, and lands your key messages with clarity and energy from opening line to closing note.',
         ],
       }}
       subServices={[
-        { icon: '🎤', title: 'Conferences & Summits', description: 'Large-scale conferences managed end-to-end — venue, AV, speakers, hospitality, registration and all production requirements.' },
-        { icon: '🚀', title: 'Product Launches', description: 'High-impact launch events that create buzz, generate media coverage and leave lasting brand impressions.' },
-        { icon: '🏆', title: 'Award Functions', description: 'Prestigious award ceremonies with professional hosting, spectacular stage setups, and a production quality that honors every recipient.' },
-        { icon: '🤝', title: 'Dealer Meets', description: 'Engaging dealer and distributor meets that motivate your sales network and celebrate top performers.' },
-        { icon: '📊', title: 'Annual Meetings', description: 'AGMs, shareholder meetings, and board events managed with complete professionalism and appropriate gravitas.' },
-        { icon: '⚡', title: 'Team Building Events', description: 'Custom team building programs — outdoor activities, leadership challenges, or creative workshops that bring teams together.' },
+        { icon: '🎤', title: 'Conferences & Summits', description: 'Shubham anchors the full agenda — introducing speakers, managing transitions and keeping delegates engaged across long days.' },
+        { icon: '🚀', title: 'Product Launches', description: 'A launch host who builds anticipation, delivers the reveal with impact, and keeps the room and media locked in on your message.' },
+        { icon: '🏆', title: 'Award Nights', description: 'Polished award-ceremony hosting — reading citations, cueing winners and giving every recipient their moment with warmth and gravitas.' },
+        { icon: '🤝', title: 'Dealer & Channel Meets', description: 'Energetic hosting for dealer and distributor meets — recognising top performers and keeping your network motivated and engaged.' },
+        { icon: '📊', title: 'Annual Days & Townhalls', description: 'Shubham hosts annual days, townhalls and family days, balancing corporate polish with the fun that gets teams cheering.' },
+        { icon: '🌐', title: 'Bilingual Hosting', description: 'Seamless hosting in Hindi and English, switching languages to connect with a mixed audience of leadership, staff and partners.' },
       ]}
       processSteps={[
-        { step: '01', title: 'Brief & Discovery', description: 'Understanding your objectives, audience, brand guidelines and success metrics.' },
-        { step: '02', title: 'Strategy & Concept', description: 'Event strategy, theme development, and detailed execution plan submitted within 48 hours.' },
-        { step: '03', title: 'Full Management', description: 'End-to-end project management — venues, vendors, technology, logistics and guest experience.' },
-        { step: '04', title: 'Day-of Execution', description: 'Full on-site management team ensuring every element runs to schedule.' },
+        { step: '01', title: 'Brief & Discovery', description: 'Shubham learns your objectives, audience, brand tone and key messages so the hosting serves your goals.' },
+        { step: '02', title: 'Agenda & Script', description: 'A detailed run-of-show and emcee script — speaker intros, links, cues and timings mapped to your agenda.' },
+        { step: '03', title: 'Rehearsal & Coordination', description: 'Shubham coordinates with your team, speakers and AV, rehearsing cues so the show runs to the minute.' },
+        { step: '04', title: 'Show Day', description: 'On stage, Shubham keeps the flow tight, adapts to live changes, and holds the audience from open to close.' },
       ]}
-      ctaTitle="Let's Plan Your Next Corporate Event"
+      ctaTitle="Book Shubham to Host Your Corporate Event"
     />
   )
 }

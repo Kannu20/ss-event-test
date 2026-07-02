@@ -14,8 +14,8 @@ export default function GalleryPage() {
       <JsonLd data={breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Gallery', url: '/gallery' }])} />
 
       <PageHero
-        title="Event Gallery"
-        subtitle="Hundreds of moments captured from our finest events. Browse our gallery and imagine what we can create for you."
+        title="On-Stage Gallery"
+        subtitle="Hundreds of moments captured with Shubham on the mic. Browse the gallery and picture him hosting your celebration."
         tag="Gallery"
         image="/images/dark.jpeg"
         breadcrumbs={[{ label: 'Gallery' }]}

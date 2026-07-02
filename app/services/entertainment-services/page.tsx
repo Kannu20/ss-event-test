@@ -8,39 +8,39 @@ export default function EntertainmentServicesPage() {
   return (
     <ServicePageLayout
       hero={{
-        title: 'Entertainment Services',
-        subtitle: 'Professional Artists, live bands, DJs, and celebrity performers — we source and manage world-class entertainment that makes your event unforgettable.',
-        tag: 'Entertainment',
+        title: 'Live Entertainment & Singing',
+        subtitle: 'Shubham is the artist on stage — live singing, interactive games and non-stop audience engagement, fronting the band and DJ to keep your crowd on their feet.',
+        tag: 'Live Entertainment',
         image: '/images/entertainment.jpeg',
       }}
-      breadcrumbs={[{ label: 'Entertainment Services' }]}
-      schemaName="Entertainment Services"
-      schemaDescription="Professional entertainment management including Artists, DJ services, live bands, celebrity management and artist booking for events."
+      breadcrumbs={[{ label: 'Live Entertainment & Singing' }]}
+      schemaName="Live Entertainment & Singing"
+      schemaDescription="Live entertainer and singer Artist Shubham Khandelwal — live singing sets, interactive games, audience engagement and front-man anchoring alongside bands and DJs."
       schemaUrl="/services/entertainment-services"
       intro={{
-        label: 'Entertainment Division',
-        title: 'Performances That',
-        titleHighlight: 'Steal the Show',
+        label: 'The Artist On Stage',
+        title: 'The Performer Your',
+        titleHighlight: 'Guests Remember',
         description: [
-          'Entertainment is the heartbeat of any great event. A brilliant performer can transform a good event into a legendary one. At Artist Shubham Khandelwal , our entertainment division manages everything — from finding the perfect Artist who matches your event\'s tone to booking that celebrity performer your guests will talk about for years.',
-          "With over a decade of industry relationships, we have access to performers, artists, and entertainers that other agencies simply can't reach. And more importantly, we know how to manage them professionally — ensuring they deliver their absolute best for your event.",
+          'Entertainment is the heartbeat of any great event, and Shubham is the one delivering it live. He is the singer and front-man on the mic — performing crowd favourites, running interactive games, and pulling the whole room into the moment.',
+          "Award-winning and 900+ shows deep, Shubham fronts the band and DJ as your anchor and entertainer in one, reading the crowd in real time and lifting the energy exactly when it's needed. You don't book an agency for someone else — you book the artist himself.",
         ],
       }}
       subServices={[
-        { icon: '🎙️', title: 'Professional Artists', description: 'Bilingual Artists who match your event\'s tone — from warm family hosts to high-energy corporate emcees. Vetted, trained, reliable.' },
-        { icon: '🎧', title: 'DJ Services', description: 'Top DJs with premium equipment reading the crowd perfectly — Bollywood, commercial, EDM, fusion. For weddings and corporate events alike.' },
-        { icon: '🎸', title: 'Live Bands', description: 'Versatile live bands for any occasion — Bollywood cover bands, jazz ensembles, folk performers, international acts and everything in between.' },
-        { icon: '⭐', title: 'Celebrity Management', description: 'Access to Bollywood artists, musicians, comedians and regional celebrities. Full celebrity management from booking to performance.' },
-        { icon: '🎪', title: 'Artist Booking', description: 'Classical dancers, folk performers, acrobats, magicians, comedians — we source and book any type of performer for your event.' },
-        { icon: '💃', title: 'Dance Performances', description: 'Professional dance troupes — Bollywood, classical, contemporary, Bhangra, folk — for spectacular performance moments at your event.' },
+        { icon: '🎤', title: 'Live Singing Sets', description: 'Shubham performs live vocals — Bollywood, romantic and crowd favourites — turning listeners into a singing, cheering audience.' },
+        { icon: '🎉', title: 'Interactive Games', description: 'Signature couple challenges, family face-offs and crowd games that break the ice and keep everyone involved.' },
+        { icon: '🙌', title: 'Audience Engagement', description: 'Shubham works the room, sparks call-and-response moments and keeps every guest feeling part of the show.' },
+        { icon: '🎧', title: 'Front-Man Anchoring', description: 'As the on-stage anchor, Shubham fronts the DJ and band, cueing tracks and driving the floor as the face of the night.' },
+        { icon: '🎸', title: 'Band & DJ Coordination', description: 'Shubham coordinates live with your musicians and DJ so vocals, music and hosting stay perfectly in sync.' },
+        { icon: '🔥', title: 'Energy & Flow', description: 'He controls the tempo of the evening — building highs, easing between segments and never letting the energy dip.' },
       ]}
       processSteps={[
-        { step: '01', title: 'Entertainment Brief', description: 'Understanding your event type, audience, tone and entertainment preferences.' },
-        { step: '02', title: 'Artist Curation', description: 'Curated shortlist of entertainment options with profiles, videos, and pricing.' },
-        { step: '03', title: 'Booking & Contracts', description: 'Full booking management, contracts, advances and all communication with artists.' },
-        { step: '04', title: 'Event Day Management', description: 'On-site artist management, soundcheck coordination and performance oversight.' },
+        { step: '01', title: 'Entertainment Brief', description: 'Shubham learns your event type, audience and vibe to shape the right mix of singing, games and hosting.' },
+        { step: '02', title: 'Set & Flow Design', description: 'A tailored set list and engagement plan — song moments, games and energy peaks mapped to your evening.' },
+        { step: '03', title: 'Sound & Rehearsal', description: 'Soundcheck and cue rehearsal with your band and DJ so the live performance runs flawlessly.' },
+        { step: '04', title: 'Live Performance', description: 'Shubham takes the stage — singing, hosting and engaging the crowd from the first number to the last.' },
       ]}
-      ctaTitle="Book Entertainment for Your Event"
+      ctaTitle="Book Shubham to Perform at Your Event"
     />
   )
 }

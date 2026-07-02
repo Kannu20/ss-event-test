@@ -14,9 +14,9 @@ export default function PortfolioPage() {
       <JsonLd data={breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Portfolio', url: '/portfolio' }])} />
 
       <PageHero
-        title="Our Portfolio"
-        subtitle="5K+ events across India. Here's a glimpse at our finest work — from royal palace weddings to landmark corporate events."
-        tag="Our Work"
+        title="Shubham's Portfolio"
+        subtitle="900+ shows across 30+ cities. A glimpse of the stages Shubham has hosted — from grand palace weddings to landmark corporate nights."
+        tag="On Stage"
         image="/images/wedding.jpeg"
         breadcrumbs={[{ label: 'Portfolio' }]}
       />

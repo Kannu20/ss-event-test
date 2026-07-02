@@ -4,15 +4,16 @@ import { cn } from '@/lib/utils/cn'
 import { Star } from 'lucide-react'
 
 const items = [
-  '5K+ Events Delivered',
-  '10+ Years of Excellence',
-  'Weddings · Corporate · Social',
-  'Pan-India Operations',
-  '25+ Cities',
-  '100% Client Satisfaction',
-  'Luxury Event Management',
-  'Destination Weddings',
-  'Celebrity Events',
+  'Wedding Anchor',
+  'Live Performer',
+  'Corporate Host',
+  'Celebrity Emcee',
+  'Master of Ceremonies',
+  '900+ Shows Hosted',
+  'Award-Winning Performer',
+  'Multilingual Hosting',
+  'Live Singing',
+  'Based in Jaipur',
 ]
 
 interface MarqueeStripProps {

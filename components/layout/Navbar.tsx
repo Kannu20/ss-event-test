@@ -17,7 +17,7 @@ import type { NavItem, NavDropdownGroup } from '@/types'
    ───────────────────────────────────────────── */
 function Logo({ className }: { className?: string }) {
   return (
-    <Link href="/" className={cn('flex items-center gap-2 group', className)} aria-label="Artist Shubham Khandelwal  Home">
+    <Link href="/" className={cn('flex items-center gap-2 group', className)} aria-label="Artist Shubham Khandelwal Home">
       <div className="relative">
         <span className="font-display text-2xl font-bold text-white leading-none tracking-tight group-hover:text-gold transition-colors duration-300">
           Artist

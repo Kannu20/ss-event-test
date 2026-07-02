@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next'
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ssevent.in'
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://artistshubhamkhandelwal.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()

@@ -5,20 +5,20 @@ import { motion, useInView } from 'framer-motion'
 import { SectionLabel } from '@/components/ui/SectionLabel'
 import { staggerContainer, fadeInUp } from '@/lib/animations/variants'
 
-// Company names for text logos (premium feel)
+// Cities & venues Shubham has performed across (text marquee)
 const clients = [
-  'TATA Group',
-  'Reliance Industries',
-  'Infosys',
-  'Wipro',
-  'Mahindra',
-  'Bajaj Group',
-  'HDFC Bank',
-  'Piramal',
-  'Sun Pharma',
-  'L&T',
-  'JSW Group',
-  'Godrej',
+  'Jaipur',
+  'Udaipur',
+  'Jodhpur',
+  'Jaisalmer',
+  'Ajmer',
+  'Kota',
+  'Bikaner',
+  'Delhi NCR',
+  'Goa',
+  'Destination Weddings',
+  'Palace Venues',
+  'Five-Star Resorts',
 ]
 
 export function ClientLogos() {
@@ -35,10 +35,10 @@ export function ClientLogos() {
           animate={isInView ? 'visible' : 'hidden'}
         >
           <motion.div variants={fadeInUp}>
-            <SectionLabel>Trusted By</SectionLabel>
+            <SectionLabel>Performed Across</SectionLabel>
           </motion.div>
           <motion.p variants={fadeInUp} className="text-white/40 font-sans text-sm mt-2">
-            Some of India&apos;s most respected names trust Artist Shubham Khandelwal  for their most important celebrations
+            From Rajasthan&apos;s palaces to destination stages — Shubham travels to wherever your celebration is
           </motion.p>
         </motion.div>
 

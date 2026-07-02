@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import type { PageSEO } from '@/types'
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ssevent.in'
-const siteName = 'Artist Shubham Khandelwal '
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://artistshubhamkhandelwal.com'
+const siteName = 'Artist Shubham Khandelwal'
 
 /**
  * Generate page metadata with full OG/Twitter support
@@ -11,7 +11,7 @@ export function generatePageMetadata(seo: PageSEO): Metadata {
   const { title, description, keywords, ogImage, canonical, noIndex } = seo
 
   const fullTitle = title.includes(siteName) ? title : `${title} | ${siteName}`
-  const image = ogImage ?? '/og-image.jpg'
+  const image = ogImage ?? '/images/main.jpeg'
 
   return {
     title,
@@ -40,93 +40,93 @@ export function generatePageMetadata(seo: PageSEO): Metadata {
 
 export const pageSEO = {
   home: {
-    title: 'Artist Shubham Khandelwal  — Premium Event Management Company',
-    description: 'Full-service premium event management for weddings, corporate events, social celebrations, entertainment services and production setup. Creating unforgettable memories.',
-    keywords: ['event management company', 'wedding planner', 'corporate event management', 'luxury events', 'Artist Shubham Khandelwal '],
+    title: "Artist Shubham Khandelwal — Wedding Anchor & Event Host in Jaipur",
+    description: "Award-winning wedding anchor, live singer and master of ceremonies based in Jaipur. Book Shubham Khandelwal for weddings, sangeets, corporate events and celebrity celebrations across Rajasthan.",
+    keywords: ['wedding anchor Jaipur', 'wedding anchor Rajasthan', 'event host Jaipur', 'sangeet anchor', 'master of ceremonies', 'Artist Shubham Khandelwal'],
     canonical: '/',
   },
   about: {
-    title: 'About Artist Shubham Khandelwal  — Our Story & Vision',
-    description: 'Learn about Artist Shubham Khandelwal  — a decade of crafting premium events. Our team, values, and commitment to making every event extraordinary.',
-    keywords: ['about Artist Shubham Khandelwal ', 'event management company', 'event planners', 'event management team'],
+    title: 'About Shubham Khandelwal — The Artist Behind the Mic',
+    description: "Meet Shubham Khandelwal — an award-winning Jaipur wedding anchor, live singer and event host. His journey, stage presence, and why families and brands across Rajasthan trust him.",
+    keywords: ['about Shubham Khandelwal', 'wedding anchor Jaipur', 'best anchor Rajasthan', 'event host biography'],
     canonical: '/about',
   },
   services: {
-    title: 'Event Management Services — Artist Shubham Khandelwal ',
-    description: 'Explore our full spectrum of event management services — weddings, corporate events, social celebrations, entertainment, and production setup.',
-    keywords: ['event management services', 'wedding services', 'corporate event services', 'entertainment services', 'production setup'],
+    title: 'What Shubham Hosts — Anchoring & Live Entertainment',
+    description: 'From wedding and sangeet anchoring to corporate emceeing, live singing and show scripting — everything Shubham Khandelwal brings to your stage.',
+    keywords: ['wedding anchor services', 'corporate emcee', 'sangeet anchor', 'live singer for events', 'event host services'],
     canonical: '/services',
   },
   servicesWedding: {
-    title: 'Wedding Event Management Services — Artist Shubham Khandelwal ',
-    description: 'Comprehensive wedding event management — planning, destination weddings, Haldi, Mehendi, Sangeet, Reception, guest management and décor.',
-    keywords: ['wedding event management', 'wedding planner', 'destination wedding', 'sangeet event', 'mehendi', 'haldi ceremony'],
+    title: 'Wedding & Sangeet Anchoring — Shubham Khandelwal',
+    description: 'Wedding, sangeet, cocktail and reception hosting with live singing, crowd games and custom scripts. A wedding anchor who turns your functions into a show.',
+    keywords: ['wedding anchor', 'sangeet anchor Jaipur', 'reception host', 'varmala compere', 'wedding emcee Rajasthan'],
     canonical: '/services/wedding-events',
   },
   servicesCorporate: {
-    title: 'Corporate Event Management Services — Artist Shubham Khandelwal ',
-    description: 'Professional corporate event management — conferences, product launches, award functions, dealer meets, team building events.',
-    keywords: ['corporate event management', 'conference management', 'product launch event', 'award function', 'corporate events'],
+    title: 'Corporate Hosting & Emceeing — Shubham Khandelwal',
+    description: 'Professional corporate emcee for conferences, award nights, product launches and dealer meets. Bilingual hosting that keeps delegates engaged from start to finish.',
+    keywords: ['corporate emcee Jaipur', 'award night host', 'conference anchor', 'product launch host', 'corporate event host'],
     canonical: '/services/corporate-events',
   },
   servicesSocial: {
-    title: 'Social Event Management Services — Artist Shubham Khandelwal ',
-    description: 'Memorable social event management — birthday parties, anniversary celebrations, cultural programs, and family events.',
-    keywords: ['social event management', 'birthday party planning', 'anniversary celebration', 'cultural event management'],
+    title: 'Private & Celebrity Event Hosting — Shubham Khandelwal',
+    description: 'Birthdays, anniversaries, celebrity nights and college festivals hosted with warmth, wit and live entertainment.',
+    keywords: ['birthday party host', 'anniversary anchor', 'celebrity event host', 'college festival anchor'],
     canonical: '/services/social-events',
   },
   servicesEntertainment: {
-    title: 'Entertainment Services — Artist Shubham Khandelwal ',
-    description: 'Premium entertainment services — professional Artists, DJ, live bands, celebrity management, and artist booking for events.',
-    keywords: ['entertainment services', 'event Artist', 'DJ services', 'live band booking', 'celebrity management', 'artist booking'],
+    title: 'Live Entertainment & Singing — Shubham Khandelwal',
+    description: 'A host who also sings. Live singing sets, interactive crowd games and audience engagement that keep the energy soaring all night.',
+    keywords: ['live singer for events', 'event entertainer Jaipur', 'interactive host', 'anchor with live singing'],
     canonical: '/services/entertainment-services',
   },
   servicesProduction: {
-    title: 'Event Production Setup Services — Artist Shubham Khandelwal ',
-    description: 'Complete event production setup — stage design, LED walls, sound systems, lighting, photography, videography, and drone coverage.',
-    keywords: ['event production setup', 'stage design', 'LED wall rental', 'event sound system', 'event lighting', 'event photography'],
+    title: 'Show Design & Scripting — Shubham Khandelwal',
+    description: 'Custom event scripts and run-of-show design, rehearsed and coordinated so your celebration flows without a single dull moment.',
+    keywords: ['event script writing', 'run of show', 'event flow design', 'emcee script'],
     canonical: '/services/production-setup',
   },
   videos: {
-    title: 'Event Videos & Highlights — Artist Shubham Khandelwal ',
-    description: 'Watch our event highlight reels — weddings, corporate events, social celebrations and entertainment productions by Artist Shubham Khandelwal .',
-    keywords: ['event videos', 'wedding highlights', 'event videography', 'Artist Shubham Khandelwal  videos', 'corporate event video'],
+    title: 'Showreel & Videos — Artist Shubham Khandelwal',
+    description: "Watch Shubham Khandelwal's official showreel and highlights — weddings, sangeets, corporate stages and live singing moments.",
+    keywords: ['wedding anchor showreel', 'Shubham Khandelwal videos', 'anchor performance video', 'emcee showreel'],
     canonical: '/videos',
   },
   portfolio: {
-    title: 'Event Portfolio — Artist Shubham Khandelwal ',
-    description: 'Explore our portfolio of premium events — weddings, corporate events, social celebrations and entertainment experiences.',
-    keywords: ['event portfolio', 'wedding portfolio', 'corporate event portfolio', 'Artist Shubham Khandelwal  portfolio'],
+    title: 'Portfolio — Shows Shubham Khandelwal Has Hosted',
+    description: 'A look at the weddings, sangeets, corporate nights and celebrity events Shubham Khandelwal has anchored across Rajasthan and beyond.',
+    keywords: ['wedding anchor portfolio', 'anchor work', 'event host portfolio', 'Shubham Khandelwal shows'],
     canonical: '/portfolio',
   },
   gallery: {
-    title: 'Event Gallery — Artist Shubham Khandelwal ',
-    description: 'Browse our gallery of beautiful events — weddings, corporate celebrations, social gatherings and more.',
-    keywords: ['event gallery', 'wedding gallery', 'event photos', 'Artist Shubham Khandelwal  gallery'],
+    title: 'Gallery — Artist Shubham Khandelwal on Stage',
+    description: 'Photos of Shubham Khandelwal in action — weddings, sangeets, corporate stages, live performances and behind the scenes.',
+    keywords: ['wedding anchor photos', 'event host gallery', 'Shubham Khandelwal stage photos'],
     canonical: '/gallery',
   },
   testimonials: {
-    title: 'Client Testimonials & Reviews — Artist Shubham Khandelwal ',
-    description: 'Read what our clients say about Artist Shubham Khandelwal . Real reviews from wedding couples, corporate clients, and social event hosts.',
-    keywords: ['Artist Shubham Khandelwal  reviews', 'event management testimonials', 'client reviews', 'wedding planner reviews'],
+    title: 'Client Reviews — Artist Shubham Khandelwal',
+    description: 'Real reviews from couples, families and brands who booked Shubham Khandelwal to host their weddings, sangeets and corporate events.',
+    keywords: ['Shubham Khandelwal reviews', 'wedding anchor reviews', 'event host testimonials', 'best anchor Jaipur reviews'],
     canonical: '/testimonials',
   },
   faqs: {
-    title: 'Frequently Asked Questions — Artist Shubham Khandelwal ',
-    description: 'Find answers to common questions about Artist Shubham Khandelwal  services, booking process, pricing, and event management.',
-    keywords: ['event management FAQ', 'Artist Shubham Khandelwal  questions', 'wedding planning FAQ', 'event booking FAQ'],
+    title: 'FAQs — Booking Artist Shubham Khandelwal',
+    description: 'Answers about booking Shubham Khandelwal — availability, languages, live singing, pricing and how to reserve your date.',
+    keywords: ['book wedding anchor', 'anchor booking questions', 'wedding host FAQ', 'emcee pricing'],
     canonical: '/faqs',
   },
   contact: {
-    title: 'Contact Artist Shubham Khandelwal  — Get In Touch',
-    description: 'Contact Artist Shubham Khandelwal  for your event management needs. Reach us by phone, email, or visit our office.',
-    keywords: ['contact Artist Shubham Khandelwal ', 'event management contact', 'book event management', 'event planner contact'],
+    title: 'Contact & Book Shubham Khandelwal',
+    description: 'Check availability and book Shubham Khandelwal for your event. Reach him by phone, WhatsApp, Instagram or the booking form — replies within 24 hours.',
+    keywords: ['book Shubham Khandelwal', 'contact wedding anchor Jaipur', 'hire event host', 'anchor availability'],
     canonical: '/contact',
   },
   booking: {
-    title: 'Book Free Consultation — Artist Shubham Khandelwal ',
-    description: 'Book a free consultation with Artist Shubham Khandelwal . Tell us about your event and get a customized proposal within 24 hours.',
-    keywords: ['book event consultation', 'event planning consultation', 'Artist Shubham Khandelwal  booking', 'free event consultation'],
+    title: 'Book Consultation — Artist Shubham Khandelwal',
+    description: 'Tell Shubham about your event and check his availability. Share your date, city and type — he personally replies within 24 hours.',
+    keywords: ['book wedding anchor consultation', 'hire event host', 'Shubham Khandelwal booking', 'check anchor availability'],
     canonical: '/book-consultation',
   },
 } satisfies Record<string, PageSEO>
