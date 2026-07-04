@@ -36,7 +36,7 @@ export function AboutSnapshot() {
             {/* Main image */}
             <div className="absolute inset-0 rounded-2xl overflow-hidden">
               <Image
-                src="/images/aboutme.jpeg"
+                src="/images/entertainment.jpeg"
                 alt="Artist Shubham Khandelwal on stage engaging the crowd"
                 fill
                 className="object-cover"
@@ -70,16 +70,6 @@ export function AboutSnapshot() {
               </div>
             </motion.div>
 
-            {/* Small accent image */}
-            <div className="absolute -bottom-4 left-8 w-36 h-36 rounded-xl overflow-hidden border-2 border-black-soft shadow-xl">
-              <Image
-                src="/images/entertainment.jpeg"
-                alt="Shubham Khandelwal performing live"
-                fill
-                className="object-cover"
-                sizes="144px"
-              />
-            </div>
           </motion.div>
 
           {/* Content */}

@@ -26,12 +26,14 @@ export function VideosGrid() {
           <div className="mb-16">
             <div className="relative rounded-2xl overflow-hidden aspect-video max-w-4xl mx-auto shadow-gold-lg">
               {playing === featuredVideo.id ? (
-                <iframe
-                  src={`https://www.youtube.com/embed/${featuredVideo.youtubeId}?autoplay=1&rel=0`}
+                <video
+                  src={featuredVideo.video}
                   title={featuredVideo.title}
-                  className="w-full h-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
+                  poster={featuredVideo.thumbnail}
+                  className="w-full h-full object-cover bg-black"
+                  controls
+                  autoPlay
+                  playsInline
                 />
               ) : (
                 <>
@@ -85,12 +87,14 @@ export function VideosGrid() {
               >
                 <div className="relative aspect-video overflow-hidden cursor-pointer" onClick={() => setPlaying(video.id)}>
                   {playing === video.id ? (
-                    <iframe
-                      src={`https://www.youtube.com/embed/${video.youtubeId}?autoplay=1&rel=0`}
+                    <video
+                      src={video.video}
                       title={video.title}
-                      className="w-full h-full"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
+                      poster={video.thumbnail}
+                      className="w-full h-full object-cover bg-black"
+                      controls
+                      autoPlay
+                      playsInline
                     />
                   ) : (
                     <>
