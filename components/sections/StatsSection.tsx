@@ -16,7 +16,7 @@ const stats = [
   },
   {
     icon: Star,
-    end: 8,
+    end: 10,
     suffix: '+',
     label: 'Years on Stage',
     description: 'A career built one unforgettable event at a time',

@@ -42,7 +42,7 @@ const journey = [
   {
     year: 'Today',
     title: '900+ Shows and Counting',
-    description: "With 8+ years on stage, 30+ cities and 5 Lakh+ guests entertained, Shubham is one of Rajasthan's most trusted wedding anchors, corporate hosts and live entertainers — and he still treats every show like the biggest of his life.",
+    description: "With 10+ years on stage, 30+ cities and 5 Lakh+ guests entertained, Shubham is one of Rajasthan's most trusted wedding anchors, corporate hosts and live entertainers — and he still treats every show like the biggest of his life.",
   },
 ]
 
@@ -89,7 +89,7 @@ export default function AboutPage() {
               <GoldOrnament className="mb-6" />
               <p className="text-white/65 font-sans leading-relaxed mb-5">
                 Shubham Khandelwal is a Jaipur-based professional anchor, live singer and
-                master of ceremonies who has spent 8+ years doing the one thing he loves most
+                master of ceremonies who has spent 10+ years doing the one thing he loves most
                 — holding a room together. From grand weddings and sangeet nights to corporate
                 award ceremonies and celebrity events, he hosts in Hindi, English and Rajasthani
                 with a warmth and energy that makes every guest feel included.

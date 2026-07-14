@@ -22,7 +22,7 @@ export default function WeddingEventsPage() {
         title: 'The Voice That Holds',
         titleHighlight: 'Your Big Day Together',
         description: [
-          'Your wedding is the most important celebration of your life, and the person on the mic sets its energy. For 8+ years Shubham has hosted weddings and sangeet nights across Rajasthan and beyond, reading every crowd and giving each ritual the emotion it deserves.',
+          'Your wedding is the most important celebration of your life, and the person on the mic sets its energy. For 10+ years Shubham has hosted weddings and sangeet nights across Rajasthan and beyond, reading every crowd and giving each ritual the emotion it deserves.',
           'He hosts fluently in Hindi, English and Rajasthani, blends live singing with interactive games, and works to a custom script so no cue is missed. You stay present in your own love story while Shubham keeps every moment moving with warmth, timing and stage presence.',
         ],
       }}

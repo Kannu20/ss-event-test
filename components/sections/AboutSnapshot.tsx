@@ -52,7 +52,7 @@ export function AboutSnapshot() {
               animate={isInView ? { opacity: 1, scale: 1, y: 0 } : {}}
               transition={{ delay: 0.5, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
             >
-              <div className="text-4xl font-display font-bold text-gold leading-none">8+</div>
+              <div className="text-4xl font-display font-bold text-gold leading-none">10+</div>
               <div className="text-white/60 text-sm font-sans mt-1">Years on Stage</div>
               <div className="w-8 h-0.5 bg-gold/40 mt-2" />
             </motion.div>

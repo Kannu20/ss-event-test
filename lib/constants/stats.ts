@@ -11,7 +11,7 @@ export const stats: StatItem[] = [
   },
   {
     id: 'years',
-    value: 8,
+    value: 10,
     suffix: '+',
     label: 'Years on Stage',
     description: 'A career built one unforgettable event at a time',

@@ -16,14 +16,14 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     id: 'port-002',
-    title: 'Corporate Awards Night',
+    title: 'Corporate Event',
     category: 'corporate',
     coverImage: '/images/corparate.jpeg',
     images: ['/images/corparate.jpeg'],
     date: '2024-10-08',
     location: 'Jaipur, Rajasthan',
     description:
-      'Annual awards evening for a 400-strong workforce. Brief: honour 40 winners inside a tight two-hour window without losing energy. Shubham built the run-of-show, hosted bilingually, and covered a live AV glitch so smoothly no one noticed. Outcome: finished on time to a standing ovation.',
+      'I hosted a grand 3-year successful corporate event for GBG Colonizers among 350 people in Manali.',
     tags: ['Corporate Emcee', '400 Delegates', 'Bilingual', 'Award Show'],
     featured: true,
   },

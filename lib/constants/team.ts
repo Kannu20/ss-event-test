@@ -39,7 +39,7 @@ export const teamMembers: TeamMember[] = [
     id: 'rahul-mehta',
     name: 'Rahul Mehta',
     role: 'Head of Corporate Events',
-    bio: 'Rahul brings a sharp corporate mindset to event planning. With a background in hospitality management and 8 years at top agencies, he ensures every corporate event runs with military precision while maintaining the wow factor.',
+    bio: 'Rahul brings a sharp corporate mindset to event planning. With a background in hospitality management and 10 years at top agencies, he ensures every corporate event runs with military precision while maintaining the wow factor.',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&h=700&fit=crop&q=80',
     social: {
       linkedin: 'https://linkedin.com/in/ssevent',

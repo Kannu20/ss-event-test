@@ -15,7 +15,7 @@ const reasons = [
   {
     icon: Mic2,
     title: 'Commanding Stage Presence',
-    description: 'The moment Shubham takes the mic, the room settles and every eye turns to the stage. Eight years of performing have made confidence his default setting.',
+    description: 'The moment Shubham takes the mic, the room settles and every eye turns to the stage. ten years of performing have made confidence his default setting.',
   },
   {
     icon: Users,
