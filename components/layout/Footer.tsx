@@ -80,7 +80,7 @@ export function Footer() {
             </Link>
 
             <p className="font-sans text-sm text-gray-400 leading-relaxed mb-6 max-w-xs">
-              Award-winning wedding anchor, live singer and master of ceremonies based in Jaipur — the voice behind Rajasthan&apos;s most memorable celebrations.
+              Award-winning wedding anchor, live stage performer and master of ceremonies based in Jaipur — the voice behind Rajasthan&apos;s most memorable celebrations.
             </p>
 
             {/* Social links */}

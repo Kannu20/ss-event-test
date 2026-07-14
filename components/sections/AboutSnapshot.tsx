@@ -12,7 +12,7 @@ import { GoldOrnament } from '@/components/ui/GoldLine'
 import { fadeInUp, fadeInLeft, staggerContainer } from '@/lib/animations/variants'
 
 const highlights = [
-  { icon: Mic2, value: '900+', label: 'Shows Hosted' },
+  { icon: Mic2, value: '1500+', label: 'Shows Hosted' },
   { icon: Award, value: 'Award', label: 'Best Actor, Jaipur' },
   { icon: Music, value: 'Live', label: 'Singing & Hosting' },
   { icon: Languages, value: '3', label: 'Languages On Stage' },
@@ -36,7 +36,7 @@ export function AboutSnapshot() {
             {/* Main image */}
             <div className="absolute inset-0 rounded-2xl overflow-hidden">
               <Image
-                src="/images/entertainment.jpeg"
+                src="/images/about1.jpeg"
                 alt="Artist Shubham Khandelwal on stage engaging the crowd"
                 fill
                 className="object-cover"
@@ -98,7 +98,7 @@ export function AboutSnapshot() {
               variants={fadeInUp}
               className="text-white/70 font-sans leading-relaxed text-base md:text-lg mb-4"
             >
-              Shubham Khandelwal is a Jaipur-based wedding anchor, live singer and stage
+              Shubham Khandelwal is a Jaipur-based wedding anchor, live stage performer and stage
               performer who has spent the last eight years doing one thing better than almost
               anyone in Rajasthan — making a room feel something. Recognised as
               &ldquo;Best Actor in Jaipur&rdquo; at the Forever Star India Awards, he brings the

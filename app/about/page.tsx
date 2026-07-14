@@ -18,7 +18,7 @@ export const metadata: Metadata = generatePageMetadata(pageSEO.about)
 
 const awards = [
   { year: '2023', title: 'Best Actor in Jaipur', body: 'Forever Star India Awards (FSIA)' },
-  { year: '900+', title: 'Shows Hosted', body: 'Weddings, corporate stages & live shows' },
+  { year: '1500+', title: 'Shows Hosted', body: 'Weddings, corporate stages & live shows' },
   { year: 'MBA', title: 'MBA · M.Com', body: 'A performer with a business mind' },
   { year: '3', title: 'Languages on Stage', body: 'Hindi · English · Rajasthani' },
 ]
@@ -41,8 +41,8 @@ const journey = [
   },
   {
     year: 'Today',
-    title: '900+ Shows and Counting',
-    description: "With 10+ years on stage, 30+ cities and 5 Lakh+ guests entertained, Shubham is one of Rajasthan's most trusted wedding anchors, corporate hosts and live entertainers — and he still treats every show like the biggest of his life.",
+    title: '1500+ Shows and Counting',
+    description: "With 10+ years on stage, 50+ cities and 5 Lakh+ guests entertained, Shubham is one of Rajasthan's most trusted wedding anchors, corporate hosts and live entertainers — and he still treats every show like the biggest of his life.",
   },
 ]
 
@@ -72,7 +72,7 @@ export default function AboutPage() {
         title="Meet Artist Shubham Khandelwal"
         subtitle="Jaipur-based wedding anchor, corporate host and live entertainer — the voice behind some of Rajasthan's most memorable celebrations."
         tag="About Shubham"
-        image="/images/social.jpeg"
+        image="/images/about1.jpeg"
         breadcrumbs={[{ label: 'About Shubham' }]}
       />
 
@@ -88,7 +88,7 @@ export default function AboutPage() {
               </h2>
               <GoldOrnament className="mb-6" />
               <p className="text-white/65 font-sans leading-relaxed mb-5">
-                Shubham Khandelwal is a Jaipur-based professional anchor, live singer and
+                Shubham Khandelwal is a Jaipur-based professional anchor, live stage performer and
                 master of ceremonies who has spent 10+ years doing the one thing he loves most
                 — holding a room together. From grand weddings and sangeet nights to corporate
                 award ceremonies and celebrity events, he hosts in Hindi, English and Rajasthani
@@ -98,7 +98,7 @@ export default function AboutPage() {
                 What sets Shubham apart is his instinct on stage. He reads the room in real time
                 — sensing when to build the energy, when to slow down for an emotional moment,
                 and when to pull the whole crowd into a song or a game. That instinct, sharpened
-                across 900+ shows in 30+ cities, is why families and brands trust him with their
+                across 1500+ shows in 50+ cities, is why families and brands trust him with their
                 most important moments.
               </p>
               <p className="text-white/65 font-sans leading-relaxed mb-8">
@@ -113,7 +113,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[500px] rounded-2xl overflow-hidden">
               <Image
-                src="/images/aboutme.jpeg"
+                src="/images/about.jpeg"
                 alt="Artist Shubham Khandelwal hosting on stage"
                 fill
                 className="object-cover"

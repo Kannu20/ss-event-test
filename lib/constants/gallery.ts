@@ -2,7 +2,7 @@ import type { GalleryImage } from '@/types'
 
 export const galleryImages: GalleryImage[] = [
   // Weddings & Sangeet
-  { id: 'g1', src: '/images/social1.jpeg', alt: 'Shubham anchoring a grand wedding stage', category: 'wedding', width: 800, height: 600 },
+  { id: 'g1', src: '/images/anniversary2.jpeg', alt: 'Shubham anchoring a grand wedding stage', category: 'wedding', width: 800, height: 600 },
   { id: 'g2', src: '/images/light.jpeg', alt: 'Sangeet night hosting under dazzling lights', category: 'wedding', width: 800, height: 1000 },
   { id: 'g3', src: '/images/wedding.jpeg', alt: 'Shubham on the mic at a destination wedding', category: 'wedding', width: 800, height: 600 },
   { id: 'g4', src: '/images/hero.jpeg', alt: 'Reception hosting in front of a full crowd', category: 'wedding', width: 800, height: 600 },

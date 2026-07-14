@@ -12,9 +12,6 @@ import { dropdownVariants, menuItemVariants, overlayVariants, staggerFast } from
 import { Button } from '@/components/ui/Button'
 import type { NavItem, NavDropdownGroup } from '@/types'
 
-/* ─────────────────────────────────────────────
-   Logo
-   ───────────────────────────────────────────── */
 function Logo({ className }: { className?: string }) {
   return (
     <Link href="/" className={cn('flex items-center gap-2 group', className)} aria-label="Artist Shubham Khandelwal Home">
@@ -35,10 +32,8 @@ function Logo({ className }: { className?: string }) {
   )
 }
 
-/* ─────────────────────────────────────────────
-   Mega Dropdown
-   ───────────────────────────────────────────── */
 function MegaDropdown({ groups, isOpen }: { groups: NavDropdownGroup[]; isOpen: boolean }) {
+  const pathname = usePathname()
   return (
     <AnimatePresence>
       {isOpen && (
@@ -50,50 +45,69 @@ function MegaDropdown({ groups, isOpen }: { groups: NavDropdownGroup[]; isOpen: 
           className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[720px] max-w-[95vw]"
         >
           <div className="glass border border-gold/10 rounded-xl shadow-elevated overflow-hidden">
-            {/* Gold top accent line */}
             <div className="h-px w-full bg-gold-gradient" />
 
             <div className="p-6 grid grid-cols-2 lg:grid-cols-3 gap-6">
-              {groups.map((group) => (
+              {groups.map((group) => {
+                const isGroupActive = pathname === group.href || pathname.startsWith(`${group.href}/`)
+                return (
                 <div key={group.href} className="space-y-3">
                   <Link
                     href={group.href}
+                    aria-current={pathname === group.href ? 'page' : undefined}
                     className="flex items-center gap-2 group/head"
                   >
                     <span className="text-base">{group.icon}</span>
-                    <span className="font-display text-sm font-semibold text-white group-hover/head:text-gold transition-colors duration-200">
+                    <span
+                      className={cn(
+                        'font-display text-sm font-semibold transition-colors duration-200 group-hover/head:text-gold',
+                        isGroupActive ? 'text-gold' : 'text-white'
+                      )}
+                    >
                       {group.label}
                     </span>
                   </Link>
                   <div className="h-px bg-black-light" />
                   <ul className="space-y-1.5">
-                    {group.items.slice(0, 5).map((item) => (
+                    {group.items.slice(0, 6).map((item) => {
+                      const isItemActive = pathname === item.href
+                      return (
                       <li key={item.href}>
                         <Link
                           href={item.href}
-                          className="font-sans text-xs text-gray-400 hover:text-gold transition-colors duration-200 flex items-center gap-1.5 group/item"
+                          aria-current={isItemActive ? 'page' : undefined}
+                          className={cn(
+                            'font-sans text-xs transition-colors duration-200 flex items-center gap-1.5 group/item hover:text-gold',
+                            isItemActive ? 'text-gold' : 'text-gray-400'
+                          )}
                         >
-                          <span className="w-1 h-1 rounded-full bg-gold-muted group-hover/item:bg-gold transition-colors duration-200 flex-shrink-0" />
+                          <span
+                            className={cn(
+                              'w-1 h-1 rounded-full transition-colors duration-200 flex-shrink-0 group-hover/item:bg-gold',
+                              isItemActive ? 'bg-gold' : 'bg-gold-muted'
+                            )}
+                          />
                           {item.label}
                         </Link>
                       </li>
-                    ))}
-                    {group.items.length > 5 && (
+                      )
+                    })}
+                    {group.items.length > 6 && (
                       <li>
                         <Link
                           href={group.href}
                           className="font-accent text-[0.65rem] tracking-wider uppercase text-gold/60 hover:text-gold transition-colors duration-200"
                         >
-                          View all →
+                          View all &rarr;
                         </Link>
                       </li>
                     )}
                   </ul>
                 </div>
-              ))}
+                )
+              })}
             </div>
 
-            {/* Footer strip */}
             <div className="px-6 py-3 bg-black-light/50 border-t border-black-light flex items-center justify-between">
               <span className="font-accent text-[0.65rem] tracking-widest uppercase text-gray-500">
                 All Services
@@ -102,7 +116,7 @@ function MegaDropdown({ groups, isOpen }: { groups: NavDropdownGroup[]; isOpen: 
                 href="/services"
                 className="font-accent text-[0.65rem] tracking-wider uppercase text-gold hover:text-gold-light transition-colors duration-200 flex items-center gap-1"
               >
-                View all services →
+                View all services &rarr;
               </Link>
             </div>
           </div>
@@ -112,16 +126,7 @@ function MegaDropdown({ groups, isOpen }: { groups: NavDropdownGroup[]; isOpen: 
   )
 }
 
-/* ─────────────────────────────────────────────
-   Desktop Nav Item
-   ───────────────────────────────────────────── */
-function NavItemDesktop({
-  item,
-  isActive,
-}: {
-  item: NavItem
-  isActive: boolean
-}) {
+function NavItemDesktop({ item, isActive }: { item: NavItem; isActive: boolean }) {
   const [isOpen, setIsOpen] = useState(false)
   const timeoutRef = useRef<ReturnType<typeof setTimeout>>(null)
 
@@ -135,11 +140,7 @@ function NavItemDesktop({
   }
 
   return (
-    <div
-      className="relative"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
+    <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <Link
         href={item.href}
         className={cn(
@@ -155,10 +156,7 @@ function NavItemDesktop({
         {item.label}
         {item.hasDropdown && (
           <ChevronDown
-            className={cn(
-              'w-3.5 h-3.5 transition-transform duration-200',
-              isOpen ? 'rotate-180' : 'rotate-0'
-            )}
+            className={cn('w-3.5 h-3.5 transition-transform duration-200', isOpen ? 'rotate-180' : 'rotate-0')}
           />
         )}
       </Link>
@@ -170,21 +168,12 @@ function NavItemDesktop({
   )
 }
 
-/* ─────────────────────────────────────────────
-   Mobile Menu
-   ───────────────────────────────────────────── */
-function MobileMenu({
-  isOpen,
-  onClose,
-  pathname,
-}: {
-  isOpen: boolean
-  onClose: () => void
-  pathname: string
-}) {
-  const [expandedItem, setExpandedItem] = useState<string | null>(null)
+function MobileMenu({ isOpen, onClose, pathname }: { isOpen: boolean; onClose: () => void; pathname: string }) {
+  const [expandedItem, setExpandedItem] = useState<string | null>(() => {
+    const active = navItems.find((it) => it.hasDropdown && it.href !== '/' && pathname.startsWith(it.href))
+    return active ? active.href : null
+  })
 
-  // Lock body scroll when open
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden'
@@ -198,7 +187,6 @@ function MobileMenu({
     <AnimatePresence>
       {isOpen && (
         <>
-          {/* Backdrop */}
           <motion.div
             variants={overlayVariants}
             initial="hidden"
@@ -208,7 +196,6 @@ function MobileMenu({
             onClick={onClose}
           />
 
-          {/* Drawer */}
           <motion.div
             initial={{ x: '100%' }}
             animate={{ x: 0 }}
@@ -216,7 +203,6 @@ function MobileMenu({
             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
             className="fixed top-0 right-0 bottom-0 z-50 w-full max-w-sm bg-black-soft border-l border-black-light flex flex-col"
           >
-            {/* Header */}
             <div className="flex items-center justify-between px-6 py-5 border-b border-black-light">
               <Logo />
               <button
@@ -228,24 +214,14 @@ function MobileMenu({
               </button>
             </div>
 
-            {/* Nav items */}
             <nav className="flex-1 overflow-y-auto px-6 py-6">
-              <motion.ul
-                variants={staggerFast}
-                initial="hidden"
-                animate="visible"
-                className="space-y-1"
-              >
+              <motion.ul variants={staggerFast} initial="hidden" animate="visible" className="space-y-1">
                 {navItems.map((item) => (
                   <motion.li key={item.href} variants={menuItemVariants}>
                     {item.hasDropdown ? (
                       <div>
                         <button
-                          onClick={() =>
-                            setExpandedItem(
-                              expandedItem === item.href ? null : item.href
-                            )
-                          }
+                          onClick={() => setExpandedItem(expandedItem === item.href ? null : item.href)}
                           className={cn(
                             'w-full flex items-center justify-between py-3 px-4 rounded-lg',
                             'font-sans text-base font-medium transition-all duration-200',
@@ -256,10 +232,7 @@ function MobileMenu({
                         >
                           {item.label}
                           <ChevronDown
-                            className={cn(
-                              'w-4 h-4 transition-transform duration-200',
-                              expandedItem === item.href ? 'rotate-180' : 'rotate-0'
-                            )}
+                            className={cn('w-4 h-4 transition-transform duration-200', expandedItem === item.href ? 'rotate-180' : 'rotate-0')}
                           />
                         </button>
 
@@ -278,24 +251,31 @@ function MobileMenu({
                                     <Link
                                       href={group.href}
                                       onClick={onClose}
+                                      aria-current={pathname === group.href ? 'page' : undefined}
                                       className="flex items-center gap-2 py-1.5 font-sans text-sm font-medium text-gold"
                                     >
                                       <span>{group.icon}</span>
                                       {group.label}
                                     </Link>
-                                    <ul className="space-y-1 pl-6 mt-1">
-                                      {group.items.slice(0, 4).map((sub) => (
-                                        <li key={sub.href}>
-                                          <Link
-                                            href={sub.href}
-                                            onClick={onClose}
-                                            className="block py-1 font-sans text-xs text-gray-400 hover:text-white transition-colors"
-                                          >
-                                            {sub.label}
-                                          </Link>
-                                        </li>
-                                      ))}
-                                    </ul>
+                                    {group.items.length > 0 && (
+                                      <ul className="space-y-1 pl-6 mt-1">
+                                        {group.items.map((sub) => (
+                                          <li key={sub.href}>
+                                            <Link
+                                              href={sub.href}
+                                              onClick={onClose}
+                                              aria-current={pathname === sub.href ? 'page' : undefined}
+                                              className={cn(
+                                                'block py-1 font-sans text-xs transition-colors hover:text-white',
+                                                pathname === sub.href ? 'text-gold' : 'text-gray-400'
+                                              )}
+                                            >
+                                              {sub.label}
+                                            </Link>
+                                          </li>
+                                        ))}
+                                      </ul>
+                                    )}
                                   </div>
                                 ))}
                               </div>
@@ -323,14 +303,8 @@ function MobileMenu({
               </motion.ul>
             </nav>
 
-            {/* Footer CTA */}
             <div className="px-6 py-6 border-t border-black-light space-y-3">
-              <Button
-                href={ctaNavItem.href}
-                variant="primary"
-                className="w-full"
-                onClick={onClose}
-              >
+              <Button href={ctaNavItem.href} variant="primary" className="w-full" onClick={onClose}>
                 {ctaNavItem.label}
               </Button>
               <a
@@ -348,15 +322,11 @@ function MobileMenu({
   )
 }
 
-/* ─────────────────────────────────────────────
-   Main Navbar
-   ───────────────────────────────────────────── */
 export function Navbar() {
   const pathname = usePathname()
   const isScrolled = useIsScrolled(60)
   const [isMobileOpen, setIsMobileOpen] = useState(false)
 
-  // Close mobile menu on route change
   useEffect(() => {
     setIsMobileOpen(false)
   }, [pathname])
@@ -381,28 +351,18 @@ export function Navbar() {
               isScrolled ? 'h-16' : 'h-20'
             )}
           >
-            {/* Logo */}
             <Logo />
 
-            {/* Desktop Navigation */}
-            <nav
-              className="hidden lg:flex items-center gap-6 xl:gap-8"
-              aria-label="Main navigation"
-            >
+            <nav className="hidden lg:flex items-center gap-6 xl:gap-8" aria-label="Main navigation">
               {navItems.map((item) => (
                 <NavItemDesktop
                   key={item.href}
                   item={item}
-                  isActive={
-                    item.href === '/'
-                      ? pathname === '/'
-                      : pathname.startsWith(item.href)
-                  }
+                  isActive={item.href === '/' ? pathname === '/' : pathname.startsWith(item.href)}
                 />
               ))}
             </nav>
 
-            {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-4">
               <a
                 href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUMBER}`}
@@ -410,16 +370,13 @@ export function Navbar() {
                 aria-label="Call us"
               >
                 <Phone className="w-4 h-4" />
-                <span className="hidden xl:inline">
-                  {process.env.NEXT_PUBLIC_PHONE_DISPLAY}
-                </span>
+                <span className="hidden xl:inline">{process.env.NEXT_PUBLIC_PHONE_DISPLAY}</span>
               </a>
               <Button href={ctaNavItem.href} variant="primary" size="sm">
                 {ctaNavItem.label}
               </Button>
             </div>
 
-            {/* Mobile hamburger */}
             <button
               className="lg:hidden w-10 h-10 flex items-center justify-center rounded-lg text-gray-300 hover:text-white hover:bg-black-light transition-all duration-200"
               onClick={() => setIsMobileOpen(true)}
@@ -432,12 +389,7 @@ export function Navbar() {
         </div>
       </header>
 
-      {/* Mobile Menu */}
-      <MobileMenu
-        isOpen={isMobileOpen}
-        onClose={() => setIsMobileOpen(false)}
-        pathname={pathname}
-      />
+      <MobileMenu isOpen={isMobileOpen} onClose={() => setIsMobileOpen(false)} pathname={pathname} />
     </>
   )
 }

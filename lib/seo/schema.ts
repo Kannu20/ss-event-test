@@ -22,7 +22,7 @@ export function personSchema() {
     image: `${baseUrl}/images/aboutme.jpeg`,
     jobTitle: 'Wedding Anchor, Live Entertainer & Event Host',
     description:
-      'Jaipur-based professional wedding anchor, live singer and master of ceremonies. Award-winning host for weddings, sangeets, corporate events and celebrity celebrations across Rajasthan and India.',
+      'Jaipur-based professional wedding anchor, live stage performer and master of ceremonies. Award-winning host for weddings, sangeets, corporate events and celebrity celebrations across Rajasthan and India.',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Jaipur',

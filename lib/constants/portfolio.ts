@@ -31,8 +31,8 @@ export const portfolioItems: PortfolioItem[] = [
     id: 'port-003',
     title: 'Beachside Reception',
     category: 'wedding',
-    coverImage: '/images/social1.jpeg',
-    images: ['/images/social1.jpeg'],
+    coverImage: '/images/anniversary2.jpeg',
+    images: ['/images/anniversary2.jpeg'],
     date: '2025-02-20',
     location: 'Goa',
     description:

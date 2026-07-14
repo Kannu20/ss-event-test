@@ -5,7 +5,7 @@ export const faqs: FAQItem[] = [
   {
     id: 'faq-001',
     question: 'Who is Artist Shubham Khandelwal and what does he do?',
-    answer: 'Shubham Khandelwal is a Jaipur-based professional wedding anchor, live singer and event host. He anchors weddings and sangeets, emcees corporate events and award nights, and performs live entertainment for private and celebrity celebrations. He was recognised as "Best Actor in Jaipur" at the Forever Star India Awards (2023).',
+    answer: 'Shubham Khandelwal is a Jaipur-based professional wedding anchor, live stage performer and event host. He anchors weddings and sangeets, emcees corporate events and award nights, and performs live entertainment for private and celebrity celebrations. He was recognised as "Best Actor in Jaipur" at the Forever Star India Awards (2023).',
     category: 'general',
     featured: true,
   },

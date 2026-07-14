@@ -48,7 +48,7 @@ export const brandStats = [
 
 /** Short trust badges used under the hero headline */
 export const heroBadges = [
-  '900+ Shows Hosted',
+  '1500+ Shows Hosted',
   'Award-Winning Performer',
   'Multilingual Hosting',
   'Live Singing',

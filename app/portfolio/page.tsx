@@ -15,7 +15,7 @@ export default function PortfolioPage() {
 
       <PageHero
         title="Shubham's Portfolio"
-        subtitle="900+ shows across 30+ cities. A glimpse of the stages Shubham has hosted — from grand palace weddings to landmark corporate nights."
+        subtitle="1500+ shows across 50+ cities. A glimpse of the stages Shubham has hosted — from grand palace weddings to landmark corporate nights."
         tag="On Stage"
         image="/images/wedding.jpeg"
         breadcrumbs={[{ label: 'Portfolio' }]}

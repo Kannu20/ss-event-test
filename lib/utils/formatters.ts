@@ -1,6 +1,6 @@
 /**
  * Format a number with commas and optional suffix
- * e.g. 1000 → "1,000" | 1500 → "1.5K"
+ * e.g. 1000 → "1,000" | 1500+ → "1.5K"
  */
 export function formatNumber(value: number, compact = false): string {
   if (compact && value >= 1000) {

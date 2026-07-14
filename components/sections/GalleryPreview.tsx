@@ -11,17 +11,17 @@ import { staggerContainer, fadeInUp } from '@/lib/animations/variants'
 
 const previewImages = [
   {
-    src: '/images/wedding.jpeg',
+    src: '/images/cele3.jpeg',
     alt: 'Luxury wedding mandap',
     className: 'row-span-2',
   },
   {
-    src: '/images/corparate.jpeg',
+    src: '/images/sangeet.jpeg',
     alt: 'Corporate conference setup',
     className: '',
   },
   {
-    src: '/images/birthday.jpeg',
+    src: '/images/cele5.jpeg',
     alt: 'Outdoor wedding ceremony',
     className: '',
   },
@@ -31,12 +31,12 @@ const previewImages = [
     className: 'row-span-2',
   },
   {
-    src: '/images/setup.jpeg',
+    src: '/images/cele2.jpeg',
     alt: 'Birthday party decoration',
     className: '',
   },
   {
-    src: '/images/pic.jpeg',
+    src: '/images/cele1.jpeg',
     alt: 'Stage production setup',
     className: '',
   },

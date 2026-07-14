@@ -13,7 +13,7 @@ const trustSignals = [
   { icon: Shield, text: 'Free, no-obligation availability check' },
   { icon: Clock, text: 'Shubham responds within 24 hours' },
   { icon: Phone, text: 'Followed by a personal call from Shubham' },
-  { icon: Star, text: '900+ shows hosted and counting' },
+  { icon: Star, text: '1500+ shows hosted and counting' },
 ]
 
 export default function BookConsultationPage() {

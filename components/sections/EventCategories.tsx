@@ -13,7 +13,7 @@ const categories = [
   {
     title: 'Weddings & Sangeet',
     count: '500+ nights hosted',
-    image: '/images/wedding.jpeg',
+    image: '/images/sangeet4.jpeg',
     href: '/services/wedding-events',
     className: 'col-span-1 row-span-2',
     height: 'h-full min-h-[400px]',
@@ -29,7 +29,7 @@ const categories = [
   {
     title: 'Private & Celebrity Events',
     count: 'Birthdays to galas',
-    image: '/images/social.jpeg',
+    image: '/images/cele1.jpeg',
     href: '/services/social-events',
     className: '',
     height: 'h-48',
@@ -37,7 +37,7 @@ const categories = [
   {
     title: 'Live Entertainment',
     count: 'Singing & games',
-    image: '/images/entertainment.jpeg',
+    image: '/images/cele5.jpeg',
     href: '/services/entertainment-services',
     className: '',
     height: 'h-48',

@@ -9,7 +9,7 @@ import { GoldLine } from '@/components/ui/GoldLine'
 const stats = [
   {
     icon: Calendar,
-    end: 900,
+    end: 1500,
     suffix: '+',
     label: 'Shows Hosted',
     description: 'Weddings, sangeets, corporate stages & live shows',
@@ -23,7 +23,7 @@ const stats = [
   },
   {
     icon: MapPin,
-    end: 30,
+    end: 50,
     suffix: '+',
     label: 'Cities Performed',
     description: 'Across Rajasthan, India & destination venues',

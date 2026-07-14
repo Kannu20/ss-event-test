@@ -15,9 +15,9 @@ export default function TestimonialsPage() {
 
       <PageHero
         title="What Clients Say About Shubham"
-        subtitle="900+ shows and 5 Lakh+ guests entertained. Here's what couples, families and brands say about having Shubham on the mic."
+        subtitle="1500+ shows and 5 Lakh+ guests entertained. Here's what couples, families and brands say about having Shubham on the mic."
         tag="Client Reviews"
-        image="/images/social1.jpeg"
+        image="/images/about2.jpeg"
         breadcrumbs={[{ label: 'Testimonials' }]}
       />
 

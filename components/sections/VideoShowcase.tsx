@@ -99,14 +99,17 @@ export function VideoShowcase() {
               </div>
             </>
           ) : (
-            <div className="aspect-video">
-              <iframe
-                src={`https://www.youtube.com/embed/${YOUTUBE_ID}?autoplay=1&rel=0`}
-                title="Artist Shubham Khandelwal Showreel 2024"
-                className="w-full h-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+            <div className="aspect-video bg-black">
+              <video
+                className="w-full h-full object-cover"
+                controls
+                autoPlay
+                playsInline
+                preload="metadata"
+              >
+                <source src="/videos/sangeet.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           )}
         </motion.div>

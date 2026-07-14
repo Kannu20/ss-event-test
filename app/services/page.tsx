@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import Link from 'next/link'
 import { ArrowRight, CheckCircle } from 'lucide-react'
 import { generatePageMetadata, pageSEO } from '@/lib/seo/metadata'
 import { JsonLd } from '@/components/common/JsonLd'
@@ -13,51 +12,9 @@ import { Button } from '@/components/ui/Button'
 import { StatsSection } from '@/components/sections/StatsSection'
 import { TestimonialsCarousel } from '@/components/sections/TestimonialsCarousel'
 import { BookingCTAStrip } from '@/components/sections/BookingCTAStrip'
+import { serviceTree, servicePath } from '@/data/services'
 
 export const metadata: Metadata = generatePageMetadata(pageSEO.services)
-
-const serviceDetails = [
-  {
-    title: 'Wedding & Sangeet Anchoring',
-    tagline: 'The Voice That Holds Your Big Day Together',
-    description: 'Shubham takes the mic and turns every ritual into a moment — hosting ceremonies, sangeet nights, cocktails and receptions across Rajasthan and beyond. Fluent in Hindi, English and Rajasthani, he reads the room, weaves in live singing, and keeps your celebration flowing from the first entrance to the last dance.',
-    image: '/images/hero.jpeg',
-    href: '/services/wedding-events',
-    features: ['Ceremony Hosting', 'Sangeet Anchoring', 'Cocktail & Reception', 'Varmala Compering', 'Haldi & Mehendi', 'Live Singing', 'Crowd Games', 'Custom Script'],
-  },
-  {
-    title: 'Corporate Hosting & Emceeing',
-    tagline: 'The Host Who Keeps the Room With You',
-    description: 'Shubham hosts conferences, award nights, product launches, annual days and dealer meets with the composure your brand demands. As your emcee he keeps the agenda tight, briefs speakers, lands key messages and holds delegates engaged — hosting seamlessly in both Hindi and English.',
-    image: '/images/corparate.jpeg',
-    href: '/services/corporate-events',
-    features: ['Conferences & Summits', 'Product Launches', 'Award Nights', 'Dealer Meets', 'Annual Days', 'Bilingual Hosting'],
-  },
-  {
-    title: 'Private & Celebrity Events',
-    tagline: 'The Life of Every Celebration',
-    description: 'From milestone birthdays and anniversaries to celebrity nights, college festivals and cultural shows, Shubham hosts and performs — reading the crowd, running interactive games and weaving in live singing so hosts can relax and enjoy their own party.',
-    image: '/images/social1.jpeg',
-    href: '/services/social-events',
-    features: ['Milestone Birthdays', 'Anniversaries', 'Celebrity Nights', 'College Festivals', 'Cultural Shows', 'Live Entertainment'],
-  },
-  {
-    title: 'Live Entertainment & Singing',
-    tagline: 'The Performer Your Guests Remember',
-    description: 'Shubham is the artist on stage — live singing, interactive games and non-stop audience engagement. Fronting the band and DJ as your anchor and entertainer in one, he reads the crowd in real time and lifts the energy exactly when it is needed. You book the artist himself, not an agency.',
-    image: '/images/entertainment.jpeg',
-    href: '/services/entertainment-services',
-    features: ['Live Singing Sets', 'Interactive Games', 'Audience Engagement', 'Front-Man Anchoring', 'Band & DJ Coordination', 'Energy & Flow'],
-  },
-  {
-    title: 'Show Design & Scripting',
-    tagline: 'A Show That Flows Effortlessly',
-    description: 'The difference between a good event and an unforgettable one lives in the script, the timing and the flow. Shubham writes custom event scripts, designs the run-of-show, and rehearses every cue — coordinating with the couple, planner and DJ so the evening unfolds exactly as imagined.',
-    image: '/images/prod.jpeg',
-    href: '/services/production-setup',
-    features: ['Custom Scripts', 'Run-of-Show Design', 'Flow & Segments', 'Cue Planning', 'Rehearsals', 'Coordination'],
-  },
-]
 
 const processSteps = [
   { step: '01', title: 'Discovery Call', description: 'A relaxed call where Shubham learns your event, families, languages and the vibe you want.' },
@@ -66,6 +23,15 @@ const processSteps = [
   { step: '04', title: 'Show Night', description: 'On stage, Shubham owns the mic — reading the room, adapting live and keeping every moment flowing.' },
 ]
 
+/** Feature chips for a category: its sub-services, or its included-features as a fallback. */
+function categoryHighlights(index: number): string[] {
+  const cat = serviceTree[index]
+  if (cat.children && cat.children.length > 0) {
+    return cat.children.map((c) => c.navLabel)
+  }
+  return cat.features.items.map((f) => f.title)
+}
+
 export default function ServicesPage() {
   return (
     <>
@@ -73,46 +39,49 @@ export default function ServicesPage() {
 
       <PageHero
         title="What Shubham Hosts"
-        subtitle="Five ways Shubham takes the mic — from wedding anchoring to corporate emceeing and live singing. One artist, on stage, holding your room together."
+        subtitle="From weddings and parties to shows, corporate stages and school events — one artist on the mic, holding every kind of room together. Explore each service below."
         tag="Services"
         image="/images/entertainment.jpeg"
+        size="lg"
         breadcrumbs={[{ label: 'Services' }]}
       />
 
-      {/* Services detail sections */}
-      {serviceDetails.map((service, i) => (
+      {serviceTree.map((service, i) => (
         <section
-          key={service.title}
+          key={service.slug}
           className={`section-padding ${i % 2 === 0 ? 'bg-black-soft' : 'bg-black'}`}
         >
           <div className="container mx-auto px-4">
             <div className={`grid lg:grid-cols-2 gap-14 items-center ${i % 2 !== 0 ? 'lg:flex lg:flex-row-reverse' : ''}`}>
-              <div className="relative rounded-2xl overflow-hidden h-[380px]">
+              <div className="relative rounded-2xl overflow-hidden h-[360px] md:h-[400px]">
                 <Image
-                  src={service.image}
+                  src={service.heroImage}
                   alt={service.title}
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                <div className="absolute top-5 left-5 w-12 h-12 rounded-xl bg-black/60 backdrop-blur-sm border border-gold/20 flex items-center justify-center text-2xl">
+                  {service.icon}
+                </div>
               </div>
               <div>
-                <SectionLabel>{service.tagline}</SectionLabel>
+                <SectionLabel>{service.tag}</SectionLabel>
                 <h2 className="font-display font-bold text-4xl md:text-5xl leading-tight mt-3 mb-4">
                   {service.title}
                 </h2>
                 <GoldOrnament className="mb-5" />
-                <p className="text-white/65 font-sans leading-relaxed mb-7">{service.description}</p>
+                <p className="text-white/65 font-sans leading-relaxed mb-7">{service.subtitle}</p>
                 <div className="grid grid-cols-2 gap-2 mb-8">
-                  {service.features.map((f) => (
+                  {categoryHighlights(i).map((f) => (
                     <div key={f} className="flex items-center gap-2 text-white/70 text-sm font-sans">
                       <CheckCircle className="w-4 h-4 text-gold flex-shrink-0" />
                       {f}
                     </div>
                   ))}
                 </div>
-                <Button href={service.href} variant="primary" rightIcon={<ArrowRight className="w-4 h-4" />}>
+                <Button href={servicePath(service)} variant="primary" rightIcon={<ArrowRight className="w-4 h-4" />}>
                   Explore {service.title}
                 </Button>
               </div>
@@ -146,7 +115,7 @@ export default function ServicesPage() {
           </div>
           <div className="text-center mt-12">
             <Button href="/book-consultation" variant="primary" size="lg">
-              Check Shubham's Availability
+              Check Shubham&apos;s Availability
             </Button>
           </div>
         </div>
@@ -154,7 +123,7 @@ export default function ServicesPage() {
 
       <StatsSection />
       <TestimonialsCarousel />
-      {/* <BookingCTAStrip /> */}
+      <BookingCTAStrip />
     </>
   )
 }

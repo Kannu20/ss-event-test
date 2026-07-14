@@ -41,51 +41,21 @@ export function generatePageMetadata(seo: PageSEO): Metadata {
 export const pageSEO = {
   home: {
     title: "Artist Shubham Khandelwal — Wedding Anchor & Event Host in Jaipur",
-    description: "Award-winning wedding anchor, live singer and master of ceremonies based in Jaipur. Book Shubham Khandelwal for weddings, sangeets, corporate events and celebrity celebrations across Rajasthan.",
+    description: "Award-winning wedding anchor, live stage performer and master of ceremonies based in Jaipur. Book Shubham Khandelwal for weddings, sangeets, corporate events and celebrity celebrations across Rajasthan.",
     keywords: ['wedding anchor Jaipur', 'wedding anchor Rajasthan', 'event host Jaipur', 'sangeet anchor', 'master of ceremonies', 'Artist Shubham Khandelwal'],
     canonical: '/',
   },
   about: {
     title: 'About Shubham Khandelwal — The Artist Behind the Mic',
-    description: "Meet Shubham Khandelwal — an award-winning Jaipur wedding anchor, live singer and event host. His journey, stage presence, and why families and brands across Rajasthan trust him.",
+    description: "Meet Shubham Khandelwal — an award-winning Jaipur wedding anchor, live stage performer and event host. His journey, stage presence, and why families and brands across Rajasthan trust him.",
     keywords: ['about Shubham Khandelwal', 'wedding anchor Jaipur', 'best anchor Rajasthan', 'event host biography'],
     canonical: '/about',
   },
   services: {
     title: 'What Shubham Hosts — Anchoring & Live Entertainment',
     description: 'From wedding and sangeet anchoring to corporate emceeing, live singing and show scripting — everything Shubham Khandelwal brings to your stage.',
-    keywords: ['wedding anchor services', 'corporate emcee', 'sangeet anchor', 'live singer for events', 'event host services'],
+    keywords: ['wedding anchor services', 'corporate emcee', 'sangeet anchor', 'live stage performer for events', 'event host services'],
     canonical: '/services',
-  },
-  servicesWedding: {
-    title: 'Wedding & Sangeet Anchoring — Shubham Khandelwal',
-    description: 'Wedding, sangeet, cocktail and reception hosting with live singing, crowd games and custom scripts. A wedding anchor who turns your functions into a show.',
-    keywords: ['wedding anchor', 'sangeet anchor Jaipur', 'reception host', 'varmala compere', 'wedding emcee Rajasthan'],
-    canonical: '/services/wedding-events',
-  },
-  servicesCorporate: {
-    title: 'Corporate Hosting & Emceeing — Shubham Khandelwal',
-    description: 'Professional corporate emcee for conferences, award nights, product launches and dealer meets. Bilingual hosting that keeps delegates engaged from start to finish.',
-    keywords: ['corporate emcee Jaipur', 'award night host', 'conference anchor', 'product launch host', 'corporate event host'],
-    canonical: '/services/corporate-events',
-  },
-  servicesSocial: {
-    title: 'Private & Celebrity Event Hosting — Shubham Khandelwal',
-    description: 'Birthdays, anniversaries, celebrity nights and college festivals hosted with warmth, wit and live entertainment.',
-    keywords: ['birthday party host', 'anniversary anchor', 'celebrity event host', 'college festival anchor'],
-    canonical: '/services/social-events',
-  },
-  servicesEntertainment: {
-    title: 'Live Entertainment & Singing — Shubham Khandelwal',
-    description: 'A host who also sings. Live singing sets, interactive crowd games and audience engagement that keep the energy soaring all night.',
-    keywords: ['live singer for events', 'event entertainer Jaipur', 'interactive host', 'anchor with live singing'],
-    canonical: '/services/entertainment-services',
-  },
-  servicesProduction: {
-    title: 'Show Design & Scripting — Shubham Khandelwal',
-    description: 'Custom event scripts and run-of-show design, rehearsed and coordinated so your celebration flows without a single dull moment.',
-    keywords: ['event script writing', 'run of show', 'event flow design', 'emcee script'],
-    canonical: '/services/production-setup',
   },
   videos: {
     title: 'Showreel & Videos — Artist Shubham Khandelwal',

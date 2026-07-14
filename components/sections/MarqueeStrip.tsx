@@ -9,7 +9,7 @@ const items = [
   'Corporate Host',
   'Celebrity Emcee',
   'Master of Ceremonies',
-  '900+ Shows Hosted',
+  '1500+ Shows Hosted',
   'Award-Winning Performer',
   'Multilingual Hosting',
   'Live Singing',

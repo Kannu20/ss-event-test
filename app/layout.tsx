@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     template: '%s | Artist Shubham Khandelwal',
   },
   description:
-    'Artist Shubham Khandelwal is an award-winning wedding anchor, live singer and event host based in Jaipur, Rajasthan. Book him for weddings, sangeets, corporate events, award nights and celebrity celebrations.',
+    'Artist Shubham Khandelwal is an award-winning wedding anchor, live stage performer and event host based in Jaipur, Rajasthan. Book him for weddings, sangeets, corporate events, award nights and celebrity celebrations.',
   keywords: [
     'wedding anchor Jaipur',
     'wedding anchor Rajasthan',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     'corporate emcee Jaipur',
     'event host Jaipur',
     'master of ceremonies',
-    'live singer Jaipur',
+    'live stage performer Jaipur',
     'Artist Shubham Khandelwal',
     'Shubham Khandelwal anchor',
     'award night host',
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     siteName: 'Artist Shubham Khandelwal',
     title: "Artist Shubham Khandelwal — Wedding Anchor & Event Host in Jaipur",
     description:
-      "The voice behind Rajasthan's most memorable celebrations. Award-winning wedding anchor, live singer and master of ceremonies.",
+      "The voice behind Rajasthan's most memorable celebrations. Award-winning wedding anchor, live stage performer and master of ceremonies.",
     images: [
       {
         url: '/images/main.jpeg',

@@ -14,7 +14,7 @@ const services = [
   {
     title: 'Wedding & Sangeet Anchoring',
     description: 'Ceremony hosting, high-energy sangeet nights, cocktail and reception compering — with live singing and crowd games woven in.',
-    image: '/images/wedding.jpeg',
+    image: '/images/portfolio.jpg',
     href: '/services/wedding-events',
     tags: ['Weddings', 'Sangeet', 'Reception'],
     accent: 'text-rose-300',
@@ -22,7 +22,7 @@ const services = [
   {
     title: 'Corporate Hosting & Emceeing',
     description: 'Conferences, award nights, product launches and annual days — kept sharp, on-time and engaging with polished bilingual hosting.',
-    image: '/images/corparate.jpeg',
+    image: '/images/corporate1.png',
     href: '/services/corporate-events',
     tags: ['Conferences', 'Award Nights', 'Launches'],
     accent: 'text-blue-300',
@@ -30,7 +30,7 @@ const services = [
   {
     title: 'Private & Celebrity Events',
     description: 'Birthdays, anniversaries, celebrity nights and cultural shows hosted with warmth, wit and genuine crowd connection.',
-    image: '/images/social.jpeg',
+    image: '/images/cele2.jpeg',
     href: '/services/social-events',
     tags: ['Birthdays', 'Celebrity', 'Cultural'],
     accent: 'text-purple-300',
@@ -42,14 +42,6 @@ const services = [
     href: '/services/entertainment-services',
     tags: ['Live Singing', 'Games', 'Energy'],
     accent: 'text-amber-300',
-  },
-  {
-    title: 'Show Design & Scripting',
-    description: 'A custom script and run-of-show for every event — so your celebration flows without a single dull or awkward moment.',
-    image: '/images/setup.jpeg',
-    href: '/services/production-setup',
-    tags: ['Scripts', 'Flow', 'Rehearsal'],
-    accent: 'text-cyan-300',
   },
 ]
 

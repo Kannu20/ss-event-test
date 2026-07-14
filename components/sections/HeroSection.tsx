@@ -139,7 +139,7 @@ export function HeroSection() {
           variants={item}
           className="font-sans text-white/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          Award-winning anchor, live singer and master of ceremonies. From grand sangeet
+          Award-winning anchor, live stage performer and master of ceremonies. From grand sangeet
           nights to corporate stages, Shubham reads the room, works the crowd and turns
           your event into a celebration people talk about for years.
         </motion.p>
