@@ -1,12 +1,12 @@
 'use client'
 
 import { useRef } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import { motion, useInView } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
 import { SectionLabel } from '@/components/ui/SectionLabel'
 import { GradientText } from '@/components/ui/GradientText'
+import { CardImage } from '@/components/common/CardImage'
 import { staggerContainer, fadeInUp } from '@/lib/animations/variants'
 import { servicePath, type ServiceNode } from '@/data/services'
 
@@ -40,40 +40,36 @@ export function ServiceChildrenGrid({ categoryTitle, items }: ServiceChildrenGri
         </motion.div>
 
         <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
           variants={staggerContainer}
           initial="hidden"
           animate={isInView ? 'visible' : 'hidden'}
         >
           {items.map((child) => (
-            <motion.div key={child.slug} variants={fadeInUp}>
+            <motion.div key={child.slug} variants={fadeInUp} className="h-full">
               <Link
                 href={servicePath(child)}
-                className="group block h-full bg-black-mid/50 border border-white/5 rounded-2xl overflow-hidden hover:border-gold/25 transition-all duration-500"
+                className="group flex h-full flex-col overflow-hidden rounded-2xl border border-gold/10 bg-black-mid/40 p-3 shadow-lg shadow-black/40 backdrop-blur-sm transition-all duration-500 hover:-translate-y-1 hover:border-gold/30 hover:shadow-2xl hover:shadow-gold/10"
               >
-                <div className="relative h-48 overflow-hidden">
-                  <Image
-                    src={child.heroImage}
-                    alt={child.title}
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-110"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                  <div className="absolute top-4 left-4 w-11 h-11 rounded-xl bg-black/60 backdrop-blur-sm border border-gold/20 flex items-center justify-center text-xl">
+                {/* Image — complete photo, never cropped (object-contain on dark) */}
+                <div className="relative">
+                  <CardImage src={child.heroImage} alt={child.title} aspect="4/3" />
+                  <div className="absolute left-3 top-3 flex h-11 w-11 items-center justify-center rounded-xl border border-gold/20 bg-black/60 text-xl backdrop-blur-sm">
                     {child.icon}
                   </div>
                 </div>
-                <div className="p-6">
-                  <h3 className="font-display font-semibold text-white text-xl mb-2 group-hover:text-gold transition-colors duration-300">
+
+                {/* Content — equal heights via flex + line-clamp, button pinned to bottom */}
+                <div className="flex flex-1 flex-col px-3 pb-3 pt-5">
+                  <h3 className="mb-2 font-display text-xl font-semibold text-white transition-colors duration-300 group-hover:text-gold">
                     {child.title}
                   </h3>
-                  <p className="text-white/55 font-sans text-sm leading-relaxed mb-5">
+                  <p className="mb-5 line-clamp-3 font-sans text-sm leading-relaxed text-white/55">
                     {child.subtitle}
                   </p>
-                  <span className="inline-flex items-center gap-2 text-gold font-accent text-xs font-semibold tracking-wider uppercase group-hover:gap-3 transition-all">
+                  <span className="mt-auto inline-flex items-center gap-2 font-accent text-xs font-semibold uppercase tracking-wider text-gold transition-all group-hover:gap-3">
                     Explore
-                    <ArrowRight className="w-4 h-4" />
+                    <ArrowRight className="h-4 w-4" />
                   </span>
                 </div>
               </Link>

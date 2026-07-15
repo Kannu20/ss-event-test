@@ -113,7 +113,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[500px] rounded-2xl overflow-hidden">
               <Image
-                src="/images/about.jpeg"
+                src="/images/about2.jpeg"
                 alt="Artist Shubham Khandelwal hosting on stage"
                 fill
                 className="object-cover"

@@ -21,7 +21,7 @@ const categories = [
   {
     title: 'Corporate & Award Nights',
     count: 'Emcee for brands',
-    image: '/images/corparate.jpeg',
+    image: '/images/corporate1.png',
     href: '/services/corporate-events',
     className: 'col-span-2',
     height: 'h-48',
