@@ -776,7 +776,7 @@ const SHOWS_CHILDREN: ServiceNode[] = [
     icon: '👗',
     subtitle:
       'Ramp-side command and runway-ready energy — a host who keeps a fashion show sharp, sequenced and buzzing between every walk.',
-    heroImage: '/images/event.jpeg',
+    heroImage: '/images/fashion.jpeg',
     intro: {
       label: 'Your Fashion Show Host',
       heading: 'The Voice That Owns',
@@ -822,11 +822,11 @@ const SHOWS_CHILDREN: ServiceNode[] = [
       heading: 'Fashion Show',
       highlight: 'Moments',
       media: [
-        { type: 'image', src: '/images/event.jpeg', alt: 'Fashion show hosted by Shubham Khandelwal' },
-        { type: 'image', src: '/images/entertainment.jpeg', alt: 'Stage show hosting' },
-        { type: 'video', src: '/videos/vid7.mp4', alt: 'Fashion show highlight film', poster: '/images/banner.jpeg' },
-        { type: 'image', src: '/images/dark.jpeg', alt: 'Premium show lighting' },
-        { type: 'image', src: '/images/main.jpeg', alt: 'Runway event compering' },
+        { type: 'image', src: '/images/fashion.jpeg', alt: 'Fashion show hosted by Shubham Khandelwal' },
+        { type: 'image', src: '/images/fashion2.jpeg', alt: 'Stage show hosting' },
+        { type: 'video', src: '/videos/fashion.mp4', alt: 'Fashion show highlight film', poster: '/images/fashion3.jpeg' },
+        { type: 'image', src: '/images/fashion1.jpeg', alt: 'Premium show lighting' },
+        { type: 'image', src: '/images/fashion3.jpeg', alt: 'Runway event compering' },
         { type: 'image', src: '/images/cele3.jpeg', alt: 'Show audience energy' },
       ],
     },
