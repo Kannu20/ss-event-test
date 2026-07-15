@@ -51,7 +51,7 @@ export function VideoShowcase() {
           </motion.div>
           <motion.p variants={fadeInUp} className="text-white/60 font-sans">
             Hit play and see what it looks like when Shubham takes the mic — the crowd, the
-            singing, the moments that make a celebration unforgettable.
+            anchoring, the moments that make a celebration unforgettable.
           </motion.p>
         </motion.div>
 
@@ -107,7 +107,7 @@ export function VideoShowcase() {
                 playsInline
                 preload="metadata"
               >
-                <source src="/videos/sangeet.mp4" type="video/mp4" />
+                <source src="/videos/social-event.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>

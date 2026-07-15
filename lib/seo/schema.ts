@@ -38,7 +38,7 @@ export function personSchema() {
       'Wedding Anchoring',
       'Master of Ceremonies',
       'Corporate Emceeing',
-      'Live Singing',
+      'Live anchoring',
       'Event Hosting',
     ],
   }
@@ -74,7 +74,7 @@ export function localBusinessSchema() {
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Wedding & Sangeet Anchoring' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Corporate Hosting & Emceeing' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Private & Celebrity Events' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Live Entertainment & Singing' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Live Entertainment & anchoring' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Show Design & Scripting' } },
     ],
   }

@@ -24,7 +24,7 @@ const reasons = [
   },
   {
     icon: Music,
-    title: 'Live Singing',
+    title: 'Live anchoring',
     description: 'A host who can also sing. When the moment deserves goosebumps, Shubham puts down the script and delivers a live performance guests never expect.',
   },
   {

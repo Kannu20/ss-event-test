@@ -1,6 +1,6 @@
 'use client'
 
-import Image from 'next/image'
+import { ResponsiveImage } from '@/components/common/ResponsiveImage'
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
@@ -14,7 +14,7 @@ import { fadeInUp, fadeInLeft, staggerContainer } from '@/lib/animations/variant
 const highlights = [
   { icon: Mic2, value: '1500+', label: 'Shows Hosted' },
   { icon: Award, value: 'Award', label: 'Best Actor, Jaipur' },
-  { icon: Music, value: 'Live', label: 'Singing & Hosting' },
+  { icon: Music, value: 'Live', label: 'anchoring & Hosting' },
   { icon: Languages, value: '3', label: 'Languages On Stage' },
 ]
 
@@ -28,21 +28,22 @@ export function AboutSnapshot() {
         <div className="grid lg:grid-cols-2 gap-16 xl:gap-24 items-center">
           {/* Image collage */}
           <motion.div
-            className="relative h-[500px] lg:h-[620px]"
+            className="relative mx-auto w-full max-w-md lg:max-w-none"
             variants={fadeInLeft}
             initial="hidden"
             animate={isInView ? 'visible' : 'hidden'}
           >
-            {/* Main image */}
-            <div className="absolute inset-0 rounded-2xl overflow-hidden">
-              <Image
+            {/* Main image — aspect-framed so the portrait photo never crops the face */}
+            <div className="relative">
+              <ResponsiveImage
                 src="/images/about1.jpeg"
                 alt="Artist Shubham Khandelwal on stage engaging the crowd"
-                fill
-                className="object-cover"
+                aspect="4/5"
+                fit="cover"
+                position="center"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+              <div className="pointer-events-none absolute inset-0 rounded-2xl bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             </div>
 
             {/* Floating card — experience */}

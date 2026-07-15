@@ -36,7 +36,7 @@ const categories = [
   },
   {
     title: 'Live Entertainment',
-    count: 'Singing & games',
+    count: 'anchoring & games',
     image: '/images/cele5.jpeg',
     href: '/services/entertainment-services',
     className: '',

@@ -27,7 +27,7 @@ const journey = [
   {
     year: 'The Spark',
     title: 'A Boy Who Loved the Mic',
-    description: 'Growing up in Jaipur, Shubham was always the one narrating, singing and getting everyone to join in. What began as school stages and family functions quickly became a calling — the crowd, the cue, the moment.',
+    description: 'Growing up in Jaipur, Shubham was always the one narrating, anchoring and getting everyone to join in. What began as school stages and family functions quickly became a calling — the crowd, the cue, the moment.',
   },
   {
     year: 'The Craft',
@@ -49,7 +49,7 @@ const journey = [
 const brings = [
   { icon: Mic, title: 'Stage Presence', body: 'A commanding yet warm presence on the mic. Shubham owns the stage without ever stealing the spotlight from the people the day is really about.', highlight: true },
   { icon: Sparkles, title: 'Audience Connection', body: 'He reads the room and adapts live — pulling shy guests in, sparking laughter, and turning a seated audience into a celebration that feels alive.' },
-  { icon: Music, title: 'Live Singing', body: 'Not just a host — a performer. Shubham weaves live vocals into the evening, turning key moments into sing-alongs the whole crowd remembers.' },
+  { icon: Music, title: 'Live anchoring', body: 'Not just a host — a performer. Shubham weaves live vocals into the evening, turning key moments into sing-alongs the whole crowd remembers.' },
   { icon: Languages, title: 'Multilingual Hosting', body: 'Fluent hosting in Hindi, English and Rajasthani lets Shubham connect with every generation in the room, switching languages to keep everyone engaged.', highlight: true },
 ]
 
@@ -57,7 +57,7 @@ const trustPoints = [
   'Custom-scripted for your event — never a copy-paste run-of-show',
   'Reads the room live and adapts on the spot',
   'Hosts fluently in Hindi, English and Rajasthani',
-  'Award-winning performer with live singing built in',
+  'Award-winning performer with live anchoring built in',
   'Coordinates smoothly with your planner, DJ and family',
   'Treats every show like the biggest of his career',
 ]

@@ -85,6 +85,9 @@ export interface PortfolioItem {
   description?: string
   tags: string[]
   featured?: boolean
+  /** Optional direct media (preferred over the resolver fallback). */
+  video?: string
+  duration?: string
 }
 
 // ─── Stats Types ─────────────────────────────
@@ -173,7 +176,8 @@ export interface GalleryImage {
   id: string
   src: string
   alt: string
-  category: ServiceCategory
+  /** Gallery category id (see lib/constants/gallery.ts). */
+  category: string
   width?: number
   height?: number
   caption?: string

@@ -15,7 +15,7 @@ export default function VideosPage() {
 
       <PageHero
         title="Showreel & Highlights"
-        subtitle="From wedding-stage anchoring to live singing sets — watch Shubham work the crowd, in motion."
+        subtitle="From wedding-stage anchoring to live anchoring sets — watch Shubham work the crowd, in motion."
         tag="Watch Shubham"
         image="/images/main.jpeg"
         breadcrumbs={[{ label: 'Videos' }]}

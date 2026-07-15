@@ -24,13 +24,14 @@ import { Select } from '@/components/ui/select'
 import { Button } from '@/components/ui/Button'
 import { CheckCircle, AlertCircle, ChevronRight, ChevronLeft, Loader2 } from 'lucide-react'
 import { cn } from '@/lib/utils/cn'
+import { buildBookingWhatsappMessage, buildWhatsappUrl, openWhatsapp } from '@/lib/whatsapp'
 
 const EVENT_TYPES = [
   { id: 'wedding', label: 'Wedding Events', emoji: '💍', description: 'Full wedding planning & ceremonies' },
   { id: 'corporate', label: 'Corporate Events', emoji: '🏢', description: 'Conferences, launches & galas' },
   { id: 'social', label: 'Social Events', emoji: '🎉', description: 'Birthdays, anniversaries & more' },
   { id: 'entertainment', label: 'Entertainment', emoji: '🎭', description: 'Artists, Artists & live performances' },
-  { id: 'production', label: 'Production Setup', emoji: '🎬', description: 'Stage, AV, photography & video' },
+
 ]
 
 const STEPS = ['Event Type', 'Event Details', 'Your Info', 'Requirements']
@@ -71,6 +72,8 @@ export function BookingForm() {
 
   const handleStep4 = step4.handleSubmit(async (data) => {
     const fullData = { ...allData, ...data } as FullBookingValues
+    // Open WhatsApp with the complete, formatted enquiry (primary delivery).
+    openWhatsapp(buildBookingWhatsappMessage(fullData))
     setStatus('loading')
     try {
       const res = await fetch('/api/booking', {
@@ -121,12 +124,12 @@ export function BookingForm() {
           </div>
         </div>
         <a
-          href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '919876543210'}?text=Hi, I just submitted a consultation request. My name is ${allData.name}.`}
+          href={buildWhatsappUrl(buildBookingWhatsappMessage(allData))}
           target="_blank"
           rel="noopener noreferrer"
           className="text-green-400 text-sm font-sans hover:underline"
         >
-          Also send us a WhatsApp message →
+          Resend full details on WhatsApp →
         </a>
       </motion.div>
     )

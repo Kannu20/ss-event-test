@@ -64,7 +64,7 @@ export function PageHero({
             src={image}
             alt={title}
             fill
-            className="object-contain"
+            className="object-cover object-center"
             priority
             sizes="100vw"
           />

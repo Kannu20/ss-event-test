@@ -22,7 +22,6 @@ const eventTypeOptions = [
   { value: 'corporate', label: 'Corporate Events' },
   { value: 'social', label: 'Social Events' },
   { value: 'entertainment', label: 'Entertainment' },
-  { value: 'production', label: 'Production Setup' },
 ]
 
 interface InquiryFormProps {

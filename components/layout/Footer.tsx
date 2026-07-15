@@ -12,14 +12,12 @@ const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? ''
 const socialIcons = {
   Instagram,
   Facebook,
-  Youtube,
   MessageCircle,
 }
 
 const socialLinks = [
   { label: 'Instagram', href: 'https://www.instagram.com/artistshubhamkhandelwal/', icon: 'Instagram' as const },
   { label: 'Facebook', href: 'https://www.facebook.com/shubham.khandelwal.9883', icon: 'Facebook' as const },
-  { label: 'YouTube', href: 'https://www.youtube.com/@artistshubhamkhandelwal', icon: 'Youtube' as const },
   { label: 'WhatsApp', href: `https://wa.me/${whatsappNumber}`, icon: 'MessageCircle' as const },
 ]
 

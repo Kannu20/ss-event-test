@@ -62,7 +62,7 @@ export default function ContactPage() {
         title="Book Shubham"
         subtitle="Planning an event? Check Shubham's availability and lock in your date. He personally responds within 24 hours."
         tag="Get In Touch"
-        image="/images/dark.jpeg"
+        image="/images/about2.jpeg"
         className="object-contain"
         breadcrumbs={[{ label: 'Contact' }]}
       />

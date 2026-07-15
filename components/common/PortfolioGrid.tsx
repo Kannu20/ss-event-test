@@ -1,130 +1,128 @@
 'use client'
 
-import { useState } from 'react'
-import Image from 'next/image'
-import { motion, AnimatePresence } from 'framer-motion'
-import { MapPin, Calendar, Tag } from 'lucide-react'
+import { useMemo, useState, useCallback } from 'react'
+import { motion } from 'framer-motion'
+import { ImageOff } from 'lucide-react'
+import Link from 'next/link'
 import { FilterTabs } from '@/components/common/FilterTabs'
-import { Badge } from '@/components/ui/Badge'
+import { PortfolioCard } from '@/components/portfolio/PortfolioCard'
+import { PortfolioModal } from '@/components/portfolio/PortfolioModal'
 import { portfolioItems } from '@/lib/constants/portfolio'
+import { resolvePortfolioMedia } from '@/lib/portfolio-media'
+import { staggerContainer } from '@/lib/animations/variants'
+import type { PortfolioItem } from '@/types'
 
-const categories = [
-  { id: 'all', label: 'All Events' },
-  { id: 'wedding', label: 'Weddings' },
-  { id: 'corporate', label: 'Corporate' },
-  { id: 'social', label: 'Social' },
-]
+/** Friendly labels for the category filter (values still come from the data). */
+const CATEGORY_LABELS: Record<string, string> = {
+  wedding: 'Weddings',
+  corporate: 'Corporate',
+  social: 'Social',
+  entertainment: 'Entertainment',
+  production: 'Production',
+}
 
-const categoryBadgeMap: Record<string, 'gold' | 'dark' | 'glass' | 'outline'> = {
-  wedding: 'gold',
-  corporate: 'glass',
-  social: 'outline',
-  entertainment: 'dark',
-  production: 'dark',
+function EmptyState() {
+  return (
+    <div className="mx-auto flex max-w-md flex-col items-center rounded-2xl border border-white/8 bg-black-mid/40 px-8 py-20 text-center">
+      <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full border border-gold/20 bg-gold/10 text-gold">
+        <ImageOff className="h-7 w-7" />
+      </div>
+      <h3 className="mb-2 font-display text-2xl font-bold text-white">Nothing here yet</h3>
+      <p className="mb-8 font-sans text-sm leading-relaxed text-white/55">
+        There are no shows in this category right now. Explore all events, or tell Shubham about
+        yours — it could be the next one featured here.
+      </p>
+      <Link
+        href="/book-consultation"
+        className="inline-flex items-center justify-center rounded-full border border-gold/40 bg-gold/10 px-6 py-3 font-accent text-xs font-semibold uppercase tracking-wider text-gold transition-all hover:bg-gold hover:text-black"
+      >
+        Book a Consultation
+      </Link>
+    </div>
+  )
 }
 
 export function PortfolioGrid() {
-  const [active, setActive] = useState('all')
+  const [active, setActive] = useState<string>('all')
+  const [openIndex, setOpenIndex] = useState<number | null>(null)
 
-  const filtered = active === 'all'
-    ? portfolioItems
-    : portfolioItems.filter((p) => p.category === active)
+  // Categories are derived from the data — never hardcoded.
+  const tabs = useMemo(() => {
+    const categories = Array.from(new Set(portfolioItems.map((p) => p.category)))
+    return [
+      { id: 'all', label: 'All Events', count: portfolioItems.length },
+      ...categories.map((c) => ({
+        id: c as string,
+        label: CATEGORY_LABELS[c] ?? c,
+        count: portfolioItems.filter((p) => p.category === c).length,
+      })),
+    ]
+  }, [])
+
+  const filtered: PortfolioItem[] = useMemo(
+    () => (active === 'all' ? portfolioItems : portfolioItems.filter((p) => p.category === active)),
+    [active]
+  )
+
+  const openAt = useCallback((i: number) => setOpenIndex(i), [])
+  const close = useCallback(() => setOpenIndex(null), [])
+  const prev = useCallback(
+    () => setOpenIndex((c) => (c === null ? c : (c - 1 + filtered.length) % filtered.length)),
+    [filtered.length]
+  )
+  const next = useCallback(
+    () => setOpenIndex((c) => (c === null ? c : (c + 1) % filtered.length)),
+    [filtered.length]
+  )
+
+  const handleFilter = useCallback((id: string) => {
+    setActive(id)
+    setOpenIndex(null)
+  }, [])
 
   return (
     <section className="section-padding bg-black">
-      <div className="container mx-auto px-4">
-        {/* Filter */}
-        <div className="flex justify-center mb-12">
+      <div className="mx-auto w-full max-w-[1600px] px-4 sm:px-6 lg:px-8">
+        {/* Filters — premium pills, categories from data */}
+        <div className="mb-10 flex justify-center md:mb-14">
           <FilterTabs
-            tabs={categories}
+            tabs={tabs}
             active={active}
-            onChange={setActive}
+            onChange={handleFilter}
+            size="lg"
+            className="justify-center"
           />
         </div>
 
-        {/* Grid */}
-        <motion.div
-          layout
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-        >
-          <AnimatePresence>
-            {filtered.map((item) => (
-              <motion.article
+        {filtered.length > 0 ? (
+          <motion.div
+            key={active}
+            variants={staggerContainer}
+            initial="hidden"
+            animate="visible"
+            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 md:gap-8"
+          >
+            {filtered.map((item, i) => (
+              <PortfolioCard
                 key={item.id}
-                layout
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.95 }}
-                transition={{ duration: 0.35 }}
-                className="group bg-black-mid/50 border border-white/5 rounded-2xl overflow-hidden hover:border-gold/20 transition-colors duration-300"
-              >
-                <div className="relative h-64 overflow-hidden">
-                  <Image
-                    src={item.coverImage}
-                    alt={item.title}
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                  <div className="absolute top-4 left-4">
-                    <Badge variant={categoryBadgeMap[item.category] ?? 'dark'} className="capitalize">
-                      {item.category}
-                    </Badge>
-                  </div>
-                  {item.featured && (
-                    <div className="absolute top-4 right-4 bg-gold text-black text-xs font-accent font-bold tracking-wider uppercase px-2.5 py-1 rounded-full">
-                      Featured
-                    </div>
-                  )}
-                </div>
-
-                <div className="p-6">
-                  <h3 className="font-display font-bold text-white text-xl mb-3 group-hover:text-gold transition-colors duration-300">
-                    {item.title}
-                  </h3>
-                  <p className="text-white/55 font-sans text-sm leading-relaxed mb-4 line-clamp-2">
-                    {item.description}
-                  </p>
-
-                  <div className="flex items-center gap-4 text-white/40 text-xs font-sans mb-4">
-                    <span className="flex items-center gap-1.5">
-                      <MapPin className="w-3.5 h-3.5" />
-                      {item.location}
-                    </span>
-                    <span className="flex items-center gap-1.5">
-                      <Calendar className="w-3.5 h-3.5" />
-                      {new Date(item.date).toLocaleDateString('en-IN', { month: 'short', year: 'numeric' })}
-                    </span>
-                  </div>
-
-                  <div className="flex flex-wrap gap-1.5">
-                    {item.tags.slice(0, 3).map((tag) => (
-                      <span
-                        key={tag}
-                        className="flex items-center gap-1 text-xs font-sans text-white/35 border border-white/10 rounded-full px-2.5 py-0.5"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                    {item.tags.length > 3 && (
-                      <span className="text-xs font-sans text-white/30 px-2.5 py-0.5">
-                        +{item.tags.length - 3}
-                      </span>
-                    )}
-                  </div>
-                </div>
-              </motion.article>
+                item={item}
+                media={resolvePortfolioMedia(item)}
+                onOpen={() => openAt(i)}
+              />
             ))}
-          </AnimatePresence>
-        </motion.div>
-
-        {filtered.length === 0 && (
-          <div className="text-center py-24 text-white/40 font-sans">
-            No events found in this category.
-          </div>
+          </motion.div>
+        ) : (
+          <EmptyState />
         )}
       </div>
+
+      <PortfolioModal
+        items={filtered}
+        index={openIndex}
+        onClose={close}
+        onPrev={prev}
+        onNext={next}
+      />
     </section>
   )
 }

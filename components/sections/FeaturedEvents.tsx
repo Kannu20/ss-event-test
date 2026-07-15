@@ -34,7 +34,7 @@ const events = [
   },
   {
     id: 3,
-    title: 'Milestone Birthday — Live Singing Set',
+    title: 'Milestone Birthday — Live anchoring Set',
     location: 'Jaipur, Rajasthan',
     date: 'September 2024',
     category: 'Private Event',

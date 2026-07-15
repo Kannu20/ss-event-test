@@ -4,6 +4,7 @@ import { JsonLd } from '@/components/common/JsonLd'
 import { breadcrumbSchema } from '@/lib/seo/schema'
 import { PageHero } from '@/components/common/PageHero'
 import { BookingCTAStrip } from '@/components/sections/BookingCTAStrip'
+import { PortfolioStats } from '@/components/portfolio/PortfolioStats'
 import { PortfolioGrid } from '@/components/common/PortfolioGrid'
 
 export const metadata: Metadata = generatePageMetadata(pageSEO.portfolio)
@@ -17,12 +18,14 @@ export default function PortfolioPage() {
         title="Shubham's Portfolio"
         subtitle="1500+ shows across 50+ cities. A glimpse of the stages Shubham has hosted — from grand palace weddings to landmark corporate nights."
         tag="On Stage"
-        image="/images/wedding.jpeg"
+        image="/images/sangeet.jpeg"
+        size="lg"
         breadcrumbs={[{ label: 'Portfolio' }]}
       />
 
+      <PortfolioStats />
       <PortfolioGrid />
-      {/* <BookingCTAStrip /> */}
+      <BookingCTAStrip />
     </>
   )
 }

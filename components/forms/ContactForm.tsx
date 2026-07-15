@@ -9,13 +9,13 @@ import { Textarea } from '@/components/ui/textarea'
 import { Select } from '@/components/ui/select'
 import { Button } from '@/components/ui/Button'
 import { CheckCircle, AlertCircle } from 'lucide-react'
+import { buildContactWhatsappMessage, openWhatsapp } from '@/lib/whatsapp'
 
 const eventTypeOptions = [
   { value: 'wedding', label: 'Wedding Events' },
   { value: 'corporate', label: 'Corporate Events' },
   { value: 'social', label: 'Social Events' },
   { value: 'entertainment', label: 'Entertainment Services' },
-  { value: 'production', label: 'Production Setup' },
   { value: 'other', label: 'Other' },
 ]
 
@@ -36,6 +36,8 @@ export function ContactForm({ compact = false }: ContactFormProps) {
   })
 
   const onSubmit = async (data: ContactFormData) => {
+    // Open WhatsApp with the complete, formatted enquiry (primary delivery).
+    openWhatsapp(buildContactWhatsappMessage(data))
     setStatus('loading')
     try {
       const res = await fetch('/api/contact', {

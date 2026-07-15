@@ -217,7 +217,7 @@ const WEDDING_CHILDREN: ServiceNode[] = [
       items: [
         { icon: '💃', title: 'Family Dance-Offs', description: 'Scripted friendly face-offs between the bride and groom sides that get everyone off their seats.' },
         { icon: '🎲', title: 'Interactive Games', description: 'Couple quizzes, antakshari and kitty games designed for a seated, henna-drying crowd.' },
-        { icon: '🎤', title: 'Live Singing Sets', description: 'Romantic and peppy numbers performed live between games to keep the energy fresh.' },
+        { icon: '🎤', title: 'Live anchoring Sets', description: 'Romantic and peppy numbers performed live between games to keep the energy fresh.' },
         { icon: '👰', title: 'Bride-Centred Flow', description: 'The whole afternoon orbits the bride, with moments planned around her even while her hands are busy.' },
         { icon: '🎶', title: 'Curated Music', description: 'A tailored playlist and dhol cues that match the mehendi mood — soft, then building to a dance set.' },
         { icon: '🎁', title: 'Surprise Segments', description: 'Coordinated surprises from friends and family, cued so they land at exactly the right moment.' },
@@ -240,7 +240,7 @@ const WEDDING_CHILDREN: ServiceNode[] = [
         { step: '01', title: 'Soft Open', description: 'Guests settle, henna begins, and Shubham eases in with music and light banter.' },
         { step: '02', title: 'Games & Interaction', description: 'Couple quizzes and family games keep the seated crowd laughing and involved.' },
         { step: '03', title: 'Dance-Off Build', description: 'The two sides go head to head as the energy climbs toward the dance floor.' },
-        { step: '04', title: 'Open Floor Finale', description: 'Live singing and a full dance set close the function on a high.' },
+        { step: '04', title: 'Open Floor Finale', description: 'Live anchoring and a full dance set close the function on a high.' },
       ],
     },
     gallery: {
@@ -256,18 +256,18 @@ const WEDDING_CHILDREN: ServiceNode[] = [
       ],
     },
     faqs: [
-      { question: 'How do you keep guests engaged when the henna is drying?', answer: 'That is exactly what Shubham specialises in. He runs seated-friendly games, antakshari, dance-offs and live singing so the room stays lively while the mehendi is applied.' },
+      { question: 'How do you keep guests engaged when the henna is drying?', answer: 'That is exactly what Shubham specialises in. He runs seated-friendly games, antakshari, dance-offs and live anchoring so the room stays lively while the mehendi is applied.' },
       { question: 'Can you plan surprises from friends and family?', answer: 'Yes. Shubham coordinates and cues surprise performances or messages in advance so they land smoothly during the function.' },
       { question: 'Will the bride have to move around a lot?', answer: 'No. The flow is built around the bride so she stays comfortable and central while the celebration comes to her.' },
       { question: 'Do you provide the music or work with our DJ?', answer: 'Either. Shubham can curate the playlist and cues himself or coordinate closely with your DJ so every segment is perfectly timed.' },
     ],
     cta: {
       title: 'Turn Your Mehendi Into a Party',
-      subtitle: 'Book Shubham to host your mehendi with games, live singing and non-stop energy.',
+      subtitle: 'Book Shubham to host your mehendi with games, live anchoring and non-stop energy.',
     },
     seo: {
       title: 'Mehendi Function Host & Anchor — Shubham Khandelwal',
-      description: 'Lively mehendi function hosting with interactive games, dance-offs and live singing. Book Jaipur wedding anchor Shubham Khandelwal for your mehendi.',
+      description: 'Lively mehendi function hosting with interactive games, dance-offs and live anchoring. Book Jaipur wedding anchor Shubham Khandelwal for your mehendi.',
       keywords: ['mehendi function host', 'mehendi anchor Jaipur', 'mehndi ceremony hosting', 'wedding mehendi games', 'mehendi entertainment Rajasthan'],
       ogImage: '/images/mehandi3.jpeg',
     },
@@ -282,7 +282,7 @@ const WEDDING_CHILDREN: ServiceNode[] = [
     tag: 'Wedding Hosting',
     icon: '🎶',
     subtitle:
-      'The headline night of the wedding — performances, family face-offs and live singing, anchored so the energy never drops.',
+      'The headline night of the wedding — performances, family face-offs and live anchoring, anchored so the energy never drops.',
     heroImage: '/images/sangeet.jpeg',
     intro: {
       label: 'Your Sangeet Host',
@@ -299,7 +299,7 @@ const WEDDING_CHILDREN: ServiceNode[] = [
       items: [
         { icon: '🎭', title: 'Performance Emceeing', description: 'Every family act introduced with build-up and cued to music so nothing feels amateur or unrehearsed.' },
         { icon: '⚔️', title: 'Bride vs Groom Face-Offs', description: 'Scripted dance and game battles between the two sides that turn guests into a roaring audience.' },
-        { icon: '🎤', title: 'Live Singing', description: 'Shubham performs live sets — romantic numbers and floor-fillers — woven between the acts.' },
+        { icon: '🎤', title: 'Live anchoring', description: 'Shubham performs live sets — romantic numbers and floor-fillers — woven between the acts.' },
         { icon: '📜', title: 'Run-of-Show Scripting', description: 'A rehearsed order of performances, names and cues so the evening never stalls.' },
         { icon: '🕺', title: 'Dance Floor Management', description: 'He reads the room and opens the floor at the exact right moment to peak the energy.' },
         { icon: '🎉', title: 'Crowd Interaction', description: 'Games and audience moments that keep even the non-dancers involved all night.' },
@@ -321,7 +321,7 @@ const WEDDING_CHILDREN: ServiceNode[] = [
       steps: [
         { step: '01', title: 'Grand Opening', description: 'A high-impact welcome and couple entrance that sets the tone for the night.' },
         { step: '02', title: 'Family Performances', description: 'Each act introduced and cued, with Shubham building anticipation between them.' },
-        { step: '03', title: 'Face-Off & Live Set', description: 'Bride vs groom battles and a live singing set push the energy to its peak.' },
+        { step: '03', title: 'Face-Off & Live Set', description: 'Bride vs groom battles and a live anchoring set push the energy to its peak.' },
         { step: '04', title: 'Open Dance Floor', description: 'The floor opens and the celebration runs full throttle to the finish.' },
       ],
     },
@@ -338,7 +338,7 @@ const WEDDING_CHILDREN: ServiceNode[] = [
     },
     faqs: [
       { question: 'Do you script and rehearse the family performances?', answer: 'Yes. Shubham collects the performance order and details in advance, scripts the introductions and cues, and can guide rehearsals so every act lands cleanly on the night.' },
-      { question: 'Can you also sing during the sangeet?', answer: 'Absolutely — live singing is one of Shubham\'s signatures. He weaves performed sets between the acts to keep the energy fresh.' },
+      { question: 'Can you also sing during the sangeet?', answer: 'Absolutely — live anchoring is one of Shubham\'s signatures. He weaves performed sets between the acts to keep the energy fresh.' },
       { question: 'How do you handle the bride-side vs groom-side games?', answer: 'He runs structured, friendly face-offs with clear rules and scoring so the competition is fun, inclusive and never chaotic.' },
       { question: 'What if some performers get nervous or forget cues?', answer: 'Shubham manages the stage in real time — covering gaps, cueing music and settling nerves so the audience never notices a hiccup.' },
     ],
@@ -348,7 +348,7 @@ const WEDDING_CHILDREN: ServiceNode[] = [
     },
     seo: {
       title: 'Sangeet Night Anchor & Singer — Shubham Khandelwal',
-      description: 'High-energy sangeet anchoring with performance emceeing, family face-offs and live singing. Book Jaipur sangeet anchor Shubham Khandelwal.',
+      description: 'High-energy sangeet anchoring with performance emceeing, family face-offs and live anchoring. Book Jaipur sangeet anchor Shubham Khandelwal.',
       keywords: ['sangeet anchor Jaipur', 'sangeet night host', 'sangeet emcee Rajasthan', 'live stage performer sangeet', 'wedding sangeet anchoring'],
       ogImage: '/images/sangeet3.jpeg',
     },
@@ -412,7 +412,7 @@ const WEDDING_CHILDREN: ServiceNode[] = [
       media: [
         { type: 'image', src: '/images/varmala.jpeg', alt: 'Varmala ceremony compered by Shubham Khandelwal' },
         { type: 'image', src: '/images/varmala2.jpeg', alt: 'Jaimala garland exchange moment' },
-        { type: 'video', src: '/videos/vid2.mp4', alt: 'Varmala highlight film', poster: '/images/varmala3.jpeg' },
+        { type: 'video', src: '/videos/varmala.mp4', alt: 'Varmala highlight film', poster: '/images/varmala3.jpeg' },
         { type: 'image', src: '/images/varmala4.jpeg', alt: 'Couple on stage during varmala' },
         { type: 'image', src: '/images/sangeet1.jpeg', alt: 'Grand wedding stage entrance' },
         { type: 'image', src: '/images/varmala5.jpeg', alt: 'Shubham Khandelwal hosting on stage' },
@@ -530,14 +530,14 @@ const PARTIES_CHILDREN: ServiceNode[] = [
     tag: 'Party Hosting',
     icon: '🎂',
     subtitle:
-      'From milestone birthdays to surprise bashes — hosted like a show with games, roasts and live singing tailored to the star of the day.',
+      'From milestone birthdays to surprise bashes — hosted like a show with games, roasts and live anchoring tailored to the star of the day.',
     heroImage: '/images/birthday1.jpeg',
     intro: {
       label: 'Your Birthday Host',
       heading: 'A Birthday That Feels',
       highlight: 'Like a Show',
       paragraphs: [
-        'A birthday should not run itself. Whether it is a first birthday, a milestone 50th or a surprise bash, Shubham hosts it like a proper event — themed games, a personal roast, cake-moment build-up and live singing that makes the guest of honour feel like a star.',
+        'A birthday should not run itself. Whether it is a first birthday, a milestone 50th or a surprise bash, Shubham hosts it like a proper event — themed games, a personal roast, cake-moment build-up and live anchoring that makes the guest of honour feel like a star.',
         'He tailors every segment to the person: their in-jokes, their favourite music, the friends who should get a moment on the mic. The host family relaxes and enjoys the party while Shubham keeps the room laughing and moving from the welcome to the last slice of cake.',
       ],
     },
@@ -548,7 +548,7 @@ const PARTIES_CHILDREN: ServiceNode[] = [
         { icon: '🎮', title: 'Themed Games', description: 'Games built around the guest of honour and the crowd — for kids, adults or a mixed party.' },
         { icon: '🎤', title: 'Personal Roast', description: 'A warm, funny roast full of inside jokes that has the whole room in stitches.' },
         { icon: '🎂', title: 'Cake-Moment Build-Up', description: 'The cake cutting turned into a proper highlight with music, countdown and crowd energy.' },
-        { icon: '🎵', title: 'Live Singing', description: 'A live song for the birthday star and crowd favourites that get everyone singing along.' },
+        { icon: '🎵', title: 'Live anchoring', description: 'A live song for the birthday star and crowd favourites that get everyone anchoring along.' },
         { icon: '🎁', title: 'Surprise Coordination', description: 'Planned surprises and messages cued to land at exactly the right emotional beat.' },
         { icon: '📸', title: 'Candid Fun', description: 'Shubham engineers the moments that make the best photos and reels of the night.' },
       ],
@@ -579,7 +579,6 @@ const PARTIES_CHILDREN: ServiceNode[] = [
       media: [
         { type: 'image', src: '/images/birthday1.jpeg', alt: 'Birthday party hosted by Shubham Khandelwal' },
         { type: 'image', src: '/images/birthday2.jpeg', alt: 'Birthday celebration games' },
-        { type: 'video', src: '/videos/birthday.mp4', alt: 'Birthday party film', poster: '/images/birthday1.jpeg' },
         { type: 'image', src: '/images/banner.jpeg', alt: 'Party crowd energy' },
         { type: 'image', src: '/images/birthday3.jpeg', alt: 'Celebration cake moment' },
       ],
@@ -592,11 +591,11 @@ const PARTIES_CHILDREN: ServiceNode[] = [
     ],
     cta: {
       title: 'Give the Birthday Star a Real Show',
-      subtitle: 'Book Shubham to host your birthday party with games, roasts and live singing.',
+      subtitle: 'Book Shubham to host your birthday party with games, roasts and live anchoring.',
     },
     seo: {
       title: 'Birthday Party Host & Anchor — Shubham Khandelwal',
-      description: 'Birthday party hosting with themed games, personal roasts, cake-moment build-up and live singing. Book Jaipur event host Shubham Khandelwal.',
+      description: 'Birthday party hosting with themed games, personal roasts, cake-moment build-up and live anchoring. Book Jaipur event host Shubham Khandelwal.',
       keywords: ['birthday party host Jaipur', 'birthday anchor', 'party emcee', 'surprise party host', 'birthday entertainer Rajasthan'],
       ogImage: '/images/birthday.jpeg',
     },
@@ -708,7 +707,7 @@ const PARTIES_CHILDREN: ServiceNode[] = [
       highlight: 'Pool Party',
       items: [
         { icon: '🏊', title: 'Poolside Games', description: 'Splash challenges, floating races and water games designed to pull every guest into the fun.' },
-        { icon: '🎶', title: 'Live Music Sets', description: 'Feel-good live singing and curated poolside tracks that keep the energy sunny all day.' },
+        { icon: '🎶', title: 'Live Music Sets', description: 'Feel-good live anchoring and curated poolside tracks that keep the energy sunny all day.' },
         { icon: '🕶️', title: 'Themed Hosting', description: 'Tropical, neon or all-white — hosting tuned to your pool party theme and dress code.' },
         { icon: '🍹', title: 'Vibe Management', description: 'Shubham reads the crowd, dialling energy up for games and down for chill-out sets.' },
         { icon: '🌞', title: 'Daytime Flow', description: 'A relaxed run-of-show that keeps a long, sunny afternoon moving without ever dragging.' },
@@ -720,7 +719,7 @@ const PARTIES_CHILDREN: ServiceNode[] = [
       highlight: 'Pool Party',
       items: [
         { icon: 'flame', title: 'Keeps Energy High', description: 'A relaxed daytime crowd needs active hosting — Shubham makes sure the party never flattens.' },
-        { icon: 'music', title: 'Host Plus Performer', description: 'Live singing means built-in entertainment, not just an announcer with a playlist.' },
+        { icon: 'music', title: 'Host Plus Performer', description: 'Live anchoring means built-in entertainment, not just an announcer with a playlist.' },
         { icon: 'smile', title: 'Reads a Chill Crowd', description: 'He balances splashy games with easy chill-out moments so the vibe feels effortless.' },
         { icon: 'heart', title: 'Hosts Relax Too', description: 'You get to cool off and enjoy your own pool party while Shubham runs everything.' },
       ],
@@ -731,7 +730,7 @@ const PARTIES_CHILDREN: ServiceNode[] = [
       steps: [
         { step: '01', title: 'Themed Welcome', description: 'Guests arrive to music and a warm welcome that sets the sunny tone.' },
         { step: '02', title: 'Games and Splashes', description: 'Poolside and in-water games get everyone involved and laughing.' },
-        { step: '03', title: 'Live Set', description: 'A live singing set lifts the afternoon into a full-blown party.' },
+        { step: '03', title: 'Live Set', description: 'A live anchoring set lifts the afternoon into a full-blown party.' },
         { step: '04', title: 'Golden-Hour Finale', description: 'The energy peaks into the evening for a perfect poolside close.' },
       ],
     },
@@ -746,7 +745,7 @@ const PARTIES_CHILDREN: ServiceNode[] = [
       ],
     },
     faqs: [
-      { question: 'What makes a hosted pool party better than a DJ-only one?', answer: 'A DJ plays music; Shubham runs the whole experience — poolside games, live singing, crowd interaction and pacing — so the energy is actively managed and the party never flattens through the afternoon.' },
+      { question: 'What makes a hosted pool party better than a DJ-only one?', answer: 'A DJ plays music; Shubham runs the whole experience — poolside games, live anchoring, crowd interaction and pacing — so the energy is actively managed and the party never flattens through the afternoon.' },
       { question: 'Can you host to a specific pool party theme?', answer: 'Yes. Tropical, neon, all-white or anything else — the hosting, music and games are tuned to your theme and dress code.' },
       { question: 'Do you run in-water and poolside games?', answer: 'Absolutely. Splash challenges, floating races and poolside games are designed to pull every guest in safely, whether they want to swim or stay dry.' },
       { question: 'Is it suitable for a mixed-age crowd?', answer: 'Yes. Shubham balances high-energy games with relaxed chill-out sets so kids, friends and older family members all enjoy the day.' },
@@ -757,7 +756,7 @@ const PARTIES_CHILDREN: ServiceNode[] = [
     },
     seo: {
       title: 'Pool Party Host & Anchor — Shubham Khandelwal',
-      description: 'High-energy pool party hosting with poolside games, live singing and themed entertainment. Book Jaipur event host Shubham Khandelwal for your pool party.',
+      description: 'High-energy pool party hosting with poolside games, live anchoring and themed entertainment. Book Jaipur event host Shubham Khandelwal for your pool party.',
       keywords: ['pool party host Jaipur', 'pool party anchor', 'poolside party emcee', 'summer party host', 'pool party entertainer Rajasthan'],
       ogImage: '/images/pool.jpeg',
     },
@@ -858,7 +857,7 @@ const SHOWS_CHILDREN: ServiceNode[] = [
     icon: '🎤',
     subtitle:
       'Concerts, cultural nights and stage productions — anchored and performed by a host who is also a live stage performer.',
-    heroImage: '/images/entertainment.jpeg',
+    heroImage: '/images/cele5.jpeg',
     intro: {
       label: 'Your Live Show Host',
       heading: 'An Anchor Who Is Also',
@@ -872,7 +871,7 @@ const SHOWS_CHILDREN: ServiceNode[] = [
       heading: 'What Shubham Brings to Your',
       highlight: 'Live Show',
       items: [
-        { icon: '🎶', title: 'Live Singing', description: 'A host who performs — filling gaps or headlining moments with live vocals.' },
+        { icon: '🎶', title: 'Live anchoring', description: 'A host who performs — filling gaps or headlining moments with live vocals.' },
         { icon: '🎭', title: 'Artist Introductions', description: 'Every act introduced with build-up so the audience is primed before they perform.' },
         { icon: '🎚️', title: 'Tech-Team Coordination', description: 'Run-of-show, sound and lighting cues managed with the backstage crew.' },
         { icon: '👏', title: 'Crowd Engagement', description: 'Real-time reading of a large audience to keep the energy exactly where it should be.' },
@@ -904,12 +903,11 @@ const SHOWS_CHILDREN: ServiceNode[] = [
       heading: 'Live Show',
       highlight: 'Moments',
       media: [
-        { type: 'image', src: '/images/entertainment.jpeg', alt: 'Live show hosted by Shubham Khandelwal' },
-        { type: 'video', src: '/videos/vid1.mp4', alt: 'Live show highlight film', poster: '/images/cele2.jpeg' },
-        { type: 'image', src: '/images/cele3.jpeg', alt: 'Stage show performance' },
-        { type: 'image', src: '/images/event.jpeg', alt: 'Live event stage' },
-        { type: 'image', src: '/images/banner.jpeg', alt: 'Cultural show production' },
-        { type: 'image', src: '/images/main.jpeg', alt: 'Shubham Khandelwal performing live' },
+        { type: 'video', src: '/videos/live-show.mp4', alt: 'Live show highlight film', poster: '/images/show1.png' },
+        { type: 'image', src: '/images/cele5.jpeg', alt: 'Stage show performance' },
+        { type: 'image', src: '/images/show.jpeg', alt: 'Cultural show production' },
+        { type: 'image', src: '/images/show3.png', alt: 'Live event stage' },
+        { type: 'image', src: '/images/show2.png', alt: 'Shubham Khandelwal performing live' },
       ],
     },
     faqs: [
@@ -924,9 +922,9 @@ const SHOWS_CHILDREN: ServiceNode[] = [
     },
     seo: {
       title: 'Live Show Host, Anchor & Singer — Shubham Khandelwal',
-      description: 'Live show hosting for concerts, cultural nights and stage productions, with live singing and full tech-team coordination. Book Shubham Khandelwal.',
+      description: 'Live show hosting for concerts, cultural nights and stage productions, with live anchoring and full tech-team coordination. Book Shubham Khandelwal.',
       keywords: ['live show host', 'concert anchor Jaipur', 'cultural show emcee', 'stage show host', 'live stage performer host Rajasthan'],
-      ogImage: '/images/entertainment.jpeg',
+      ogImage: '/images/cele5.jpeg',
     },
   },
 ]
@@ -990,8 +988,7 @@ const EVENTS_CHILDREN: ServiceNode[] = [
       highlight: 'Moments',
       media: [
         { type: 'image', src: '/images/corporate1.png', alt: 'Corporate event hosted by Shubham Khandelwal' },
-        { type: 'image', src: '/images/corparate.jpeg', alt: 'Conference stage hosting' },
-        { type: 'video', src: '/videos/corporate2.mp4', alt: 'Corporate event film', poster: '/images/banner.png' },
+        { type: 'image', src: '/images/corporate6.jpeg', alt: 'Conference stage hosting' },
         { type: 'image', src: '/images/corporate3.png', alt: 'Award night hosting' },
         { type: 'image', src: '/images/corporate4.png', alt: 'Professional emcee on stage' },
         { type: 'image', src: '/images/corporate5.png', alt: 'Corporate event production' },
@@ -1011,7 +1008,7 @@ const EVENTS_CHILDREN: ServiceNode[] = [
       title: 'Corporate Event Emcee & Host — Shubham Khandelwal',
       description: 'Professional corporate emcee for conferences, launches, award nights and dealer meets. Bilingual, agenda-tight hosting. Book Shubham Khandelwal, Jaipur.',
       keywords: ['corporate emcee Jaipur', 'conference host', 'award night anchor', 'product launch host', 'dealer meet emcee Rajasthan'],
-      ogImage: '/images/corparate1.png',
+      ogImage: '/images/corporate1.png',
     },
   },
   /* ── Social Events ─────────────────────── */
@@ -1025,14 +1022,14 @@ const EVENTS_CHILDREN: ServiceNode[] = [
     icon: '🎉',
     subtitle:
       'Community gatherings, cultural programmes and celebrity nights — hosted with warmth, wit and a genuine feel for the crowd.',
-    heroImage: '/images/anniversary2.jpeg',
+    heroImage: '/images/about2.jpeg',
     intro: {
       label: 'Your Social Host',
       heading: 'Bringing Communities',
       highlight: 'Together on Stage',
       paragraphs: [
         'Social events are all about the crowd — and Shubham thrives on reading a room full of different ages, backgrounds and expectations. From cultural programmes and community functions to celebrity nights and get-togethers, he hosts with the warmth and wit that makes strangers feel like one audience.',
-        'He balances tradition and entertainment, gives the organisers and dignitaries their due moments, and keeps the programme flowing with games, live singing and interaction so a large, mixed gathering never fragments or loses momentum.',
+        'He balances tradition and entertainment, gives the organisers and dignitaries their due moments, and keeps the programme flowing with games, live anchoring and interaction so a large, mixed gathering never fragments or loses momentum.',
       ],
     },
     features: {
@@ -1042,7 +1039,7 @@ const EVENTS_CHILDREN: ServiceNode[] = [
         { icon: '🤝', title: 'Community Warmth', description: 'A welcoming, inclusive style that makes a diverse crowd feel like one audience.' },
         { icon: '🎭', title: 'Cultural Programmes', description: 'Performances and traditions introduced with respect and the right build-up.' },
         { icon: '⭐', title: 'Celebrity & Guest Handling', description: 'Dignitaries and celebrity guests welcomed and managed smoothly on stage.' },
-        { icon: '🎶', title: 'Live Entertainment', description: 'Live singing and interactive moments that keep a large gathering engaged.' },
+        { icon: '🎶', title: 'Live Entertainment', description: 'Live anchoring and interactive moments that keep a large gathering engaged.' },
         { icon: '🎲', title: 'Crowd Games', description: 'Inclusive games and interaction so every section of the audience takes part.' },
         { icon: '🏅', title: 'Felicitation Moments', description: 'Organisers, sponsors and honourees given dignified, well-timed recognition.' },
       ],
@@ -1053,7 +1050,7 @@ const EVENTS_CHILDREN: ServiceNode[] = [
       items: [
         { icon: 'users', title: 'Unites a Mixed Crowd', description: 'He reads a diverse audience and keeps it together instead of letting it fragment.' },
         { icon: 'smile', title: 'Warmth & Wit', description: 'His natural, inclusive humour makes every section of the crowd feel welcome.' },
-        { icon: 'music', title: 'Entertainer Built In', description: 'Live singing and interaction mean the programme never goes flat.' },
+        { icon: 'music', title: 'Entertainer Built In', description: 'Live anchoring and interaction mean the programme never goes flat.' },
         { icon: 'star', title: 'Handles VIPs Gracefully', description: 'Celebrity guests and dignitaries are managed with the right respect and timing.' },
       ],
     },
@@ -1063,7 +1060,7 @@ const EVENTS_CHILDREN: ServiceNode[] = [
       steps: [
         { step: '01', title: 'Warm Welcome', description: 'Shubham sets an inclusive tone and welcomes the community and guests.' },
         { step: '02', title: 'Programme & Culture', description: 'Cultural acts and felicitations introduced and cued with respect.' },
-        { step: '03', title: 'Entertainment & Games', description: 'Live singing and crowd games keep the whole gathering engaged.' },
+        { step: '03', title: 'Entertainment & Games', description: 'Live anchoring and crowd games keep the whole gathering engaged.' },
         { step: '04', title: 'Celebratory Close', description: 'A high-energy close that leaves the community on a shared high.' },
       ],
     },
@@ -1071,18 +1068,18 @@ const EVENTS_CHILDREN: ServiceNode[] = [
       heading: 'Social Event',
       highlight: 'Moments',
       media: [
-        { type: 'image', src: '/images/anniversary2.jpeg', alt: 'Social event hosted by Shubham Khandelwal' },
-        { type: 'video', src: '/videos/social-event.mp4', alt: 'Social event highlight film', poster: '/images/cele1.jpeg' },
-        { type: 'image', src: '/images/cele2.jpeg', alt: 'Community gathering hosting' },
-        { type: 'image', src: '/images/cele3.jpeg', alt: 'Cultural programme celebration' },
         { type: 'image', src: '/images/event.jpeg', alt: 'Community event stage' },
-        { type: 'image', src: '/images/main.jpeg', alt: 'Shubham Khandelwal hosting a gathering' },
+        { type: 'image', src: '/images/cele5.jpeg', alt: 'Social event hosted by Shubham Khandelwal' },
+        { type: 'image', src: '/images/cele2.jpeg', alt: 'Community gathering hosting' },
+        { type: 'video', src: '/videos/social-event.mp4', alt: 'Social event highlight film', poster: '/images/cele1.jpeg' },
+        { type: 'image', src: '/images/cele3.jpeg', alt: 'Cultural programme celebration' },
+        { type: 'image', src: '/images/about2.jpeg', alt: 'Shubham Khandelwal hosting a gathering' },
       ],
     },
     faqs: [
       { question: 'What counts as a social event?', answer: 'Community functions, cultural programmes, celebrity nights, get-togethers and similar gatherings. Shubham hosts them with warmth, cultural sensitivity and live entertainment.' },
       { question: 'Can you handle celebrity guests and dignitaries?', answer: 'Yes. He welcomes and manages VIP guests and honourees smoothly, giving them the right moments without disrupting the programme flow.' },
-      { question: 'How do you keep a large, mixed crowd engaged?', answer: 'By reading the room and using inclusive games, live singing and interaction so every age group and section of the audience feels part of the event.' },
+      { question: 'How do you keep a large, mixed crowd engaged?', answer: 'By reading the room and using inclusive games, live anchoring and interaction so every age group and section of the audience feels part of the event.' },
       { question: 'Do you host cultural programmes respectfully?', answer: 'Absolutely — traditions and performances are introduced with genuine respect and appropriate build-up, balancing culture with entertainment.' },
     ],
     cta: {
@@ -1127,7 +1124,7 @@ export const serviceTree: ServiceNode[] = [
       highlight: 'Expertly Hosted',
       items: [
         { icon: '💛', title: 'Haldi', description: 'Playful daytime hosting with folk songs and family games.' },
-        { icon: '🌿', title: 'Mehendi', description: 'Interactive games and live singing that keep the function buzzing.' },
+        { icon: '🌿', title: 'Mehendi', description: 'Interactive games and live anchoring that keep the function buzzing.' },
         { icon: '🎶', title: 'Sangeet', description: 'Performance emceeing and family face-offs, anchored like a show.' },
         { icon: '🌸', title: 'Varmala', description: 'A cinematic, cued garland moment worthy of your wedding film.' },
         { icon: '🚗', title: 'Baraat On Wheels', description: 'A grand mobile procession hyped to peak at the venue gates.' },
@@ -1174,7 +1171,7 @@ export const serviceTree: ServiceNode[] = [
     ],
     cta: {
       title: 'Plan a Wedding Your Guests Never Forget',
-      subtitle: 'Book Shubham to host your wedding functions with warmth, scripts and live singing.',
+      subtitle: 'Book Shubham to host your wedding functions with warmth, scripts and live anchoring.',
     },
     seo: {
       title: 'Wedding Anchor & Host — Haldi to Baraat — Shubham Khandelwal',
@@ -1193,24 +1190,24 @@ export const serviceTree: ServiceNode[] = [
     icon: '🥳',
     subtitle:
       'Birthdays and anniversaries hosted like proper celebrations — personal, playful and full of live entertainment.',
-    heroImage: '/images/birthday1.jpeg',
+    heroImage: '/images/pool.jpeg',
     intro: {
       label: 'Party Hosting',
       heading: 'Private Celebrations,',
       highlight: 'Hosted Like a Show',
       paragraphs: [
-        'The best parties do not run on autopilot — they have someone keeping the energy up and the moments landing. Shubham hosts birthdays and anniversaries as proper productions: personal roasts and tributes, tailored games, cake and milestone build-ups, and live singing that makes the guest of honour feel truly celebrated.',
-        'Every party is shaped around the people in the room — their stories, their music, their in-jokes — so it never feels like a generic template. The hosts get to enjoy their own celebration while Shubham keeps the room laughing, singing and moving. Explore each celebration below.',
+        'The best parties do not run on autopilot — they have someone keeping the energy up and the moments landing. Shubham hosts birthdays and anniversaries as proper productions: personal roasts and tributes, tailored games, cake and milestone build-ups, and live anchoring that makes the guest of honour feel truly celebrated.',
+        'Every party is shaped around the people in the room — their stories, their music, their in-jokes — so it never feels like a generic template. The hosts get to enjoy their own celebration while Shubham keeps the room laughing, anchoring and moving. Explore each celebration below.',
       ],
     },
     features: {
       heading: 'Celebrations Shubham',
       highlight: 'Brings to Life',
       items: [
-        { icon: '🎂', title: 'Birthday Parties', description: 'Milestone and surprise birthdays with games, roasts and live singing.' },
+        { icon: '🎂', title: 'Birthday Parties', description: 'Milestone and surprise birthdays with games, roasts and live anchoring.' },
         { icon: '💐', title: 'Anniversary Celebrations', description: 'Heartfelt tributes and nostalgic live music for the couple.' },
         { icon: '🎮', title: 'Tailored Games', description: 'Games designed around the guest of honour and the crowd.' },
-        { icon: '🎤', title: 'Live Singing', description: 'Performed sets and dedications that turn a party into a memory.' },
+        { icon: '🎤', title: 'Live anchoring', description: 'Performed sets and dedications that turn a party into a memory.' },
         { icon: '🎁', title: 'Surprise Moments', description: 'Coordinated surprises cued to land at the perfect emotional beat.' },
         { icon: '📸', title: 'Reel-Worthy Fun', description: 'Moments engineered to make the best photos and videos of the night.' },
       ],
@@ -1220,7 +1217,7 @@ export const serviceTree: ServiceNode[] = [
       highlight: 'Party',
       items: [
         { icon: 'gift', title: 'Deeply Personal', description: 'Every segment is built around the guest of honour, never a copy-paste script.' },
-        { icon: 'music', title: 'Host + Performer', description: 'Live singing means your party has built-in entertainment, not just an announcer.' },
+        { icon: 'music', title: 'Host + Performer', description: 'Live anchoring means your party has built-in entertainment, not just an announcer.' },
         { icon: 'smile', title: 'Reads Any Room', description: 'From a kids\' birthday to a golden anniversary, he nails the tone every time.' },
         { icon: 'heart', title: 'Hosts Enjoy It Too', description: 'You get to be a guest at your own party while Shubham runs the show.' },
       ],
@@ -1240,7 +1237,7 @@ export const serviceTree: ServiceNode[] = [
       highlight: 'Moments',
       media: [
         { type: 'image', src: '/images/birthday.jpeg', alt: 'Birthday party hosting' },
-        { type: 'image', src: '/images/.jpeg', alt: 'Anniversary celebration hosting' },
+        { type: 'image', src: '/images/anniversary.jpeg', alt: 'Anniversary celebration hosting' },
         { type: 'video', src: '/videos/vid8.mp4', alt: 'Party highlight film', poster: '/images/cele2.jpeg' },
         { type: 'image', src: '/images/cele3.jpeg', alt: 'Celebration cake moment' },
         { type: 'image', src: '/images/anniversary2.jpeg', alt: 'Private party hosting' },
@@ -1248,10 +1245,10 @@ export const serviceTree: ServiceNode[] = [
       ],
     },
     faqs: [
-      { question: 'What kinds of parties do you host?', answer: 'Birthdays of every age and milestone anniversaries. Each is hosted as a proper celebration with tailored games, tributes and live singing — explore the dedicated pages below.' },
+      { question: 'What kinds of parties do you host?', answer: 'Birthdays of every age and milestone anniversaries. Each is hosted as a proper celebration with tailored games, tributes and live anchoring — explore the dedicated pages below.' },
       { question: 'Do you personalise the party?', answer: 'Completely. Shubham builds every segment around the guest of honour\'s stories, music and relationships, so nothing feels generic.' },
       { question: 'Can you plan surprises?', answer: 'Yes. Surprise reveals, guest messages and special moments are coordinated and cued in advance so they land perfectly.' },
-      { question: 'Do you sing at parties?', answer: 'He does — live singing and dedications are one of the most loved parts of every celebration.' },
+      { question: 'Do you sing at parties?', answer: 'He does — live anchoring and dedications are one of the most loved parts of every celebration.' },
     ],
     cta: {
       title: 'Throw a Party Nobody Forgets',
@@ -1259,7 +1256,7 @@ export const serviceTree: ServiceNode[] = [
     },
     seo: {
       title: 'Party Host — Birthdays & Anniversaries — Shubham Khandelwal',
-      description: 'Personal, high-energy hosting for birthday parties and anniversary celebrations with games, roasts, tributes and live singing. Book Shubham Khandelwal, Jaipur.',
+      description: 'Personal, high-energy hosting for birthday parties and anniversary celebrations with games, roasts, tributes and live anchoring. Book Shubham Khandelwal, Jaipur.',
       keywords: ['party host Jaipur', 'birthday anchor', 'anniversary host', 'private party emcee', 'celebration entertainer Rajasthan'],
       ogImage: '/images/birthday.jpeg',
     },
@@ -1274,7 +1271,7 @@ export const serviceTree: ServiceNode[] = [
     icon: '🎭',
     subtitle:
       'Fashion shows and live productions anchored by a host who is also a performer — sharp, sequenced and full of energy.',
-    heroImage: '/images/entertainment.jpeg',
+    heroImage: '/images/show.jpeg',
     intro: {
       label: 'Show Hosting',
       heading: 'Productions That Run',
@@ -1320,12 +1317,12 @@ export const serviceTree: ServiceNode[] = [
       heading: 'Show',
       highlight: 'Moments',
       media: [
-        { type: 'image', src: '/images/entertainment.jpeg', alt: 'Live show hosting' },
+        { type: 'image', src: '/images/show3.png', alt: 'Live show hosting' },
         { type: 'image', src: '/images/event.jpeg', alt: 'Fashion show hosting' },
-        { type: 'video', src: '/videos/vid1.mp4', alt: 'Show highlight film', poster: '/images/banner.jpeg' },
+        { type: 'video', src: '/videos/live-show.mp4', alt: 'Show highlight film', poster: '/images/show2.png' },
         { type: 'image', src: '/images/dark.jpeg', alt: 'Premium show lighting' },
-        { type: 'image', src: '/images/main.jpeg', alt: 'Shubham Khandelwal on stage' },
-        { type: 'image', src: '/images/cele3.jpeg', alt: 'Show audience energy' },
+        { type: 'image', src: '/images/show1.png', alt: 'Shubham Khandelwal on stage' },
+        { type: 'image', src: '/images/cele5.jpeg', alt: 'Show audience energy' },
       ],
     },
     faqs: [
@@ -1428,85 +1425,85 @@ export const serviceTree: ServiceNode[] = [
     children: EVENTS_CHILDREN,
   },
   /* ═══ School Programs (leaf) ═══ */
-  {
-    slug: 'school-programs',
-    title: 'School Programs',
-    navLabel: 'School Programs',
-    tag: 'School Hosting',
-    icon: '🎓',
-    subtitle:
-      'Annual days, prize distributions and cultural fests hosted with an energy that speaks to students, staff and parents alike.',
-    heroImage: '/images/event.jpeg',
-    intro: {
-      label: 'School Hosting',
-      heading: 'Bringing Energy to the',
-      highlight: 'School Stage',
-      paragraphs: [
-        'School events have a tricky audience — restless students, proud parents and a formal management, all in one hall. Shubham hosts annual functions, prize distributions, cultural fests and inauguration ceremonies with an energy that keeps children engaged while giving teachers, chief guests and management the respect and formality the occasion needs.',
-        'He introduces performances with genuine enthusiasm, keeps a long programme moving so it never drags, and handles the felicitation and prize-giving segments with the dignity schools expect. The result is an event that feels lively and memorable for students, yet polished and well-run for the institution.',
-      ],
-    },
-    features: {
-      heading: 'What Shubham Brings to Your',
-      highlight: 'School Event',
-      items: [
-        { icon: '🎓', title: 'Annual Functions', description: 'The full annual day hosted with pace, warmth and energy from start to finish.' },
-        { icon: '🏆', title: 'Prize Distribution', description: 'Award and prize segments run smoothly and with dignity for every recipient.' },
-        { icon: '🎭', title: 'Cultural Fests', description: 'Student performances introduced with enthusiasm and cued in perfect sequence.' },
-        { icon: '🎤', title: 'Chief Guest Handling', description: 'Dignitaries and chief guests welcomed and honoured with the right formality.' },
-        { icon: '🧒', title: 'Student Engagement', description: 'An energy and language pitched to keep even the youngest students involved.' },
-        { icon: '⏱️', title: 'Programme Pacing', description: 'A long, multi-act programme kept moving so it never drags or overruns.' },
-      ],
-    },
-    reasons: {
-      heading: 'Why Schools Book',
-      highlight: 'Shubham',
-      items: [
-        { icon: 'graduation', title: 'Balances Fun & Formality', description: 'He keeps students engaged while giving management the polish and respect they expect.' },
-        { icon: 'clock', title: 'Keeps Long Programmes Moving', description: 'Multi-act school functions stay paced and on time, never dragging.' },
-        { icon: 'users', title: 'Speaks to Every Section', description: 'Students, parents, teachers and chief guests all feel addressed and included.' },
-        { icon: 'star', title: 'Dignified Prize-Giving', description: 'Award and felicitation moments handled with the care an institution values.' },
-      ],
-    },
-    flow: {
-      heading: 'How Shubham Hosts Your',
-      highlight: 'School Event',
-      steps: [
-        { step: '01', title: 'Coordinate With Staff', description: 'He aligns the programme, sequence and dignitaries with the school team.' },
-        { step: '02', title: 'Formal Welcome', description: 'A respectful open welcoming management, chief guests and parents.' },
-        { step: '03', title: 'Performances & Prizes', description: 'Cultural acts and prize distribution introduced, cued and paced.' },
-        { step: '04', title: 'Memorable Close', description: 'A warm, energetic finish that sends everyone home proud.' },
-      ],
-    },
-    gallery: {
-      heading: 'School Event',
-      highlight: 'Moments',
-      media: [
-        { type: 'image', src: '/images/event.jpeg', alt: 'School annual function hosting' },
-        { type: 'image', src: '/images/entertainment.jpeg', alt: 'Stage performance hosting' },
-        { type: 'video', src: '/videos/vid7.mp4', alt: 'School event film', poster: '/images/cele3.jpeg' },
-        { type: 'image', src: '/images/banner.jpeg', alt: 'School event stage' },
-        { type: 'image', src: '/images/main.jpeg', alt: 'Shubham Khandelwal hosting on stage' },
-        { type: 'image', src: '/images/hero.jpeg', alt: 'Event hosting energy' },
-      ],
-    },
-    faqs: [
-      { question: 'What school events do you host?', answer: 'Annual functions, prize distributions, cultural fests, sports days and inauguration ceremonies — hosted with the right balance of energy for students and formality for management.' },
-      { question: 'Can you keep young students engaged?', answer: 'Yes. Shubham pitches his energy and language to connect with children while keeping the programme respectful for parents and staff.' },
-      { question: 'How do you handle chief guests and dignitaries?', answer: 'With appropriate formality — welcomes, felicitations and prize-giving are all handled with the dignity a school occasion requires.' },
-      { question: 'Can you keep a long programme on time?', answer: 'Pacing a long, multi-act programme is a core strength — he keeps it moving so it stays lively and finishes on schedule.' },
-    ],
-    cta: {
-      title: 'Host a School Event to Remember',
-      subtitle: 'Book Shubham to host your annual function, prize distribution or cultural fest.',
-    },
-    seo: {
-      title: 'School Event & Annual Function Host — Shubham Khandelwal',
-      description: 'Energetic, dignified hosting for school annual functions, prize distributions and cultural fests. Book Jaipur event host Shubham Khandelwal.',
-      keywords: ['school annual function host', 'prize distribution anchor', 'school event emcee Jaipur', 'cultural fest host', 'school program anchor Rajasthan'],
-      ogImage: '/images/event.jpeg',
-    },
-  },
+  // {
+  //   slug: 'school-programs',
+  //   title: 'School Programs',
+  //   navLabel: 'School Programs',
+  //   tag: 'School Hosting',
+  //   icon: '🎓',
+  //   subtitle:
+  //     'Annual days, prize distributions and cultural fests hosted with an energy that speaks to students, staff and parents alike.',
+  //   heroImage: '/images/event.jpeg',
+  //   intro: {
+  //     label: 'School Hosting',
+  //     heading: 'Bringing Energy to the',
+  //     highlight: 'School Stage',
+  //     paragraphs: [
+  //       'School events have a tricky audience — restless students, proud parents and a formal management, all in one hall. Shubham hosts annual functions, prize distributions, cultural fests and inauguration ceremonies with an energy that keeps children engaged while giving teachers, chief guests and management the respect and formality the occasion needs.',
+  //       'He introduces performances with genuine enthusiasm, keeps a long programme moving so it never drags, and handles the felicitation and prize-giving segments with the dignity schools expect. The result is an event that feels lively and memorable for students, yet polished and well-run for the institution.',
+  //     ],
+  //   },
+  //   features: {
+  //     heading: 'What Shubham Brings to Your',
+  //     highlight: 'School Event',
+  //     items: [
+  //       { icon: '🎓', title: 'Annual Functions', description: 'The full annual day hosted with pace, warmth and energy from start to finish.' },
+  //       { icon: '🏆', title: 'Prize Distribution', description: 'Award and prize segments run smoothly and with dignity for every recipient.' },
+  //       { icon: '🎭', title: 'Cultural Fests', description: 'Student performances introduced with enthusiasm and cued in perfect sequence.' },
+  //       { icon: '🎤', title: 'Chief Guest Handling', description: 'Dignitaries and chief guests welcomed and honoured with the right formality.' },
+  //       { icon: '🧒', title: 'Student Engagement', description: 'An energy and language pitched to keep even the youngest students involved.' },
+  //       { icon: '⏱️', title: 'Programme Pacing', description: 'A long, multi-act programme kept moving so it never drags or overruns.' },
+  //     ],
+  //   },
+  //   reasons: {
+  //     heading: 'Why Schools Book',
+  //     highlight: 'Shubham',
+  //     items: [
+  //       { icon: 'graduation', title: 'Balances Fun & Formality', description: 'He keeps students engaged while giving management the polish and respect they expect.' },
+  //       { icon: 'clock', title: 'Keeps Long Programmes Moving', description: 'Multi-act school functions stay paced and on time, never dragging.' },
+  //       { icon: 'users', title: 'Speaks to Every Section', description: 'Students, parents, teachers and chief guests all feel addressed and included.' },
+  //       { icon: 'star', title: 'Dignified Prize-Giving', description: 'Award and felicitation moments handled with the care an institution values.' },
+  //     ],
+  //   },
+  //   flow: {
+  //     heading: 'How Shubham Hosts Your',
+  //     highlight: 'School Event',
+  //     steps: [
+  //       { step: '01', title: 'Coordinate With Staff', description: 'He aligns the programme, sequence and dignitaries with the school team.' },
+  //       { step: '02', title: 'Formal Welcome', description: 'A respectful open welcoming management, chief guests and parents.' },
+  //       { step: '03', title: 'Performances & Prizes', description: 'Cultural acts and prize distribution introduced, cued and paced.' },
+  //       { step: '04', title: 'Memorable Close', description: 'A warm, energetic finish that sends everyone home proud.' },
+  //     ],
+  //   },
+  //   gallery: {
+  //     heading: 'School Event',
+  //     highlight: 'Moments',
+  //     media: [
+  //       { type: 'image', src: '/images/event.jpeg', alt: 'School annual function hosting' },
+  //       { type: 'image', src: '/images/entertainment.jpeg', alt: 'Stage performance hosting' },
+  //       { type: 'video', src: '/videos/vid7.mp4', alt: 'School event film', poster: '/images/cele3.jpeg' },
+  //       { type: 'image', src: '/images/banner.jpeg', alt: 'School event stage' },
+  //       { type: 'image', src: '/images/main.jpeg', alt: 'Shubham Khandelwal hosting on stage' },
+  //       { type: 'image', src: '/images/hero.jpeg', alt: 'Event hosting energy' },
+  //     ],
+  //   },
+  //   faqs: [
+  //     { question: 'What school events do you host?', answer: 'Annual functions, prize distributions, cultural fests, sports days and inauguration ceremonies — hosted with the right balance of energy for students and formality for management.' },
+  //     { question: 'Can you keep young students engaged?', answer: 'Yes. Shubham pitches his energy and language to connect with children while keeping the programme respectful for parents and staff.' },
+  //     { question: 'How do you handle chief guests and dignitaries?', answer: 'With appropriate formality — welcomes, felicitations and prize-giving are all handled with the dignity a school occasion requires.' },
+  //     { question: 'Can you keep a long programme on time?', answer: 'Pacing a long, multi-act programme is a core strength — he keeps it moving so it stays lively and finishes on schedule.' },
+  //   ],
+  //   cta: {
+  //     title: 'Host a School Event to Remember',
+  //     subtitle: 'Book Shubham to host your annual function, prize distribution or cultural fest.',
+  //   },
+  //   seo: {
+  //     title: 'School Event & Annual Function Host — Shubham Khandelwal',
+  //     description: 'Energetic, dignified hosting for school annual functions, prize distributions and cultural fests. Book Jaipur event host Shubham Khandelwal.',
+  //     keywords: ['school annual function host', 'prize distribution anchor', 'school event emcee Jaipur', 'cultural fest host', 'school program anchor Rajasthan'],
+  //     ogImage: '/images/event.jpeg',
+  //   },
+  // },
 ]
 
 /* ─────────────────────────────────────────────

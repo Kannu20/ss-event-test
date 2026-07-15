@@ -34,7 +34,7 @@ export const faqs: FAQItem[] = [
   {
     id: 'faq-005',
     question: 'Does he really sing live during the event?',
-    answer: 'Yes. Live singing is one of the things that sets Shubham apart. When a moment calls for it — a varmala, a couple’s first dance, an emotional dedication — he steps in with a live vocal performance that guests never expect.',
+    answer: 'Yes. Live anchoring is one of the things that sets Shubham apart. When a moment calls for it — a varmala, a couple’s first dance, an emotional dedication — he steps in with a live vocal performance that guests never expect.',
     category: 'wedding',
     featured: false,
   },
@@ -79,7 +79,7 @@ export const faqs: FAQItem[] = [
   {
     id: 'faq-011',
     question: 'How is pricing decided?',
-    answer: 'Every event is quoted individually based on the type, date, city, number of functions and how much of the show Shubham designs (hosting only, or hosting plus live singing and scripting). You get a clear quote after a quick consultation — no hidden extras.',
+    answer: 'Every event is quoted individually based on the type, date, city, number of functions and how much of the show Shubham designs (hosting only, or hosting plus live anchoring and scripting). You get a clear quote after a quick consultation — no hidden extras.',
     category: 'pricing',
     featured: true,
   },

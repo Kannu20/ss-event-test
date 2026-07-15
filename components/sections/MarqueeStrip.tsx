@@ -12,7 +12,7 @@ const items = [
   '1500+ Shows Hosted',
   'Award-Winning Performer',
   'Multilingual Hosting',
-  'Live Singing',
+  'Live anchoring',
   'Based in Jaipur',
 ]
 

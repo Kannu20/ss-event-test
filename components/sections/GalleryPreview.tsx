@@ -35,11 +35,6 @@ const previewImages = [
     alt: 'Birthday party decoration',
     className: '',
   },
-  {
-    src: '/images/cele1.jpeg',
-    alt: 'Stage production setup',
-    className: '',
-  },
 ]
 
 export function GalleryPreview() {

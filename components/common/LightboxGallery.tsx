@@ -107,7 +107,9 @@ export function LightboxGallery({
             {/* Category badge */}
             {image.category && (
               <div className="absolute top-3 left-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <CategoryBadge category={image.category} />
+                <span className="rounded-full bg-black/50 px-2.5 py-1 font-accent text-[0.6rem] uppercase tracking-wider text-white backdrop-blur-sm">
+                  {image.category}
+                </span>
               </div>
             )}
           </button>

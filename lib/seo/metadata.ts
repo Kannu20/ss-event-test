@@ -53,13 +53,13 @@ export const pageSEO = {
   },
   services: {
     title: 'What Shubham Hosts — Anchoring & Live Entertainment',
-    description: 'From wedding and sangeet anchoring to corporate emceeing, live singing and show scripting — everything Shubham Khandelwal brings to your stage.',
+    description: 'From wedding and sangeet anchoring to corporate emceeing, live anchoring and show scripting — everything Shubham Khandelwal brings to your stage.',
     keywords: ['wedding anchor services', 'corporate emcee', 'sangeet anchor', 'live stage performer for events', 'event host services'],
     canonical: '/services',
   },
   videos: {
     title: 'Showreel & Videos — Artist Shubham Khandelwal',
-    description: "Watch Shubham Khandelwal's official showreel and highlights — weddings, sangeets, corporate stages and live singing moments.",
+    description: "Watch Shubham Khandelwal's official showreel and highlights — weddings, sangeets, corporate stages and live anchoring moments.",
     keywords: ['wedding anchor showreel', 'Shubham Khandelwal videos', 'anchor performance video', 'emcee showreel'],
     canonical: '/videos',
   },
@@ -83,7 +83,7 @@ export const pageSEO = {
   },
   faqs: {
     title: 'FAQs — Booking Artist Shubham Khandelwal',
-    description: 'Answers about booking Shubham Khandelwal — availability, languages, live singing, pricing and how to reserve your date.',
+    description: 'Answers about booking Shubham Khandelwal — availability, languages, live anchoring, pricing and how to reserve your date.',
     keywords: ['book wedding anchor', 'anchor booking questions', 'wedding host FAQ', 'emcee pricing'],
     canonical: '/faqs',
   },

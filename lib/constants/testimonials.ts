@@ -44,7 +44,7 @@ export const testimonials: Testimonial[] = [
     location: 'Jaipur',
     eventType: 'social',
     rating: 5,
-    quote: "For my 30th I wanted energy, not a script being read out. Shubham brought games, banter and a live singing set that had everyone on their feet. He genuinely made the night about the people in the room.",
+    quote: "For my 30th I wanted energy, not a script being read out. Shubham brought games, banter and a live anchoring set that had everyone on their feet. He genuinely made the night about the people in the room.",
     date: '2024-09-12',
     platform: 'instagram',
     featured: false,

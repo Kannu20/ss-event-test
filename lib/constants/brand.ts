@@ -51,7 +51,7 @@ export const heroBadges = [
   '1500+ Shows Hosted',
   'Award-Winning Performer',
   'Multilingual Hosting',
-  'Live Singing',
+  'Live anchoring',
 ]
 
 /** Contact + social links (env-driven where possible) */

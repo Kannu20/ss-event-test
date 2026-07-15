@@ -60,6 +60,5 @@ export const footerLinks = {
 export const socialLinks = [
   { label: 'Instagram', href: 'https://www.instagram.com/artistshubhamkhandelwal/', icon: 'Instagram' },
   { label: 'Facebook', href: 'https://www.facebook.com/shubham.khandelwal.9883', icon: 'Facebook' },
-  { label: 'YouTube', href: 'https://www.youtube.com/@artistshubhamkhandelwal', icon: 'Youtube' },
   { label: 'WhatsApp', href: `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}`, icon: 'MessageCircle' },
 ]

@@ -41,7 +41,7 @@ export default function ServicesPage() {
         title="What Shubham Hosts"
         subtitle="From weddings and parties to shows, corporate stages and school events — one artist on the mic, holding every kind of room together. Explore each service below."
         tag="Services"
-        image="/images/entertainment.jpeg"
+        image="/images/sangeet.jpeg"
         size="lg"
         breadcrumbs={[{ label: 'Services' }]}
       />
