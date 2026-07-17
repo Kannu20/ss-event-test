@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation'
 import { ArrowLeft, Calendar, Clock, Tag } from 'lucide-react'
 import { JsonLd } from '@/components/common/JsonLd'
 import { breadcrumbSchema } from '@/lib/seo/schema'
+import { HeroImage } from '@/components/common/HeroImage'
 import { BookingCTAStrip } from '@/components/sections/BookingCTAStrip'
 import { Badge } from '@/components/ui/Badge'
 import { blogPosts } from '@/lib/constants/blog'
@@ -49,12 +50,10 @@ export default async function BlogPostPage({ params }: Props) {
 
       <article className="min-h-screen bg-black pt-24">
         {/* Hero */}
-        <div className="relative h-72 md:h-96 lg:h-[480px] mb-0">
-          <Image
+        <div className="relative h-72 md:h-96 min-[1280px]:h-[440px] min-[1650px]:h-[520px] min-[1920px]:h-[580px] mb-0">
+          <HeroImage
             src={post.coverImage}
             alt={post.title}
-            fill
-            className="object-cover"
             priority
             sizes="100vw"
           />

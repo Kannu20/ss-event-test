@@ -1,14 +1,15 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
-import Image from 'next/image'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { ArrowDown, Phone, MessageCircle, Play } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { GoldLine } from '@/components/ui/GoldLine'
+import { HeroImage } from '@/components/common/HeroImage'
 import { brand, heroBadges, brandLinks, whatsappMessage } from '@/lib/constants/brand'
 
 const PHONE = brandLinks.phoneDisplay
+const PHONE2 = brandLinks.phoneDisplay2
 const WHATSAPP = brandLinks.whatsapp
 
 // Rotating professional identities
@@ -69,13 +70,18 @@ export function HeroSection() {
     >
       {/* Parallax background */}
       <motion.div className="absolute inset-0" style={{ y: imgY }}>
-        <Image
+        <HeroImage
           src="/images/main.jpeg"
           alt="Artist Shubham Khandelwal hosting a live celebration on stage"
-          fill
           priority
-          className="object-cover object-center"
           sizes="100vw"
+          position={{
+            mobile: 'center',
+            tablet: 'center 15%',
+            laptop: 'center 10%',
+            desktop: 'center 16%',
+            desktopLarge: 'center 18%',
+          }}
         />
       </motion.div>
 
@@ -184,7 +190,7 @@ export function HeroSection() {
           className="flex items-center gap-2 bg-black-soft/80 border border-white/10 rounded-full px-4 py-2.5 text-white/70 hover:text-gold hover:border-gold/40 transition-all duration-300 text-sm font-sans backdrop-blur-sm"
         >
           <Phone className="w-3.5 h-3.5" />
-          {PHONE}
+          {PHONE} / {PHONE2}
         </a>
         <a
           href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(whatsappMessage)}`}

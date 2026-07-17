@@ -283,7 +283,7 @@ const WEDDING_CHILDREN: ServiceNode[] = [
     icon: '🎶',
     subtitle:
       'The headline night of the wedding — performances, family face-offs and live anchoring, anchored so the energy never drops.',
-    heroImage: '/images/sangeet.jpeg',
+    heroImage: '/images/sangeet9.jpeg',
     intro: {
       label: 'Your Sangeet Host',
       heading: 'The Night the Whole Family',
@@ -330,9 +330,11 @@ const WEDDING_CHILDREN: ServiceNode[] = [
       highlight: 'Moments',
       media: [
         { type: 'image', src: '/images/sangeet.jpeg', alt: 'Sangeet night anchored by Shubham Khandelwal' },
+        { type: 'image', src: '/images/sangeet9.jpeg', alt: 'Sangeet night' },
         { type: 'image', src: '/images/sangeet1.jpeg', alt: 'Sangeet performance on stage' },
         { type: 'video', src: '/videos/sangeet.mp4', alt: 'Sangeet night highlights', poster: '/images/sangeet2.jpeg' },
-        { type: 'image', src: '/images/sangeet3.jpeg', alt: 'Family dance at the sangeet' },
+        { type: 'image', src: '/images/sangeet10.jpeg', alt: 'Family dance at the sangeet' },
+        { type: 'image', src: '/images/sangeet7.jpeg', alt: 'Amazing Family dance at the sangeet' },
         { type: 'image', src: '/images/sangeet4.jpeg', alt: 'Sangeet celebration energy' },
       ],
     },

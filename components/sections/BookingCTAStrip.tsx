@@ -8,6 +8,7 @@ import { GoldLine } from '@/components/ui/GoldLine'
 
 const WHATSAPP = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '919876543210'
 const PHONE = process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? '+91 98765 43210'
+const PHONE2 = process.env.NEXT_PUBLIC_PHONE_DISPLAY_2 ?? '+91 80790 19589'
 
 interface BookingCTAStripProps {
   title?: string
@@ -78,7 +79,7 @@ export function BookingCTAStrip({
               className="inline-flex items-center gap-2 text-white/50 hover:text-white transition-colors font-sans text-sm"
             >
               <Phone className="w-4 h-4" />
-              {PHONE}
+              {PHONE} / {PHONE2}
             </a>
           </div>
         </motion.div>

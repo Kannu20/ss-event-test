@@ -10,6 +10,7 @@ import { ContactForm } from '@/components/forms/ContactForm'
 import { staggerContainer, fadeInUp, fadeInLeft, fadeInRight } from '@/lib/animations/variants'
 
 const PHONE = process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? '+91 90575 26202'
+const PHONE2 = process.env.NEXT_PUBLIC_PHONE_DISPLAY_2 ?? '+91 80790 19589'
 const EMAIL = process.env.NEXT_PUBLIC_EMAIL ?? 'Khandelwalshubham79@gmail.com'
 const WHATSAPP = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '919057526202'
 
@@ -17,7 +18,7 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Call Us',
-    value: PHONE,
+    value: `${PHONE} / ${PHONE2}`,
     href: `tel:${PHONE}`,
   },
   {

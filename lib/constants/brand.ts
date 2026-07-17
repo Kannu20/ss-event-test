@@ -58,6 +58,8 @@ export const heroBadges = [
 export const brandLinks = {
   phone: process.env.NEXT_PUBLIC_PHONE_NUMBER ?? '919057526202',
   phoneDisplay: process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? '+91 90575 26202',
+  phone2: process.env.NEXT_PUBLIC_PHONE_NUMBER_2 ?? '918079019589',
+  phoneDisplay2: process.env.NEXT_PUBLIC_PHONE_DISPLAY_2 ?? '+91 80790 19589',
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '919057526202',
   email: process.env.NEXT_PUBLIC_EMAIL ?? 'Khandelwalshubham79@gmail.com',
   instagram: 'https://www.instagram.com/artistshubhamkhandelwal/',

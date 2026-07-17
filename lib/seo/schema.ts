@@ -29,7 +29,7 @@ export function personSchema() {
       addressRegion: 'Rajasthan',
       addressCountry: 'IN',
     },
-    telephone: process.env.NEXT_PUBLIC_PHONE_NUMBER,
+    telephone: [process.env.NEXT_PUBLIC_PHONE_NUMBER, process.env.NEXT_PUBLIC_PHONE_NUMBER_2],
     email: process.env.NEXT_PUBLIC_EMAIL,
     knowsLanguage: ['Hindi', 'English', 'Rajasthani'],
     award: 'Best Actor in Jaipur — Forever Star India Awards, 2023',
@@ -55,7 +55,7 @@ export function localBusinessSchema() {
       'Professional wedding anchor, live entertainer and event host based in Jaipur, Rajasthan — available for weddings, corporate events and private celebrations across India.',
     url: baseUrl,
     image: `${baseUrl}/images/main.jpeg`,
-    telephone: process.env.NEXT_PUBLIC_PHONE_NUMBER,
+    telephone: [process.env.NEXT_PUBLIC_PHONE_NUMBER, process.env.NEXT_PUBLIC_PHONE_NUMBER_2],
     email: process.env.NEXT_PUBLIC_EMAIL,
     address: {
       '@type': 'PostalAddress',

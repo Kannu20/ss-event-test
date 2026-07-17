@@ -14,7 +14,7 @@ const services = [
   {
     title: 'Wedding & Sangeet Anchoring',
     description: 'Ceremony hosting, high-energy sangeet nights, cocktail and reception compering — with live anchoring and crowd games woven in.',
-    image: '/images/portfolio.jpg',
+    image: '/images/sangeet9.jpeg',
     href: '/services/wedding-events',
     tags: ['Weddings', 'Sangeet', 'Reception'],
     accent: 'text-rose-300',
@@ -38,7 +38,7 @@ const services = [
   {
     title: 'Live Entertainment & anchoring',
     description: 'The front-man your event needs — live anchoring sets, interactive games and audience engagement that keep the energy soaring.',
-    image: '/images/entertainment.jpeg',
+    image: '/images/haldi5.jpeg',
     href: '/services/entertainment-services',
     tags: ['Live anchoring', 'Games', 'Energy'],
     accent: 'text-amber-300',

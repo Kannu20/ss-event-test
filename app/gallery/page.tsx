@@ -17,7 +17,7 @@ export default function GalleryPage() {
         title="On-Stage Gallery"
         subtitle="Hundreds of moments captured with Shubham on the mic. Browse the gallery and picture him hosting your celebration."
         tag="Gallery"
-        image="/images/dark.jpeg"
+        image="/images/sangeet7.jpeg"
         breadcrumbs={[{ label: 'Gallery' }]}
       />
 

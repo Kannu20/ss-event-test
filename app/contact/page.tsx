@@ -10,6 +10,7 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react'
 export const metadata: Metadata = generatePageMetadata(pageSEO.contact)
 
 const PHONE = process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? '+91 98765 43210'
+const PHONE2 = process.env.NEXT_PUBLIC_PHONE_DISPLAY_2 ?? '+91 80790 19589'
 const EMAIL = process.env.NEXT_PUBLIC_EMAIL ?? 'Khandelwalshubham79@gmail.com'
 const WHATSAPP = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '919876543210'
 
@@ -17,7 +18,7 @@ const contactDetails = [
   {
     icon: Phone,
     label: 'Phone',
-    value: PHONE,
+    value: `${PHONE} / ${PHONE2}`,
     href: `tel:${PHONE}`,
     description: 'Call Shubham directly',
   },

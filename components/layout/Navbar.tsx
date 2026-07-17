@@ -312,7 +312,7 @@ function MobileMenu({ isOpen, onClose, pathname }: { isOpen: boolean; onClose: (
                 className="flex items-center justify-center gap-2 py-2.5 font-sans text-sm text-gray-400 hover:text-white transition-colors"
               >
                 <Phone className="w-4 h-4 text-gold" />
-                {process.env.NEXT_PUBLIC_PHONE_DISPLAY}
+                {process.env.NEXT_PUBLIC_PHONE_DISPLAY} / {process.env.NEXT_PUBLIC_PHONE_DISPLAY_2}
               </a>
             </div>
           </motion.div>
@@ -370,7 +370,7 @@ export function Navbar() {
                 aria-label="Call us"
               >
                 <Phone className="w-4 h-4" />
-                <span className="hidden xl:inline">{process.env.NEXT_PUBLIC_PHONE_DISPLAY}</span>
+                <span className="hidden xl:inline">{process.env.NEXT_PUBLIC_PHONE_DISPLAY} / {process.env.NEXT_PUBLIC_PHONE_DISPLAY_2}</span>
               </a>
               <Button href={ctaNavItem.href} variant="primary" size="sm">
                 {ctaNavItem.label}

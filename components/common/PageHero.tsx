@@ -1,9 +1,9 @@
 'use client'
 
-import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { cn } from '@/lib/utils/cn'
 import { Breadcrumb, type BreadcrumbItem } from './Breadcrumb'
+import { HeroImage, type HeroImagePosition } from './HeroImage'
 import { staggerContainer, fadeInUp, fadeInDown } from '@/lib/animations/variants'
 
 interface PageHeroProps {
@@ -20,12 +20,27 @@ interface PageHeroProps {
   children?: React.ReactNode
   /** Height of the hero */
   size?: 'sm' | 'md' | 'lg'
+  /** object-position override for mobile (< 768px) */
+  imagePositionMobile?: string
+  /** object-position override for tablet (>= 768px) */
+  imagePositionTablet?: string
+  /** object-position override for laptop (>= 1280px, covers 1366/1440/1536) */
+  imagePositionLaptop?: string
+  /** object-position override for desktop (>= 1650px) */
+  imagePositionDesktop?: string
+  /** 'contain' (default) shows the complete photo with a blurred backdrop; 'cover' fills full-bleed. */
+  fit?: 'cover' | 'contain'
 }
 
+/**
+ * Responsive height per size preset — grows across mobile, tablet, laptop,
+ * desktop and large-desktop tiers so wide/short laptop viewports show more
+ * of a portrait hero image vertically instead of cropping the subject.
+ */
 const sizeClasses = {
-  sm: 'min-h-[30vh] md:min-h-[35vh]',
-  md: 'min-h-[40vh] md:min-h-[50vh]',
-  lg: 'min-h-[55vh] md:min-h-[65vh]',
+  sm: 'min-h-[30vh] md:min-h-[35vh] min-[1280px]:min-h-[40vh] min-[1650px]:min-h-[46vh] min-[1920px]:min-h-[52vh]',
+  md: 'min-h-[40vh] md:min-h-[50vh] min-[1280px]:min-h-[56vh] min-[1650px]:min-h-[65vh] min-[1920px]:min-h-[73vh]',
+  lg: 'min-h-[55vh] md:min-h-[60vh] min-[1280px]:min-h-[68vh] min-[1650px]:min-h-[80vh] min-[1920px]:min-h-[90vh]',
 }
 
 const overlayClasses = {
@@ -48,7 +63,20 @@ export function PageHero({
   tag,
   children,
   size = 'md',
+  imagePositionMobile,
+  imagePositionTablet,
+  imagePositionLaptop,
+  imagePositionDesktop,
+  fit = 'contain',
 }: PageHeroProps) {
+  const imagePosition: HeroImagePosition = {
+    mobile: imagePositionMobile,
+    tablet: imagePositionTablet,
+    laptop: imagePositionLaptop,
+    desktop: imagePositionDesktop,
+    desktopLarge: imagePositionDesktop,
+  }
+
   return (
     <section
       className={cn(
@@ -60,14 +88,7 @@ export function PageHero({
       {/* Background Image */}
       {image && (
         <>
-          <Image
-            src={image}
-            alt={title}
-            fill
-            className="object-cover object-center"
-            priority
-            sizes="100vw"
-          />
+          <HeroImage src={image} alt={title} priority sizes="100vw" position={imagePosition} fit={fit} />
           {/* Gradient overlay */}
           <div
             className={cn(

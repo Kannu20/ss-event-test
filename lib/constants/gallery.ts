@@ -11,6 +11,9 @@ export const galleryImages: GalleryImage[] = [
   { id: 'g3', src: '/images/sangeet2.jpeg', alt: 'Family dancing at the sangeet', category: 'sangeet', width: 591, height: 1280 },
   { id: 'g4', src: '/images/sangeet3.jpeg', alt: 'Sangeet crowd on their feet', category: 'sangeet', width: 591, height: 1280 },
   { id: 'g5', src: '/images/sangeet4.jpeg', alt: 'Sangeet celebration energy', category: 'sangeet', width: 960, height: 1280 },
+  { id: 'g60', src: '/images/sangeet7.jpeg', alt: 'Sangeet celebration energy', category: 'sangeet', width: 960, height: 1280 },
+  { id: 'g70', src: '/images/sangeet10.jpeg', alt: 'Sangeet celebration energy', category: 'sangeet', width: 960, height: 1280 },
+  { id: 'g71', src: '/images/sangeet9.jpeg', alt: 'Sangeet celebration energy', category: 'sangeet', width: 960, height: 1280 },
 
   // Varmala
   { id: 'g6', src: '/images/varmala.jpeg', alt: 'Varmala ceremony compering', category: 'varmala', width: 1840, height: 4096 },

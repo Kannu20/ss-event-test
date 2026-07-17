@@ -5,6 +5,7 @@ import { GoldLine } from '@/components/ui/GoldLine'
 
 const phoneNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER ?? ''
 const phoneDisplay = process.env.NEXT_PUBLIC_PHONE_DISPLAY ?? ''
+const phoneDisplay2 = process.env.NEXT_PUBLIC_PHONE_DISPLAY_2 ?? ''
 const email = process.env.NEXT_PUBLIC_EMAIL ?? ''
 const address = process.env.NEXT_PUBLIC_ADDRESS ?? ''
 const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? ''
@@ -160,7 +161,7 @@ export function Footer() {
                   <div>
                     <p className="font-accent text-[0.6rem] tracking-widest uppercase text-gray-500 mb-0.5">Phone</p>
                     <p className="font-sans text-sm text-gray-300 group-hover:text-gold transition-colors">
-                      {phoneDisplay}
+                      {phoneDisplay} / {phoneDisplay2}
                     </p>
                   </div>
                 </a>
