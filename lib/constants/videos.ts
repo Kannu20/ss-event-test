@@ -21,8 +21,8 @@ export const videos: VideoItem[] = [
     id: 'v1',
     title: 'Artist Shubham Khandelwal — Official Showreel',
     description: 'Ninety seconds of pure stage energy. Watch Shubham work the crowd, sing live and command the mic across weddings, corporate stages and live shows.',
-    thumbnail: '/images/main.jpeg',
-    video: '/videos/social-event.mp4',
+    thumbnail: '/images/sangeet9.jpeg',
+    video: '/videos/sangeet1.mp4',
     youtubeId: PLACEHOLDER_ID,
     category: 'highlights',
     duration: '1:45',
@@ -34,7 +34,7 @@ export const videos: VideoItem[] = [
     title: 'Palace Sangeet Night — Udaipur',
     description: 'A royal sangeet where Shubham kept 600 guests on their feet, from the varmala live song to the fireworks finale.',
     thumbnail: '/images/sangeet7.jpeg',
-    video: '/videos/sangeet1.mov',
+    video: '/videos/sangeet.mp4',
     youtubeId: PLACEHOLDER_ID,
     category: 'wedding',
     duration: '0:40',
@@ -116,6 +116,18 @@ export const videos: VideoItem[] = [
   category: 'wedding',
   duration: '0:41',
   date: '2024-06-15',
+},
+
+{
+  id: 'v10',
+  title: 'Corporate Event Highlights',
+  description: 'A professionally hosted corporate event featuring engaging stage performances, inspiring moments, team celebrations, audience interaction, and a vibrant atmosphere that made the occasion truly memorable.',
+  thumbnail: '/images/corporate3.png',
+  video: '/videos/social-event.mp4',
+  youtubeId: PLACEHOLDER_ID,
+  category: 'social',
+  duration: '1:12',
+  date: '2024-08-10',
 },
 ]
 

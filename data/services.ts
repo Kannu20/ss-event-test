@@ -335,7 +335,7 @@ const WEDDING_CHILDREN: ServiceNode[] = [
         { type: 'image', src: '/images/sangeet1.jpeg', alt: 'Sangeet performance on stage' },
         { type: 'video', src: '/videos/sangeet.mp4', alt: 'Sangeet night highlights', poster: '/images/sangeet2.jpeg' },
         { type: 'image', src: '/images/sangeet10.jpeg', alt: 'Family dance at the sangeet' },
-        { type: 'video', src: '/videos/sangeet1.mov', alt: 'Sangeet night highlights', poster: '/images/sangeet9.jpeg' },
+        { type: 'video', src: '/videos/sangeet1.mp4', alt: 'Sangeet night highlights', poster: '/images/sangeet9.jpeg' },
         { type: 'image', src: '/images/sangeet7.jpeg', alt: 'Amazing Family dance at the sangeet' },
         { type: 'image', src: '/images/sangeet4.jpeg', alt: 'Sangeet celebration energy' },
       ],
