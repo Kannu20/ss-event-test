@@ -167,10 +167,11 @@ const WEDDING_CHILDREN: ServiceNode[] = [
       media: [
         { type: 'image', src: '/images/haldi3.jpeg', alt: 'Haldi ceremony hosted by Shubham Khandelwal' },
         { type: 'image', src: '/images/haldi4.jpeg', alt: 'Turmeric ceremony with folk songs' },
+        { type: 'video', src: '/videos/haldi1.mov', alt: 'Haldi celebration film', poster: '/images/haldi.jpeg' },
         { type: 'video', src: '/videos/haldi.mov', alt: 'Haldi celebration film', poster: '/images/haldi5.jpeg' },
         { type: 'image', src: '/images/haldi1.jpeg', alt: 'Family applying haldi to the couple' },
         { type: 'image', src: '/images/haldi2.jpeg', alt: 'Joyful haldi morning moments' },
-        { type: 'image', src: '/images/haldi.jpeg', alt: 'Haldi ritual close up' },
+        
       ],
     },
     faqs: [
@@ -334,6 +335,7 @@ const WEDDING_CHILDREN: ServiceNode[] = [
         { type: 'image', src: '/images/sangeet1.jpeg', alt: 'Sangeet performance on stage' },
         { type: 'video', src: '/videos/sangeet.mp4', alt: 'Sangeet night highlights', poster: '/images/sangeet2.jpeg' },
         { type: 'image', src: '/images/sangeet10.jpeg', alt: 'Family dance at the sangeet' },
+        { type: 'video', src: '/videos/sangeet1.mov', alt: 'Sangeet night highlights', poster: '/images/sangeet9.jpeg' },
         { type: 'image', src: '/images/sangeet7.jpeg', alt: 'Amazing Family dance at the sangeet' },
         { type: 'image', src: '/images/sangeet4.jpeg', alt: 'Sangeet celebration energy' },
       ],

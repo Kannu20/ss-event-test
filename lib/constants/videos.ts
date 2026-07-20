@@ -33,8 +33,8 @@ export const videos: VideoItem[] = [
     id: 'v2',
     title: 'Palace Sangeet Night — Udaipur',
     description: 'A royal sangeet where Shubham kept 600 guests on their feet, from the varmala live song to the fireworks finale.',
-    thumbnail: '/images/about1.jpeg',
-    video: '/videos/sangeet.mp4',
+    thumbnail: '/images/sangeet7.jpeg',
+    video: '/videos/sangeet1.mov',
     youtubeId: PLACEHOLDER_ID,
     category: 'wedding',
     duration: '0:40',
@@ -106,6 +106,17 @@ export const videos: VideoItem[] = [
     duration: '1:25',
     date: '2024-05-01',
   },
+  {
+  id: 'v9',
+  title: 'Haldi Ceremony Highlights',
+  description: 'Celebrate the joyful Haldi ceremony filled with vibrant yellow hues, heartfelt traditions, laughter, music, and unforgettable pre-wedding moments with family and friends.',
+  thumbnail: '/images/haldi.jpeg',
+  video: '/videos/haldi1.mov',
+  youtubeId: PLACEHOLDER_ID,
+  category: 'wedding',
+  duration: '0:41',
+  date: '2024-06-15',
+},
 ]
 
 export const videoCategories = [
