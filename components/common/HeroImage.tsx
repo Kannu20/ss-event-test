@@ -33,6 +33,16 @@ const DEFAULT_POSITION: Required<HeroImagePosition> = {
 interface HeroImageProps {
   src: string
   alt: string
+  /**
+   * Optional portrait-oriented source used ONLY on mobile (< 768px). When set,
+   * cover mode art-directs the background: the browser downloads this image on
+   * phones and `src` on tablet/desktop — never both. This prevents a wide,
+   * landscape hero from being center-cropped into a tall phone frame (which
+   * cuts off the subject). Desktop/tablet rendering is unchanged.
+   */
+  mobileSrc?: string
+  /** object-position for the mobile image (defaults to `position.mobile`). */
+  mobilePosition?: string
   priority?: boolean
   sizes?: string
   className?: string
@@ -52,6 +62,8 @@ interface HeroImageProps {
 export function HeroImage({
   src,
   alt,
+  mobileSrc,
+  mobilePosition,
   priority = true,
   sizes = '100vw',
   className,
@@ -96,15 +108,50 @@ export function HeroImage({
     if (override) pos[key] = override
   }
 
-  return (
-    <>
-      <style>{`
-        .${scopeClass} { ${varName}: ${pos.mobile}; }
+  const positionStyle = `
+        .${scopeClass} { ${varName}: ${mobilePosition ?? pos.mobile}; }
         @media (min-width: 768px) { .${scopeClass} { ${varName}: ${pos.tablet}; } }
         @media (min-width: 1280px) { .${scopeClass} { ${varName}: ${pos.laptop}; } }
         @media (min-width: 1650px) { .${scopeClass} { ${varName}: ${pos.desktop}; } }
         @media (min-width: 1920px) { .${scopeClass} { ${varName}: ${pos.desktopLarge}; } }
-      `}</style>
+      `
+
+  // ── Art-directed cover: portrait image on mobile, `src` on tablet/desktop ──
+  // A single <picture>/<img> means each device downloads exactly ONE image
+  // (no double fetch), the img is the sole LCP candidate, and the responsive
+  // object-position map above keeps tablet/desktop framing identical.
+  if (mobileSrc) {
+    return (
+      <>
+        <style>{positionStyle}</style>
+        <picture>
+          {/* Tablet & up keep the original desktop asset + framing */}
+          <source media="(min-width: 768px)" srcSet={src} />
+          {/* Default (mobile) uses the portrait, subject-safe asset.
+              A raw <img> is required: next/image cannot art-direct between two
+              different source files, only resize a single one. */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={mobileSrc}
+            alt={alt}
+            fetchPriority={priority ? 'high' : 'auto'}
+            loading={priority ? 'eager' : 'lazy'}
+            decoding="async"
+            className={cn(
+              'absolute inset-0 h-full w-full object-cover',
+              scopeClass,
+              className,
+            )}
+            style={{ objectPosition: `var(${varName})` }}
+          />
+        </picture>
+      </>
+    )
+  }
+
+  return (
+    <>
+      <style>{positionStyle}</style>
       <Image
         src={src}
         alt={alt}

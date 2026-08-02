@@ -65,16 +65,18 @@ export function HeroSection() {
   return (
     <section
       ref={containerRef}
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black"
+      className="relative min-h-[100svh] md:min-h-screen flex items-center justify-center overflow-hidden bg-black"
       aria-label="Hero section"
     >
       {/* Parallax background */}
       <motion.div className="absolute inset-0" style={{ y: imgY }}>
         <HeroImage
           src="/images/main.jpeg"
+          mobileSrc="/images/hero.jpeg"
           alt="Artist Shubham Khandelwal hosting a live celebration on stage"
           priority
           sizes="100vw"
+          mobilePosition="center 22%"
           position={{
             mobile: 'center',
             tablet: 'center 15%',
@@ -178,37 +180,13 @@ export function HeroSection() {
         </motion.div>
       </motion.div>
 
-      {/* Quick contact strip */}
-      <motion.div
-        initial={{ opacity: 0, x: 40 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ delay: 1.2, duration: 0.6 }}
-        className="absolute right-6 top-1/2 -translate-y-1/2 hidden xl:flex flex-col gap-3"
-      >
-        <a
-          href={`tel:${PHONE}`}
-          className="flex items-center gap-2 bg-black-soft/80 border border-white/10 rounded-full px-4 py-2.5 text-white/70 hover:text-gold hover:border-gold/40 transition-all duration-300 text-sm font-sans backdrop-blur-sm"
-        >
-          <Phone className="w-3.5 h-3.5" />
-          {PHONE} / {PHONE2}
-        </a>
-        <a
-          href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(whatsappMessage)}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 bg-black-soft/80 border border-white/10 rounded-full px-4 py-2.5 text-white/70 hover:text-green-400 hover:border-green-400/40 transition-all duration-300 text-sm font-sans backdrop-blur-sm"
-        >
-          <MessageCircle className="w-3.5 h-3.5" />
-          Check Availability
-        </a>
-      </motion.div>
 
       {/* Scroll indicator */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/40"
+        className="absolute bottom-[calc(1.25rem+env(safe-area-inset-bottom))] md:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/40"
       >
         <span className="text-xs font-sans tracking-[0.2em] uppercase">Scroll</span>
         <motion.div
