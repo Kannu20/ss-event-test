@@ -98,6 +98,14 @@ export const galleryImages: GalleryImage[] = [
   { id: 'g67', src: '/images/hero.jpeg', alt: 'Host commanding the stage', category: 'bts', width: 960, height: 1280 },
   { id: 'g68', src: '/images/banner.jpeg', alt: 'On stage before a packed hall', category: 'bts', width: 591, height: 1280 },
 
+  // Highlights
+  { id: 'g69', src: '/images/gallary1.jpeg', alt: 'Event highlight moment', category: 'highlights', width: 960, height: 1280 },
+  { id: 'g70', src: '/images/gallary2.jpeg', alt: 'Another highlight moment', category: 'highlights', width: 960, height: 1280 },
+  { id: 'g71', src: '/images/gallary3.jpeg', alt: 'Yet another highlight moment', category: 'highlights', width: 960, height: 1280 },
+  { id: 'g72', src: '/images/gallary4.jpeg', alt: 'Highlight moment on stage', category: 'highlights', width: 960, height: 1280 },
+  { id: 'g73', src: '/images/gallary5.jpeg', alt: 'Final highlight moment', category: 'highlights', width: 960, height: 1280 },
+  { id: 'g74', src: '/images/gallary6.jpeg', alt: 'Closing highlight moment', category: 'highlights', width: 960, height: 1280 }
+
 ]
 
 export const galleryCategories = [
@@ -113,4 +121,5 @@ export const galleryCategories = [
   { id: 'pool', label: 'Pool Party' },
   { id: 'celebrations', label: 'Celebrations' },
   { id: 'bts', label: 'Behind the Scenes' },
+  { id: 'highlights', label: 'Highlights' },
 ]
