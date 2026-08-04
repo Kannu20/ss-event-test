@@ -18,7 +18,7 @@ export default function PortfolioPage() {
         title="Shubham's Portfolio"
         subtitle="1500+ shows across 50+ cities. A glimpse of the stages Shubham has hosted — from grand palace weddings to landmark corporate nights."
         tag="On Stage"
-        image="/images/sangeet.jpeg"
+        image="/images/portfolio3.jpeg"
         size="lg"
         breadcrumbs={[{ label: 'Portfolio' }]}
       />
