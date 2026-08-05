@@ -203,7 +203,7 @@ const WEDDING_CHILDREN: ServiceNode[] = [
     icon: '🌿',
     subtitle:
       'Music, banter and interactive games while the henna dries — a mehendi that stays lively from the first cone to the last dance.',
-    heroImage: '/images/mehandi3.jpeg',
+    heroImage: '/images/mehan.jpeg',
     intro: {
       label: 'Your Mehendi Host',
       heading: 'Keeping the Mehendi',
@@ -252,7 +252,7 @@ const WEDDING_CHILDREN: ServiceNode[] = [
         { type: 'image', src: '/images/mehandi.jpeg', alt: 'Mehendi function hosted by Shubham Khandelwal' },
         { type: 'image', src: '/images/mehandi3.jpeg', alt: 'Bride at her mehendi ceremony' },
         { type: 'video', src: '/videos/mehandi.mp4', alt: 'Mehendi celebration film', poster: '/images/mehandi4.jpeg' },
-        { type: 'image', src: '/images/mehandi1.jpeg', alt: 'Mehendi artists at work' },
+        { type: 'image', src: '/images/mehandi7.jpeg', alt: 'Mehendi artists at work' },
         { type: 'image', src: '/images/mehandi5.jpeg', alt: 'Mehendi function guests' },
         { type: 'image', src: '/images/mehandi2.jpeg', alt: 'Intricate mehendi design' },
       ],
