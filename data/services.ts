@@ -500,6 +500,7 @@ const WEDDING_CHILDREN: ServiceNode[] = [
         { type: 'image', src: '/images/baraatonwheel.jpeg', alt: 'Baraat on wheels hosted by Shubham Khandelwal' },
         { type: 'image', src: '/images/baraatonwheel2.jpeg', alt: 'Groom procession on wheels' },
         { type: 'video', src: '/videos/baraatonwheel.mp4', alt: 'Baraat procession film', poster: '/images/baraatonwheel.jpeg' },
+        { type: 'video', src: '/videos/baraatonwheel2.mov', alt: 'Baraat procession film', poster: '/images/haldi4.jpeg' },
         { type: 'image', src: '/images/sangeet4.jpeg', alt: 'Dancing baraat energy' },
         { type: 'image', src: '/images/banner.jpeg', alt: 'Wedding celebration procession' },
         { type: 'image', src: '/images/bow1.jpeg', alt: 'Shubham Khandelwal hyping the crowd' },
