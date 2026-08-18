@@ -16,7 +16,7 @@ export const mediaDimensions: Record<string, MediaDimension> = {
   '/images/cele3.jpeg': { w: 499, h: 1280 },
   '/images/corparate.jpeg': { w: 1440, h: 1440 },
   '/images/dark.jpeg': { w: 4284, h: 5712 },
-  '/images/entertainment.jpeg': { w: 960, h: 1280 },
+  '/images/mehan.jpeg': { w: 960, h: 1280 },
   '/images/event.jpeg': { w: 960, h: 1280 },
   '/images/haldi.jpeg': { w: 3024, h: 4032 },
   '/images/haldi1.jpeg': { w: 4032, h: 3024 },

@@ -19,7 +19,7 @@ export default function FAQsPage() {
         title="Frequently Asked Questions"
         subtitle="Everything you need to know about booking Shubham to host your event. Can't find your answer? Message him directly."
         tag="FAQs"
-        image="/images/entertainment.jpeg"
+        image="/images/mehan.jpeg"
         breadcrumbs={[{ label: 'FAQs' }]}
       />
 
