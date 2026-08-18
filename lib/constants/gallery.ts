@@ -8,7 +8,7 @@ export const galleryImages: GalleryImage[] = [
   // Sangeet
   { id: 'g1', src: '/images/sangeet.jpeg', alt: 'High-energy sangeet night hosting', category: 'sangeet', width: 960, height: 1280 },
   { id: 'g2', src: '/images/sangeet1.jpeg', alt: 'Sangeet performance on stage', category: 'sangeet', width: 960, height: 1280 },
-  { id: 'g3', src: '/images/sangeet2.jpeg', alt: 'Family dancing at the sangeet', category: 'sangeet', width: 591, height: 1280 },
+  { id: 'g3', src: '/images/haldi8.jpeg', alt: 'Family dancing at the sangeet', category: 'sangeet', width: 591, height: 1280 },
   { id: 'g4', src: '/images/sangeet3.jpeg', alt: 'Sangeet crowd on their feet', category: 'sangeet', width: 591, height: 1280 },
   { id: 'g5', src: '/images/sangeet4.jpeg', alt: 'Sangeet celebration energy', category: 'sangeet', width: 960, height: 1280 },
   { id: 'g60', src: '/images/sangeet7.jpeg', alt: 'Sangeet celebration energy', category: 'sangeet', width: 960, height: 1280 },
@@ -65,7 +65,7 @@ export const galleryImages: GalleryImage[] = [
   { id: 'g40', src: '/images/show1.png', alt: 'Concert stage energy', category: 'live', width: 688, height: 691 },
   { id: 'g41', src: '/images/show2.png', alt: 'Cultural night performance', category: 'live', width: 678, height: 715 },
   { id: 'g42', src: '/images/show3.png', alt: 'Live stage production', category: 'live', width: 723, height: 676 },
-  { id: 'g43', src: '/images/entertainment.jpeg', alt: 'Live entertainment set', category: 'live', width: 960, height: 1280 },
+  { id: 'g43', src: '/images/mehan.jpeg', alt: 'Live entertainment set', category: 'live', width: 960, height: 1280 },
 
   // Pool Party
   { id: 'g44', src: '/images/pool.jpeg', alt: 'Poolside party hosting', category: 'pool', width: 960, height: 1280 },
