@@ -72,7 +72,7 @@ export function HeroSection() {
       <motion.div className="absolute inset-0" style={{ y: imgY }}>
         <HeroImage
           src="/images/main.jpeg"
-          mobileSrc="/images/hero.jpeg"
+          mobileSrc="/images/main2.jpeg"
           alt="Artist Shubham Khandelwal hosting a live celebration on stage"
           priority
           sizes="100vw"
