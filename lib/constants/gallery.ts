@@ -78,7 +78,6 @@ export const galleryImages: GalleryImage[] = [
   { id: 'g49', src: '/images/anniversary2.jpeg', alt: 'Couple anniversary on stage', category: 'celebrations', width: 4284, height: 5712 },
   { id: 'g50', src: '/images/birthday.jpeg', alt: 'Birthday party hosting', category: 'celebrations', width: 720, height: 1280 },
   { id: 'g51', src: '/images/birthday1.jpeg', alt: 'Birthday celebration games', category: 'celebrations', width: 1280, height: 575 },
-  { id: 'g52', src: '/images/birthday2.jpeg', alt: 'Milestone birthday moment', category: 'celebrations', width: 575, height: 1280 },
   { id: 'g53', src: '/images/birthday3.jpeg', alt: 'Cake-cutting celebration', category: 'celebrations', width: 575, height: 1280 },
   { id: 'g54', src: '/images/cele1.jpeg', alt: 'Private celebration energy', category: 'celebrations', width: 1066, height: 1280 },
   { id: 'g55', src: '/images/cele2.jpeg', alt: 'Guests on the dance floor', category: 'celebrations', width: 1280, height: 853 },

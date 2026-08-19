@@ -497,13 +497,13 @@ const WEDDING_CHILDREN: ServiceNode[] = [
       heading: 'Baraat',
       highlight: 'Moments',
       media: [
-        { type: 'image', src: '/images/baraatonwheel.jpeg', alt: 'Baraat on wheels hosted by Shubham Khandelwal' },
         { type: 'image', src: '/images/baraatonwheel2.jpeg', alt: 'Groom procession on wheels' },
-        { type: 'video', src: '/videos/baraatonwheel.mp4', alt: 'Baraat procession film', poster: '/images/baraatonwheel.jpeg' },
-        { type: 'video', src: '/videos/baraatonwheel2.mov', alt: 'Baraat procession film', poster: '/images/haldi4.jpeg' },
+        { type: 'video', src: '/videos/baraatonwheel.mp4', alt: 'Baraat procession film', poster: '/images/bow1.jpeg' },
+        { type: 'video', src: '/videos/baraatonwheel2.mov', alt: 'Baraat procession film', poster: '/images/bow2.jpeg' },
+        { type: 'image', src: '/images/baraatonwheel4.jpeg', alt: 'Wedding celebration procession' },
+        { type: 'image', src: '/images/baraatonwheel3.jpeg', alt: 'Baraat on wheels hosted by Shubham Khandelwal' },
         { type: 'image', src: '/images/sangeet4.jpeg', alt: 'Dancing baraat energy' },
-        { type: 'image', src: '/images/banner.jpeg', alt: 'Wedding celebration procession' },
-        { type: 'image', src: '/images/bow1.jpeg', alt: 'Shubham Khandelwal hyping the crowd' },
+
       ],
     },
     faqs: [
@@ -537,7 +537,7 @@ const PARTIES_CHILDREN: ServiceNode[] = [
     icon: '🎂',
     subtitle:
       'From milestone birthdays to surprise bashes — hosted like a show with games, roasts and live anchoring tailored to the star of the day.',
-    heroImage: '/images/birthday1.jpeg',
+    heroImage: '/images/birth2.jpeg',
     intro: {
       label: 'Your Birthday Host',
       heading: 'A Birthday That Feels',
@@ -584,8 +584,10 @@ const PARTIES_CHILDREN: ServiceNode[] = [
       highlight: 'Moments',
       media: [
         { type: 'image', src: '/images/birthday1.jpeg', alt: 'Birthday party hosted by Shubham Khandelwal' },
-        { type: 'image', src: '/images/birthday2.jpeg', alt: 'Birthday celebration games' },
-        { type: 'image', src: '/images/banner.jpeg', alt: 'Party crowd energy' },
+        { type: 'image', src: '/images/birth1.jpeg', alt: 'Birthday party hosted by Shubham Khandelwal' },
+        { type: 'image', src: '/images/birth.jpeg', alt: 'Birthday party hosted by Shubham Khandelwal' },
+        { type: 'image', src: '/images/birth2.jpeg', alt: 'Birthday celebration games' },
+        { type: 'image', src: '/images/birth3.jpeg', alt: 'Party crowd energy' },
         { type: 'image', src: '/images/birthday3.jpeg', alt: 'Celebration cake moment' },
       ],
     },
@@ -617,7 +619,7 @@ const PARTIES_CHILDREN: ServiceNode[] = [
     icon: '💐',
     subtitle:
       'A heartfelt evening honouring a journey together — hosted with warmth, nostalgia and live music that celebrates the couple.',
-    heroImage: '/images/anniversary.jpeg',
+    heroImage: '/images/anni.jpeg',
     intro: {
       label: 'Your Anniversary Host',
       heading: 'Celebrating a Love That',
@@ -663,9 +665,12 @@ const PARTIES_CHILDREN: ServiceNode[] = [
       heading: 'Anniversary',
       highlight: 'Moments',
       media: [
-        { type: 'image', src: '/images/anniversary1.jpeg', alt: 'Anniversary celebration hosted by Shubham Khandelwal' },
-        { type: 'video', src: '/videos/anniversary.mp4', alt: 'Anniversary celebration film', poster: '/images/anniversary1.jpeg' },
+     
+        { type: 'image', src: '/images/anni3.jpeg', alt: 'Couple anniversary tribute' },
         { type: 'image', src: '/images/anniversary2.jpeg', alt: 'Couple anniversary tribute' },
+        { type: 'video', src: '/videos/anniversary.mp4', alt: 'Anniversary celebration film', poster: '/images/anni2.jpeg' },
+        { type: 'image', src: '/images/anniversary1.jpeg', alt: 'Couple anniversary tribute' },
+        { type: 'image', src: '/images/anni.jpeg', alt: 'Couple anniversary tribute' },
         
 
         
