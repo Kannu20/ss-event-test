@@ -83,7 +83,7 @@ export function FeaturedEvents() {
               <GoldOrnament className="mb-3" />
             </motion.div>
             <motion.p variants={fadeInUp} className="text-white/60 font-sans">
-              A glimpse at some of the stages Shubham has recently lit up across Rajasthan.
+              A glimpse at some of the stages Shubham has recently lit up across India.
             </motion.p>
           </div>
           <motion.div variants={fadeInUp}>

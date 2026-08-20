@@ -42,7 +42,7 @@ const contactDetails = [
     label: 'Based In',
     value: 'Jaipur',
     href: '#map',
-    description: 'Rajasthan · Available pan-India & destination',
+    description: 'Available pan-India & destination weddings',
   },
   {
     icon: Clock,

@@ -20,9 +20,9 @@ export function personSchema() {
     alternateName: 'Artist Shubham Khandelwal',
     url: baseUrl,
     image: `${baseUrl}/images/aboutme.jpeg`,
-    jobTitle: 'Wedding Anchor, Live Entertainer & Event Host',
+    jobTitle: "India's Wedding Anchor, Live Entertainer & Event Host",
     description:
-      'Jaipur-based professional wedding anchor, live stage performer and master of ceremonies. Award-winning host for weddings, sangeets, corporate events and celebrity celebrations across Rajasthan and India.',
+      'Jaipur-based professional wedding anchor, live stage performer and master of ceremonies. Award-winning host for weddings, sangeets, corporate events and celebrity celebrations across India.',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Jaipur',
@@ -64,8 +64,8 @@ export function localBusinessSchema() {
       addressCountry: 'IN',
     },
     areaServed: [
-      { '@type': 'State', name: 'Rajasthan' },
       { '@type': 'Country', name: 'India' },
+      { '@type': 'State', name: 'Rajasthan' },
     ],
     priceRange: '₹₹₹',
     openingHours: 'Mo-Su 09:00-21:00',

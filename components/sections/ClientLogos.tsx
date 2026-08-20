@@ -38,7 +38,7 @@ export function ClientLogos() {
             <SectionLabel>Performed Across</SectionLabel>
           </motion.div>
           <motion.p variants={fadeInUp} className="text-white/40 font-sans text-sm mt-2">
-            From Rajasthan&apos;s palaces to destination stages — Shubham travels to wherever your celebration is
+            From Rajasthan&apos;s palaces to stages across India — Shubham travels to wherever your celebration is
           </motion.p>
         </motion.div>
 

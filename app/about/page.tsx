@@ -42,7 +42,7 @@ const journey = [
   {
     year: 'Today',
     title: '1500+ Shows and Counting',
-    description: "With 10+ years on stage, 50+ cities and 5 Lakh+ guests entertained, Shubham is one of Rajasthan's most trusted wedding anchors, corporate hosts and live entertainers — and he still treats every show like the biggest of his life.",
+    description: "With 10+ years on stage, 50+ cities and 5 Lakh+ guests entertained, Shubham is one of India's most trusted wedding anchors, corporate hosts and live entertainers — and he still treats every show like the biggest of his life.",
   },
 ]
 
@@ -70,7 +70,7 @@ export default function AboutPage() {
 
       <PageHero
         title="Meet Artist Shubham Khandelwal"
-        subtitle="Jaipur-based wedding anchor, corporate host and live entertainer — the voice behind some of Rajasthan's most memorable celebrations."
+        subtitle="Jaipur-based wedding anchor, corporate host and live entertainer — the voice behind some of India's most memorable celebrations."
         tag="About Shubham"
         image="/images/about1.jpeg"
         breadcrumbs={[{ label: 'About Shubham' }]}

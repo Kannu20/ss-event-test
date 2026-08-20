@@ -26,7 +26,7 @@ const stats = [
     end: 50,
     suffix: '+',
     label: 'Cities Performed',
-    description: 'Across Rajasthan, India & destination venues',
+    description: 'Across India & destination venues',
   },
   {
     icon: Users,

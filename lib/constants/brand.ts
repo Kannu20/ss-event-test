@@ -14,11 +14,11 @@ export const brand = {
   initials: 'SK',
 
   // One-line positioning — what he is
-  role: "Rajasthan's Wedding Anchor, Live Entertainer & Event Host",
-  tagline: "The Voice Behind Rajasthan's Most Memorable Celebrations",
+  role: "India's Wedding Anchor, Live Entertainer & Event Host",
+  tagline: "The Voice Behind India's Most Memorable Celebrations",
 
   base: 'Jaipur, Rajasthan',
-  areaServed: 'Jaipur · Udaipur · Jodhpur · Pan-India · Destination',
+  areaServed: 'Pan-India · Destination Weddings · Jaipur · Udaipur · Jodhpur',
 
   // Professional identities that rotate in the hero
   identities: [
@@ -42,7 +42,7 @@ export const brand = {
 export const brandStats = [
   { value: 900, suffix: '+', label: 'Shows Hosted', description: 'Weddings, sangeets, corporate stages & live shows' },
   { value: 8, suffix: '+', label: 'Years on Stage', description: 'A career built one unforgettable event at a time' },
-  { value: 30, suffix: '+', label: 'Cities Performed', description: 'Across Rajasthan, India & destination venues' },
+  { value: 30, suffix: '+', label: 'Cities Performed', description: 'Across India & destination venues' },
   { value: 5, suffix: 'L+', label: 'Guests Entertained', description: 'Audiences moved, engaged and left cheering' },
 ] as const
 

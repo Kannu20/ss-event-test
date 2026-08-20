@@ -22,7 +22,7 @@ export const stats: StatItem[] = [
     value: 30,
     suffix: '+',
     label: 'Cities Performed',
-    description: 'Across Rajasthan, India and destination venues',
+    description: 'Across India and destination venues',
     icon: 'MapPin',
   },
   {

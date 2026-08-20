@@ -128,7 +128,7 @@ export function HeroSection() {
           className="font-display font-bold leading-[1.05] tracking-tight mb-6"
         >
           <span className="block text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-            The Voice Behind Rajasthan&apos;s
+            The Voice Behind India&apos;s
           </span>
           <span className="block text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-3">
             Most Memorable Celebrations

@@ -100,8 +100,8 @@ export function AboutSnapshot() {
               className="text-white/70 font-sans leading-relaxed text-base md:text-lg mb-4"
             >
               Shubham Khandelwal is a Jaipur-based wedding anchor, live stage performer and stage
-              performer who has spent the last eight years doing one thing better than almost
-              anyone in Rajasthan — making a room feel something. Recognised as
+              performer who has spent the last ten years doing one thing better than almost
+              anyone in India — making a room feel something. Recognised as
               &ldquo;Best Actor in Jaipur&rdquo; at the Forever Star India Awards, he brings the
               instincts of a performer and the polish of a professional emcee to every stage.
             </motion.p>

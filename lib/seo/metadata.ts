@@ -40,15 +40,15 @@ export function generatePageMetadata(seo: PageSEO): Metadata {
 
 export const pageSEO = {
   home: {
-    title: "Artist Shubham Khandelwal — Wedding Anchor & Event Host in Jaipur",
-    description: "Award-winning wedding anchor, live stage performer and master of ceremonies based in Jaipur. Book Shubham Khandelwal for weddings, sangeets, corporate events and celebrity celebrations across Rajasthan.",
-    keywords: ['wedding anchor Jaipur', 'wedding anchor Rajasthan', 'event host Jaipur', 'sangeet anchor', 'master of ceremonies', 'Artist Shubham Khandelwal'],
+    title: "Artist Shubham Khandelwal — India's Wedding Anchor & Event Host",
+    description: "Award-winning wedding anchor, live stage performer and master of ceremonies based in Jaipur, hosting weddings, sangeets, corporate events and celebrity celebrations across India.",
+    keywords: ['wedding anchor India', 'best wedding anchor in India', 'wedding anchor Jaipur', 'wedding anchor Rajasthan', 'event host Jaipur', 'sangeet anchor', 'master of ceremonies', 'Artist Shubham Khandelwal'],
     canonical: '/',
   },
   about: {
     title: 'About Shubham Khandelwal — The Artist Behind the Mic',
-    description: "Meet Shubham Khandelwal — an award-winning Jaipur wedding anchor, live stage performer and event host. His journey, stage presence, and why families and brands across Rajasthan trust him.",
-    keywords: ['about Shubham Khandelwal', 'wedding anchor Jaipur', 'best anchor Rajasthan', 'event host biography'],
+    description: "Meet Shubham Khandelwal — an award-winning Jaipur wedding anchor, live stage performer and event host. His journey, stage presence, and why families and brands across India trust him.",
+    keywords: ['about Shubham Khandelwal', 'wedding anchor Jaipur', 'best anchor Rajasthan', 'best wedding anchor India', 'event host biography'],
     canonical: '/about',
   },
   services: {
@@ -65,7 +65,7 @@ export const pageSEO = {
   },
   portfolio: {
     title: 'Portfolio — Shows Shubham Khandelwal Has Hosted',
-    description: 'A look at the weddings, sangeets, corporate nights and celebrity events Shubham Khandelwal has anchored across Rajasthan and beyond.',
+    description: 'A look at the weddings, sangeets, corporate nights and celebrity events Shubham Khandelwal has anchored across India.',
     keywords: ['wedding anchor portfolio', 'anchor work', 'event host portfolio', 'Shubham Khandelwal shows'],
     canonical: '/portfolio',
   },
