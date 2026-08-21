@@ -14,6 +14,9 @@ export const galleryImages: GalleryImage[] = [
   { id: 'g60', src: '/images/sangeet7.jpeg', alt: 'Sangeet celebration energy', category: 'sangeet', width: 960, height: 1280 },
   { id: 'g70', src: '/images/sangeet10.jpeg', alt: 'Sangeet celebration energy', category: 'sangeet', width: 960, height: 1280 },
   { id: 'g71', src: '/images/sangeet9.jpeg', alt: 'Sangeet celebration energy', category: 'sangeet', width: 960, height: 1280 },
+  { id: 'g75', src: '/images/sangeet8.jpeg', alt: 'Shubham Khandelwal, your sangeet host', category: 'sangeet', width: 1500, height: 2000 },
+  { id: 'g76', src: '/images/sangeet11.jpeg', alt: 'Shubham Khandelwal, your sangeet host', category: 'sangeet', width: 960, height: 1280 },
+  { id: 'g77', src: '/images/sangeet12.jpeg', alt: 'Shubham Khandelwal, your sangeet host', category: 'sangeet', width: 720, height: 1280 },
 
   // Varmala
   { id: 'g6', src: '/images/varmala.jpeg', alt: 'Varmala ceremony compering', category: 'varmala', width: 1840, height: 4096 },
@@ -21,6 +24,11 @@ export const galleryImages: GalleryImage[] = [
   { id: 'g8', src: '/images/varmala3.jpeg', alt: 'Cinematic varmala entry', category: 'varmala', width: 960, height: 1280 },
   { id: 'g9', src: '/images/varmala4.jpeg', alt: 'Couple on stage during varmala', category: 'varmala', width: 591, height: 1280 },
   { id: 'g10', src: '/images/varmala5.jpeg', alt: 'Grand varmala stage moment', category: 'varmala', width: 591, height: 1280 },
+  { id: 'g78', src: '/images/varmala6.jpeg', alt: 'Grand Varmala — Shubham Khandelwal, luxury wedding anchor', category: 'varmala', width: 1122, height: 1402 },
+  { id: 'g79', src: '/images/varmal7.jpeg', alt: 'Shubham Khandelwal, your varmala host', category: 'varmala', width: 960, height: 1280 },
+  { id: 'g80', src: '/images/varmala8.jpeg', alt: 'Shubham Khandelwal, your varmala host', category: 'varmala', width: 960, height: 1280 },
+  { id: 'g81', src: '/images/varmala9.jpeg', alt: 'Shubham Khandelwal, your varmala host', category: 'varmala', width: 960, height: 1280 },
+  { id: 'g82', src: '/images/varmala10.jpeg', alt: 'Varmala stage set at a grand wedding venue', category: 'varmala', width: 960, height: 1280 },
 
   // Haldi
   { id: 'g11', src: '/images/haldi.jpeg', alt: 'Haldi ceremony close up', category: 'haldi', width: 3024, height: 4032 },
@@ -29,6 +37,9 @@ export const galleryImages: GalleryImage[] = [
   { id: 'g14', src: '/images/haldi3.jpeg', alt: 'Haldi ritual hosting', category: 'haldi', width: 3024, height: 4032 },
   { id: 'g15', src: '/images/haldi4.jpeg', alt: 'Turmeric ceremony with folk songs', category: 'haldi', width: 3024, height: 4032 },
   { id: 'g16', src: '/images/haldi5.jpeg', alt: 'Playful haldi celebration', category: 'haldi', width: 3024, height: 4032 },
+  { id: 'g83', src: '/images/haldi6.jpeg', alt: 'Haldi Specialist — Shubham Khandelwal', category: 'haldi', width: 1149, height: 1369 },
+  { id: 'g84', src: '/images/haldi7.jpeg', alt: 'Shubham Khandelwal, your haldi host', category: 'haldi', width: 591, height: 1280 },
+  { id: 'g85', src: '/images/haldi9.jpeg', alt: 'Shubham Khandelwal, your haldi host', category: 'haldi', width: 591, height: 1280 },
 
   // Mehendi
   { id: 'g17', src: '/images/mehandi.jpeg', alt: 'Mehendi function hosting', category: 'mehendi', width: 4032, height: 3024 },
@@ -37,12 +48,16 @@ export const galleryImages: GalleryImage[] = [
   { id: 'g20', src: '/images/mehandi3.jpeg', alt: 'Bride at her mehendi', category: 'mehendi', width: 3024, height: 4032 },
   { id: 'g21', src: '/images/mehandi4.jpeg', alt: 'Mehendi celebration games', category: 'mehendi', width: 3024, height: 4032 },
   { id: 'g22', src: '/images/mehandi5.jpeg', alt: 'Mehendi function guests', category: 'mehendi', width: 1440, height: 1440 },
+  { id: 'g86', src: '/images/mehandi7.jpeg', alt: 'Shubham Khandelwal on the mehendi decor walkway', category: 'mehendi', width: 960, height: 1280 },
 
   // Baraat
   { id: 'g23', src: '/images/baraatonwheel.jpeg', alt: 'Baraat on wheels procession', category: 'baraat', width: 1464, height: 3264 },
   { id: 'g24', src: '/images/baraatonwheel2.jpeg', alt: 'Groom entry on wheels', category: 'baraat', width: 1840, height: 4096 },
   { id: 'g25', src: '/images/bow.jpeg', alt: 'Dancing baraat energy', category: 'baraat', width: 1840, height: 4096 },
   { id: 'g26', src: '/images/bow1.jpeg', alt: 'Baraat celebration on the move', category: 'baraat', width: 1840, height: 4096 },
+  { id: 'g87', src: '/images/baraatonwheel3.jpeg', alt: 'Baraat on wheels hosted by Shubham Khandelwal', category: 'baraat', width: 485, height: 1280 },
+  { id: 'g88', src: '/images/baraatonwheel4.jpeg', alt: 'Wedding celebration procession', category: 'baraat', width: 575, height: 1280 },
+  { id: 'g89', src: '/images/bow2.jpeg', alt: 'Shubham Khandelwal, your baraat host', category: 'baraat', width: 960, height: 1280 },
 
   // Corporate
   { id: 'g27', src: '/images/corparate.jpeg', alt: 'Corporate conference emceeing', category: 'corporate', width: 1440, height: 1440 },
@@ -59,6 +74,8 @@ export const galleryImages: GalleryImage[] = [
   { id: 'g36', src: '/images/fashion1.jpeg', alt: 'Runway showcase moment', category: 'fashion', width: 4284, height: 5712 },
   { id: 'g37', src: '/images/fashion2.jpeg', alt: 'Designer sequence on the ramp', category: 'fashion', width: 4284, height: 5712 },
   { id: 'g38', src: '/images/fashion3.jpeg', alt: 'Showstopper finale', category: 'fashion', width: 2160, height: 3840 },
+  { id: 'g90', src: '/images/fashion5.jpeg', alt: 'Shubham Khandelwal with a pageant winner on the red carpet', category: 'fashion', width: 720, height: 1280 },
+  { id: 'g91', src: '/images/fashion6.jpeg', alt: 'Shubham Khandelwal felicitated at a fashion pageant awards night', category: 'fashion', width: 738, height: 1040 },
 
   // Live Shows
   { id: 'g39', src: '/images/show.jpeg', alt: 'Live show hosting', category: 'live', width: 720, height: 1280 },
@@ -66,6 +83,9 @@ export const galleryImages: GalleryImage[] = [
   { id: 'g41', src: '/images/show2.png', alt: 'Cultural night performance', category: 'live', width: 678, height: 715 },
   { id: 'g42', src: '/images/show3.png', alt: 'Live stage production', category: 'live', width: 723, height: 676 },
   { id: 'g43', src: '/images/mehan.jpeg', alt: 'Live entertainment set', category: 'live', width: 960, height: 1280 },
+  { id: 'g92', src: '/images/dark.jpeg', alt: 'Premium show lighting', category: 'live', width: 1500, height: 2000 },
+  { id: 'g93', src: '/images/show4.png', alt: 'Shubham Khandelwal felicitated at an awards night', category: 'live', width: 691, height: 688 },
+  { id: 'g94', src: '/images/show5.png', alt: 'Shubham Khandelwal on stage at a cultural award ceremony', category: 'live', width: 748, height: 702 },
 
   // Pool Party
   { id: 'g44', src: '/images/pool.jpeg', alt: 'Poolside party hosting', category: 'pool', width: 960, height: 1280 },
@@ -85,9 +105,20 @@ export const galleryImages: GalleryImage[] = [
   { id: 'g57', src: '/images/cele4.jpeg', alt: 'Family celebration moment', category: 'celebrations', width: 591, height: 1280 },
   { id: 'g58', src: '/images/cele5.jpeg', alt: 'Social celebration hosting', category: 'celebrations', width: 696, height: 1044 },
   { id: 'g59', src: '/images/social1.jpeg', alt: 'Community gathering hosting', category: 'celebrations', width: 4284, height: 5712 },
+  { id: 'g95', src: '/images/anni.jpeg', alt: 'Live performance at an anniversary celebration', category: 'celebrations', width: 720, height: 1280 },
+  { id: 'g96', src: '/images/anni2.jpeg', alt: 'Shubham Khandelwal, your celebration host', category: 'celebrations', width: 1440, height: 1440 },
+  { id: 'g97', src: '/images/anni3.jpeg', alt: 'Shubham Khandelwal, your celebration host', category: 'celebrations', width: 960, height: 1280 },
+  { id: 'g98', src: '/images/birth.jpeg', alt: 'Shubham Khandelwal, your birthday party host', category: 'celebrations', width: 853, height: 1280 },
+  { id: 'g99', src: '/images/birth1.jpeg', alt: 'Shubham Khandelwal, your birthday party host', category: 'celebrations', width: 1066, height: 1600 },
+  { id: 'g100', src: '/images/birth2.jpeg', alt: 'Shubham Khandelwal, your birthday party host', category: 'celebrations', width: 960, height: 1280 },
+  { id: 'g101', src: '/images/birth3.jpeg', alt: 'Party crowd energy', category: 'celebrations', width: 591, height: 1280 },
+  { id: 'g102', src: '/images/birthday2.jpeg', alt: 'Birthday celebration hosting', category: 'celebrations', width: 575, height: 1280 },
+  { id: 'g103', src: '/images/celeb4.jpeg', alt: 'Shubham Khandelwal felicitated at an awards night', category: 'celebrations', width: 591, height: 1280 },
+  { id: 'g104', src: '/images/social.jpeg', alt: 'Shubham Khandelwal, your social event host', category: 'celebrations', width: 1440, height: 1818 },
+  { id: 'g105', src: '/images/social2.jpeg', alt: 'Shubham Khandelwal, your social event host', category: 'celebrations', width: 960, height: 1280 },
 
   // Behind the Scenes
-  { id: 'g60', src: '/images/about.jpeg', alt: 'Behind the scenes with Shubham', category: 'bts', width: 591, height: 1280 },
+  { id: 'g106', src: '/images/about.jpeg', alt: 'Behind the scenes with Shubham', category: 'bts', width: 591, height: 1280 },
   { id: 'g61', src: '/images/about1.jpeg', alt: 'Preparing before a show', category: 'bts', width: 960, height: 1280 },
   { id: 'g62', src: '/images/about2.jpeg', alt: 'Portrait of the host', category: 'bts', width: 720, height: 1280 },
   { id: 'g63', src: '/images/aboutme.jpeg', alt: 'Backstage before going live', category: 'bts', width: 591, height: 1280 },
@@ -99,8 +130,8 @@ export const galleryImages: GalleryImage[] = [
 
   // Highlights
   { id: 'g69', src: '/images/gallary1.jpeg', alt: 'Event highlight moment', category: 'highlights', width: 960, height: 1280 },
-  { id: 'g70', src: '/images/gallary2.jpeg', alt: 'Another highlight moment', category: 'highlights', width: 960, height: 1280 },
-  { id: 'g71', src: '/images/gallary3.jpeg', alt: 'Yet another highlight moment', category: 'highlights', width: 960, height: 1280 },
+  { id: 'g107', src: '/images/gallary2.jpeg', alt: 'Another highlight moment', category: 'highlights', width: 960, height: 1280 },
+  { id: 'g108', src: '/images/gallary3.jpeg', alt: 'Yet another highlight moment', category: 'highlights', width: 960, height: 1280 },
   { id: 'g72', src: '/images/gallary4.jpeg', alt: 'Highlight moment on stage', category: 'highlights', width: 960, height: 1280 },
   { id: 'g73', src: '/images/gallary5.jpeg', alt: 'Final highlight moment', category: 'highlights', width: 960, height: 1280 },
   { id: 'g74', src: '/images/gallary6.jpeg', alt: 'Closing highlight moment', category: 'highlights', width: 960, height: 1280 }

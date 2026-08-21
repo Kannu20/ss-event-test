@@ -416,11 +416,12 @@ const WEDDING_CHILDREN: ServiceNode[] = [
       highlight: 'Moments',
       media: [
         { type: 'image', src: '/images/varmala.jpeg', alt: 'Varmala ceremony compered by Shubham Khandelwal' },
-        { type: 'image', src: '/images/varmala2.jpeg', alt: 'Jaimala garland exchange moment' },
+        { type: 'image', src: '/images/varmala8.jpeg', alt: 'Varmala ceremony compered by Shubham Khandelwal' },
+        { type: 'image', src: '/images/varmala9.jpeg', alt: 'Jaimala garland exchange moment' },
         { type: 'video', src: '/videos/varmala.mp4', alt: 'Varmala highlight film', poster: '/images/varmala3.jpeg' },
-        { type: 'image', src: '/images/varmala4.jpeg', alt: 'Couple on stage during varmala' },
-        { type: 'image', src: '/images/sangeet1.jpeg', alt: 'Grand wedding stage entrance' },
         { type: 'image', src: '/images/varmala5.jpeg', alt: 'Shubham Khandelwal hosting on stage' },
+        { type: 'image', src: '/images/varmala4.jpeg', alt: 'Couple on stage during varmala' },
+        { type: 'image', src: '/images/varmala10.jpeg', alt: 'Grand wedding stage entrance' },
       ],
     },
     faqs: [
@@ -451,7 +452,7 @@ const WEDDING_CHILDREN: ServiceNode[] = [
     icon: '🚗',
     subtitle:
       'A moving, dancing procession that never loses its beat — the baraat hosted and hyped from the first step to the venue gates.',
-    heroImage: '/images/baraatonwheel.jpeg',
+    heroImage: '/images/varmala8.jpeg',
     intro: {
       label: 'Your Baraat Host',
       heading: 'A Procession That Stays',
@@ -498,11 +499,12 @@ const WEDDING_CHILDREN: ServiceNode[] = [
       highlight: 'Moments',
       media: [
         { type: 'image', src: '/images/baraatonwheel2.jpeg', alt: 'Groom procession on wheels' },
+        { type: 'image', src: '/images/varmala9.jpeg', alt: 'Groom procession on wheels' },
         { type: 'video', src: '/videos/baraatonwheel.mp4', alt: 'Baraat procession film', poster: '/images/bow1.jpeg' },
         { type: 'video', src: '/videos/baraatonwheel2.mov', alt: 'Baraat procession film', poster: '/images/bow2.jpeg' },
         { type: 'image', src: '/images/baraatonwheel4.jpeg', alt: 'Wedding celebration procession' },
         { type: 'image', src: '/images/baraatonwheel3.jpeg', alt: 'Baraat on wheels hosted by Shubham Khandelwal' },
-        { type: 'image', src: '/images/sangeet4.jpeg', alt: 'Dancing baraat energy' },
+        
 
       ],
     },
@@ -671,6 +673,7 @@ const PARTIES_CHILDREN: ServiceNode[] = [
         { type: 'video', src: '/videos/anniversary.mp4', alt: 'Anniversary celebration film', poster: '/images/anni2.jpeg' },
         { type: 'image', src: '/images/anniversary1.jpeg', alt: 'Couple anniversary tribute' },
         { type: 'image', src: '/images/anni.jpeg', alt: 'Couple anniversary tribute' },
+        { type: 'image', src: '/images/anni6.jpeg', alt: 'Couple anniversary tribute' },
         
 
         
@@ -832,12 +835,12 @@ const SHOWS_CHILDREN: ServiceNode[] = [
       heading: 'Fashion Show',
       highlight: 'Moments',
       media: [
+        { type: 'image', src: '/images/fashion6.jpeg', alt: 'Show audience energy' },
+        { type: 'image', src: '/images/fashion5.jpeg', alt: 'Show audience energy' },
         { type: 'image', src: '/images/fashion.jpeg', alt: 'Fashion show hosted by Shubham Khandelwal' },
         { type: 'image', src: '/images/fashion2.jpeg', alt: 'Stage show hosting' },
         { type: 'video', src: '/videos/fashion.mp4', alt: 'Fashion show highlight film', poster: '/images/fashion3.jpeg' },
         { type: 'image', src: '/images/fashion1.jpeg', alt: 'Premium show lighting' },
-        { type: 'image', src: '/images/fashion3.jpeg', alt: 'Runway event compering' },
-        { type: 'image', src: '/images/cele3.jpeg', alt: 'Show audience energy' },
       ],
     },
     faqs: [
@@ -1082,10 +1085,10 @@ const EVENTS_CHILDREN: ServiceNode[] = [
       highlight: 'Moments',
       media: [
         { type: 'image', src: '/images/event.jpeg', alt: 'Community event stage' },
-        { type: 'image', src: '/images/cele5.jpeg', alt: 'Social event hosted by Shubham Khandelwal' },
+        { type: 'image', src: '/images/social.jpeg', alt: 'Social event hosted by Shubham Khandelwal' },
         { type: 'image', src: '/images/cele2.jpeg', alt: 'Community gathering hosting' },
         { type: 'video', src: '/videos/social-event.mp4', alt: 'Social event highlight film', poster: '/images/cele1.jpeg' },
-        { type: 'video', src: '/videos/social.mp4', alt: 'Social event highlight film', poster: '/images/cele4.jpeg' },
+        { type: 'video', src: '/videos/social.mp4', alt: 'Social event highlight film', poster: '/images/social2.jpeg' },
         { type: 'image', src: '/images/cele3.jpeg', alt: 'Cultural programme celebration' },
         { type: 'image', src: '/images/about2.jpeg', alt: 'Shubham Khandelwal hosting a gathering' },
       ],
