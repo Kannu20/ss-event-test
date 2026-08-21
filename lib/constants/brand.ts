@@ -14,7 +14,7 @@ export const brand = {
   initials: 'SK',
 
   // One-line positioning — what he is
-  role: "India's Wedding Anchor, Live Entertainer & Event Host",
+  role: "India's Best Wedding Anchor, Live Entertainer & Event Host",
   tagline: "The Voice Behind India's Most Memorable Celebrations",
 
   base: 'Jaipur, Rajasthan',

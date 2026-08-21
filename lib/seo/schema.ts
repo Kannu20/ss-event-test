@@ -20,7 +20,7 @@ export function personSchema() {
     alternateName: 'Artist Shubham Khandelwal',
     url: baseUrl,
     image: `${baseUrl}/images/aboutme.jpeg`,
-    jobTitle: "India's Wedding Anchor, Live Entertainer & Event Host",
+    jobTitle: "India's Best Wedding Anchor, Live Entertainer & Event Host",
     description:
       'Jaipur-based professional wedding anchor, live stage performer and master of ceremonies. Award-winning host for weddings, sangeets, corporate events and celebrity celebrations across India.',
     address: {
