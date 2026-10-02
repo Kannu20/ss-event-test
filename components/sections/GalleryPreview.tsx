@@ -16,13 +16,13 @@ const previewImages = [
     className: 'row-span-2',
   },
   {
-    src: '/images/sangeet.jpeg',
-    alt: 'Corporate conference setup',
+    src: '/images/stage/runway.jpg',
+    alt: 'Artist Shubham Khandelwal at a fashion and pageant runway show',
     className: '',
   },
   {
-    src: '/images/cele5.jpeg',
-    alt: 'Outdoor wedding ceremony',
+    src: '/images/stage/award-trophy.jpg',
+    alt: 'Artist Shubham Khandelwal presenting an award on stage',
     className: '',
   },
   {
@@ -31,8 +31,8 @@ const previewImages = [
     className: 'row-span-2',
   },
   {
-    src: '/images/cele2.jpeg',
-    alt: 'Birthday party decoration',
+    src: '/images/stage/media.jpg',
+    alt: 'Artist Shubham Khandelwal giving a media interview at a pageant event',
     className: '',
   },
 ]
@@ -42,7 +42,7 @@ export function GalleryPreview() {
   const isInView = useInView(ref, { once: true, margin: '-80px' })
 
   return (
-    <section className="section-padding bg-black overflow-hidden" ref={ref}>
+    <section id="gallery" className="section-padding bg-black overflow-hidden scroll-mt-20" ref={ref}>
       <div className="container mx-auto px-4">
         {/* Header */}
         <motion.div

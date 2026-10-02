@@ -26,6 +26,7 @@ export const brand = {
     'Live Performer',
     'Corporate Host',
     'Celebrity Emcee',
+    'Pageant & Awards Host',
     'Event Entertainer',
     'Master of Ceremonies',
   ],

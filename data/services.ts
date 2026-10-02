@@ -789,7 +789,7 @@ const SHOWS_CHILDREN: ServiceNode[] = [
     icon: '👗',
     subtitle:
       'Ramp-side command and runway-ready energy — a host who keeps a fashion show sharp, sequenced and buzzing between every walk.',
-    heroImage: '/images/fashion.jpeg',
+    heroImage: '/images/stage/runway.jpg',
     intro: {
       label: 'Your Fashion Show Host',
       heading: 'The Voice That Owns',
@@ -835,6 +835,10 @@ const SHOWS_CHILDREN: ServiceNode[] = [
       heading: 'Fashion Show',
       highlight: 'Moments',
       media: [
+        { type: 'image', src: '/images/stage/runway.jpg', alt: 'Artist Shubham Khandelwal walking the runway at a fashion and pageant show' },
+        { type: 'image', src: '/images/stage/pageant-group.jpg', alt: 'Artist Shubham Khandelwal on stage with crowned participants during a pageant event' },
+        { type: 'image', src: '/images/stage/stage-guests.jpg', alt: 'Artist Shubham Khandelwal on stage with guests at a professional event' },
+        { type: 'image', src: '/images/stage/host-stage.jpg', alt: 'Artist Shubham Khandelwal hosting a grand stage event with a microphone' },
         { type: 'image', src: '/images/fashion6.jpeg', alt: 'Show audience energy' },
         { type: 'image', src: '/images/fashion5.jpeg', alt: 'Show audience energy' },
         { type: 'image', src: '/images/cele3.jpeg', alt: 'Fashion show hosted by Shubham Khandelwal' },

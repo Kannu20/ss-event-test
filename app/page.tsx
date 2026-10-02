@@ -8,6 +8,7 @@ import { AboutSnapshot } from '@/components/sections/AboutSnapshot'
 import { ServicesOverview } from '@/components/sections/ServicesOverview'
 import { WhyChooseUs } from '@/components/sections/WhyChooseUs'
 import { FeaturedEvents } from '@/components/sections/FeaturedEvents'
+import { BigStage } from '@/components/sections/BigStage'
 import { EventCategories } from '@/components/sections/EventCategories'
 import { GalleryPreview } from '@/components/sections/GalleryPreview'
 import { VideoShowcase } from '@/components/sections/VideoShowcase'
@@ -33,6 +34,7 @@ export default function HomePage() {
       <ServicesOverview />
       <WhyChooseUs />
       <FeaturedEvents />
+      <BigStage />
       <EventCategories />
       <GalleryPreview />
       <VideoShowcase />

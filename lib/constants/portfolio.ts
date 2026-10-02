@@ -8,6 +8,21 @@ import type { PortfolioItem } from '@/types'
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    id: 'port-007',
+    title: 'Pageant & Award Night — Stage Host',
+    category: 'entertainment',
+    coverImage: '/images/stage/pageant-group.jpg',
+    // Photo-only entry: an empty video keeps the resolver from attaching a category clip.
+    video: '',
+    date: '2026-09-27',
+    // TODO: replace with the verified city/venue for this event.
+    location: 'Jaipur, Rajasthan',
+    description:
+      'Shubham on a professional pageant stage — hosting with the microphone, presenting awards, felicitating guests of honour, walking the runway and giving media interviews at a grand-scale pageant and award function.',
+    tags: ['Pageant Hosting', 'Award Ceremony', 'Runway', 'Media Interaction'],
+    featured: true,
+  },
+  {
     id: 'port-001',
     title: 'Royal Wedding Sangeet',
     category: 'wedding',

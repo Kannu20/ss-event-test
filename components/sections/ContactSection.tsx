@@ -46,7 +46,7 @@ export function ContactSection() {
   const isInView = useInView(ref, { once: true, margin: '-80px' })
 
   return (
-    <section className="section-padding bg-black overflow-hidden" ref={ref}>
+    <section id="contact" className="section-padding bg-black overflow-hidden scroll-mt-20" ref={ref}>
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 xl:gap-20 items-start">
           {/* Left — info */}

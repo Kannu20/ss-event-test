@@ -41,7 +41,7 @@ export function generatePageMetadata(seo: PageSEO): Metadata {
 export const pageSEO = {
   home: {
     title: "Artist Shubham Khandelwal — India's Best Wedding Anchor & Event Host",
-    description: "Award-winning wedding anchor, live stage performer and master of ceremonies based in Jaipur, hosting weddings, sangeets, corporate events and celebrity celebrations across India.",
+    description: "Award-winning wedding anchor, live stage performer and master of ceremonies based in Jaipur, hosting weddings, sangeets, pageants, award shows, corporate events and celebrity events across India.",
     keywords: ['wedding anchor India', 'best wedding anchor in India', 'wedding anchor Jaipur', 'wedding anchor Rajasthan', 'event host Jaipur', 'sangeet anchor', 'master of ceremonies', 'Artist Shubham Khandelwal'],
     canonical: '/',
   },

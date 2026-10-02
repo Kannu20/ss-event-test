@@ -5,6 +5,12 @@
 export interface MediaDimension { w: number; h: number }
 
 export const mediaDimensions: Record<string, MediaDimension> = {
+  '/images/stage/runway.jpg': { w: 2000, h: 1334 },
+  '/images/stage/pageant-group.jpg': { w: 1334, h: 2000 },
+  '/images/stage/host-stage.jpg': { w: 1334, h: 2000 },
+  '/images/stage/stage-guests.jpg': { w: 2000, h: 1334 },
+  '/images/stage/award-trophy.jpg': { w: 2000, h: 1334 },
+  '/images/stage/media.jpg': { w: 2000, h: 1334 },
   '/images/about.jpeg': { w: 591, h: 1280 },
   '/images/aboutme.jpeg': { w: 591, h: 1280 },
   '/images/banner.jpeg': { w: 591, h: 1280 },

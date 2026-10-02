@@ -5,6 +5,18 @@ import type { GalleryImage } from '@/types'
    width/height so the masonry reserves correct space (zero layout shift). */
 
 export const galleryImages: GalleryImage[] = [
+  // Pageants, Awards & Big Stages (real event photographs)
+  { id: 'p1', src: '/images/stage/runway.jpg', alt: 'Artist Shubham Khandelwal walking the runway at a fashion and pageant show', category: 'fashion', width: 2000, height: 1334 },
+  { id: 'p2', src: '/images/stage/pageant-group.jpg', alt: 'Artist Shubham Khandelwal on stage with crowned participants during a pageant event', category: 'fashion', width: 1334, height: 2000 },
+  { id: 'p3', src: '/images/stage/host-stage.jpg', alt: 'Artist Shubham Khandelwal hosting a grand stage event with a microphone', category: 'pageants', width: 1334, height: 2000 },
+  { id: 'p4', src: '/images/stage/award-trophy.jpg', alt: 'Artist Shubham Khandelwal presenting an award on stage', category: 'pageants', width: 2000, height: 1334 },
+  { id: 'p5', src: '/images/stage/award-plaque.jpg', alt: 'Artist Shubham Khandelwal felicitating a guest at an award function', category: 'pageants', width: 1333, height: 2000 },
+  { id: 'p6', src: '/images/stage/stage-guests.jpg', alt: 'Artist Shubham Khandelwal on stage with guests at a professional event', category: 'pageants', width: 2000, height: 1334 },
+  { id: 'p7', src: '/images/stage/media.jpg', alt: 'Artist Shubham Khandelwal giving a media interview at a pageant event', category: 'pageants', width: 2000, height: 1334 },
+  { id: 'p8', src: '/images/stage/host-stage-2.jpg', alt: 'Artist Shubham Khandelwal hosting on stage with a co-host', category: 'pageants', width: 1334, height: 2000 },
+  { id: 'p9', src: '/images/stage/ceremony-stage.jpg', alt: 'Artist Shubham Khandelwal on stage during a ceremony with guests', category: 'pageants', width: 2000, height: 1334 },
+  { id: 'p10', src: '/images/stage/guest-welcome.jpg', alt: 'Artist Shubham Khandelwal welcoming a guest of honour at an event', category: 'pageants', width: 2000, height: 1333 },
+
   // Sangeet
   { id: 'g1', src: '/images/sangeet.jpeg', alt: 'High-energy sangeet night hosting', category: 'sangeet', width: 960, height: 1280 },
   { id: 'g2', src: '/images/sangeet1.jpeg', alt: 'Sangeet performance on stage', category: 'sangeet', width: 960, height: 1280 },
@@ -146,6 +158,7 @@ export const galleryCategories = [
   { id: 'mehendi', label: 'Mehendi' },
   { id: 'baraat', label: 'Baraat' },
   { id: 'corporate', label: 'Corporate' },
+  { id: 'pageants', label: 'Pageants & Awards' },
   { id: 'fashion', label: 'Fashion Show' },
   { id: 'live', label: 'Live Shows' },
   { id: 'pool', label: 'Pool Party' },
